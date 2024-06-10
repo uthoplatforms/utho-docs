@@ -1,6 +1,6 @@
 # Hugo Setup for utho Docs
 
-[🌐 Demo ↗](https://github.com/uthoplatforms/utho-docs/)
+[🌐 Demo ↗](https://uthoplatforms.github.io/utho-docs/)
 
 ## Local Development
 

@@ -33,7 +33,7 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/uthoplatforms"
+      url: "https://uthoplatforms.github.io/utho-docs/"
       params:
         icon: github
     - name: Twitter
@@ -53,4 +53,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/uthoplatforms/utho-docs/edit/main/content"
