@@ -2,7 +2,8 @@
 <html lang="{{ .Site.Language.Lang }}">
   {{- partial "head.html" . -}}
   <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
-    <image src="./images/bg.svg" style="position:fixed;max-height:100vh;right:0;top:0;opacity:0.3;z-index:-1;"/>
+    {{ $img := resources.Get "images/bg.svg" }}
+    <image src="{{ $img.RelPermalink }}" style="position:fixed;max-height:100vh;right:0;top:0;opacity:0.3;z-index:-1;"/>
     {{- partial "navbar.html" . -}}
     {{- block "main" . }}{{ end -}}
     {{- if or (eq .Site.Params.footer.enable nil) (.Site.Params.footer.enable) }}

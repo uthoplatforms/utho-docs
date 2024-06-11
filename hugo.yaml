@@ -54,7 +54,7 @@ params:
     logo:
       path: images/logo_black.png
       dark: images/logo_white.png
-      link: /
+      link: /utho-docs/
       width: 120
       height: 20
 
