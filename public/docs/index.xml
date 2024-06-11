@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>utho Docs – Documentation</title>
-    <link>//localhost:1313/docs/</link>
+    <link>http://localhost:1313/utho-docs/docs/</link>
     <description>Recent content in Documentation on utho Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	  <atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/utho-docs/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,14 +16,14 @@
     
     <item>
       <title>Platform Overview</title>
-      <link>//localhost:1313/docs/overview/</link>
+      <link>http://localhost:1313/utho-docs/docs/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/docs/overview/</guid>
+      <guid>http://localhost:1313/utho-docs/docs/overview/</guid>
       <description>
         
         
-        &lt;p&gt;&lt;img src=&#34;//localhost:1313/images/header.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&#34;http://localhost:1313/utho-docs/utho-docs/images/header.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Introduction&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;introduction&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#introduction&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -58,15 +58,15 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
     
     <item>
       <title>Regional Availability</title>
-      <link>//localhost:1313/docs/release-notes/regional-availability/</link>
+      <link>http://localhost:1313/utho-docs/docs/release-notes/regional-availability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/docs/release-notes/regional-availability/</guid>
+      <guid>http://localhost:1313/utho-docs/docs/release-notes/regional-availability/</guid>
       <description>
         
         
         &lt;h3&gt;Available Datacenters&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;available-datacenters&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#available-datacenters&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/regional.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#available-datacenters&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/utho-docs/utho-docs/images/regional.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -137,10 +137,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
     
     <item>
       <title>Sub Leaf Page</title>
-      <link>//localhost:1313/docs/sub-category/sub-leaf/</link>
+      <link>http://localhost:1313/utho-docs/docs/sub-category/sub-leaf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/docs/sub-category/sub-leaf/</guid>
+      <guid>http://localhost:1313/utho-docs/docs/sub-category/sub-leaf/</guid>
       <description>
         
         
