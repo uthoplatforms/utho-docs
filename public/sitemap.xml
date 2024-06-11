@@ -2,24 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/docs/overview/</loc>
+  </url><url>
     <loc>//localhost:1313/about/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/category/</loc>
-  </url><url>
-    <loc>//localhost:1313/docs/first-page/</loc>
-  </url><url>
     <loc>//localhost:1313/docs/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/category/leaf/</loc>
-  </url><url>
-    <loc>//localhost:1313/docs/category/sub-category/</loc>
-  </url><url>
-    <loc>//localhost:1313/docs/category/sub-category/sub-leaf/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//localhost:1313/features/</loc>
   </url><url>
     <loc>//localhost:1313/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/release-notes/regional-availability/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/release-notes/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/sub-category/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/sub-category/sub-leaf/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

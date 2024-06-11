@@ -21,36 +21,48 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
+    - name: Features
+      pageRef: /features
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 2
+      weight: 3
     - name: Contact ↗
       url: "https://github.com/utho"
-      weight: 3
-    - name: Search
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
+      weight: 6
       url: "https://uthoplatforms.github.io/utho-docs/"
       params:
         icon: github
     - name: Twitter
-      weight: 6
+      weight: 7
       url: "https://twitter.com/"
       params:
         icon: x-twitter
 
 params:
   navbar:
-    displayTitle: true
-    displayLogo: false
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/logo_black.png
+      dark: images/logo_white.png
+      link: /
+      width: 120
+      height: 20
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
+    enableFooterSwitches: false
 
   editURL:
     enable: true
     base: "https://github.com/uthoplatforms/utho-docs/edit/main/content"
+
+  enableInlineShortcodes: true

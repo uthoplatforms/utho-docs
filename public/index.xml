@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>utho Docs – utho Docs</title>
+    <title>utho Docs – Home</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on utho Docs</description>
+    <description>Recent content in Home on utho Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
