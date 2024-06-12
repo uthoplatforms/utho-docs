@@ -2,6 +2,9 @@
 title: Regional Availability
 type: docs
 prev: docs/release-notes/
+lastmod: "2020-08-22"
+authors: ["Kshitij Deota"]
+comments: true
 ---
 
 ### Available Datacenters

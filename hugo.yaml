@@ -60,7 +60,7 @@ params:
 
   footer:
     displayCopyright: true
-    displayPoweredBy: true
+    displayPoweredBy: false
     enableFooterSwitches: false
 
   editURL:
@@ -68,3 +68,18 @@ params:
     base: "https://github.com/uthoplatforms/utho-docs/edit/main/content"
 
   enableInlineShortcodes: true
+
+  taxonomies:
+    author: "authors"
+    tag: "tags"
+    category: "categories"
+
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: <repository>
+      repoId: <repository ID>
+      category: <category>
+      categoryId: <category ID>

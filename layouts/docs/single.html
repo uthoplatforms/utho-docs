@@ -6,11 +6,27 @@
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
         {{ partial "breadcrumb.html" . }}
         <div class="content">
-          <h1>{{ .Title }}</h1>
-          {{ .Content }}
+          <div class="hx-title-wrapper hx-flex hx-justify-between hx-items-center">
+            <h1>{{ .Title }}</h1>
+            {{ partial "share-buttons.html" . }}
+          </div>
+          <div class="hx-meta">
+            <span>Edited on {{ .Lastmod.Format "January 2, 2006" }}</span> by
+            <span>
+              {{ range .Param "authors" }}
+                {{ $name := . }}
+                {{ $path := printf "/%s/%s" "authors" ($name | urlize) }}
+                {{ with $.Site.GetPage $path }}
+                  <a href={{ .Permalink }}>{{ .Params.name }}</a>
+                {{ end }}
+              {{ end }}
+            </span>
+          </div>
+          <div class="hx-content">
+            {{ .Content }}
+          </div>
         </div>
         {{ partial "components/last-updated.html" . }}
-        {{ partial "share-buttons.html" . }}
         {{ partial "components/pager.html" . }}
         {{ partial "components/comments.html" . }}
       </main>
