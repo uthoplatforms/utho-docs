@@ -28,7 +28,9 @@
         </div>
         {{ partial "components/last-updated.html" . }}
         {{ partial "components/pager.html" . }}
-        {{ partial "components/comments.html" . }}
+        {{ if (eq .Section "docs") }}
+          {{ partial "components/comments.html" . }}
+        {{ end }}
       </main>
     </article>
   </div>

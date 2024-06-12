@@ -4,12 +4,19 @@
     {{ partial "toc.html" . }}
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-        <div class="content">
-          <h1>{{ .Title }}</h1>
+        <div class="content ">
+          <div class="hx-title-wrapper">
+            <h1>{{ .Title }}</h1>
+          </div>
+          {{ range .Data.Pages }}
+            <img src="{{ .Params.photo }}" alt=""/>
+            <h3><a href="{{ .Permalink }}">{{ .Params.name }}</a></h3>
+            <small>{{ .Params.bio }}</small>
+          {{end}}
           {{ .Content }}
         </div>
-        <div class="hx-mt-16"></div>
         {{ partial "components/last-updated.html" . }}
+        {{ partial "components/pager.html" . }}
       </main>
     </article>
   </div>

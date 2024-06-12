@@ -18,6 +18,11 @@ markup:
   highlight:
     noClasses: false
 
+taxonomies:
+  author: "authors"
+  tag: "tags"
+  category: "categories"
+
 menu:
   main:
     - name: Docs
@@ -47,7 +52,15 @@ menu:
       params:
         icon: x-twitter
 
+services:
+  googleAnalytics:
+    ID: G-MEASUREMENT_ID
+
 params:
+  page:
+    width: full
+  footer:
+    width: full
   navbar:
     displayTitle: false
     displayLogo: true
@@ -68,11 +81,6 @@ params:
     base: "https://github.com/uthoplatforms/utho-docs/edit/main/content"
 
   enableInlineShortcodes: true
-
-  taxonomies:
-    author: "authors"
-    tag: "tags"
-    category: "categories"
 
   comments:
     enable: true

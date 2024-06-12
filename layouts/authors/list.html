@@ -9,7 +9,29 @@
           <div class="hx-title-wrapper">
             <h1>{{ .Title }}</h1>
           </div>
-          {{ .Content }}
+
+          <h2>{{ .Params.name }}</h2>
+          <small>
+            Bio : {{ .Params.bio }}
+            {{ with .Params.twitter }}
+              <p>
+                <a href="https://x.com/{{ . }}">
+                  Follow {{ $.Params.name }} on X
+                </a>
+              </p>
+            {{ end }}
+          </small>
+          <img src="{{ .Params.photo }}" alt=""/>
+
+          <h3>Articles</h3>
+          <ul>
+          {{ range .Data.Pages }}
+              <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
+          </ul>
+
+
+
         </div>
         {{ partial "components/last-updated.html" . }}
         {{ partial "components/pager.html" . }}
