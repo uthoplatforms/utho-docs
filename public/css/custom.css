@@ -2,3 +2,9 @@ aside {
   --primary-hue: 220deg;
   --primary-saturation: 100%;
 }
+
+p { margin-bottom: 10px;  }
+
+ul li {
+  margin: 0 0 10px 0;
+}
