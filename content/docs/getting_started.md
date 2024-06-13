@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+Title: Getting Started
+weight: 1
 ---
-
-# Welcome to Utho's Documentation
+## Welcome to Utho's Documentation
 
 Welcome to the official documentation for Utho, your go-to resource for all information related to our platform. Here, you'll find comprehensive guides, tutorials, and reference materials to help you get the most out of Utho.
 

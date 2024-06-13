@@ -1,6 +1,11 @@
 ---
 title: "Bash vs. CMD: Decoding the Battle of Command Line Titans"
 date: "2024-01-29"
+tags:
+- Tag 1
+- Tag 2
+authors:
+- Kshitij Deota
 ---
 
 Bash and CMD are important tools in the world of computing. Bash, found in Unix-like systems, helps users efficiently navigate and control their systems using text-based commands. CMD, associated with Windows, offers a similar approach, providing a toolkit for executing commands. Both are crucial for system [management](https://utho.com/user-management), used by administrators, developers, and enthusiasts. Join us as we explore the unique features of Bash and CMD in this brief overview and discover which one is the better command-line interface.  
