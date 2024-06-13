@@ -10,6 +10,7 @@
             <h1>{{ .Title }}</h1>
             {{ partial "share-buttons.html" . }}
           </div>
+          {{ if .Date }}
           <div class="hx-meta">
             <span>{{ .Date | time.Format "January 2, 2006" }}</span>
             <span>
@@ -26,18 +27,19 @@
             </span>
           </div>
           <br>
-          <small>
-            {{- $tags := .Params.tags -}}
-            {{- if $tags -}}
-              {{ if isset .Params "tags" }} Tags: {{ end }}
-              {{- $lastIndex := sub (len $tags) 1 -}}
-              {{- range $index, $tag := $tags -}}
-                <button type="button" class="not-prose hx-inline-flex hx-items-center hx-rounded hx-gap-2 hx-px-3 hx-py-1 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200" href="{{ $.Site.BaseURL }}tags/{{ $tag | urlize }}"> {{ $tag }}
-                </button>
-                {{- if ne $index $lastIndex }}&nbsp;·&nbsp;{{ end -}}
-              {{- end -}}
+          {{ end }}
+          {{- $tags := .Params.tags -}}
+          {{- if $tags -}}
+            <small>
+            {{ if isset .Params "tags" }} Tags: {{ end }}
+            {{- $lastIndex := sub (len $tags) 1 -}}
+            {{- range $index, $tag := $tags -}}
+              <button type="button" class="not-prose hx-inline-flex hx-items-center hx-rounded hx-gap-2 hx-px-3 hx-py-1 hx-text-xs hx-text-gray-600 dark:hx-text-gray-400 hx-bg-gray-100 dark:hx-bg-neutral-800 dark:hx-border-neutral-800 hx-border hover:hx-border-gray-400 dark:hover:hx-text-gray-50 dark:hover:hx-border-gray-600 hx-transition-all hx-ease-in hx-duration-200" href="{{ $.Site.BaseURL }}tags/{{ $tag | urlize }}"> {{ $tag }}
+              </button>
+              {{- if ne $index $lastIndex }}&nbsp;·&nbsp;{{ end -}}
+            </small>
             {{- end -}}
-          </small>
+          {{- end -}}
           <div class="hx-content">
             {{ .Content }}
           </div>

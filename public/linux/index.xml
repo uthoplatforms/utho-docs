@@ -1,0 +1,1185 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>utho Docs – Linux</title>
+    <link>http://localhost:1313/linux/</link>
+    <description>Recent content in Linux on utho Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Mar 2024 17:25:04 +0100</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Cheat sheet for 15 nmcli commands in Linux (RHEL/CentOS)</title>
+      <link>http://localhost:1313/linux/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;images/Cheat-sheet-for-15-nmcli-commands-in-Linux-RHEL_CentOS-2-1024x576.png&#34; alt=&#34;Cheat sheet for 15 nmcli &#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I will walk you through 15 different examples of using the &lt;a href=&#34;https://www.geeksforgeeks.org/nmcli-command-in-linux-with-examples/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nmcli tool&lt;/a&gt; in Linux. nmcli is a command-line programme that is open-source and may be used to control NetworkManager and report on the state of networks. It is utilised to a large extent by Linux specialists so that they can harness the power of Network Manager directly from the command line. Creating, displaying, editing, deleting, activating, and deactivating network connections, as well as controlling and displaying the status of network devices, are all possible tasks that may be accomplished with the help of nmcli.&lt;/p&gt;
+&lt;h2&gt;UUID: what is it?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;uuid-what-is-it&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#uuid-what-is-it&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A UUID, or universally unique identifier, is a 128-bit integer used to identify an object or entity on the Internet.&lt;/p&gt;
+&lt;h2&gt;1.How to find the version of nmcli&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1how-to-find-the-version-of-nmcli&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1how-to-find-the-version-of-nmcli&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You will need to run the nmcli —version command in order to determine the version of nmcli that is currently installed on your system.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli --version&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;2,How to Double-Check Each and Every Connection to a Network Device&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2how-to-double-check-each-and-every-connection-to-a-network-device&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2how-to-double-check-each-and-every-connection-to-a-network-device&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The nmcli connection command is what you need to use to see all the network device connections that are available. If the nmcli connection command doesn&amp;rsquo;t have any parameters, it will show both system and user setting connections that have been set up.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli connection&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;3.Checking the Status of All Network Devices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;3checking-the-status-of-all-network-devices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3checking-the-status-of-all-network-devices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Use the nmcli device status command to verify the status of all network devices. This command displays both controlled and unmanaged devices.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli device status&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;4.How to Display the Status of a Radio Switch &lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;4how-to-display-the-status-of-a-radio-switch&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4how-to-display-the-status-of-a-radio-switch&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If you wish to see the current status of the radio switches, use the nmcli radio all command.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli radio all&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;5.How to Display All Network Devices&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;5how-to-display-all-network-devices&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5how-to-display-all-network-devices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli device show&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;6.How to Check the Status of NetworkManager &lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;6how-to-check-the-status-of-networkmanager&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6how-to-check-the-status-of-networkmanager&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Use the nmcli -t -f RUNNING general command to check the running status of NetworkManager in concise output mode.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli -t -f RUNNING general&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;7.Network Manager Status Check&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;7network-manager-status-check&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7network-manager-status-check&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;nmcli -t -f is what you need to use to check the status of Network Manager as a whole in terse output mode. STATE general command&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli -t -f STATE general&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;8.Checking Terse Output&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;8checking-terse-output&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#8checking-terse-output&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;use the nmcli -t device command to show a list of all the network devices that are currently set up in a concise way.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli -t device&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;9.Check how Network Manager logs.&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;9check-how-network-manager-logs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#9check-how-network-manager-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Then you need to use the nmcli general logging command to check the current Network Manager logging settings.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli general logging&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;10.Create a new connection profile.&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;10create-a-new-connection-profile&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#10create-a-new-connection-profile&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If you want to create an Ethernet type connection profile using interface enp1s0, then you need to use the nmcli c add type ethernet connection command. command interface-name enp1s0.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;mcli c add type ethernet connection.interface-name enp1s0&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;11.Examine the NetworkManager Polkit Permissions &lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;11examine-the-networkmanager-polkit-permissions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#11examine-the-networkmanager-polkit-permissions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Use the nmcli general permissions command to check the Polkit permissions set up for different NetworkManager operations. A system administrator sets up these permissions or actions (in Polkit language), and users can&amp;rsquo;t change them.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli general permissions&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;12.Using the nmcli command, change the hostname. &lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;12using-the-nmcli-command-change-the-hostname&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#12using-the-nmcli-command-change-the-hostname&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can also change the system&amp;rsquo;s hostname with nmcli. You can use the nmcli general hostname command to find out what the current hostname is.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli general hostname&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;13.create a bridge using the nmcli command&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;13create-a-bridge-using-the-nmcli-command&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#13create-a-bridge-using-the-nmcli-command&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Use the nmcli con add type bridge ifname bridge name&amp;gt; command to make a bridge. In this example, we use the nmcli con add type bridge ifname br0 command to create a bridge called br0.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli con add type bridge ifname br0&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;14.nmcli command to disable bridge STP&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;14nmcli-command-to-disable-bridge-stp&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#14nmcli-command-to-disable-bridge-stp&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;By default, the Spanning Tree Protocol (STP) will be turned on. To turn it off, use the nmcli con mod bridge-br0 bridge.stp no command.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli con modify bridge-br0 bridge.stp no&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;If you want to turn on STP again, use the command nmcli con mod bridge-br0 bridge.stp yes.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli con modify bridge-br0 bridge.stp yes&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;15.Convert an Interface to an unmanaged Interface&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;15convert-an-interface-to-an-unmanaged-interface&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#15convert-an-interface-to-an-unmanaged-interface&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Use the nmcli device status command to look at the list of interfaces and then the state of an interface.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;nmcli device status&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;nmcli is a command-line software that is open-source that may be used to report on the state of networks as well as control NetworkManager. Linux experts make extensive use of it so that they may access the power of Network Manager straight from the command line. This enables them to do their jobs more efficiently. With the assistance of nmcli, one is able to accomplish a wide variety of tasks, including creating, displaying, editing, deleting, activating, and deactivating network connections, as well as controlling and displaying the status of network devices. In addition, one is able to edit and delete network connection information.&lt;/p&gt;
+&lt;p&gt;Must Read : &lt;a href=&#34;https://utho.com/docs/tutorial/how-to-add-a-user-and-grant-root-privileges-on-ubuntu-18-04/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How To Add a User and Grant Root Privileges on Ubuntu 18.04&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thankyou&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2 Methods for Re-Running Last Executed Commands in Linux</title>
+      <link>http://localhost:1313/linux/2-methods-for-re-running-last-executed-commands-in-linux/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux/2-methods-for-re-running-last-executed-commands-in-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;images/2-Methods-for-Re-Running-Last-Executed-Commands-in-Linux_utho.jpg&#34; alt=&#34;2 Methods for Re-Running Last Executed Commands in Linux&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The command history is one of the most useful aspects of the Bash shell. This feature logs all of the commands that a user executes and keeps them in a file located in the user&amp;rsquo;s home directory (usually /home/$USER/.bash history). This makes it simple for the user to recall, amend, and perform previously executed instructions again.&lt;/p&gt;
+&lt;p&gt;In this piece, we will illustrate how to re-execute a particular command by retrieving it from the history of commands that have been input into a shell. This allows you to avoid repeatedly inputting the same commands, which is a helpful feature.&lt;/p&gt;
+&lt;p&gt;In a normal situation, you can utilise the Up arrow keys to recover a previous command in order to acquire a command that you just ran lately. Maintaining consistent pressure on it will cycle through many commands in the history, allowing you to locate the one you want more quickly. To move in the other direction, use the Down arrow on your keyboard.&lt;/p&gt;
+&lt;p&gt;You can use the history command if you want to re-execute a certain command from the history of commands. However, the history file may contain a lot of entries.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# history &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-407.png&#34; alt=&#34;status of commad&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The next step is to obtain the number(s) of the command(s) you wish to re-execute. For instance, if you want to start httpd and inspect its status, you will need to re-execute the instructions 104 and 105, as shown.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# !104 &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# 105 &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-408.png&#34; alt=&#34;service running stat&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;You can also re-execute a command that you have already used (for example, sudo yum update) by using the &amp;lsquo;!&amp;rsquo; character followed by a few of the first characters (for example, sud or sudo) of that particular command, as demonstrated here.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# !sud &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# !sudo &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-409.png&#34; alt=&#34;2 Methods for Re-Running Last Executed Commands in Linux&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The command history, stored in /home/$USER/.bash history, is one of Bash&amp;rsquo;s best features. The user may simply recall, amend, and rerun past commands.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll show you how to rerun a shell command in this article. To prevent inputting the same commands, this is beneficial.&lt;/p&gt;
+&lt;p&gt;Use the Up arrow keys to retrieve a recent command. To find the command you want, press it again. Reverse with the Down arrow.&lt;/p&gt;
+&lt;p&gt;To re-execute a specific command from the history file, run the history command.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank You&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>4 Effective Ways to Determine the Name of a Plugged USB Device in Linux</title>
+      <link>http://localhost:1313/linux/4-effective-ways-to-determine-the-name-of-a-plugged-usb-device-in-linux/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux/4-effective-ways-to-determine-the-name-of-a-plugged-usb-device-in-linux/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;images/4-Effective-Ways-to-Determine-the-Name-of-a-Plugged-USB-Device-in-Linux_utho.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this article we will learn 4 Effective Ways to Determine the Name of a Plugged USB Device in &lt;a href=&#34;https://utho.com/docs/tutorial/how-to-create-encrypt-and-decrypt-random-passwords-in-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One of the many aspects of Linux that you should become proficient in as a beginner is the identification of devices that are connected to your computer. It could be the hard disc in your computer, an external hard drive, or another type of portable media like a USB drive or an SD Memory card.&lt;/p&gt;
+&lt;p&gt;The use of USB drives for the transfer of files is extremely common in today&amp;rsquo;s world. For those (new Linux users) who prefer to work from the command line, becoming familiar with the various methods by which a USB device name can be identified is very important when it comes time to format the device.&lt;/p&gt;
+&lt;p&gt;After you have connected a device to your computer, such as a USB drive, particularly on a desktop computer, the device is automatically mounted to a specific directory, which is typically located under /media/username/device-label. You are then able to access the files contained within the device by navigating to the directory in which it is mounted. On the other hand, this is not the case while working with a server, since you will need to manually mount a device and then designate where it should be mounted.&lt;/p&gt;
+&lt;p&gt;The /dev directory houses specialised device files that are used by Linux to determine the identity of hardware. This directory contains a number of files, one of which is /dev/sda or /dev/hda, which represents your first master drive. Each partition will be represented by a number, such as /dev/sda1 or /dev/hda1 for the first partition, and so on for subsequent partitions.&lt;/p&gt;
+&lt;p&gt;Follow the below steps to learn 4 Effective Ways to Determine the Name of a Plugged USB Device in &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux&lt;/a&gt;..&lt;/p&gt;
+&lt;h2&gt;Find Disk&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;find-disk&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#find-disk&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# ls /dev/vda*&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# ls /dev* &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-444.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-445-1024x126.png&#34; alt=&#34;output&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Now, let&amp;rsquo;s find out the names of the devices by utilising a variety of command-line tools, as indicated below:&lt;/p&gt;
+&lt;h2&gt;Using the df command, get the name of the connected USB device&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;using-the-df-command-get-the-name-of-the-connected-usb-device&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#using-the-df-command-get-the-name-of-the-connected-usb-device&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The df programme, which analyses the consumption of disc space in Linux systems, can be used, as demonstrated in the following image, to view each device that is connected to your computer as well as its mount point:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# df -h &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-446.png&#34; alt=&#34;output&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Find the Name of a USB Device with the lsblk Command&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;find-the-name-of-a-usb-device-with-the-lsblk-command&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#find-the-name-of-a-usb-device-with-the-lsblk-command&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can also use the lsblk command, which stands for &amp;ldquo;list block devices.&amp;rdquo; This command will list all block devices that are currently connected to your system in the following format:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# lsblk &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-447.png&#34; alt=&#34;output&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Determine the Name of the USB Device Using the fdisk Utility&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;determine-the-name-of-the-usb-device-using-the-fdisk-utility&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#determine-the-name-of-the-usb-device-using-the-fdisk-utility&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;It is possible to execute fdisk with root privileges in the following manner: fdisk is a powerful application that prints out the partition table on all of your block devices, including USB drives.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# sudo fdisk -l &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-448.png&#34; alt=&#34;output&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Using the dmesg Command, Determine the Name of the USB Device&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;using-the-dmesg-command-determine-the-name-of-the-usb-device&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#using-the-dmesg-command-determine-the-name-of-the-usb-device&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A crucial command, dmesg, prints or controls the kernel ring buffer, a data structure that holds information about the activities of the kernel.&lt;/p&gt;
+&lt;p&gt;To read kernel operation messages, run the command that is listed below. This command will also output information about your USB device:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# dmesg &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-449-1024x544.png&#34; alt=&#34;output&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In this post, we have discussed various strategies for determining the name of a USB device using the command line, and that will be all we cover for the time being.&lt;/p&gt;
+&lt;p&gt;I really expect that you have a complete understanding of all of the steps. 4 Effective Ways to Determine the Name of a Plugged USB Device in Linux&lt;/p&gt;
+&lt;p&gt;Must read :- &lt;a href=&#34;https://utho.com/docs/tutorial/how-to-create-encrypt-and-decrypt-random-passwords-in-linux/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://utho.com/docs/tutorial/how-to-create-encrypt-and-decrypt-random-passwords-in-linux/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank You&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>An introduction to the Linux alternatives command</title>
+      <link>http://localhost:1313/linux/an-introduction-to-the-linux-alternatives-command/</link>
+      <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux/an-introduction-to-the-linux-alternatives-command/</guid>
+      <description>
+        
+        
+        &lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;images/An-introduction-to-the-Linux-alternatives-command-1024x576.png&#34; alt=&#34;An introduction to the Linux alternatives command&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;An introduction to the Linux alternatives command&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This tutorial is to about the introduction of to the &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux&lt;/a&gt; alternatives command. Alternatives is a program that adds, deletes, updates, and displays data on the symbolic links that make up the alternatives system.&lt;/p&gt;
+&lt;p&gt;Because many users don&amp;rsquo;t care how their computer completes a job as long as it is successful, abstractions may be useful to users. In reality, as long as all of an application&amp;rsquo;s system calls are properly responded, it doesn&amp;rsquo;t always matter how anything is accomplished. Theoretically, a Linux system administrator may provide a wide range of system utilities based on their functions rather than the precise name of the executable, but doing so often requires a lot of symlinking and version management. Unless you use the alternatives command, that is.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s important to note that the alternatives command first existed as a substitute. This was originally an update-alternatives convenience tool from the Debian Linux project, written in Perl. The command was rewritten by Red Hat without the use of Perl, and it has since spread across Fedora-based distributions like Red Hat and CentOS as well as other distributions that rely on Red Hat to provide the functional definition of the Linux Standard Base (LSB).&lt;/p&gt;
+&lt;h2&gt;When to use the alternatives command&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;when-to-use-the-alternatives-command&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#when-to-use-the-alternatives-command&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An easy-to-understand and practical example is the em command on your computer, which starts a simple text editor. It has long been the editor of choice for your user base; many individuals have built processes around it, and some people keep very specific configurations for it. Although em doesn&amp;rsquo;t support Unicode, your user base lately made it apparent to you that they can&amp;rsquo;t function without emoji functionality in their terminal editors.&lt;/p&gt;
+&lt;p&gt;You discover nem, a Unicode-capable branch of em, but you are aware that 99% of your customers are already used to em, have scripts that call em, and will never stop thinking of any alternative programme as em. The simple answer to this problem, as well as many others like it, is to provide the new nem binary as the preferred substitute for the em binary whenever the em command is used.&lt;/p&gt;
+&lt;p&gt;Although manually constructing a symlink could seem alluring, it is neither centralised nor immune to changes from a package management.&lt;/p&gt;
+&lt;p&gt;When handling &amp;ldquo;generic&amp;rdquo; application names, the alternatives command is most helpful. As &amp;ldquo;generic&amp;rdquo; isn&amp;rsquo;t usually generic in the UNIX world, just as &amp;ldquo;Kleenex&amp;rdquo; or &amp;ldquo;Xerox&amp;rdquo; isn&amp;rsquo;t always generic in the actual world, terminology like java, (x)emacs(-nox), (n)vi(m), whois, and iptables are often among of the first to have replacements specified for them. The alternatives command is not seen as a suitable option for really general names, such as EDITOR and CC. Because they are environment variables and need to be specified in /etc or $HOME/.profile, those phrases.&lt;/p&gt;
+&lt;h2&gt;Creating a new alternative&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;creating-a-new-alternative&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#creating-a-new-alternative&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;It is simple to generate an alternative entry using the example situation of an old binary named em being replaced by the new variation nem. Although in most cases this isn&amp;rsquo;t required since the command isn&amp;rsquo;t precisely what people assume it is in the first place (java, for example, is seldom found under /usr/bin directly), you must rename the original command in this example. If you do need to rename a binary, the proper place to do so is in the binary&amp;rsquo;s RPM spec file so that the command to install the RPM supplies the binary with the new name.&lt;/p&gt;
+&lt;p&gt;In a pinch, particularly if you&amp;rsquo;re planning to phase the command out anyway, you could remove it from the system&amp;rsquo;s package management and just maintain a customised version of the old command accessible via /opt or something like.&lt;/p&gt;
+&lt;p&gt;Take the original editor, which you have called em2, for this example (denoting its latest version number).&lt;/p&gt;
+&lt;p&gt;Now, you may associate two binaries (em2 and nem) with the command em. Assume that em and nem are both little Emacs-style editors to help keep the terminology distinctions clear. In that instance, for the sake of simplicity, a very general word for the new alternative would be emacs (using the symbol to signify &amp;ldquo;micro&amp;rdquo;) or uemacs.&lt;/p&gt;
+&lt;p&gt;Offer the following as a replacement for the original:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a location for the &amp;ldquo;generic&amp;rdquo; symlink&lt;/li&gt;
+&lt;li&gt;a name for the alternative (I&amp;rsquo;ve decided upon &lt;code&gt;uemacs&lt;/code&gt;, to make it clear that it&amp;rsquo;s a reference name rather than a specific binary)&lt;/li&gt;
+&lt;li&gt;the binary to be executed when these symlinks are called&lt;/li&gt;
+&lt;li&gt;a priority level to indicate which alternative is preferred&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;alternatives --install /usr/bin/em uemacs /opt/em-legacy/em2 1&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;Since the new binary is your preferred binary, develop a high priority replacement:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;alternatives --install /usr/bin/em uemacs /usr/local/bin/nem 99&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;With the help of these commands, a new symbolic link, /usr/bin/em, is created that points to /etc/alternatives/em, which in turn can point to either /opt/em-legacy/em2 or /usr/local/bin/nem. The systems administrator chose the descriptive and memorable term uemacs as the human-friendly name for this collection of alternatives at random. Using the —config option, you can select the alternate symlink&amp;rsquo;s destination:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;alternatives --config uemacs&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;There are 2 programs which provide &amp;#39;uemacs&amp;#39;.
+
+  Selection    Command
+-----------------------------------------------
+*&amp;#43; 1           /usr/local/bin/nem
+   2           /opt/em-legacy/em2&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;Removing an alternative&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;removing-an-alternative&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#removing-an-alternative&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Alternatives may assist users or administrators move to something new or they might be long-term solutions. Using the —remove-all option and the alternative&amp;rsquo;s &amp;ldquo;generic&amp;rdquo; name will eliminate all alternatives if you need to for whatever reason. Uemacs is used as an example here:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;alternatives --remove-all uemacs&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;This deletes the symlink in /usr/bin and /etc/alternatives as well as everything else related to uemacs from the alternatives subsystem. Use the —remove option with the alternative name (in this case, uemacs) and the path of the choice you wish to drop if you only want to remove one option from an alternative:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;alternatives --remove uemacs /opt/em-legacy/em2&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;Check Alternatives&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;check-alternatives&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#check-alternatives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Other advantages of the alternatives command include the ability to symlink dependent components when a certain option is selected. Alternatives keeps your discrepancies consolidated while while doing a lot of the hard work. To avoid having to always remember that emacs is really emacs-26.3 or that java is actually /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0, etc., you may check in on what alternatives are available:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;alternatives --list&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;Now, you have a learned the introduction of Linux alternatives command. The alternatives command is an illustration of how both users and administrators can profit from some deft manipulation since Linux is all about choice and flexibility.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Must Read:&lt;/strong&gt; &lt;a href=&#34;https://utho.com/docs/tutorial/what-are-runlevels-in-linux-and-its-understanding/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What are Runlevels in Linux and its understanding&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>How To ADD OR DELETE DOMAINS AND SUBDOMAIN IN PLESK</title>
+      <link>http://localhost:1313/linux/add-or-delete-domains-and-subdomain-in-plesk/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux/add-or-delete-domains-and-subdomain-in-plesk/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;images/ADD-OR-DELETE-DOMAINS-AND-SUBDOMAIN-IN-PLESK-1-1024x576.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Intoroduction&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this article you will know How to ADD OR DELETE DOMAINS AND SUBDOMAIN IN PLESK,&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Domain&lt;/strong&gt;=The word &amp;ldquo;domain&amp;rdquo; may be used to refer to the structure of the internet, which is unique to the &lt;a href=&#34;https://en.wikipedia.org/wiki/World_Wide_Web&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;world wide web&lt;/a&gt;. Domain can also be used to refer to the manner in which an organization&amp;rsquo;s network resources are arranged. In general, a domain may be thought of as either a sphere of knowledge or an area of control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Subdomain&lt;/strong&gt;: Subdomains are the components of a domain that appear before the primary domain name and the extension of the domain. They can assist you in the organisation of your website. For instance, you may visit docs.themeisle.com. The subdomain that is represented by this URL is docs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.click on the website and domains&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2.Add domain&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.Fill out the data fields with information regarding the domain you wish to add.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*On the left-hand menu click website and domains&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-176.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*After that, select the &amp;ldquo;Add Domain&amp;rdquo; option that is seen in the following screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-177-1024x213.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*Select &lt;strong&gt;Temporary domain name&lt;/strong&gt; or &lt;strong&gt;Registered domain name&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Fill out the data fields with information regarding the domain you wish to add&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-178.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*Now that you&amp;rsquo;ve added a domain, take a look at the screenshot down below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-179-1024x175.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;** How to add a subdomain**&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.click on the website and domains&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.Add subdomain&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.Fill the required filleds&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*On the left-hand menu click website and domains&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-176.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*After that, select the &amp;ldquo;Add sub domain&amp;rdquo; option that is seen in the following screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-180-1024x212.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fill the required filleds and then click ok&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-181-1024x319.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*Now that you&amp;rsquo;ve added a sub domain, take a look at the screenshot down below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-182-1024x326.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;**The steps necessary to delete domains and subdomains**&lt;/p&gt;
+&lt;p&gt;*Click the three dots that are located on the right side.*&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-184-1024x220.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-185.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*Click remove website*&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-186-1024x329.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Know, &lt;strong&gt;&lt;a href=&#34;https://utho.com/docs/tutorial/how-do-i-find-my-apache-version-in-plesk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How To find Apache version in Plesk&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank You&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Change SSH Default Port 22 to Custom Port</title>
+      <link>http://localhost:1313/linux/change-ssh-default-port-22-to-custom-port/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux/change-ssh-default-port-22-to-custom-port/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;images/Change-SSH-Default-Port-22-to-Custom-Port_utho.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;1. Access your linux server using SSH with putty any third party software.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/Screenshot_1-6.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2. Enter your sudo user password or root password.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/Screenshot_2-5.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;3. Open SSH configuration file using below command in your favorite editor.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt; [root@ssh-port-change ~]# vi /etc/ssh/sshd_config &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;4. Add &amp;ldquo;Port 44&amp;rdquo; line in sshd_config file and save or exit the file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/Screenshot_4-4.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;5. Restart ssh service using below command.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt; [root@ssh-port-change ~]# systemctl restart sshd &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;6. Open port 44 or custom port in firewall(Firewalld,CFS,IPtables,Microhost cloud firewall,etc) which you have defined in ssh configuration file,if you are using any internal and external firewall on server. For Eg:- firewalld&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt; [root@ssh-port-change ~]# firewall-cmd --add-port=44/tcp --permanent [root@ssh-port-change ~]# firewall-cmd --reload &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;Thank you..&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>How to access Linux server using SSH in Windows, Linux and Mac OS.</title>
+      <link>http://localhost:1313/linux/access-linux-server-using-ssh-in-windows-linux-and-mac-os/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux/access-linux-server-using-ssh-in-windows-linux-and-mac-os/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;images/Access-Linux-server-using-SSH-in-Windows-Linux-and-Mac-OS-1024x576.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Part 1: Access Linux server using SSH in Windows&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;part-1-access-linux-server-using-ssh-in-windows&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#part-1-access-linux-server-using-ssh-in-windows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;1. Download PuTTY or another PuTTY download source from URL &lt;a href=&#34;https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe&lt;/a&gt; . The file called &amp;ldquo;putty.exe&amp;rdquo; is perfect for simple SSH.&lt;/p&gt;
+&lt;p&gt;2. Save and download software in your Windows system.&lt;/p&gt;
+&lt;p&gt;3. To launch the application, &lt;code&gt;double-click&lt;/code&gt; the &lt;code&gt;putty.exe&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/Screenshot_1-2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;4. Enter the settings of your connection&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/Screenshot_2-2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enter the &lt;code&gt;server ip&lt;/code&gt; address or &lt;code&gt;hostname&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Port: 22 ( leave as default if SSH port is default)&lt;/li&gt;
+&lt;li&gt;Connection Type: SSH (leave as default)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;5. Click Open to start the SSH session.&lt;/p&gt;
+&lt;p&gt;6. If this is the first time you are connecting to the server on this computer, you will see the following output. Please accept the connection by clicking &lt;code&gt;Yes&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/Screenshot_3-2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;7. Once the SSH Connection has been opened, you should see the terminal prompt asking for your &lt;code&gt;username&lt;/code&gt;:&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;images/Screenshot_4-1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;strong&gt;Connect to your preferred SSH user.&lt;/strong&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;8. Next, please enter your &lt;code&gt;password&lt;/code&gt;. Please note that you will NOT see your cursor moving or any typed characters (such as * * * * * *) when you type your password. This is a standard security feature of the PUTTY. Hit get in.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;root@yourserver.example.com&amp;#39;s password:&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;9. You are logged in to your SSH server now. You will see output like this.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;mailto:root@yourserver.example.com&#34; &gt;root@yourserver.example.com&lt;/a&gt;&amp;rsquo;s password:&lt;br&gt;
+Last failed login: Sat Apr 25 17:03:02 IST 2020 from IP on ssh:notty&lt;br&gt;
+There were 2 failed login attempts since the last successful login.&lt;br&gt;
+Last login: Sat Apr 25 16:57:08 2020 from IP&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;[root@yourserver.example.com ~]&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Part 2: Access Linux server using SSH in Linux Ubuntu&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;part-2-access-linux-server-using-ssh-in-linux-ubuntu&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#part-2-access-linux-server-using-ssh-in-linux-ubuntu&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;1. If you have ubuntu desktop. Go to Search bar and type &amp;ldquo;Terminal&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/ubuntu-1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2. Now terminal will open and you need to enter the following command on terminal.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/ubuntu_2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;# ssh username@yourserver.example.com&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;3. You need to enter the password of SSH user of your server. ```
+&lt;a href=&#34;mailto:username@yourserver.example.com&#34; &gt;username@yourserver.example.com&lt;/a&gt;&amp;rsquo;s password:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;
+4\. Now you have connected your linux server on your ubuntu desktop using terminal and you will get outpout like this:&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;[root@yourserver.example.com ~]#&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;
+## Part 2: Access Linux server using SSH in Mac OS
+
+1\. If you have Mac OS. Go to Search bar and type &amp;#34;Terminal&amp;#34;.
+
+![](images/mac-1.png)
+
+2\. Now terminal will open and you need to enter following command on terminal.
+
+![](images/mac-2.png)&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h1&gt;ssh &lt;a href=&#34;mailto:username@yourserver.example.com&#34; &gt;username@yourserver.example.com&lt;/a&gt;&lt;/h1&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;
+3\. You need to enter the password of SSH user of your server. ```
+username@yourserver.example.com&amp;#39;s password:&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;4. Now you have connected your linux server on your Mac OS using terminal and you will get outpout like this:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@yourserver.example.com ~]# &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;Thank you&amp;hellip;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Archiving and Compressing files with GNU Tar and GNU Zip</title>
+      <link>http://localhost:1313/linux/archiving-and-compressing-files-with-gnu-tar-and-gnu-zip/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/linux/archiving-and-compressing-files-with-gnu-tar-and-gnu-zip/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;tar Command&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;tar-command&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tar-command&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;tar&lt;/strong&gt; is a software tool for collecting multiple files into one file in other word we can say &amp;ldquo;archive&amp;rdquo;. However, &lt;strong&gt;gzip&lt;/strong&gt; is a software application used for compression and decompression. We use file compression techniques for saving disk space. This report offers a summary of the use of tar and gzip :&lt;/p&gt;
+&lt;p&gt;TAR&amp;rsquo;s intricacy is not based on its fundamental form, but on a number of options and settings that can be used to create archives and to interact with them.&lt;/p&gt;
+&lt;p&gt;For example: We have a tar file named latest-archive.tar . We will use below given command to extract the content of the tar file into present working directory.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# tar -xf latest.tar&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;Use the following command to create archive(wordpress.tar.gz) file of all files in the Wordpress directory:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt; [root@Microhost ~]# tar -c wordpress &amp;gt; wordpress.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;By default, tar sends archive file contents to the standard output, which you can use to continue processing your created archive. You can opt for the -f option to bypass default output. The command following is the same as the previous command:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# tar -cf wordpress.tar.gz wordpress&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;gzip Command&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;gzip-command&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#gzip-command&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A simple and standard method for compressing individual files is provided with gzip and the accompanying Gunzip command. As tar does not allow compression of the files which it archive, the gzip tools can only operate on single files. As tar does not. In the file test.txt the next command is added and comprised in test.txt.gz:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# gzip test.txt&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;This file can be decompressed using one of the following commands:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# gunzip test.txt.gz
+[root@Microhost ~]# gzip -d test.txt.gz&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;You can add the -v flag to improve the compression rate of verbosity and output statistics:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# gzip -v test.txt&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;gzip accepts standard input to compress the output of a text stream:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# cat test.txt | gzip &amp;gt; test.txt.gz&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;The compression algorithm used by gzip in compressing files can be configured to use more compression and save time. A number argument between -1 and -9 controls this ratio. The default setup is -6. Also, gzip includes the helpful mnemonics –-fast (i. e. —1) and —best (i.e. -9):&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# gzip --best -v test.txt
+[root@Microhost ~]# gzip --fast -v test.txt
+[root@Microhost ~]# gzip -3 -v test.txt
+[root@Microhost ~]# gzip -8 -v test.txt&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;h2&gt;Extracting Files from a tar Archive&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;extracting-files-from-a-tar-archive&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#extracting-files-from-a-tar-archive&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To extract files from a &lt;code&gt;tar&lt;/code&gt; archive, issue the following command:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# tar -xzvf latest.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;The specified options have the following effects: &lt;strong&gt;-x&lt;/strong&gt; extracts archive contents, &lt;strong&gt;-z&lt;/strong&gt; filters the archive through the compression gzip tool, &lt;strong&gt;-v&lt;/strong&gt; allows the verbose output to print a list of files as they&amp;rsquo;re extracted from the archive and &lt;strong&gt;-f&lt;/strong&gt; specifies that tar will read input from the subsequently specified file latest.tar.gz&lt;/p&gt;
+&lt;h2&gt;Compressing Log Files&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;compressing-log-files&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#compressing-log-files&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Some files are generated, especially log files that can increase to a large size, by long-term daemons, such as web or e-mail servers. While these files are not deleted, they can grow unmanageably large within a short period of time. Since they are plain texts, compression is effective; however, it makes no sense to use a tool such as tar. It makes sense to use gzip straight away in these cases:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# gzip /var/log/mail.log&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;The file is called mail.log.gz to replace the original /var/log/mail.log. To access this file&amp;rsquo;s contents:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+  
+
+&lt;pre&gt;&lt;code&gt;[root@Microhost ~]# gunzip /var/log/mail.log.gz&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+
+  
+&lt;/div&gt;
+&lt;p&gt;However, you do not need to uncompress a file to access its contents in most cases. The tool gzip includes tools for accessing &amp;ldquo;gzipped&amp;rdquo; files with standard Unix tools. you can access file contents of gzip with following utilities zcat (Cat equivalent), zgrep (Grep equivalent) and zless (Lower Equivalent).&lt;/p&gt;
+&lt;p&gt;Thank You :)&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
