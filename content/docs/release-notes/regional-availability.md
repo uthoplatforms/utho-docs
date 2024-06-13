@@ -6,11 +6,8 @@ lastmod: "2020-08-22"
 authors: ["Kshitij Deota"]
 comments: true
 ---
-
+![infographic of available datacenters](/images/regional.png)
 ### Available Datacenters
-
-![alt text](/images/regional.png)
-
 | Datacenter    | Region        |
 | ------------- |:-------------:|
 | col 3 is      | right-aligned |

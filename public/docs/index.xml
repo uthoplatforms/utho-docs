@@ -66,9 +66,9 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
       <description>
         
         
-        &lt;h3&gt;Available Datacenters&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;available-datacenters&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#available-datacenters&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/utho-docs/utho-docs/images/regional.png&#34; alt=&#34;alt text&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;table&gt;
+        &lt;p&gt;&lt;img src=&#34;http://localhost:1313/utho-docs/utho-docs/images/regional.png&#34; alt=&#34;infographic of available datacenters&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;Available Datacenters&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;available-datacenters&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#available-datacenters&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Datacenter&lt;/th&gt;
