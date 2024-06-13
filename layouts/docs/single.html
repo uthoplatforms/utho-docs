@@ -25,10 +25,17 @@
           <br>
           <small>
             Tags:
-            {{ range .Site.Taxonomies.tags }}
-              <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-            {{ end }}
+            {{- $tags := .Params.tags -}}
+            {{- if $tags -}}
+              {{- $lastIndex := sub (len $tags) 1 -}}
+              {{- range $index, $tag := $tags -}}
+                <a href="{{ $.Site.BaseURL }}tags/{{ $tag | urlize }}"> {{ $tag }}</a>
+                {{- if ne $index $lastIndex }}&nbsp;·&nbsp;{{ end -}}
+              {{- end -}}
+            {{- end -}}
           </small>
+
+
 
           <div class="hx-content">
             {{ .Content }}

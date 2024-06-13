@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/utho-docs/docs/overview/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/utho-docs/authors/jane-doe/</loc>
+    <lastmod>2020-08-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/utho-docs/authors/kshitij-deota/</loc>
     <lastmod>2020-08-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,10 +35,14 @@
     <loc>http://localhost:1313/utho-docs/docs/release-notes/</loc>
     <lastmod>2020-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/utho-docs/tags/</loc>
+    <loc>http://localhost:1313/utho-docs/docs/sub-category/</loc>
     <lastmod>2020-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/utho-docs/authors/jane-doe/</loc>
+    <loc>http://localhost:1313/utho-docs/docs/sub-category/sub-leaf/</loc>
+    <lastmod>2020-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/utho-docs/tags/</loc>
+    <lastmod>2020-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/utho-docs/authors/john-smith/</loc>
   </url><url>
@@ -44,9 +51,5 @@
     <loc>http://localhost:1313/utho-docs/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/utho-docs/features/</loc>
-  </url><url>
-    <loc>http://localhost:1313/utho-docs/docs/sub-category/</loc>
-  </url><url>
-    <loc>http://localhost:1313/utho-docs/docs/sub-category/sub-leaf/</loc>
   </url>
 </urlset>

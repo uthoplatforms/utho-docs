@@ -11,6 +11,7 @@
           </div>
 
           <h2>Articles</h2>
+
           <ul>
             {{ range .Data.Pages }}
             <li>
@@ -18,8 +19,6 @@
             </li>
             {{ end }}
           </ul>
-
-
 
         </div>
         {{ partial "components/last-updated.html" . }}
