@@ -3,7 +3,12 @@ title: Regional Availability
 type: docs
 prev: docs/release-notes/
 lastmod: "2020-08-22"
-authors: ["Kshitij Deota"]
+authors:
+- Kshitij Deota
+tags:
+- centred
+- regional
+- available
 comments: true
 ---
 ![infographic of available datacenters](/images/regional.png)

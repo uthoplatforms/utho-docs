@@ -22,6 +22,14 @@
               {{ end }}
             </span>
           </div>
+          <br>
+          <small>
+            Tags:
+            {{ range .Site.Taxonomies.tags }}
+              <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+            {{ end }}
+          </small>
+
           <div class="hx-content">
             {{ .Content }}
           </div>
@@ -31,6 +39,8 @@
         {{ if (eq .Section "docs") }}
           {{ partial "components/comments.html" . }}
         {{ end }}
+
+
       </main>
     </article>
   </div>
