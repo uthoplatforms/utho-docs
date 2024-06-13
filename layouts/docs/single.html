@@ -11,7 +11,7 @@
             {{ partial "share-buttons.html" . }}
           </div>
           <div class="hx-meta">
-            <span>Edited on {{ .Lastmod.Format "January 2, 2006" }}</span> by
+            <span>Posted on {{ .Date | time.Format "January 2, 2006" }}</span> by
             <span>
               {{ range .Param "authors" }}
                 {{ $name := . }}

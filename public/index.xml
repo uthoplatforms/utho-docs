@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>utho Docs – Home</title>
+    <title>utho Docs – Docs</title>
     <link>http://localhost:1313/utho-docs/</link>
-    <description>Recent content in Home on utho Docs</description>
+    <description>Recent content in Docs on utho Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Mar 2024 08:48:28 +0100</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/utho-docs/index.xml" rel="self" type="application/rss+xml" />
     

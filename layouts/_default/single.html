@@ -1,0 +1,54 @@
+{{ define "main" }}
+  <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" .) }}
+    {{ partial "toc.html" . }}
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+        {{ partial "breadcrumb.html" . }}
+        <div class="content">
+          <div class="hx-title-wrapper hx-flex hx-justify-between hx-items-center">
+            <h1>{{ .Title }}</h1>
+            {{ partial "share-buttons.html" . }}
+          </div>
+          <div class="hx-meta">
+            <span>Posted on {{ .Date | time.Format "January 2, 2006" }}</span> by
+            <span>
+              {{ range .Param "authors" }}
+                {{ $name := . }}
+                {{ $path := printf "/%s/%s" "authors" ($name | urlize) }}
+                {{ with $.Site.GetPage $path }}
+                  <a href={{ .Permalink }}>{{ .Params.name }}</a>
+                {{ end }}
+              {{ end }}
+            </span>
+          </div>
+          <br>
+          <small>
+            {{- $tags := .Params.tags -}}
+            {{- if $tags -}}
+              {{- $lastIndex := sub (len $tags) 1 -}}
+              {{- range $index, $tag := $tags -}}
+                Tags:
+                <a href="{{ $.Site.BaseURL }}tags/{{ $tag | urlize }}"> {{ $tag }}</a>
+                {{- if ne $index $lastIndex }}&nbsp;·&nbsp;{{ end -}}
+              {{- end -}}
+            {{- end -}}
+          </small>
+
+
+
+          <div class="hx-content">
+            {{ .Content }}
+          </div>
+        </div>
+        {{ partial "components/last-updated.html" . }}
+        {{ partial "components/pager.html" . }}
+        {{ if (eq .Section "docs") }}
+          {{ partial "components/comments.html" . }}
+        {{ end }}
+
+
+      </main>
+    </article>
+  </div>
+{{ end }}

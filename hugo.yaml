@@ -8,11 +8,18 @@ module:
   imports:
   - path: hextra
 
+toc: true
+
 markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
   # allow raw html
   goldmark:
     renderer:
       unsafe: true
+
 
   # enable hextra syntax highlight
   highlight:
@@ -28,26 +35,20 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
-    - name: Features
-      pageRef: /features
-      weight: 2
-    - name: About
-      pageRef: /about
-      weight: 3
     - name: Contact ↗
       url: "https://github.com/utho"
-      weight: 4
-    - name: Search
       weight: 5
+    - name: Search
+      weight: 6
       params:
         type: search
     - name: GitHub
-      weight: 6
-      url: "https://uthoplatforms.github.io/utho-docs/"
+      weight: 7
+      url: "https://uthoplatforms.github.io/docs/"
       params:
         icon: github
     - name: Twitter
-      weight: 7
+      weight: 8
       url: "https://twitter.com/"
       params:
         icon: x-twitter
@@ -91,3 +92,5 @@ params:
       repoId: <repository ID>
       category: <category>
       categoryId: <category ID>
+
+    disqusShortname: kdpixels
