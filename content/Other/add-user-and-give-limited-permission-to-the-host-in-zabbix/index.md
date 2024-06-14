@@ -1,4 +1,5 @@
 ---
+linkTitle: "User Permissions - Zabbix"
 title: "How to create user and give limited permission to the host in Zabbix"
 date: "2023-02-10"
 ---

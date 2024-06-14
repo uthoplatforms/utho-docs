@@ -166,6 +166,7 @@
     {{- with .context }}
       {{- if or .RegularPages .Sections }}
         <span class="hextra-sidebar-collapsible-button">
+          {{- template "postcount" . -}}
           {{- template "sidebar-collapsible-button" -}}
         </span>
       {{- end }}
