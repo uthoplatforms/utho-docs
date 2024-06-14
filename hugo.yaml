@@ -23,15 +23,12 @@ taxonomies:
 
 menu:
   main:
-    - name: Doc Home
+    - name: Docs
       pageRef: /
       weight: 1
     - name: About
       pageRef: /about
       weight: 2
-    - name: Blog
-      pageRef: /blog
-      weight: 3
     - name: Features
       pageRef: /features
       weight: 4

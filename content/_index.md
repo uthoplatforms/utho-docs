@@ -1,6 +1,6 @@
 ---
 weight: 999
-title: utho Docs
+title: Welcome to utho Docs
 description: ""
 layout: hextra-home
 icon: "article"
@@ -9,4 +9,3 @@ lastmod: "2024-03-07T08:48:28+01:00"
 cascade:
   type: docs
 ---
-# Welcome To utho Docs
