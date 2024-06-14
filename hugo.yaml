@@ -1,21 +1,26 @@
 baseURL: https://uthoplatforms.github.io/
+
 title: utho Docs
+
 module:
   imports:
     - path: hextra
   hugoVersion:
     extended: true
     min: "0.112.0"
+
 markup:
   goldmark:
     renderer:
       unsafe: true
   highlight:
     noClasses: false
+
 taxonomies:
   category: categories
   author: authors
   tag: tags
+
 menu:
   main:
     - name: Doc Home
@@ -24,9 +29,12 @@ menu:
     - name: About
       pageRef: /about
       weight: 2
+    - name: Blog
+      pageRef: /blog
+      weight: 3
     - name: Features
       pageRef: /features
-      weight: 3
+      weight: 4
     - name: Contact ↗
       url: https://github.com/utho
       weight: 5
@@ -44,9 +52,11 @@ menu:
       url: https://twitter.com/
       params:
         icon: x-twitter
+
 services:
   googleAnalytics:
     ID: G-MEASUREMENT_ID
+
 params:
   enableInlineShortcodes: true
   page:
@@ -76,3 +86,5 @@ params:
     repoId: <repository ID>
     category: <category>
     categoryId: <category ID>
+
+summaryLength: 15
