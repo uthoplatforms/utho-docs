@@ -10,7 +10,7 @@
           <p>{{ .Description }}</p>
           {{ partial "markup-header" }}
 
-          <div class="hx-flex">
+          <div class="hx-flex hx-mt-8">
           {{ if eq .Params.Tab true }}
             {{ range .Parent.Sections }}
               {{ if eq .Params.tab true }}

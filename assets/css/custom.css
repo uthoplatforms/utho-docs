@@ -35,3 +35,26 @@ ul li { margin: 0 0 10px 0; }
   margin-right: 1rem;
 }
 .hx-content {}
+
+.signup-button {
+  background-color: #fff;
+  color: #3BB878;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.signup-button:hover {
+  background-color: #f4f4f4;
+}
+
+.credit-note {
+  color: #dcdcdc;
+  margin-top: 5px;
+  font-size: 14px;
+}
