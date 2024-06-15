@@ -171,13 +171,13 @@
           {{ $subs := (index (split $urls.Path "/")) }}
           {{ $wordcount := (delimit $subs " " | countwords) }}
           {{ $globalcount := (len (where site.RegularPages "Section" .Section )) }}
-          {{ $a := (len (where .RegularPages "Section" .Section )) }}
+          {{ $a := (len (where .RegularPagesRecursive "Section" .Section )) }}
           {{ $b := (sub $globalcount $a) }}
           {{ if eq $wordcount 3 -}}
             {{ $a }}
           {{ end }}
           {{ if eq $wordcount 2 -}}
-            {{ len .RegularPages }}
+            {{ len .RegularPagesRecursive }}
           {{ end }}
           {{ if eq $wordcount 1 -}}
             {{ $globalcount }}

@@ -28,6 +28,15 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-03-07T08:48:28+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/plex/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/plex/subplex/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/linux/rhel/blah/</loc>
+    <lastmod>2024-03-07T17:25:04+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/linux/rhel/</loc>
     <lastmod>2024-03-07T17:25:04+01:00</lastmod>
   </url><url>
@@ -37,7 +46,7 @@
     <loc>http://localhost:1313/authors/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bash-vs-cmd-decoding-the-battle-of-command-line-titans/</loc>
+    <loc>http://localhost:1313/plex/bash-vs-cmd-decoding-the-battle-of-command-line-titans/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tag-1/</loc>
@@ -49,7 +58,7 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/analysis-of-postgresql-and-mysql-a-comparative-study/</loc>
+    <loc>http://localhost:1313/plex/subplex/analysis-of-postgresql-and-mysql-a-comparative-study/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/platform/how-to-install-wine-on-rhel-8/</loc>
@@ -82,7 +91,7 @@
     <loc>http://localhost:1313/categories/how-to/</loc>
     <lastmod>2023-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/add-txt-record-in-plesk/</loc>
+    <loc>http://localhost:1313/plex/add-txt-record-in-plesk/</loc>
     <lastmod>2023-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/plesk/</loc>
@@ -100,7 +109,7 @@
     <loc>http://localhost:1313/blog/5-most-effective-ways-to-avoid-cloud-bill-shocks/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/linux/rhel/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</loc>
+    <loc>http://localhost:1313/linux/rhel/blah/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/linux/2-methods-for-re-running-last-executed-commands-in-linux/</loc>
@@ -124,7 +133,16 @@
     <loc>http://localhost:1313/blog/7-reasons-why-cloud-infrastructure-is-important-for-startups/</loc>
     <lastmod>2022-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/linux/rhel/add-or-delete-domains-and-subdomain-in-plesk/</loc>
+    <loc>http://localhost:1313/authors/john-smith/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/linux/rhel/blah/add-or-delete-domains-and-subdomain-in-plesk/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tag-3/</loc>
+    <lastmod>2022-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tag2/</loc>
     <lastmod>2022-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/windows/how-to-boot-windows-server-2012-into-safe-mode/</loc>
@@ -175,13 +193,13 @@
     <loc>http://localhost:1313/web-servers/use-nginx-as-a-reverse-proxy/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/apache-virtual-hosts-setup-on-centos-7/</loc>
+    <loc>http://localhost:1313/plex/subplex/apache-virtual-hosts-setup-on-centos-7/</loc>
     <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/web-servers/nginx-installation-and-basic-setup/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/basics-information-of-apache-configuration/</loc>
+    <loc>http://localhost:1313/plex/basics-information-of-apache-configuration/</loc>
     <lastmod>2020-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/linux/change-ssh-default-port-22-to-custom-port/</loc>
@@ -203,8 +221,6 @@
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/jane-doe/</loc>
-  </url><url>
-    <loc>http://localhost:1313/authors/john-smith/</loc>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>

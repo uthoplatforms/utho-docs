@@ -1,6 +1,9 @@
 ---
+linkTitle: "Add or delete domains/subdomains in Plesk"
 title: "How To ADD OR DELETE DOMAINS AND SUBDOMAIN IN PLESK"
 date: "2022-10-09"
+tags: ["tag 1", "tag2", "tag 3"]
+authors: ["Kshitij Deota", "John Smith"]
 ---
 
 ![](images/ADD-OR-DELETE-DOMAINS-AND-SUBDOMAIN-IN-PLESK-1-1024x576.png)
