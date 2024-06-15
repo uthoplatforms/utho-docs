@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>utho Docs – </title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/docs/</link>
     <description>Recent content on utho Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 07 Mar 2024 17:25:06 +0100</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>5 Proven Strategies for Disaster Recovery and Business Continuity in the Cloud</title>
-      <link>http://localhost:1313/blog/5-proven-strategies-for-disaster-recovery-and-business-continuity-in-the-cloud/</link>
+      <link>http://localhost:1313/docs/blog/5-proven-strategies-for-disaster-recovery-and-business-continuity-in-the-cloud/</link>
       <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/5-proven-strategies-for-disaster-recovery-and-business-continuity-in-the-cloud/</guid>
+      <guid>http://localhost:1313/docs/blog/5-proven-strategies-for-disaster-recovery-and-business-continuity-in-the-cloud/</guid>
       <description>
         
         
@@ -56,10 +56,10 @@
     
     <item>
       <title>5 Best practices for configuring and managing a Load Balancer</title>
-      <link>http://localhost:1313/blog/5-best-practices-for-configuring-and-managing-a-load-balancer/</link>
+      <link>http://localhost:1313/docs/blog/5-best-practices-for-configuring-and-managing-a-load-balancer/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/5-best-practices-for-configuring-and-managing-a-load-balancer/</guid>
+      <guid>http://localhost:1313/docs/blog/5-best-practices-for-configuring-and-managing-a-load-balancer/</guid>
       <description>
         
         
@@ -83,10 +83,10 @@
     
     <item>
       <title>5 Most Effective Ways to Avoid Cloud Bill Shocks.</title>
-      <link>http://localhost:1313/blog/5-most-effective-ways-to-avoid-cloud-bill-shocks/</link>
+      <link>http://localhost:1313/docs/blog/5-most-effective-ways-to-avoid-cloud-bill-shocks/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/5-most-effective-ways-to-avoid-cloud-bill-shocks/</guid>
+      <guid>http://localhost:1313/docs/blog/5-most-effective-ways-to-avoid-cloud-bill-shocks/</guid>
       <description>
         
         
@@ -114,10 +114,10 @@
     
     <item>
       <title>6 Cloud Computing Myths, Busted!</title>
-      <link>http://localhost:1313/blog/6-cloud-computing-myths-busted/</link>
+      <link>http://localhost:1313/docs/blog/6-cloud-computing-myths-busted/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/6-cloud-computing-myths-busted/</guid>
+      <guid>http://localhost:1313/docs/blog/6-cloud-computing-myths-busted/</guid>
       <description>
         
         
@@ -151,10 +151,10 @@
     
     <item>
       <title>6 Benefits of Deploying a Load Balancer on your server.</title>
-      <link>http://localhost:1313/blog/6-benefits-of-deploying-a-load-balancer-on-your-server/</link>
+      <link>http://localhost:1313/docs/blog/6-benefits-of-deploying-a-load-balancer-on-your-server/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/6-benefits-of-deploying-a-load-balancer-on-your-server/</guid>
+      <guid>http://localhost:1313/docs/blog/6-benefits-of-deploying-a-load-balancer-on-your-server/</guid>
       <description>
         
         
@@ -186,10 +186,10 @@
     
     <item>
       <title>7 Reasons Why Cloud Infrastructure is Important for Startups</title>
-      <link>http://localhost:1313/blog/7-reasons-why-cloud-infrastructure-is-important-for-startups/</link>
+      <link>http://localhost:1313/docs/blog/7-reasons-why-cloud-infrastructure-is-important-for-startups/</link>
       <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/7-reasons-why-cloud-infrastructure-is-important-for-startups/</guid>
+      <guid>http://localhost:1313/docs/blog/7-reasons-why-cloud-infrastructure-is-important-for-startups/</guid>
       <description>
         
         

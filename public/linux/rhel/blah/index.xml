@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>utho Docs – Blah</title>
-    <link>http://localhost:1313/linux/rhel/blah/</link>
+    <link>http://localhost:1313/docs/linux/rhel/blah/</link>
     <description>Recent content in Blah on utho Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 07 Mar 2024 17:25:04 +0100</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/linux/rhel/blah/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/linux/rhel/blah/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Cheat sheet for 15 nmcli commands in Linux (RHEL/CentOS)</title>
-      <link>http://localhost:1313/linux/rhel/blah/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</link>
+      <link>http://localhost:1313/docs/linux/rhel/blah/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linux/rhel/blah/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</guid>
+      <guid>http://localhost:1313/docs/linux/rhel/blah/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</guid>
       <description>
         
         
@@ -309,10 +309,10 @@
     
     <item>
       <title>How To add or delete domains and sub-domains in Plesk</title>
-      <link>http://localhost:1313/linux/rhel/blah/add-or-delete-domains-and-subdomain-in-plesk/</link>
+      <link>http://localhost:1313/docs/linux/rhel/blah/add-or-delete-domains-and-subdomain-in-plesk/</link>
       <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linux/rhel/blah/add-or-delete-domains-and-subdomain-in-plesk/</guid>
+      <guid>http://localhost:1313/docs/linux/rhel/blah/add-or-delete-domains-and-subdomain-in-plesk/</guid>
       <description>
         
         

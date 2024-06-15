@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>utho Docs – RHEL</title>
-    <link>http://localhost:1313/linux/rhel/</link>
+    <link>http://localhost:1313/docs/linux/rhel/</link>
     <description>Recent content in RHEL on utho Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 07 Mar 2024 17:25:04 +0100</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/linux/rhel/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/linux/rhel/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Blah</title>
-      <link>http://localhost:1313/linux/rhel/blah/</link>
+      <link>http://localhost:1313/docs/linux/rhel/blah/</link>
       <pubDate>Thu, 07 Mar 2024 17:25:04 +0100</pubDate>
       
-      <guid>http://localhost:1313/linux/rhel/blah/</guid>
+      <guid>http://localhost:1313/docs/linux/rhel/blah/</guid>
       <description>
         
         
@@ -164,10 +164,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     
     <item>
       <title>An introduction to the Linux alternatives command</title>
-      <link>http://localhost:1313/linux/rhel/an-introduction-to-the-linux-alternatives-command/</link>
+      <link>http://localhost:1313/docs/linux/rhel/an-introduction-to-the-linux-alternatives-command/</link>
       <pubDate>Wed, 23 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/linux/rhel/an-introduction-to-the-linux-alternatives-command/</guid>
+      <guid>http://localhost:1313/docs/linux/rhel/an-introduction-to-the-linux-alternatives-command/</guid>
       <description>
         
         

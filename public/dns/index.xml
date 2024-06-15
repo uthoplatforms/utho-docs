@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>utho Docs – DNS</title>
-    <link>http://localhost:1313/dns/</link>
+    <link>http://localhost:1313/docs/dns/</link>
     <description>Recent content in DNS on utho Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 07 Mar 2024 17:25:04 +0100</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/dns/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/dns/index.xml" rel="self" type="application/rss+xml" />
     
     
       

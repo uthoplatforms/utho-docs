@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>utho Docs – </title>
-    <link>http://localhost:1313/authors/jane-doe/</link>
+    <link>http://localhost:1313/docs/authors/jane-doe/</link>
     <description>Recent content on utho Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/authors/jane-doe/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/authors/jane-doe/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>5 Best practices for configuring and managing a Load Balancer</title>
-      <link>http://localhost:1313/blog/5-best-practices-for-configuring-and-managing-a-load-balancer/</link>
+      <link>http://localhost:1313/docs/blog/5-best-practices-for-configuring-and-managing-a-load-balancer/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/5-best-practices-for-configuring-and-managing-a-load-balancer/</guid>
+      <guid>http://localhost:1313/docs/blog/5-best-practices-for-configuring-and-managing-a-load-balancer/</guid>
       <description>
         
         

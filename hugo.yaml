@@ -59,8 +59,8 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: assets/images/logo_black.png
-      dark: assets/images/logo_white.png
+      path: images/logo_black.png
+      dark: images/logo_white.png
       link: /
       width: 120
       height: 20
