@@ -1,5 +1,0 @@
-{{- define "postcount" -}}
-  {{- $posts := (where site.RegularPages "Section" .Section) -}}
-  {{- $postCount := len $posts -}}
-  {{- $postCount -}}
-{{- end -}}
