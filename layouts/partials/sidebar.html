@@ -166,22 +166,7 @@
     {{- with .context }}
       {{- if or .RegularPages .Sections }}
         <span class="hextra-sidebar-collapsible-button">
-
-          {{ $urls := urls.Parse .RelPermalink }}
-          {{ $subs := (index (split $urls.Path "/")) }}
-          {{ $wordcount := (delimit $subs " " | countwords) }}
-          {{ $globalcount := (len (where site.RegularPages "Section" .Section )) }}
-          {{ $a := (len (where .RegularPagesRecursive "Section" .Section )) }}
-          {{ $b := (sub $globalcount $a) }}
-          {{ if eq $wordcount 3 -}}
-            {{ $a }}
-          {{ end }}
-          {{ if eq $wordcount 2 -}}
-            {{ $a }}
-          {{ end }}
-          {{ if eq $wordcount 1 -}}
-            {{ $globalcount }}
-          {{ end }}
+          {{ len (where .RegularPagesRecursive "Section" .Section ) }}
           {{- template "sidebar-collapsible-button" -}}
         </span>
       {{- end }}

@@ -1,6 +1,7 @@
 ---
 title: "5 Best practices for configuring and managing a Load Balancer"
 date: "2023-01-09"
+authors: ["Kshitij Deota","Jane Doe"]
 ---
 
 A **load balancer** is an essential tool in any business’s IT infrastructure. It ensures that traffic is distributed evenly across servers, helping to prevent performance bottlenecks that can lead to outages. As such, it’s important to configure and manage your load balancer correctly. Here are five tips for doing just that. 

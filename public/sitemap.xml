@@ -76,6 +76,9 @@
     <loc>http://localhost:1313/windows/how-to-block-or-allow-tcp-ip-port-in-windows-firewall/</loc>
     <lastmod>2023-01-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/authors/jane-doe/</loc>
+    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/5-best-practices-for-configuring-and-managing-a-load-balancer/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -109,7 +112,7 @@
     <loc>http://localhost:1313/blog/5-most-effective-ways-to-avoid-cloud-bill-shocks/</loc>
     <lastmod>2022-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/linux/rhel/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</loc>
+    <loc>http://localhost:1313/linux/rhel/blah/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/linux/2-methods-for-re-running-last-executed-commands-in-linux/</loc>
@@ -219,8 +222,6 @@
   </url><url>
     <loc>http://localhost:1313/linux/archiving-and-compressing-files-with-gnu-tar-and-gnu-zip/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/jane-doe/</loc>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
