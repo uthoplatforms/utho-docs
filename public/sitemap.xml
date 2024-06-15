@@ -241,11 +241,5 @@
     <loc>http://localhost:1313/docs/about/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/features/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/authors/jane-doe/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/authors/john-smith/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/authors/kshitij-deota/</loc>
   </url>
 </urlset>

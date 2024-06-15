@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{- $readMore := (T "readMore") | default "Read more →" -}}
   <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
     {{ partial "sidebar.html" (dict "context" .) }}
     {{ partial "toc.html" . }}
@@ -15,43 +16,54 @@
             {{ range .Parent.Sections }}
               {{ if eq .Params.tab true }}
                 {{ $filename :=  printf "%s" ".png" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
-                  <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-auto">
-                    <div>
-                      {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
-                    </div>
-                    <div>
-                    {{ .Title }}
-                    </div>
-                  </a>
+                <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-auto">
+                  <div>
+                    {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
+                  </div>
+                  <div>
+                  {{ .Title }}
+                  </div>
+                </a>
               {{ end }}
             {{ end }}
           {{ else }}
             {{ range .Sections }}
               {{ if eq .Params.tab true }}
                 {{ $filename :=  printf "%s" ".png" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
-                  <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-auto">
-                    <div>
-                      {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
-                    </div>
-                    <div>
-                    {{ .Title }}
-                    </div>
-                  </a>
-                {{ end }}
+                <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-auto">
+                  <div>
+                    {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
+                  </div>
+                  <div>
+                  {{ .Title }}
+                  </div>
+                </a>
+              {{ end }}
             {{ end }}
           {{ end }}
           </div>
 
           {{ .Content }}
 
-          <h2 class="hx-mt-8">Articles</h2>
-          <ul>
-            {{ range .Data.Pages }}
-            <li>
-              <a href="{{.RelPermalink}}">{{ .Title }}</a>
-            </li>
+          <h2>Articles</h2>
+          {{ range .RegularPages }}
+          <div class="hx-flex hx-items-start hx-summary hx-mt-8 hx-bg-primary-700/5 hx-p-4 hx-rounded-md">
+            {{- range first 1 (.Resources.ByType "image") }}
+              <img src="{{ .RelPermalink }}" alt="featured image" load="lazy" class="hx-summary-image">
             {{ end }}
-          </ul>
+            <div class="hx-summary-content">
+              <h3><a style="color: inherit; text-decoration: none;" class="hx-block hx-font-semibold hx-text-xl " href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p class="hx-opacity-80 hx-mt-1">{{- partial "utils/page-description" . -}}</p>
+              <p class="hx-opacity-80 hx-mb-1 hx-leading-7">
+                <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
+                  {{- $readMore -}}
+                </a>
+              </p>
+            </div>
+          </div>
+          {{ else }}
+            <p class="hx-mt-8">No articles found on the topic.</p>
+          {{ end }}
 
           {{ partial "markup-footer" }}
         </div>

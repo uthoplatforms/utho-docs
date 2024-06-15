@@ -28,7 +28,9 @@ ul li { margin: 0 0 10px 0; }
 }
 
 .hx-summary {}
-.hx-summary h3 {}
+.hx-summary h3,
+.hx-summary img,
+.hx-summary p { margin-top: 0;margin-bottom:0; }
 .hx-summary-image {
   min-width:320px;
   max-width:320px;

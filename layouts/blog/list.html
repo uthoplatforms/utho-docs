@@ -9,7 +9,7 @@
         <div class="content hx-mt-4">{{ .Content }}</div>
         {{- $pages := partial "utils/sort-pages" (dict "page" . "by" site.Params.blog.list.sortBy "order" site.Params.blog.list.sortOrder) -}}
         {{- range $pages }}
-          <div class="hx-flex hx-items-start hx-summary hx-mt-8">
+          <div class="hx-flex hx-items-start hx-summary hx-mt-8 hx-bg-primary-700/5 hx-p-4 hx-rounded-md">
               {{- range first 1 (.Resources.ByType "image") }}
               <img src="{{ .RelPermalink }}" alt="featured image" load="lazy" class="hx-summary-image">
               {{ end }}
