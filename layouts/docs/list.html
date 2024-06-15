@@ -44,6 +44,15 @@
 
           {{ .Content }}
 
+          <h2 class="hx-mt-8">Articles</h2>
+          <ul>
+            {{ range .Data.Pages }}
+            <li>
+              <a href="{{.RelPermalink}}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+          </ul>
+
           {{ partial "markup-footer" }}
         </div>
         {{ partial "components/last-updated.html" . }}
