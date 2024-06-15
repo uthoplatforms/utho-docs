@@ -1,8 +1,8 @@
 ---
+linktitle: "NGINX - TLS/HTTPS"
 title: "NGINX : Enable TLS or HTTPS Connections"
 date: "2020-06-04"
 ---
-
 ![](images/NGINX-_-Enable-TLS-or-HTTPS-Connections_utho.jpg)
 
 The Secure Socket Layer (SSL) is the successor to Transportation Layer Security (TLS). It provides stronger and more powerful HTPS and includes non-SSL improvements such as Forward Confidentiality, modern OpenSSL cipher suites, and HSTS-compatibility.

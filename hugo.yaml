@@ -4,7 +4,7 @@ title: utho Docs
 
 module:
   imports:
-    - path: hextra
+  - path: hextra
 
 markup:
   goldmark:
@@ -59,8 +59,8 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: images/logo_black.png
-      dark: images/logo_white.png
+      path: assets/images/logo_black.png
+      dark: assets/images/logo_white.png
       link: /
       width: 120
       height: 20

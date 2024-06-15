@@ -7,9 +7,6 @@
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-03-06T20:37:01+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/web-servers/</loc>
-    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/windows/</loc>
     <lastmod>2024-03-07T17:25:06+01:00</lastmod>
   </url><url>
@@ -25,13 +22,46 @@
     <loc>http://localhost:1313/linux/</loc>
     <lastmod>2024-03-07T17:25:04+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-03-07T08:48:28+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/plex/</loc>
     <lastmod>2024-03-07T17:25:06+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/plex/subplex/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/plex/developers/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/web-servers/developers/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/plex/get-started/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/web-servers/get-started/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/plex/guides/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/web-servers/guides/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/plex/overview/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/web-servers/overview/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/plex/resources/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/web-servers/resources/</loc>
+    <lastmod>2024-03-07T17:25:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/web-servers/</loc>
     <lastmod>2024-03-07T17:25:06+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/linux/rhel/blah/</loc>

@@ -2,17 +2,50 @@
   <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
     {{ partial "sidebar.html" (dict "context" .) }}
     {{ partial "toc.html" . }}
-
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
         {{ partial "breadcrumb.html" . }}
         <div class="content">
           <h1>{{ .Title }}</h1>
+          <p>{{ .Description }}</p>
           {{ partial "markup-header" }}
+
+          <div class="hx-flex">
+          {{ if eq .Params.Tab true }}
+            {{ range .Parent.Sections }}
+              {{ if eq .Params.tab true }}
+                {{ $filename :=  printf "%s" ".png" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
+                  <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-auto">
+                    <div>
+                      {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
+                    </div>
+                    <div>
+                    {{ .Title }}
+                    </div>
+                  </a>
+              {{ end }}
+            {{ end }}
+          {{ else }}
+            {{ range .Sections }}
+              {{ if eq .Params.tab true }}
+                {{ $filename :=  printf "%s" ".png" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
+                  <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-auto">
+                    <div>
+                      {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
+                    </div>
+                    <div>
+                    {{ .Title }}
+                    </div>
+                  </a>
+                {{ end }}
+            {{ end }}
+          {{ end }}
+          </div>
+
           {{ .Content }}
+
           {{ partial "markup-footer" }}
         </div>
-
         {{ partial "components/last-updated.html" . }}
         {{ partial "components/pager.html" . }}
         {{ partial "components/comments.html" . }}

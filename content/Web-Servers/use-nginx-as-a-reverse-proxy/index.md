@@ -1,8 +1,8 @@
 ---
+linkTitle: "NGINX - Reverse Proxy"
 title: "Use NGINX as a Reverse Proxy"
 date: "2020-06-19"
 ---
-
 A reverse proxy is a server between internal and external clients which transmits clients requests to a different server. Although other standard applications, such as Node.js, can support themselves, NGINX has a range of advanced load balancing, safety and speed features that most specialized applications do not have. The reverse proxy of NGINX helps you to apply these functions to any program.
 
 ![](images/Use-NGINX-as-a-Reverse-Proxy-1-1024x576.png)
