@@ -5,9 +5,6 @@ title: utho Docs
 module:
   imports:
     - path: hextra
-  hugoVersion:
-    extended: true
-    min: "0.112.0"
 
 markup:
   goldmark:
