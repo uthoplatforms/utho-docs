@@ -329,7 +329,6 @@
       "hx-summary",
       "hx-summary-content",
       "hx-summary-image",
-      "hx-text-2xl",
       "hx-text-4xl",
       "hx-text-[10px]",
       "hx-text-[color:hsl(var(--primary-hue),100%,50%)]",
