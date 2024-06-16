@@ -6,16 +6,16 @@ cascade:
 <div class="hx-w-full hx-bg-primary-700/5 hx-p-6 hx-rounded-md hx-text-current">
   <h1 class="hx-font-extrabold hx-text-4xl">Welcome to UTHO Docs</h1>
   <div class="hx-flex hx-mt-8">
-    <a href="docs/getting_started" class="hx-bg-primary-600 hx-text-white hx-font-bold hx-p-2 hx-px-4 hx-mr-2 hx-rounded hx-text-current">
+    <a href="getting_started" class="hx-bg-primary-600 hx-text-white hx-font-bold hx-p-2 hx-px-4 hx-mr-2 hx-rounded hx-text-current">
       Getting Started with utho
     </a>
-    <a href="docs/products" class="hx-bg-primary-600 hx-text-white hx-font-bold hx-p-2 hx-px-4 hx-mr-2 hx-rounded hx-text-current">
+    <a href="products" class="hx-bg-primary-600 hx-text-white hx-font-bold hx-p-2 hx-px-4 hx-mr-2 hx-rounded hx-text-current">
       Utho Products
     </a>
-    <a href="docs/linux" class="hx-bg-primary-600 hx-text-white hx-font-bold hx-p-2 hx-px-4 hx-mr-2 hx-rounded">
+    <a href="linux" class="hx-bg-primary-600 hx-text-white hx-font-bold hx-p-2 hx-px-4 hx-mr-2 hx-rounded">
       Tutorials on Linux World
     </a>
-    <a href="docs/plesk" class="hx-bg-primary-600 hx-text-white hx-font-bold hx-p-2 hx-px-4 hx-mr-2 hx-rounded">
+    <a href="plesk" class="hx-bg-primary-600 hx-text-white hx-font-bold hx-p-2 hx-px-4 hx-mr-2 hx-rounded">
       Quick Reference for Plesk
     </a>
   </div>
