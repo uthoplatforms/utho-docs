@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 996
 title: "Windows"
 description: ""
 icon: "windows"

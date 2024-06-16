@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 998
 title: "Linux"
 description: ""
 icon: "linux"

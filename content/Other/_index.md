@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 100
 title: "Other"
 description: ""
 icon: "other"
