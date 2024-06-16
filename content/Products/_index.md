@@ -1,5 +1,5 @@
 ---
-weight: 999
+weight: 10
 title: "Products"
 description: ""
 icon: "platform"

@@ -1,5 +1,5 @@
 ---
-weight: 997
+weight: 30
 title: "Web Servers"
 description: "Fully managed automatic daily, weekly, and biweekly backups of your utho Instances."
 icon: "web-servers"
