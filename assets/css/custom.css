@@ -60,3 +60,7 @@ ul li { margin: 0 0 10px 0; }
   margin-top: 5px;
   font-size: 14px;
 }
+
+.sidebar-container{
+background-color: hsl(var(--primary-hue) var(--primary-saturation) 39% / 0.05);
+}

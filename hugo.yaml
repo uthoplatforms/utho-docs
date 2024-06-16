@@ -23,9 +23,9 @@ menu:
     - name: Docs
       pageRef: /
       weight: 1
-    # - name: About
-    #   pageRef: /about
-    #   weight: 2
+    - name: Explore Utho.com
+      url: https://utho.com?utm_source=docs
+      weight: 2
     # - name: Features
     #   pageRef: /features
     #   weight: 4
