@@ -1,5 +1,5 @@
 {{- if (default true .Params.breadcrumbs) }}
-  <div class="hx-mt-1.5 hx-flex hx-items-center hx-gap-1 hx-overflow-hidden hx-text-sm hx-text-gray-500 dark:hx-text-gray-400 contrast-more:hx-text-current">
+  <div class="utho-breadcrumbs hx-mt-1.5 hx-flex hx-items-center hx-gap-1 hx-overflow-hidden hx-text-sm hx-text-gray-500 dark:hx-text-gray-400 contrast-more:hx-text-current">
     <a href="{{ .Site.Home.RelPermalink }}">Docs</a>
     {{- partial "utils/icon.html" (dict "name" "chevron-right" "attributes" "class=\"hx-w-3.5 hx-shrink-0 rtl:-hx-rotate-180\"") -}}
     {{- range .Ancestors.Reverse }}

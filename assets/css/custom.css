@@ -60,18 +60,3 @@ ul li { margin: 0 0 10px 0; }
   margin-top: 5px;
   font-size: 14px;
 }
-
-/* hide content in iframe */
-body.in-iframe .nav-container,
-body.in-iframe .sidebar-container,
-body.in-iframe .hextra-toc,
-body.in-iframe .hextra-footer {
-  display: none;
-}
-
-body.in-iframe {
-  margin: 0;
-  padding: 0;
-}
-
-/* hide content in iframe end */

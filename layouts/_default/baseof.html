@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
   {{- partial "head.html" . -}}
-  <script>
+
+<style>
+body.in-iframe .nav-container,
+body.in-iframe .sidebar-container,
+body.in-iframe .hextra-toc,
+body.in-iframe .utho-breadcrumbs,
+body.in-iframe .utho-promo,
+body.in-iframe .utho-share,
+body.in-iframe .hextra-footer {
+  display: none;
+}
+
+body.in-iframe {
+  margin: 0;
+  padding: 0;
+}
+
+</style>
+<script>
   document.addEventListener("DOMContentLoaded", function() {
     if (window.self !== window.top) {
       document.body.classList.add('in-iframe');
     }
   });
 </script>
+
+
   <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
     <!-- {{ $img := resources.Get "images/bg.svg" }}
     <image src="{{ $img.RelPermalink }}" style="position:fixed;max-height:100vh;right:0;top:0;opacity:0.3;z-index:-1;"/> -->
@@ -18,4 +38,6 @@
     {{ end }}
     {{ partial "scripts.html" . }}
   </body>
+
+
 </html>
