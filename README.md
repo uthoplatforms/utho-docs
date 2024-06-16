@@ -1,4 +1,4 @@
-# Hugo Setup for utho Docs
+# Hugo on utho Docs
 
 [🌐 Demo ↗](https://uthoplatforms.github.io/utho-docs/)
 
