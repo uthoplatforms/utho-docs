@@ -40,6 +40,10 @@ body.in-iframe {
             } else {
                 // In iframe, hide body margin and padding
                 document.body.classList.add('in-iframe');
+                // Change all hyperlinks to open in a new tab
+                document.querySelectorAll('a').forEach(function(link) {
+                    link.setAttribute('target', '_blank');
+                });
             }
         });
     </script>
