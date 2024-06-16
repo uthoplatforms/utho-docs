@@ -13,16 +13,6 @@ body.in-iframe .hextra-footer {
   display: none;
 }
 
-.nav-container,
-.sidebar-container,
-.hextra-toc,
-.utho-breadcrumbs,
-.utho-promo,
-.utho-share,
-.hextra-footer {
-  display: none;
-}
-
 body.in-iframe {
   margin: 0;
   padding: 0;
@@ -31,21 +21,16 @@ body.in-iframe {
 
 </style>
 <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            if (window.self === window.top) {
-                // Not in iframe, show all elements
-                document.querySelectorAll('.nav-container, .sidebar-container, .hextra-toc, .utho-breadcrumbs, .utho-breadcrumbs, .utho-promo, .utho-share, .hextra-footer').forEach(function(element) {
-                    element.style.display = '';
-                });
-            } else {
-                // In iframe, hide body margin and padding
-                document.body.classList.add('in-iframe');
-                // Change all hyperlinks to open in a new tab
-                document.querySelectorAll('a').forEach(function(link) {
-                    link.setAttribute('target', '_blank');
-                });
-            }
-        });
+document.addEventListener("DOMContentLoaded", function() {
+   if (window.self !== window.top) {
+       // Add class to body if in iframe
+       document.body.classList.add('in-iframe');
+       document.querySelectorAll('a').forEach(function(link) {
+           link.setAttribute('target', '_blank');
+       });
+   }
+});
+
     </script>
 
 <script>
