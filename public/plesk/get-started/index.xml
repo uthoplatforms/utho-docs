@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>utho Docs – Get Started</title>
+    <link>http://localhost:1313/docs/plesk/get-started/</link>
+    <description>Recent content in Get Started on utho Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Mar 2024 17:25:06 +0100</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/plesk/get-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

@@ -7,6 +7,10 @@ module:
   imports:
   - path: hextra
 
+mount:
+  source:
+  target:
+
 markup:
   goldmark:
     renderer:
@@ -51,6 +55,8 @@ menu:
 services:
   googleAnalytics:
     ID: G-MEASUREMENT_ID
+  disqus:
+    shortname: utho
 
 params:
   enableInlineShortcodes: true
@@ -75,12 +81,7 @@ params:
     base: https://github.com/uthoplatforms/utho-docs/edit/main/content
   comments:
     enable: true
-    type: giscus
-  giscus:
-    repo: <repository>
-    repoId: <repository ID>
-    category: <category>
-    categoryId: <category ID>
+    type: disqus
 
 summaryLength: 15
 

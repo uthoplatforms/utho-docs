@@ -1,0 +1,159 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>utho Docs – Manoj Dhanda</title>
+    <link>http://localhost:1313/docs/authors/manoj-dhanda/</link>
+    <description>Recent content in Manoj Dhanda on utho Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/authors/manoj-dhanda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Bash vs. CMD: Decoding the Battle of Command Line Titans</title>
+      <link>http://localhost:1313/docs/plesk/bash-vs-cmd-decoding-the-battle-of-command-line-titans/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/plesk/bash-vs-cmd-decoding-the-battle-of-command-line-titans/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Bash and CMD are important tools in the world of computing. Bash, found in Unix-like systems, helps users efficiently navigate and control their systems using text-based commands. CMD, associated with Windows, offers a similar approach, providing a toolkit for executing commands. Both are crucial for system &lt;a href=&#34;https://utho.com/user-management&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;management&lt;/a&gt;, used by administrators, developers, and enthusiasts. Join us as we explore the unique features of Bash and CMD in this brief overview and discover which one is the better command-line interface.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;What is Bash?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-bash&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-bash&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Bash serves as a UNIX shell and a command-line interpreter, simultaneously playing the roles of both. Recognized as a commonly utilized programming language, Bash supports a range of functions, variables, loops, and conditional statements, resembling features found in several other programming languages. Users can leverage Bash to interpret commands and execute multiple actions.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;How does Bash function?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;how-does-bash-function&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-does-bash-function&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;From a technical standpoint, Bash serves as a command interpreter, processing and executing basic system commands like ls or mkdir. This interaction is the primary way of working with Bash. Additionally, there&amp;rsquo;s a second method involving batch files, containing Bash code. Mastering Bash scripting, which involves writing and executing batch files, provides a significant advantage, allowing automation of tasks and the creation of complex system commands.&lt;/p&gt;
+&lt;h2&gt;**What are the features of Bash?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-are-the-features-of-bash&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-are-the-features-of-bash&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;**&lt;/p&gt;
+&lt;p&gt;**Here are fundamental concepts in Bash that every user should acquaint themselves with:&lt;/p&gt;
+&lt;p&gt;Commands:** A command serves as an instruction directing the shell&amp;rsquo;s actions, and it can range from simple to complex, entered into the terminal through typing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Arguments:&lt;/strong&gt; Arguments consist of supplementary information provided to a command to alter its behavior, encompassing options, filenames, or other types of data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Variables:&lt;/strong&gt; Variables serve as storage for data utilized by the shell or scripts, capable of being assigned values and employed within commands or scripts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Functions:&lt;/strong&gt; Functions are employed to group commands together, enabling the execution of specific tasks. They can be invoked either from the command line or within a Bash script.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redirection:&lt;/strong&gt; Redirection is the process of directing a command&amp;rsquo;s output to a file or another command. This functionality enables users to save the output to a file or utilize it as input for another command in the command prompt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wildcards:&lt;/strong&gt; Wildcards serve the purpose of matching patterns in filenames or other data, allowing the selection of multiple files or the execution of operations on groups of files.&lt;/p&gt;
+&lt;h2&gt;**What are the advantages of using Bash?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-are-the-advantages-of-using-bash&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-are-the-advantages-of-using-bash&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;**&lt;/p&gt;
+&lt;p&gt;The introduction of windows and menus was a significant advancement in computer software development, so why revert to using CLIs like Bash? CLI usage persists due to several distinct advantages over GUIs. Let&amp;rsquo;s delve into some of these advantages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enhance your operating system access efficiency:&lt;/strong&gt; Individuals opt for Bash when they seek to manage their computer or OS without navigating through GUI menus, options, and windows. Additionally, using Bash instead of a GUI is more resource-efficient, as it eliminates the need for the computer to allocate resources to render graphical output. This makes Bash an appealing choice when running multiple programs, a virtual machine, or working with limited computing resources.&lt;br&gt;
+**&lt;br&gt;
+Input and output with text files:** Bash simplifies the creation and editing of text files, including CSVs. Given that text files are among the most prevalent means of storing and processing data, Bash proves to be excellent for tasks such as organizing and refining data,  sorting and filtering data, scrubbing and refreshing data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Automate with ease:&lt;/strong&gt; Bash facilitates the automation of tasks on your computer, particularly beneficial when your job entails repetitive functions.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;What are the primary use cases of Bash?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-are-the-primary-use-cases-of-bash&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-are-the-primary-use-cases-of-bash&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Key Applications of Bash:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scripting:&lt;/strong&gt; Bash scripting empowers users to create scripts, sequences of commands, enabling the automation of repetitive tasks, system administration, and the development of intricate workflows.&lt;/p&gt;
+&lt;p&gt;**&lt;br&gt;
+File and Directory Management:** Bash simplifies file and directory operations, encompassing tasks such as creating, deleting, copying, moving, and renaming files and directories.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remote Server Management:&lt;/strong&gt; Bash is commonly employed to establish secure connections to remote servers through SSH (Secure Shell) and execute operations on distant systems.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Software Development:&lt;/strong&gt; Bash scripts find application in software development workflows, handling tasks such as build automation, deployment, and testing.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;What are the primary use cases of CMD?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-are-the-primary-use-cases-of-cmd&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-are-the-primary-use-cases-of-cmd&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;System Information:&lt;/strong&gt; CMD provides commands like systeminfo to retrieve detailed information about the system, including hardware and software configurations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Network Troubleshooting:&lt;/strong&gt; Commands like ipconfig, ping, and tracert help diagnose and troubleshoot network-related issues.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Task Management:&lt;/strong&gt; CMD provides commands like tasklist and taskkill to view and manage running processes and applications.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remote Access:&lt;/strong&gt; CMD supports remote access and management of other systems using commands like &lt;a href=&#34;https://www.lifewire.com/psexec-4587631&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;psexec&lt;/a&gt; and ssh.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;What is CMD (Command Prompt)?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-cmd-command-prompt&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-cmd-command-prompt&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CMD (Command Prompt) serves as a command-line interpreter on Windows operating systems, offering a text-based interface for executing diverse system and application commands, as well as facilitating scripting and automation tasks. It is commonly known as the &amp;ldquo;Windows command prompt&amp;rdquo; or simply the &amp;ldquo;command prompt.&amp;rdquo;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;What is the functioning mechanism of Command Prompt?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-the-functioning-mechanism-of-command-prompt&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-the-functioning-mechanism-of-command-prompt&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The command-line interface (CLI) accepts text commands entered through a keyboard. Although CLIs may have varying syntaxes, they generally carry out similar operations. Upon command execution, the computer interprets and performs the specified actions, while the CLI offers user feedback, including error messages or output from the executed commands.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;What are the advantages of utilizing a Command Prompt?&lt;/strong&gt;&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-are-the-advantages-of-utilizing-a-command-prompt&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-are-the-advantages-of-utilizing-a-command-prompt&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Using a command-line interface (CLI) offers numerous advantages, with the most notable being:&lt;br&gt;
+&lt;strong&gt;Speed:&lt;/strong&gt; The CLI allows for swift execution of commands, enabling the combination of multiple commands into a single line of text for program execution. This efficiency surpasses the navigation through menus in a GUI.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt; The CLI demands fewer computing resources for executing commands compared to a graphical interface.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Repetitive Tasks:&lt;/strong&gt; The CLI proves effective in automating repetitive tasks, allowing the creation of batch files to automate tasks at any specified time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Power-user:&lt;/strong&gt; A CLI is well-suited for power users as it grants access to commands not available in a GUI. For instance, certain system-protected tasks cannot be accessed through a GUI.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>How to add TXT record in Plesk</title>
+      <link>http://localhost:1313/docs/plesk/add-txt-record-in-plesk/</link>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/plesk/add-txt-record-in-plesk/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;images/How-to-add-TXT-record-in-Plesk_utho.jpg&#34; alt=&#34;How to add TXT record in Plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Introduction&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;introduction&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#introduction&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In this article, you will learn how to add TXT record in Plesk.&lt;/p&gt;
+&lt;p&gt;A TXT record, which is an abbreviation for &amp;ldquo;text record,&amp;rdquo; is a specific kind of resource record that is used by the Domain Name System (DNS) to provide the ability to associate random text with a host or other name. This text can include information that is readable by humans about a server, network, data centre, or other accounting information. TXT records are modified as &amp;ldquo;&lt;a href=&#34;https://en.wikipedia.org/wiki/TXT_record&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TXT records&lt;/a&gt;.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Step 1. Log into your Plesk with your server password by searching server_ip:8880 in your browser.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-679-1024x367.png&#34; alt=&#34;command output&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Step 2. Go to Hosting and DNS under the menu of websites and domains, then click on DNS settings.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-735-1024x485.png&#34; alt=&#34;command output&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Step 3. Click on &amp;ldquo;Add Record.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-736-1024x485.png&#34; alt=&#34;command output&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Step 4. In the record type drop-down menu, select TXT record.&lt;/p&gt;
+&lt;p&gt;In the domain field here, we are not using any subdomains, so for the main domain, which is micro.com, we are keeping this field empty.&lt;/p&gt;
+&lt;p&gt;In the TTL field, you can assign any value in seconds; we have entered 3600. in the TXT record field, entered the TXT record. then select OK. &lt;/p&gt;
+&lt;p&gt;NOTE: Use your main domain instead of micro.com.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-741-1024x483.png&#34; alt=&#34;add TXT record in Plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;conclusion&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;conclusion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Hopefully, now you have learned how to add TXT record in Plesk.&lt;/p&gt;
+&lt;p&gt;Also read: &lt;a href=&#34;https://utho.com/docs/tutorial/how-to-add-mx-record-in-plesk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How to add MX record in Plesk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank You 🙂&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>How To add or delete domains and sub-domains in Plesk</title>
+      <link>http://localhost:1313/docs/linux/add-or-delete-domains-and-subdomain-in-plesk/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/linux/add-or-delete-domains-and-subdomain-in-plesk/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;images/ADD-OR-DELETE-DOMAINS-AND-SUBDOMAIN-IN-PLESK-1-1024x576.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Intoroduction&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this article you will know How to ADD OR DELETE DOMAINS AND SUBDOMAIN IN PLESK,&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Domain&lt;/strong&gt;=The word &amp;ldquo;domain&amp;rdquo; may be used to refer to the structure of the internet, which is unique to the &lt;a href=&#34;https://en.wikipedia.org/wiki/World_Wide_Web&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;world wide web&lt;/a&gt;. Domain can also be used to refer to the manner in which an organization&amp;rsquo;s network resources are arranged. In general, a domain may be thought of as either a sphere of knowledge or an area of control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Subdomain&lt;/strong&gt;: Subdomains are the components of a domain that appear before the primary domain name and the extension of the domain. They can assist you in the organisation of your website. For instance, you may visit docs.themeisle.com. The subdomain that is represented by this URL is docs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.click on the website and domains&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2.Add domain&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.Fill out the data fields with information regarding the domain you wish to add.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*On the left-hand menu click website and domains&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-176.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*After that, select the &amp;ldquo;Add Domain&amp;rdquo; option that is seen in the following screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-177-1024x213.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*Select &lt;strong&gt;Temporary domain name&lt;/strong&gt; or &lt;strong&gt;Registered domain name&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*Fill out the data fields with information regarding the domain you wish to add&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-178.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*Now that you&amp;rsquo;ve added a domain, take a look at the screenshot down below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-179-1024x175.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;** How to add a subdomain**&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.click on the website and domains&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.Add subdomain&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.Fill the required filleds&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;*On the left-hand menu click website and domains&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-176.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*After that, select the &amp;ldquo;Add sub domain&amp;rdquo; option that is seen in the following screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-180-1024x212.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fill the required filleds and then click ok&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-181-1024x319.png&#34; alt=&#34;plesk&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*Now that you&amp;rsquo;ve added a sub domain, take a look at the screenshot down below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-182-1024x326.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;**The steps necessary to delete domains and subdomains**&lt;/p&gt;
+&lt;p&gt;*Click the three dots that are located on the right side.*&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-184-1024x220.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-185.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;*Click remove website*&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/image-186-1024x329.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Know, &lt;strong&gt;&lt;a href=&#34;https://utho.com/docs/tutorial/how-do-i-find-my-apache-version-in-plesk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How To find Apache version in Plesk&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank You&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
