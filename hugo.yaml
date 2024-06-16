@@ -1,4 +1,5 @@
 baseURL: https://utho.com/docs/
+canonBaseURL: https://utho.com/docs/  # Production canonical URL
 
 title: utho Docs
 
