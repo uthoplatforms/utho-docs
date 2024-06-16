@@ -65,7 +65,7 @@ params:
       width: 120
       height: 20
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: false
     enableFooterSwitches: false
     width: full
