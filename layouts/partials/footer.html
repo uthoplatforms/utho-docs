@@ -29,7 +29,7 @@
   >
     <div class="hx-flex hx-w-full hx-flex-col hx-items-center sm:hx-items-start">
       {{- if (.Site.Params.footer.displayPoweredBy | default true) }}<div class="hx-font-semibold">{{ template "theme-credit" $poweredBy }}</div>{{ end }}
-      {{- if .Site.Params.footer.displayCopyright }}<div class="hx-mt-6 hx-text-xs">{{ $copyright | markdownify }}</div>{{ end }}
+      {{- if .Site.Params.footer.displayCopyright }}<div class="hx-mt-6 hx-text-xs">© 2024 <a href="https://utho.com/?utm_source=docs">Utho</a> - Modern Cloud Provider.</div>{{ end }}
     </div>
   </div>
 </footer>
