@@ -64,3 +64,19 @@ ul li { margin: 0 0 10px 0; }
 .sidebar-container{
 background-color: hsl(var(--primary-hue) var(--primary-saturation) 39% / 0.05);
 }
+
+/* .md\:hx-w-64 {
+  width: 20rem;
+}
+
+.hx-w-64 {
+  width: 20rem;
+}
+
+.md\:hx-w-60 {
+  width: 16rem;
+}
+
+.hx-w-60 {
+  width: 16rem;
+} */
