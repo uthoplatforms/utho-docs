@@ -3,15 +3,18 @@
   {{- partial "head.html" . -}}
 
 <style>
-body.in-iframe .nav-container,
-body.in-iframe .sidebar-container,
-body.in-iframe .hextra-toc,
-body.in-iframe .utho-breadcrumbs,
-body.in-iframe .utho-promo,
-body.in-iframe .utho-share,
-body.in-iframe .hextra-footer {
-  display: none;
-}
+
+/* Hide elements by default when in an iframe */
+       .in-iframe .nav-container,
+       .in-iframe .sidebar-container,
+       .in-iframe .hextra-toc,
+       .in-iframe .utho-breadcrumbs,
+       .in-iframe .utho-promo,
+       .in-iframe .utho-share,
+       .in-iframe .hextra-footer {
+           display: none;
+       }
+
 
 body.in-iframe {
   margin: 0;
@@ -21,25 +24,20 @@ body.in-iframe {
 
 </style>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-   if (window.self !== window.top) {
-       // Add class to body if in iframe
-       document.body.classList.add('in-iframe');
-       document.querySelectorAll('a').forEach(function(link) {
-           link.setAttribute('target', '_blank');
+       // Add the class as early as possible to prevent flash of content
+       if (window.self !== window.top) {
+           document.documentElement.classList.add('in-iframe');
+       }
+
+       document.addEventListener("DOMContentLoaded", function() {
+           if (window.self !== window.top) {
+               // Change all hyperlinks to open in a new tab
+               document.querySelectorAll('a').forEach(function(link) {
+                   link.setAttribute('target', '_blank');
+               });
+           }
        });
-   }
-});
-
-    </script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    if (window.self !== window.top) {
-      document.body.classList.add('in-iframe');
-    }
-  });
-</script>
+   </script>
 
 
   <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
