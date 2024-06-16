@@ -61,11 +61,11 @@ params:
     logo:
       path: images/logo_black.png
       dark: images/logo_white.png
-      link: /
+      link: /docs/
       width: 120
       height: 20
   footer:
-    displayCopyright: true
+    displayCopyright: false
     displayPoweredBy: false
     enableFooterSwitches: false
     width: full
