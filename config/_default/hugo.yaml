@@ -77,13 +77,15 @@ paginate: 10
 
 summaryLength: 15
 
-[outputs]
-  home = ["HTML", "JSON"]
+outputs:
+  home: 
+    - HTML
+    - JSON
 
-[outputFormats]
-  [outputFormats.JSON]
-    name = "JSON"
-    mediaType = "application/json"
-    baseName = "urls"
-    isPlainText = true
-    notAlternative = true
+outputFormats:
+  JSON:
+    name: "JSON"
+    mediaType: "application/json"
+    baseName: "urls"
+    isPlainText: true
+    notAlternative: true
