@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  {{- partial "head.html" . -}}
+
+<style>
+
+/* Hide elements by default when in an iframe */
+       .in-iframe .nav-container,
+       .in-iframe .sidebar-container,
+       .in-iframe .hextra-toc,
+       .in-iframe .utho-breadcrumbs,
+       .in-iframe .utho-promo,
+       .in-iframe .utho-share,
+       .in-iframe .utho-hide,
+       .in-iframe .hextra-footer {
+           display: none;
+       }
+
+
+body.in-iframe {
+  margin: 0;
+  padding: 0;
+}
+
+
+</style>
+<script>
+       // Add the class as early as possible to prevent flash of content
+       if (window.self !== window.top) {
+           document.documentElement.classList.add('in-iframe');
+       }
+
+       document.addEventListener("DOMContentLoaded", function() {
+           if (window.self !== window.top) {
+               // Change all hyperlinks to open in a new tab
+               document.querySelectorAll('a').forEach(function(link) {
+                   link.setAttribute('target', '_blank');
+               });
+           }
+       });
+   </script>
+
+
+  <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://load.gtm.utho.com/ns.html?id=GTM-W8ZJ843"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- {{ $img := resources.Get "images/bg.svg" }}
+    <image src="{{ $img.RelPermalink }}" style="position:fixed;max-height:100vh;right:0;top:0;opacity:0.3;z-index:-1;"/> -->
+    {{- partial "navbar.html" . -}}
+    {{- block "main" . }}{{ end -}}
+    {{- if or (eq .Site.Params.footer.enable nil) (.Site.Params.footer.enable) }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+    {{ partial "scripts.html" . }}
+  </body>
+
+
+</html>

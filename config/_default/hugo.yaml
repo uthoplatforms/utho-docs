@@ -1,0 +1,78 @@
+baseURL: https://utho.com/docs/
+canonBaseURL: https://utho.com/docs/  # Production canonical URL
+
+title: utho Docs
+
+module:
+  imports:
+  - path: hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+taxonomies:
+  category: categories
+  author: authors
+  tag: tags
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /
+      weight: 1
+    - name: Explore Utho.com
+      url: https://utho.com?utm_source=docs
+      weight: 2
+    # - name: Features
+    #   pageRef: /features
+    #   weight: 4
+    # - name: Contact ↗
+    #   url: https://github.com/utho
+    #   weight: 5
+    - name: Search
+      weight: 6
+      params:
+        type: search
+    # - name: GitHub
+    #   weight: 7
+    #   url: https://uthoplatforms.github.io/docs/
+    #   params:
+    #     icon: github
+    # - name: Twitter
+    #   weight: 8
+    #   url: https://twitter.com/
+    #   params:
+    #     icon: x-twitter
+
+params:
+  enableInlineShortcodes: true
+  page:
+    width: full
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/logo_black.png
+      dark: images/logo_white.png
+      link: /docs/
+      width: 120
+      height: 20
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+    enableFooterSwitches: false
+    width: full
+  editURL:
+    enable: true
+    base: https://github.com/uthoplatforms/utho-docs/edit/main/content
+  comments:
+    enable: true
+    type: disqus
+
+paginate: 10
+
+summaryLength: 15
