@@ -18,7 +18,7 @@ The PHP scripting language is a general-purpose scripting language that can be u
 **When we initially start using a new system, the very first thing we need to do is update our repositories so that they are always up to date. Additionally, execute the upgrade command.**
 
 ```
-# apt update
+apt update
 
 ```
 
@@ -31,7 +31,7 @@ The PHP scripting language is a general-purpose scripting language that can be u
 **In our terminal, use the following command to add this PPA.**
 
 ```
-# add-apt-repository ppa:ondrej/php
+add-apt-repository ppa:ondrej/php
 
 ```
 
@@ -40,7 +40,7 @@ The PHP scripting language is a general-purpose scripting language that can be u
 **After the installation is finished, we will need to do another update of the repository in order for the changes to take effect.**
 
 ```
-# apt update
+apt update
 
 ```
 
@@ -49,7 +49,7 @@ The PHP scripting language is a general-purpose scripting language that can be u
 **On our Ubuntu 22.04 Linux system, we should now be able to successfully install PHP 8.2. The commands that need to be executed are as follows:**
 
 ```
-# apt install php8.2 -y
+apt install php8.2 -y
 
 ```
 
@@ -58,7 +58,7 @@ The PHP scripting language is a general-purpose scripting language that can be u
 **With the following command, you can find out which version of PHP is currently in use:**
 
 ```
-# php --version
+php --version
 
 ```
 
@@ -69,14 +69,14 @@ The PHP scripting language is a general-purpose scripting language that can be u
 **In addition, you are able to install multiple packages at the same time. The following is a list of some of the most typical modules that you will probably want to install on your system:**
 
 ```
-# apt-get install -y php8.2-cli php8.2-common php8.2-fpm php8.2-mysql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath
+apt-get install -y php8.2-cli php8.2-common php8.2-fpm php8.2-mysql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath
 
 ```
 
 **The Apache configurations for PHP are kept in /etc/php/8.2/apache2/php.ini. With this command, you can see a list of all PHP plugins that are loaded:**
 
 ```
-# php -m
+php -m
 
 ```
 
