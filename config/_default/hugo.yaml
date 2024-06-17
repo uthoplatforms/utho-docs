@@ -48,12 +48,6 @@ menu:
     #   params:
     #     icon: x-twitter
 
-services:
-  googleAnalytics:
-    ID: G-MEASUREMENT_ID
-  disqus:
-    shortname: utho
-
 params:
   enableInlineShortcodes: true
   page:
@@ -79,6 +73,6 @@ params:
     enable: true
     type: disqus
 
-paginate: 6
+paginate: 10
 
 summaryLength: 15
