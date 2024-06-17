@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: "pkLinux"
+title: "pkLinux2"
 description: ""
 icon: "linux"
 date: "2024-03-07T17:25:04+01:00"
