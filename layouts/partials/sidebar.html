@@ -44,7 +44,7 @@
   {{ $displayThemeToggle := (site.Params.theme.displayToggle | default true) -}}
 
   {{ if or hugo.IsMultilingual $displayThemeToggle }}
-    <div class="{{ $switchesClass }} {{ with hugo.IsMultilingual }}hx-justify-end{{ end }} hx-sticky hx-bottom-0 hx-bg-white dark:hx-bg-dark hx-py-4 hx-shadow-[0_-12px_16px_#fff] hx-flex hx-items-center hx-gap-2 dark:hx-border-neutral-800 dark:hx-shadow-[0_-12px_16px_#111] contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-shadow-none hx-border-t" data-toggle-animation="show">
+    <div class="{{ $switchesClass }} {{ with hugo.IsMultilingual }}hx-justify-end{{ end }} hx-sticky hx-bottom-0  dark:hx-bg-dark hx-py-4 hx-shadow-[0_-12px_16px_#fff] hx-flex hx-items-center hx-gap-2 dark:hx-border-neutral-800 dark:hx-shadow-[0_-12px_16px_#111] contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-shadow-none hx-border-t" data-toggle-animation="show">
       {{- with hugo.IsMultilingual -}}
         {{- partial "language-switch" (dict "context" $context "grow" true) -}}
         {{- with $displayThemeToggle }}{{ partial "theme-toggle" (dict "hideLabel" true) }}{{ end -}}
@@ -124,7 +124,7 @@
             <li>
               <a
                 href="#{{ anchorize .ID }}"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-slate-50 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-blue-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
               >
                 {{- .Title -}}
               </a>

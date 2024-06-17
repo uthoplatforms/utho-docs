@@ -7,10 +7,6 @@ module:
   imports:
   - path: hextra
 
-mount:
-  source:
-  target:
-
 markup:
   goldmark:
     renderer:

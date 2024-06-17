@@ -1,6 +1,6 @@
 ---
 weight: 999
-title: "Cpanel"
+title: "cPanel"
 description: ""
 icon: "cpanel"
 date: "2024-03-07T17:25:04+01:00"

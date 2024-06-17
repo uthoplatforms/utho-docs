@@ -45,9 +45,29 @@
 
           {{ .Content }}
 
-          <!-- <h2>Articles</h2> -->
-          {{ range .RegularPages }}
-          <div class="hx-flex hx-items-start hx-summary hx-mt-8 hx-bg-primary-700/5 hx-p-4 hx-rounded-md">
+          <hr class="hx-mt-8">
+
+          {{ $featured := where .RegularPages "Params.featured" "eq" true }}
+          {{ range $featured }}
+          <div class="hx-flex hx-items-start hx-summary hx-mt-8 hx-bg-orange-50 hx-p-4 hx-rounded-md md:hx-block">
+            {{- range first 1 (.Resources.ByType "image") }}
+              <img src="{{ .RelPermalink }}" alt="featured image" load="lazy" class="hx-summary-image">
+            {{ end }}
+            <div class="hx-summary-content">
+              <h3><a style="color: inherit; text-decoration: none;" class="hx-block hx-font-semibold hx-text-xl " href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p class="hx-opacity-80 hx-mt-1">{{- partial "utils/page-description" . -}}</p>
+              <p class="hx-opacity-80 hx-mb-1 hx-leading-7">
+                <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
+                  {{- $readMore -}}
+                </a>
+              </p>
+            </div>
+          </div>
+          {{ end }}
+
+          {{ $regular := where .RegularPages "Params.featured" "ne" true }}
+          {{ range $regular }}
+          <div class="hx-flex hx-items-start hx-summary hx-mt-8 hx-bg-primary-700/5 hx-p-4 hx-rounded-md md:hx-block">
             {{- range first 1 (.Resources.ByType "image") }}
               <img src="{{ .RelPermalink }}" alt="featured image" load="lazy" class="hx-summary-image">
             {{ end }}

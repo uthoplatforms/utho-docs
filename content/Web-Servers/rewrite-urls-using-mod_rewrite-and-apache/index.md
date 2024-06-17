@@ -1,6 +1,7 @@
 ---
 title: "Rewrite URLs using mod_rewrite and Apache"
 date: "2020-05-02"
+featured: true
 ---
 
 You'll learn how to rewrite the URLs using mod rewrite and Apache in this article. Rewrite a URL is a server-side operation which can serve contents from a position of a file system that does not exactly suit the client's request. It could be helpful to enhance the readability of URLs by search engines and users, or to upgrade tools when the layout of your site changes.

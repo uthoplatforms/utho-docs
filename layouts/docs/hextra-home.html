@@ -4,10 +4,10 @@
     <div class="hx-w-full hx-break-words hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-pb-8 hx-pt-8 md:hx-pt-12 hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-left),1.5rem)]">
       <div class="hx-flex hx-flex-col hx-items-start">
         {{ .Content }}
-        <div class="hx-w-full hx-flex hx-flex-wrap hx-mt-8">
+        <div class="hx-w-full hx-flex hx-flex-wrap hx-mt-4">
           {{ range .Sections }}
             {{ $filename :=  printf "%s" ".png" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
-            <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-auto">
+            <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-4 hx-mt-4 hx-p-4 hx-rounded-md hover:hx-opacity-60">
               <div>
                 {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
               </div>
