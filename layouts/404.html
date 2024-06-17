@@ -10,6 +10,24 @@
           <p>The page you requested cannot be found.</p>
           <p id="error-message"></p>
         </div>
+        <div id="loader" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+          <div class="loader"></div>
+        </div>
+        <style>
+          .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+          }
+
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+        </style>
         <script>
           document.addEventListener("DOMContentLoaded", function() {
             var url = window.location.pathname.replace(/\/$/, ""); // Remove trailing slash
@@ -46,13 +64,16 @@
                   window.location.replace(closestURL);
                   window.history.replaceState({}, '', closestURL);
                 } else {
+                  document.getElementById("loader").style.display = "none";
                   document.getElementById("error-content").style.display = "block";
                   document.getElementById("error-message").innerHTML = "Page not found. Please check the URL.";
                 }
               })
               .catch(error => {
+                document.getElementById("loader").style.display = "none";
                 document.getElementById("error-content").style.display = "block";
                 document.getElementById("error-message").innerHTML = "An error occurred. Please try again later.";
+                console.error('Error fetching URLs:', error);
               });
           });
         </script>
