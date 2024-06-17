@@ -1,17 +1,42 @@
-{{ define "main" }}
-  <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
-    {{ partial "sidebar.html" (dict "context" site.Home) }}
-    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-        <div class="content ">
-          <div class="hx-title-wrapper">
-            <h1>404 Not Found</h1>
-          </div>
-          <p>The page you requested cannot be found.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Not Found</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var url = window.location.pathname;
 
-          <!-- <h2>Articles</h2> -->
-        </div>
-      </main>
-    </article>
-  </div>
-{{ end }}
+            // Function to find the closest matching URL
+            function findMatchingURL(url) {
+                var possibleURLs = [
+                    // List of possible URLs
+                    // This should be dynamically generated based on your site structure
+                    "/docs/linux/how-to-configure-sftp-server-in-debian/",
+                    "/docs/another-example-url/",
+                    // Add more URLs as needed
+                ];
+
+                for (var i = 0; i < possibleURLs.length; i++) {
+                    if (possibleURLs[i].includes(url.split('/').pop())) {
+                        return possibleURLs[i];
+                    }
+                }
+                return null;
+            }
+
+            var matchingURL = findMatchingURL(url);
+
+            if (matchingURL) {
+                window.location.href = matchingURL;
+            } else {
+                document.getElementById("error-message").innerHTML = "Page not found. Please check the URL.";
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>404 - Page Not Found</h1>
+    <p id="error-message"></p>
+</body>
+</html>
