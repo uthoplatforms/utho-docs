@@ -2,38 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page Not Found</title>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var url = window.location.pathname;
 
-            // Function to find the closest matching URL
-            function findMatchingURL(url) {
-                var possibleURLs = [
-                    // List of possible URLs
-                    // This should be dynamically generated based on your site structure
-                    "/docs/linux/how-to-configure-sftp-server-in-debian/",
-                    "/docs/another-example-url/",
-                    // Add more URLs as needed
-                ];
+            fetch("/urls.json")
+                .then(response => response.json())
+                .then(urls => {
+                    function findClosestURL(url, urls) {
+                        // Remove trailing slashes for comparison
+                        var cleanUrl = url.replace(/\/$/, "");
+                        var urlParts = cleanUrl.split('/');
+                        var urlLastPart = urlParts[urlParts.length - 1];
 
-                for (var i = 0; i < possibleURLs.length; i++) {
-                    if (possibleURLs[i].includes(url.split('/').pop())) {
-                        return possibleURLs[i];
+                        for (var i = 0; i < urls.length; i++) {
+                            var cleanSavedUrl = urls[i].replace(/\/$/, "");
+                            var savedUrlParts = cleanSavedUrl.split('/');
+                            var savedUrlLastPart = savedUrlParts[savedUrlParts.length - 1];
+
+                            if (savedUrlLastPart === urlLastPart) {
+                                return urls[i];
+                            }
+                        }
+                        return null;
                     }
-                }
-                return null;
-            }
 
-            var matchingURL = findMatchingURL(url);
+                    var closestURL = findClosestURL(url, urls);
 
-            if (matchingURL) {
-                window.location.href = matchingURL;
-            } else {
-                document.getElementById("error-message").innerHTML = "Page not found. Please check the URL.";
-            }
+                    if (closestURL) {
+                        // Perform a 301 redirect
+                        window.location.replace(closestURL);
+                        window.history.replaceState({}, '', closestURL);
+                    } else {
+                        document.getElementById("error-message").innerHTML = "Page not found. Please check the URL.";
+                    }
+                })
+                .catch(error => {
+                    document.getElementById("error-message").innerHTML = "An error occurred. Please try again later.";
+                    console.error('Error fetching URLs:', error);
+                });
         });
     </script>
+        <title>Page Not Found</title>
 </head>
 <body>
     <h1>404 - Page Not Found</h1>
