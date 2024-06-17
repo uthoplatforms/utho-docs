@@ -1,5 +1,5 @@
 ---
-linkTitle: "User Permissions - Zabbix"
+linkTitle: "User Permissions - Zabbix os"
 title: "test page"
 date: "2023-02-10"
 ---
