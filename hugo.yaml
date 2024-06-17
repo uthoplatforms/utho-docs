@@ -79,4 +79,6 @@ params:
     enable: true
     type: disqus
 
+paginate: 6
+
 summaryLength: 15

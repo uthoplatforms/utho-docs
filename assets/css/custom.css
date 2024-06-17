@@ -65,6 +65,26 @@ ul li { margin: 0 0 10px 0; }
   background-color: hsl(var(--primary-hue) var(--primary-saturation) 39% / 0.05);
 }
 
+
+.pagination.pagination-default {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.pagination.pagination-default .page-item {
+}
+.pagination.pagination-default .page-item .page-link {
+  margin: 0 1px;
+  background-color: rgb(255 247 237 / var(--tw-bg-opacity));
+  padding: 5px 15px 10px 15px;
+  border-radius: 5px;
+}
+.pagination.pagination-default .page-item:hover .page-link,
+.pagination.pagination-default .page-item.active .page-link {
+  background-color: hsl(var(--primary-hue) var(--primary-saturation) 94% / var(--tw-bg-opacity));
+}
+
 @media (max-width: 767px) {
 
   .md\:hx-block { display:block; }

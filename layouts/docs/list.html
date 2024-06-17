@@ -45,7 +45,7 @@
 
           {{ .Content }}
 
-          <hr class="hx-mt-8">
+          <h2>Featured Articles</h2>
 
           {{ $featured := where .RegularPages "Params.featured" "eq" true }}
           {{ range $featured }}
@@ -65,7 +65,9 @@
           </div>
           {{ end }}
 
-          {{ $regular := where .RegularPages "Params.featured" "ne" true }}
+          <h2>Articles</h2>
+
+          {{ $regular := (where .Paginator.Pages "Params.featured" "ne" true) }}
           {{ range $regular }}
           <div class="hx-flex hx-items-start hx-summary hx-mt-8 hx-bg-primary-700/5 hx-p-4 hx-rounded-md md:hx-block">
             {{- range first 1 (.Resources.ByType "image") }}
@@ -86,10 +88,10 @@
           {{ end }}
 
           {{ partial "markup-footer" }}
+
+          {{ template "_internal/pagination.html" . }}
         </div>
         {{ partial "components/last-updated.html" . }}
-        {{ partial "components/pager.html" . }}
-        {{ partial "components/comments.html" . }}
       </main>
     </article>
   </div>
