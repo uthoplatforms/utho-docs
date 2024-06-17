@@ -1,5 +1,3 @@
 /platform/* /docs/products/:splat/ 301
 /blog/* https://utho.com/blog/:splat/ 301
 /tutorial/* /docs/linux/:splat/ 301
-/docs/docs/* /docs/:splat/ 301
-
