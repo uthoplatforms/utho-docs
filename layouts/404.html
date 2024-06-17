@@ -13,7 +13,6 @@
         <script>
           document.addEventListener("DOMContentLoaded", function() {
             var url = window.location.pathname.replace(/\/$/, ""); // Remove trailing slash
-            console.log("Requested URL:", url);
 
             fetch("https://utho.com/docs/urls.json")
               .then(response => {
@@ -23,7 +22,6 @@
                 return response.json();
               })
               .then(urls => {
-                console.log("Fetched URLs:", urls);
 
                 function findClosestURL(pathname, urls) {
                   const pathParts = pathname.split('/');
@@ -42,7 +40,6 @@
                 }
 
                 const closestURL = findClosestURL(url, urls);
-                console.log("Closest URL found:", closestURL);
 
                 if (closestURL) {
                   // Perform a 301 redirect
@@ -56,7 +53,6 @@
               .catch(error => {
                 document.getElementById("error-content").style.display = "block";
                 document.getElementById("error-message").innerHTML = "An error occurred. Please try again later.";
-                console.error('Error fetching URLs:', error);
               });
           });
         </script>
