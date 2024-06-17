@@ -1,12 +1,22 @@
+---
+slug: activity-logs
+title: 'Access Activity logs in your Utho Account'
+description: 'Audit actions in your account'
+authors: ["Manoj D"]
+contributors: ["Manoj D"]
+published: 2023-11-06
+keywords: ["activity logs", "logs", "activity"]
+aliases: ['/activity-logs/']
+---
 
 # Activity Logs
---- 
-Activity logs in the cloud refer to detailed records of actions and events that occur within a cloud environment. These logs capture activities such as resource provisioning, configuration changes, access attempts, and administrative actions. Activity logs are essential for auditing, compliance, troubleshooting, and security purposes. 
+---
+Activity logs in the cloud refer to detailed records of actions and events that occur within a cloud environment. These logs capture activities such as resource provisioning, configuration changes, access attempts, and administrative actions. Activity logs are essential for auditing, compliance, troubleshooting, and security purposes.
 Activity logs in the cloud are essential for maintaining visibility, compliance, and security posture within your cloud environment. They enable organizations to monitor and analyze activities, detect unauthorized access, and respond to incidents effectively.
 
 ### Activity Logs offer several benefits:
 - Detect unauthorized access
-- Security 
+- Security
 - Compliance
 - Maintaining visibility
 - Incremental Activity Logs
