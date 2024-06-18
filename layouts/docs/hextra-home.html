@@ -6,6 +6,7 @@
       <div class="hx-flex hx-flex-col hx-items-start">
         {{ .Content }}
         <div class="hx-w-full hx-flex hx-flex-wrap hx-mt-4">
+
           {{ range .Sections }}
             {{ $filename :=  printf "%s" ".png" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
             <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-4 hx-mt-4 hx-p-4 hx-rounded-md hover:hx-opacity-60">
@@ -17,36 +18,52 @@
               </div>
             </a>
           {{ end }}
-          <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
-            <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-              <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4">
+
+
+          <div class='hx-mx-auto {{ partial "utils/page-width" . }}'>
+              <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6">
                 <div class="content">
-
-                  <h2>Featured Articles</h2>
-
-                  {{ $regular := (where .Site.Pages "Params.home" "eq" true) }}
-                  {{ range $regular }}
-                  <div class="hx-flex hx-items-start hx-summary hx-mt-8 hx-bg-primary-700/5 hx-p-4 hx-rounded-md md:hx-block">
-                    {{- range first 1 (.Resources.ByType "image") }}
-                      <img src="{{ .RelPermalink }}" alt="image" load="lazy" class="hx-summary-image">
-                    {{ end }}
-                    <div class="hx-summary-content">
-                      <h3><a style="color: inherit; text-decoration: none;" class="hx-block hx-font-semibold hx-text-xl " href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-                      <p class="hx-opacity-80 hx-mt-1">{{- partial "utils/page-description" . -}}</p>
-                      <p class="hx-opacity-80 hx-mb-1 hx-leading-7">
-                        <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .RelPermalink }}">
-                          {{- $readMore -}}
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                  {{ else }}
-                    <p class="hx-mt-8">No articles found on the topic.</p>
+                  {{ $regular := (where .Site.Pages "Params.homecard" "eq" true) }}
+                  {{ if $regular }}
+                    <h2>Get Started with Utho Products</h2>
                   {{ end }}
-
+                  <div class="hx-card-grid hx-mt-8">
+                    {{ range $regular }}
+                      <div class="hx-card hx-bg-primary-700/5 hx-p-4 hx-rounded-md md:hx-block">
+                        {{- range first 1 (.Resources.ByType "image") }}
+                          <img src="{{ .RelPermalink }}" alt="image" load="lazy" class="hx-card-image">
+                        {{ end }}
+                        <div class="hx-card-content">
+                          <h3><a style="color: inherit; text-decoration: none;" class="hx-block hx-font-semibold hx-text-base hx-mt-2" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        </div>
+                      </div>
+                    {{ end }}
+                  </div>
                 </div>
               </main>
-            </article>
+          </div>
+
+          <div class='hx-mx-auto {{ partial "utils/page-width" . }}'>
+              <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6">
+                <div class="content">
+                  {{ $regular := (where .Site.Pages "Params.home" "eq" true) }}
+                  {{ if $regular }}
+                    <h2>Featured Articles</h2>
+                  {{ end }}
+                  <div class="hx-card-grid hx-mt-8">
+                    {{ range $regular }}
+                      <div class="hx-card hx-bg-primary-700/5 hx-p-4 hx-rounded-md md:hx-block">
+                        {{- range first 1 (.Resources.ByType "image") }}
+                          <img src="{{ .RelPermalink }}" alt="image" load="lazy" class="hx-card-image">
+                        {{ end }}
+                        <div class="hx-card-content">
+                          <h3><a style="color: inherit; text-decoration: none;" class="hx-block hx-font-semibold hx-text-base hx-mt-2" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        </div>
+                      </div>
+                    {{ end }}
+                  </div>
+                </div>
+              </main>
           </div>
 
         </div><!-- hx-w-full hx-flex hx-flex-wrap hx-mt-4 -->

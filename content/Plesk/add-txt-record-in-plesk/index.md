@@ -4,6 +4,7 @@ date: "2023-01-04"
 categories: [ "docs", "plesk", "how to" ]
 tags: [ "txt record", "plesk", "server", "domain"]
 authors: ["Manoj Dhanda"]
+homecard: true
 ---
 
 ![How to add TXT record in Plesk](images/How-to-add-TXT-record-in-Plesk_utho.jpg)
