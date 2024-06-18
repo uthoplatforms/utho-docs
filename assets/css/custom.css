@@ -139,3 +139,12 @@ ul li { margin: 0 0 10px 0; }
 .hx-w-60 {
   width: 16rem;
 } */
+
+
+.content :where(img):not(:where([class~=not-prose],[class~=not-prose] *)){
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+
+.content :where(img):not(:where([class~=not-prose],[class~=not-prose] *)):hover{
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.43);
+}
