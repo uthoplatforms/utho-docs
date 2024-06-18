@@ -18,13 +18,18 @@ taxonomies:
   category: categories
   author: authors
   tag: tags
+  
+services:
+  disqus:
+    shortname: utho
+
 
 menu:
   main:
     - name: Docs
       pageRef: /
       weight: 1
-    - name: Explore Utho.com
+    - name: Explore Utho
       url: https://utho.com?utm_source=docs
       weight: 2
     # - name: Features
@@ -47,12 +52,6 @@ menu:
     #   url: https://twitter.com/
     #   params:
     #     icon: x-twitter
-
-services:
-  googleAnalytics:
-    ID: G-MEASUREMENT_ID
-  disqus:
-    shortname: utho
 
 params:
   enableInlineShortcodes: true
@@ -78,7 +77,27 @@ params:
   comments:
     enable: true
     type: disqus
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: title
+      # full | forward | reverse | strict 
+      tokenize: full
 
-paginate: 6
-
+paginate: 10
 summaryLength: 15
+
+outputs:
+  home: 
+    - HTML
+    - JSON
+
+outputFormats:
+  JSON:
+    name: "JSON"
+    mediaType: "application/json"
+    baseName: "urls"
+    isPlainText: true
+    notAlternative: true

@@ -1,6 +1,7 @@
 ---
 title: "How to assign permissions to Files and Folders in Plesk"
 date: "2023-01-02"
+homecard: true
 ---
 
 ![How to assign permissions to Files and Folders in Plesk](images/How-to-assign-permissions-to-Files-and-Folders-in-Plesk_utho.jpg)

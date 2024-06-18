@@ -1,6 +1,7 @@
 ---
 title: "Basics Information of Apache Configuration"
 date: "2020-06-06"
+home: true
 ---
 
 ![](images/Basics-Information-of-Apache-Configuration_utho.jpg)
