@@ -18,6 +18,11 @@ taxonomies:
   category: categories
   author: authors
   tag: tags
+  
+services:
+  disqus:
+    shortname: utho
+
 
 menu:
   main:
@@ -72,16 +77,7 @@ params:
   comments:
     enable: true
     type: disqus
-  search:
-    enable: true
-    type: flexsearch
-    flexsearch:
-      # index page by: content | summary | heading | title
-      index: content
-      # full | forward | reverse | strict 
-      tokenize: forward
 paginate: 10
-
 summaryLength: 15
 
 outputs:
