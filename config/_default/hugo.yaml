@@ -18,6 +18,11 @@ taxonomies:
   category: categories
   author: authors
   tag: tags
+  
+services:
+  disqus:
+    shortname: utho
+
 
 menu:
   main:
@@ -80,8 +85,8 @@ params:
       index: title
       # full | forward | reverse | strict 
       tokenize: full
-paginate: 10
 
+paginate: 10
 summaryLength: 15
 
 outputs:
