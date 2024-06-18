@@ -24,7 +24,7 @@ menu:
     - name: Docs
       pageRef: /
       weight: 1
-    - name: Explore Utho.com
+    - name: Explore Utho
       url: https://utho.com?utm_source=docs
       weight: 2
     # - name: Features
@@ -72,7 +72,14 @@ params:
   comments:
     enable: true
     type: disqus
-
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict 
+      tokenize: forward
 paginate: 10
 
 summaryLength: 15
