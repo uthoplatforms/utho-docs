@@ -1,6 +1,7 @@
 ---
 title: "How to add CNAME record in Plesk"
 date: "2023-01-04"
+homecard: true
 ---
 
 ![How to add CNAME record in Plesk](images/How-to-add-CNAME-record-in-Plesk_utho.jpg)

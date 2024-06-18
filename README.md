@@ -1,5 +1,3 @@
-
-
 # utho Docs
 [🧑🏻‍💻Website 🔗](https://utho.com/docs/)
 
@@ -31,6 +29,9 @@ These are sub-folders with there own **_index.md** and `tab: true` in the front-
 Files with `featured: true` in the front matter appear categorically and exclusively under sections/sub-sections.
 
 ![featured article](static/featured-articles.png)
+
+### Article Cards on Home page
+Files with `homecard: true` in the front matter appear categorically and exclusively on home page.
 
 ### Featured Articles on Home page
 Files with `home: true` in the front matter appear categorically and exclusively on home page.
