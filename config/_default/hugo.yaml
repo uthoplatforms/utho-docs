@@ -77,9 +77,9 @@ params:
     type: flexsearch
     flexsearch:
       # index page by: content | summary | heading | title
-      index: content
+      index: title
       # full | forward | reverse | strict 
-      tokenize: forward
+      tokenize: full
 paginate: 10
 
 summaryLength: 15
