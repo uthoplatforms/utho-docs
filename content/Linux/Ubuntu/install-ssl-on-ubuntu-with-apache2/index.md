@@ -22,7 +22,7 @@ Before learning how to install SSL on Ubuntu with Apache2. Let's first learn tha
 
 A certificate that is self-signed will encrypt communications between your server and any clients. Users cannot use the certificate to automatically authenticate the identity of your server, since it is not certified by any of the trustworthy certificate authorities available in web browsers.
 
-If you do not have a domain name linked with your server and the encrypted web interface is not user-facing, a self-signed certificate may be suitable.
+If you do not have a domain name linked with your server and the encrypted web interface is not user-facing, a self-signed certificate may be suitable
 
 ## Prerequisites:
 
