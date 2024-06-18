@@ -77,6 +77,15 @@ params:
   comments:
     enable: true
     type: disqus
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: title
+      # full | forward | reverse | strict 
+      tokenize: full
+
 paginate: 10
 summaryLength: 15
 
