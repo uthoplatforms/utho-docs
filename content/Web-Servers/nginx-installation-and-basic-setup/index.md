@@ -3,6 +3,7 @@ linktitle: "NGINX - Setup"
 title: "NGINX: Installation and Basic Setup"
 date: "2020-06-09"
 featured: true
+home: true
 ---
 ![](images/NGINX_-Installation-and-Basic-Setup_utho.jpg)
 
