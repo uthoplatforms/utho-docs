@@ -1,6 +1,7 @@
 ---
 title: "Managing Resources using Apache mod_alias"
 date: "2020-06-05"
+home: true
 ---
 
 In certain cases all of the services that an Apache host uses are stored in the `DocumentRoot` of that server. The `DocumentRoot` is a directory listed in the block of configuration for `<VirtualHost>`. This directory is intended to represent the various files, folders, and services on the file system that users access via HTTP. However, it is normal for administrators to provide HTTP access to a resource that is not located in the `DocumentRoot` on file system. For certain cases, although Apache may obey symbolic connections, this could be hard to sustain. It allows Apache to assign an `Alias` that links a place in the request to an alternate location.

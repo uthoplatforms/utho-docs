@@ -1,4 +1,5 @@
 
+
 # utho Docs
 [🧑🏻‍💻Website 🔗](https://utho.com/docs/)
 
@@ -25,10 +26,15 @@ These are sub-folders with there own **_index.md** and `tab: true` in the front-
 - **icon filename** should be alphabets/numbers or hyphens only, no spaces, no special symbols.
 - **Section tab articles** should be created inside respective section tab folder to appear categorically.
 
+
 ### Featured Articles
 Files with `featured: true` in the front matter appear categorically and exclusively under sections/sub-sections.
 
 ![featured article](static/featured-articles.png)
+
+### Featured Articles on Home page
+Files with `home: true` in the front matter appear categorically and exclusively on home page.
+
 
 ### Images and Thumbnails
 Article list thumbnails are automatically created from the first image of the article A standard aspect ratio of 720p, 1080p should be good enough for almost all display sizes.
@@ -46,13 +52,13 @@ Standard settings could be `JPEG 80%, PNG 40%, SVG 40%` or as per your organisat
 
 ### Custom Template Layouts
 
-Page layouts can be overridden by placing a custom front-matter `layout: some-layout-name` at `_index.md` of list type page or at `index.md` of single pages. 
+Page layouts can be overridden by placing a custom front-matter `layout: some-layout-name` at `_index.md` of list type page or at `index.md` of single pages.
 
 The layout template goes into respective folder with filename exactly same as above so it will be `some-layout-name.html`
 
-**For Example:** 
-- Category "Web-servers" uses `/layouts/docs/list.html`. 
-- Copy `list.html` to  `/layouts/docs/some-customlayout.html`  
+**For Example:**
+- Category "Web-servers" uses `/layouts/docs/list.html`.
+- Copy `list.html` to  `/layouts/docs/some-customlayout.html`
 - Add filename to the front-matter `/content/Web-Servers/_index.md` as below:
 
 ```yaml
@@ -64,9 +70,9 @@ layout: some-customlayout
 ```
  Now the `some-customlayout.html` is used exclusively on pages where `layout: some-customlayout` is set.
 
-Related Hugo Docs: 
-[# Template lookup order](https://gohugo.io/templates/lookup-order/) • 
-[# Layout](https://gohugo.io/methods/page/layout/) • 
+Related Hugo Docs:
+[# Template lookup order](https://gohugo.io/templates/lookup-order/) •
+[# Layout](https://gohugo.io/methods/page/layout/) •
 [# Type](https://gohugo.io/methods/page/type/)
 
 ### Things to keep in mind:
