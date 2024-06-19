@@ -8,7 +8,7 @@
         <div class="hx-w-full hx-flex hx-flex-wrap hx-mt-4">
 
           {{ range .Sections }}
-            {{ $filename :=  printf "%s" ".png" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
+            {{ $filename :=  printf "%s" ".svg" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
             <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-4 hx-mt-4 hx-p-4 hx-rounded-md hover:hx-opacity-60">
               <div>
                 {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
