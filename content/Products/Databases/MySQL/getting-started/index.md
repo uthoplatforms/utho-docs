@@ -12,6 +12,8 @@ toc: true
 aliases: ['/products/cloud/getting-started']
 icon: "get-started"
 tab: true
+homecard: true
+
 ---
 ## Initial Start
 
