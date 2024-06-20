@@ -1,6 +1,7 @@
 ---
 title: "How to install Apache server on OpenSUSE"
 date: "2023-06-10"
+home: true
 ---
 
 <figure>

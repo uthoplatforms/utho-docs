@@ -1,6 +1,7 @@
 ---
 title: "How to add A record in Plesk"
 date: "2023-01-04"
+homecard: true
 ---
 
 ![How to add A record in Plesk](images/How-to-add-A-record-in-Plesk_utho.jpg)

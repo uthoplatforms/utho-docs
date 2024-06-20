@@ -1,6 +1,7 @@
 ---
 title: "Tuning Of Your Apache Server"
 date: "2020-06-01"
+home: true
 ---
 
 Your Apache configuration settings have a significant impact on the output of your Microhost Cloud server. There are several tools that can be used to further examine the performance of your Apache server and make educated choices on how to start tuning Apache configurations. The guide include an overview of some of the process monitoring and device resource usage that can be used to inspect how Apache affects the output of your Microhost Cloud Server. You will also learn about important Apache modules, such as Multi-Processing modules, which will allow you to make use of Apache's power and flexibility.

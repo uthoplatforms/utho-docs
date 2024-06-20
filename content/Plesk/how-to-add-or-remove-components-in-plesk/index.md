@@ -1,6 +1,7 @@
 ---
 title: "How to add components in Plesk"
 date: "2023-01-03"
+homecard: true
 ---
 
 ![How to add components in Plesk](images/How-to-add-components-in-Plesk_utho.jpg)
