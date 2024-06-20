@@ -101,3 +101,8 @@ outputFormats:
     baseName: "urls"
     isPlainText: true
     notAlternative: true
+
+caches:
+  images:
+    dir: ":cacheDir/:project"
+    maxAge: "800h" # or some high value
