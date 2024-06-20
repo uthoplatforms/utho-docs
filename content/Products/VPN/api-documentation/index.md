@@ -20,7 +20,7 @@ For advanced users and developers, we provide comprehensive API documentation to
 * Visit our developer portal at [API Documentation](https://utho.com/api-docs/?utm_source=docs#api-VPN).
 * Browse through the available endpoints, including VPN creation, user management, and configuration settings.
 
-#### Using the API::
+#### Using the API:
 
 * Generate an API key from your account settings.
 * Use the API key to authenticate your requests.
