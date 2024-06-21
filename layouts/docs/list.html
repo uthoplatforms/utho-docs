@@ -43,37 +43,40 @@
           <hr class="hx-mt-4">
 
           <div class="hx-flex hx-flex-wrap">
-          {{ range .Parent.Sections }}
-            {{- $pageURL := $.RelPermalink -}}
-            {{- $active := eq $pageURL .RelPermalink -}}
-            {{ if $active }}
-              <a href="#" class="hx-flex hx-flex-col hx-p-6 hx-items-center" style="color:purple !important">
-            {{ else }}
-              <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-p-6 hx-items-center hover:hx-opacity-60">
+
+          {{ if eq .Params.tab true }}
+            {{ range .Parent.Sections }}
+              {{- $pageURL := $.RelPermalink -}}
+              {{- $active := eq $pageURL .RelPermalink -}}
+              {{ if $active }}
+                <a href="#" class="hx-flex hx-flex-col hx-p-6 hx-items-center" style="color:purple !important">
+              {{ else }}
+                <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-p-6 hx-items-center hover:hx-opacity-60">
+              {{ end }}
+                <div>
+                    {{- $name := default "folder-open" .Params.Icon -}}
+                    {{- $icon := index site.Data.caticons $name -}}
+                  {{ if $icon }}
+                    {{- $attributes := "height=5em" -}}
+                    {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
+                    <span class="hx-inline-block hx-align-text-bottom icon">
+                      {{- $icon | safeHTML -}}
+                    </span>
+                  {{ else }}
+                    {{- $name := "folder-open" -}}
+                    {{- $icon := index site.Data.caticons $name -}}
+                    {{- $attributes := "height=5em" -}}
+                    {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
+                    <span class="hx-inline-block hx-align-text-bottom icon">
+                      {{- $icon | safeHTML -}}
+                    </span>
+                  {{ end }}
+                </div>
+                <div class="hx-mt-2">
+                {{ .Title }}
+                </div>
+              </a>
             {{ end }}
-              <div>
-                  {{- $name := default "folder-open" .Params.Icon -}}
-                  {{- $icon := index site.Data.caticons $name -}}
-                {{ if $icon }}
-                  {{- $attributes := "height=5em" -}}
-                  {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
-                  <span class="hx-inline-block hx-align-text-bottom icon">
-                    {{- $icon | safeHTML -}}
-                  </span>
-                {{ else }}
-                  {{- $name := "folder-open" -}}
-                  {{- $icon := index site.Data.caticons $name -}}
-                  {{- $attributes := "height=5em" -}}
-                  {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
-                  <span class="hx-inline-block hx-align-text-bottom icon">
-                    {{- $icon | safeHTML -}}
-                  </span>
-                {{ end }}
-              </div>
-              <div class="hx-mt-2">
-              {{ .Title }}
-              </div>
-            </a>
           {{ end }}
           </div>
 
