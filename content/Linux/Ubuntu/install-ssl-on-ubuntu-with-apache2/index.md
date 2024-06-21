@@ -1,6 +1,18 @@
 ---
 title: "How to install SSL on Ubuntu with Apache2"
 date: "2022-08-22"
+title_meta: "install SSL on Ubuntu with Apache2"
+description: "Learn how to install SSL (Secure Sockets Layer) on Ubuntu with Apache2 in this comprehensive guide. Follow step-by-step instructions to configure SSL certificates and enable HTTPS for secure communication on your Apache2 web server running on Ubuntu.
+"
+keywords: ["install SSL Apache2 Ubuntu", "setup SSL Apache2 Ubuntu", "Apache2 SSL certificate installation Ubuntu", "SSL configuration Apache2 Ubuntu", "Ubuntu Apache2 SSL setup", "enable SSL Apache2 Ubuntu", "Apache2 HTTPS setup Ubuntu", "secure Apache2 with SSL Ubuntu"]
+
+tags: ["Apache2", "ubuntu"]
+icon: "Ubuntu"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Linux/Ubuntu/install-ssl-on-ubuntu-with-apache2/']
+tab: true
 ---
 
 <figure>
@@ -22,7 +34,7 @@ Before learning how to install SSL on Ubuntu with Apache2. Let's first learn tha
 
 A certificate that is self-signed will encrypt communications between your server and any clients. Users cannot use the certificate to automatically authenticate the identity of your server, since it is not certified by any of the trustworthy certificate authorities available in web browsers.
 
-If you do not have a domain name linked with your server and the encrypted web interface is not user-facing, a self-signed certificate may be suitable
+If you do not have a domain name linked with your server and the encrypted web interface is not user-facing, a self-signed certificate may be suitable.
 
 ## Prerequisites:
 

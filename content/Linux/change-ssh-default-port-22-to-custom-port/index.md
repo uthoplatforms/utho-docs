@@ -1,6 +1,17 @@
 ---
 title: "Change SSH Default Port 22 to Custom Port"
 date: "2020-06-04"
+title_meta: "GUIDE TO Change SSH Default Port 22 to Custom Port Centos 7"
+description: "Changing the default SSH port (22) can add an extra layer of security to your server by making it less susceptible to automated attacks that often target port 22. Here's how to modify the SSH configuration on CentOS 7 to use a custom port."
+keywords:  ['CentOS 7', 'SSH', 'port', 'security']
+tags: ["SSH","Apache"]
+icon: "CentOS"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/change-ssh-default-port-22-to-custom-port/']
+tab: true
 ---
 
 ![](images/Change-SSH-Default-Port-22-to-Custom-Port_utho.jpg)
