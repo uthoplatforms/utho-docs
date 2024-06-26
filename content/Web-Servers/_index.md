@@ -1,7 +1,7 @@
 ---
 weight: 30
 title: "Web Servers"
-description: "Fully managed automatic daily, weekly, and biweekly backups of your utho Instances."
+description: "Guide how to install web servers."
 icon: "web-servers"
 date: "2024-03-07T17:25:06+01:00"
 lastmod: "2024-03-07T17:25:06+01:00"
