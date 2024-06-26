@@ -1,6 +1,17 @@
 ---
 title: "convert rwx permissions to octal format in Linux"
 date: "2022-12-08"
+title_meta: "GUIDE TO convert rwx permissions to octal format Centos 7"
+description: "In Linux, file permissions determine who can access a file and how they can interact with it. Permissions are typically displayed using the letters r (read), w (write), and x (execute), but they can also be represented in octal format (base-8). This guide explains how to convert rwx permissions to octal format."
+keywords:  ['Linux', 'permissions', 'rwx', 'octal', 'conversion']
+tags: ["permissions"]
+icon: "CentOS"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/convert-rwx-permissions-to-octal-format-in-linux/']
+tab: true
 ---
 
 ![](images/convert-rwx-permissions-to-octal-format-in-Linux_utho.jpg)

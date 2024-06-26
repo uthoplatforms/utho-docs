@@ -1,0 +1,112 @@
+---
+title: "How to Install Xrdp Server on Ubuntu 22.04"
+date: "2022-12-09"
+title_meta: "Xrdp Server installtion guide on Ubuntu"
+description: "Learn how to install Xrdp server on Ubuntu 22.04 with this comprehensive guide. Follow these step-by-step instructions to set up Xrdp (Remote Desktop Protocol) server for remote access to your Ubuntu 22.04 system.
+"
+keywords: ["install Xrdp server Ubuntu 22.04", "Xrdp server setup Ubuntu 22.04", "Ubuntu 22.04 Xrdp server installation guide", "remote desktop Ubuntu", "Ubuntu Xrdp server tutorial", "Xrdp server installation steps Ubuntu 22.04", "remote access Ubuntu", "Xrdp Ubuntu 22.04 instructions"]
+
+tags: ["Xrdp Server", "ubuntu"]
+icon: "Ubuntu"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Linux/Ubuntu/how-to-install-xrdp-server-on-ubuntu-22-04/']
+tab: true
+---
+
+<figure>
+
+![](images/How-to-Install-Xrdp-Server-Remote-Desktop-on-Ubuntu-22.04-1024x576.png)
+
+<figcaption>
+
+How to Install Xrdp Server on Ubuntu 22.04
+
+</figcaption>
+
+</figure>
+
+In this tutorial, we will learn how to install Xrdp server on Ubuntu 22.04 and configure it. Xrdp is an open-source implementation of the Microsoft [Remote Desktop Protocol](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol) (RDP) that allows you to control a remote system graphically .
+
+**Installing Desktop Environment**
+
+Ubuntu servers are operated via the command line and do not have pre-installed desktop environment.  
+There are multiple desktop environments available in Ubuntu repositories that you can select. Here we are going to install Gnome, which is the default desktop environment in [Ubuntu 22.04](https://utho.com/docs/tutorial/how-to-install-mariadb-10-3-on-ubuntu-20-04/).
+
+**Install Gnome**  
+To install the Ubuntu desktop environment, run the command:
+
+```
+$ sudo apt update
+```
+
+```
+$ sudo apt install ubuntu-desktop
+```
+
+**Installing Xrdp**  
+Xrdp is incuded in the default Ubuntu repositories. To install it, run:
+
+```
+$ sudo apt install xrdp
+```
+
+Once the installation is complete, the Xrdp service will automatically start. You can verify it by typing:
+
+```
+$ sudo systemctl status xrdp
+```
+
+Output will look like this –
+
+<figure>
+
+![Running service of XRDP](images/VV1.png)
+
+<figcaption>
+
+Running service of XRDP
+
+</figcaption>
+
+</figure>
+
+The output shows that, the xrdp daemon is active and running.  
+The Xrdp daemon listens on port 3389 on all interfaces. If you are using firewall on ubuntu server then you need to open Xrdp port.
+
+```
+$ sudo ufw allow 3389
+```
+
+Thereafter, reload the firewall and confirm if the port has been opened.
+
+```
+$ sudo ufw reload
+```
+
+**Connecting to the Xrdp Server**  
+Now that you have set up your Xrdp server, its time to open your Xrdp client and connect to the server.  
+If you have a Windows PC, you can use the default RDP client. This will open up the RDP client. In the “Computer” field, enter the remote server IP address and click “Connect”
+
+<figure>
+
+![Access your server](images/VV3.png)
+
+<figcaption>
+
+Access your server
+
+</figcaption>
+
+</figure>
+
+On the login screen, enter your username and password and click “OK”.  
+![Install Xrdp Server ](images/VV4.png)
+
+You can see the default Gnome desktop after logging in. This is what it should look like:  
+![Install Xrdp Server ](images/VV5.png)
+
+If you are running macOS, you can install the Microsoft Remote Desktop application from the Mac App Store. Linux users can use an RDP client such as Remmina
+
+Configuring a remote desktop allows you to manage your Ubuntu 22.04 server from your local machine through an easy to use graphic interface.
