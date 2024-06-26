@@ -103,7 +103,7 @@
           </div>
           {{ end }}
 
-          <h2>Articles</h2>
+          <!--<h2>Articles</h2>-->
 
           {{ $regular := (where .Paginator.Pages "Params.featured" "ne" true) }}
           {{ range $regular }}
@@ -122,7 +122,7 @@
             </div>
           </div>
           {{ else }}
-            <p class="hx-mt-8">No articles found on the topic.</p>
+            <p class="hx-mt-8"><!-- noart --></p>
           {{ end }}
 
           {{ partial "markup-footer" }}
