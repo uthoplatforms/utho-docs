@@ -11,7 +11,7 @@
             {{ partial "share-buttons.html" . }}
           </div>
           {{ if .Date }}
-          <div class="hx-meta">
+          <div class="hx-meta utho-hide">
             <span>{{ .Date | time.Format "January 2, 2006" }}</span>
             <span>
               {{ range .Param "authors" }}
@@ -30,7 +30,7 @@
           {{ end }}
           {{- $tags := .Params.tags -}}
           {{- if $tags -}}
-            <small>
+            <small class="utho-hide">
             {{ if isset .Params "tags" }} Tags: {{ end }}
             {{- $lastIndex := sub (len $tags) 1 -}}
             {{- range $index, $tag := $tags -}}
@@ -43,7 +43,7 @@
           {{- end -}}
           {{- $tags := .Params.tags -}}
           {{- if $tags -}}
-            <small>
+            <small class="utho-hide">
             {{ if isset .Params "tags" }} Tags: {{ end }}
             {{- $lastIndex := sub (len $tags) 1 -}}
             {{- range $index, $tag := $tags -}}
