@@ -1,6 +1,16 @@
 ---
 title: "Modify File Permissions with chmod"
 date: "2020-06-01"
+title_meta: "Modify File Permissions with chmod"
+description: "Modify File Permissions with chmod"
+keywords:  ['chmod', 'linux', 'permisons']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/modify-file-permissions-with-chmod']
 ---
 
 ### Chmod Helps you to alter Linux read and write permissions

@@ -1,6 +1,16 @@
 ---
 title: "How to extract the certificate and keys from a .pfx file"
 date: "2023-07-18"
+title_meta: "How to extract the certificate and keys from a .pfx file"
+description: "How to extract the certificate and keys from a .pfx file"
+keywords:  ['linux', '.pfx ', 'certificate']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-extract-the-certificate-and-keys-from-a-pfx-file']
 ---
 
 INTRODUCTION

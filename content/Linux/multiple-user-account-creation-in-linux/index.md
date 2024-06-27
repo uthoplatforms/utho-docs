@@ -1,6 +1,16 @@
 ---
 title: "Multiple User Account Creation in Linux"
 date: "2022-10-07"
+title_meta: "Multiple User Account Creation in Linux"
+description: "Multiple User Account Creation in Linux"
+keywords:  ['mutiple user', 'linux', 'account']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/multiple-user-account-creation-in-linux']
 ---
 
 #### **Description**

@@ -1,6 +1,16 @@
 ---
 title: "How to Extract and Download Tar Files with a Single Command"
 date: "2022-10-09"
+title_meta: "How to Extract and Download Tar Files with a Single Command"
+description: "How to Extract and Download Tar Files with a Single Command"
+keywords:  ['linux', 'tar']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-extract-and-download-tar-files-with-a-single-command']
 ---
 
 ![How to Extract and Download Tar Files with a Single Command](images/How-to-Extract-and-Download-Tar-Files-with-a-Single-Command_utho.jpg)

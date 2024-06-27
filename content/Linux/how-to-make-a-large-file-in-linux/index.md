@@ -1,6 +1,16 @@
 ---
 title: "How to Make a Large File in Linux"
 date: "2022-12-16"
+title_meta: "How to Make a Large File in Linux"
+description: "How to Make a Large File in Linux"
+keywords:  ['make large file','linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-make-a-large-file-in-linux']
 ---
 
 ![How to Make a Large File in Linux](images/How-to-Make-a-Large-File-in-Linux_utho.jpg)

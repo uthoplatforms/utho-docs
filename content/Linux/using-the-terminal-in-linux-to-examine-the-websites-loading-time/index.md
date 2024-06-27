@@ -1,6 +1,16 @@
 ---
 title: "Using the Terminal in Linux to Examine the Website's Loading Time"
 date: "2022-10-07"
+title_meta: "Using the Terminal in Linux to Examine the Website's Loading Time"
+description: "Using the Terminal in Linux to Examine the Website's Loading Time"
+keywords:  ['load time', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/using-the-terminal-in-linux-to-examine-the-websites-loading-time']
 ---
 
 ![](images/Using-the-Terminal-in-Linux-to-Examine-the-Websites-Loading-Time-1024x576.png)

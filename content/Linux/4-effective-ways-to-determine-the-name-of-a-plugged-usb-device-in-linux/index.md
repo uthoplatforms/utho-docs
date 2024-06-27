@@ -1,6 +1,17 @@
 ---
 title: "4 Effective Ways to Determine the Name of a Plugged USB Device in Linux"
 date: "2022-12-08"
+title_meta: "4 Effective Ways to Determine the Name of a Plugged USB Device in Linux"
+description: "One of the many aspects of Linux that you should become proficient in as a beginner is the identification of devices that are connected to your computer. It could be the hard disc in your computer, an external hard drive, or another type of portable media like a USB drive or an SD Memory card.
+"
+keywords: ["linux", "usb"]
+tags: ["linux"]
+icon: "linux"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Linux/4-effective-ways-to-determine-the-name-of-a-plugged-usb-device-in-linux']
+tab: true
 ---
 
 ![](images/4-Effective-Ways-to-Determine-the-Name-of-a-Plugged-USB-Device-in-Linux_utho.jpg)

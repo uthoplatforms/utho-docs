@@ -1,6 +1,16 @@
 ---
 title: "Methods for Disabling the Root Account in Linux"
 date: "2022-12-08"
+title_meta: "Methods for Disabling the Root Account in Linux"
+description: "Methods for Disabling the Root Account in Linux"
+keywords:  ['root', 'linux', 'disable']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/methods-for-disabling-the-root-account-in-linux']
 ---
 
 ![Methods for Disabling the Root Account in Linux](images/Methods-for-Disabling-the-Root-Account-in-Linux_utho.jpg)

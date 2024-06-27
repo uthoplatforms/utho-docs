@@ -1,6 +1,16 @@
 ---
 title: "Setup Software RAID on Linux server"
 date: "2023-04-19"
+title_meta: "Setup Software RAID on Linux server"
+description: "Setup Software RAID on Linux server"
+keywords:  ['raid', 'linux', 'Configuration']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/setup-software-raid-on-linux-server']
 ---
 
 <figure>

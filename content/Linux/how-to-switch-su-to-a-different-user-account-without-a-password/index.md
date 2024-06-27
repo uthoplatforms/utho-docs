@@ -1,6 +1,16 @@
 ---
 title: "How to Switch (su) to a Different User Account Without a Password"
 date: "2022-10-09"
+title_meta: "How to Switch (su) to a Different User Account Without a Password"
+description: "How to Switch (su) to a Different User Account Without a Password"
+keywords:  ['switch user', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-switch-su-to-a-different-user-account-without-a-password']
 ---
 
 ![](images/How-to-Switch-su-to-a-Different-User-Account-Without-a-Password-1024x576.png)

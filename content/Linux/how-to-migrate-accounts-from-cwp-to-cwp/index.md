@@ -1,6 +1,16 @@
 ---
 title: "How to migrate accounts from CWP to CWP"
 date: "2022-08-25"
+title_meta: "How to migrate accounts from CWP to CWP"
+description: "How to migrate accounts from CWP to CWP"
+keywords:  ['migrate cwp','linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-migrate-accounts-from-cwp-to-cwp']
 ---
 
 ![How to migrate accounts from CWP to CWP](images/How-to-migrate-accounts-from-CWP-to-CWP-3-1024x576.png)

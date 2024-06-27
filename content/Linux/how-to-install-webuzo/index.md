@@ -1,6 +1,16 @@
 ---
 title: "How to Install Webuzo"
 date: "2022-02-28"
+title_meta: "How to Install Webuzo"
+description: "How to Install Webuzo"
+keywords:  ['Webuzo', 'linux']
+tags: ["linux", "Webuzo"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-install-webuzo']
 ---
 
 ![](images/How-to-Install-Webuzo_utho.jpg)

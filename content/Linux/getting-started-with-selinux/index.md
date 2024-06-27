@@ -1,6 +1,16 @@
 ---
 title: "Getting Started with SELinux"
 date: "2020-03-27"
+title_meta: "Getting Started with SELinux"
+description: "SELinux( Security Enhanced Linux) is a security system which is developed by the United States National Security Agency for an additional layer of system security. Selinux was integrated in 2003 with linux kernel it also ships with most of the Linux distributions."
+keywords:  ['SELinux', 'Linux']
+tags: ["SELinux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/getting-started-with-selinux']
 ---
 
 ![](images/selinux-1024x576.jpg)

@@ -1,6 +1,16 @@
 ---
 title: "Install IBM HTTP server in Linux"
 date: "2023-03-16"
+title_meta: "Install IBM HTTP server in Linux"
+description: "Install IBM HTTP server in Linux"
+keywords:  ['ibm', 'linux']
+tags: ["linux", "ibm"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-install-ibm-http-server-in-linux']
 ---
 
 <figure>

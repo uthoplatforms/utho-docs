@@ -1,6 +1,16 @@
 ---
 title: "Install IBM Websphere Application Server ( IBM WAS) in Linux"
 date: "2023-03-16"
+title_meta: "Install IBM Websphere Application Server ( IBM WAS) in Linux"
+description: "Install IBM Websphere Application Server ( IBM WAS) in Linux"
+keywords:  ['IBM Websphere', 'linux', 'WAS']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/install-ibm-websphere-application-server-in-linux']
 ---
 
 <figure>

@@ -1,6 +1,18 @@
 ---
 title: "Explanation of iftop command"
 date: "2022-08-28"
+title_meta: "What is the iftop command"
+description: "With iftop, it is easy to keep an eye on your network. It shows a table of how much [bandwidth]. How to check Bandwidth consumption in Microhost panel) each host is using right now. iftop puts the pair of hosts that are causing the most traffic at the top of the list, making it easier to find the hosts that are causing the network to slow down."
+
+keywords:  ['iftop', 'command', "linux"]
+tags: ["cmd"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['content/Linux/explanation-of-iftop-command']
+tab: true
 ---
 
 <figure>

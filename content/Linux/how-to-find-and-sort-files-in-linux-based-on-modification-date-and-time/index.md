@@ -1,6 +1,16 @@
 ---
 title: "How to Find and Sort Files in Linux Based on Modification Date and Time"
 date: "2022-12-08"
+title_meta: "How to Find and Sort Files in Linux Based on Modification Date and Time"
+description: "How to Find and Sort Files in Linux Based on Modification Date and Time"
+keywords:  ['linux', 'sort', 'certificate']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-find-and-sort-files-in-linux-based-on-modification-date-and-time']
 ---
 
 ![How to Find and Sort Files in Linux Based on Modification Date and Time](images/How-to-Find-and-Sort-Files-in-Linux-Based-on-Modification-Date-and-Time_utho.jpg)

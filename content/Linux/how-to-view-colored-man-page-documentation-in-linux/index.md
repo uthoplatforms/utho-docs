@@ -1,6 +1,16 @@
 ---
 title: "How to View Colored Man Page Documentation in Linux"
 date: "2022-10-08"
+title_meta: "How to View Colored Man Page Documentation in Linux"
+description: "How to View Colored Man Page Documentation in Linux"
+keywords:  ['Man', 'linux', 'Documentation']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-view-colored-man-page-documentation-in-linux']
 ---
 
 ![](images/How-to-View-Colored-Man-Page-Documentation-in-Linux_utho.jpg)

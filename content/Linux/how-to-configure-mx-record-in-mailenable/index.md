@@ -1,6 +1,16 @@
 ---
 title: "How to configure MX record in MAILENABLE"
 date: "2022-05-18"
+title_meta: "How to configure MX record in MAILENABLE"
+description: "How to configure MX record in MAILENABLE"
+keywords:  ['mx records', 'dns', 'mailenable']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-configure-mx-record-in-mailenable']
 ---
 
 ![](images/How-to-configure-MX-record-in-MAILENABLE_utho.jpg)

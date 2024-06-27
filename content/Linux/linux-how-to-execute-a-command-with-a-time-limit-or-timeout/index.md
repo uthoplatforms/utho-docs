@@ -1,6 +1,16 @@
 ---
 title: "Linux: How to Execute a Command with a Time Limit or Timeout"
 date: "2022-10-07"
+title_meta: "Linux: How to Execute a Command with a Time Limit or Timeout"
+description: "Linux: How to Execute a Command with a Time Limit or Timeout"
+keywords:  ['Timeout', 'linux', 'Command']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/linux-how-to-execute-a-command-with-a-time-limit-or-timeout']
 ---
 
 #### **Description**  

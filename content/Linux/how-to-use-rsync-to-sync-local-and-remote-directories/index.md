@@ -1,6 +1,16 @@
 ---
 title: "How To Use Rsync to Sync Local and Remote Directories"
 date: "2022-09-16"
+title_meta: "How To Use Rsync to Sync Local and Remote Directories"
+description: "How To Use Rsync to Sync Local and Remote Directories"
+keywords:  ['rsync', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-use-rsync-to-sync-local-and-remote-directories']
 ---
 
 ![How To Use Rsync to Sync Local and Remote Directories](images/How-To-Use-Rsync-to-Sync-Local-and-Remote-Directories_utho.jpg)

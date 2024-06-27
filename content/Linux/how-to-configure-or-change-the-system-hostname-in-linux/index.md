@@ -1,6 +1,16 @@
 ---
 title: "How to Configure or Change the System Hostname in Linux"
 date: "2022-10-07"
+title_meta: "How to Configure or Change the System Hostname in Linux"
+description: "How to Configure or Change the System Hostname in Linux"
+keywords:  ['linux', 'hostname change']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-configure-or-change-the-system-hostname-in-linux']
 ---
 
 #### **Description**

@@ -1,6 +1,16 @@
 ---
 title: "How to add or remove a User from a Linux Group"
 date: "2022-10-07"
+title_meta: "How to add or remove a User from a Linux Group"
+description: "Linux is a multi-user system by default, which means that many people can connect to it at the same time and work. One of the most important jobs of a system administrator is to manage users. On a Linux system, user management includes creating, updating, and deleting user accounts and user groups."
+keywords:  ['user management', 'Linux']
+tags: ["Linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-add-or-remove-a-user-from-a-linux-group']
 ---
 
 ![](images/How-to-add-or-remove-a-User-from-a-Linux-Group_utho.jpg)

@@ -1,6 +1,16 @@
 ---
 title: "Upgrading WordPress Manually on Linux sever"
 date: "2022-06-22"
+title_meta: "Upgrading WordPress Manually on Linux sever"
+description: "Upgrading WordPress Manually on Linux sever"
+keywords:  ['ssh logins', 'linux', 'MOTD']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/upgrading-wordpress-manually-on-linux-sever']
 ---
 
 ![](images/Upgrading-WordPress-Manually-on-Linux-sever_utho.jpg)

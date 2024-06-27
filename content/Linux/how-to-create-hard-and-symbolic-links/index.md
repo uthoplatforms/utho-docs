@@ -1,6 +1,16 @@
 ---
 title: "How to Create Hard and Symbolic Links"
 date: "2022-10-05"
+title_meta: "How to Create Hard and Symbolic Links"
+description: "How to Create Hard and Symbolic Links"
+keywords:  ['linux', 'symbolic links']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-create-hard-and-symbolic-links']
 ---
 
 ![](images/How-to-Create-Hard-and-Symbolic-Links_utho.jpg)

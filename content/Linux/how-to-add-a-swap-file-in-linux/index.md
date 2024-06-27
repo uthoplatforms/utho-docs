@@ -1,6 +1,16 @@
 ---
 title: "How to add a swap file in Linux"
 date: "2022-09-19"
+title_meta: "How to add a swap file in Linux"
+description: "How to add a swap file in Linux"
+keywords:  ['swap file', 'Linux']
+tags: ["swapfile"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-add-a-swap-file-in-linux']
 ---
 
 ![How to add a swap file in Linux](images/How-to-add-a-swap-file-in-Linux-1-1024x576.png)

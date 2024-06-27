@@ -1,6 +1,17 @@
 ---
 title: "HOW TO SETUP LOAD BALANCER FOR APPLICATIONS RUNNING ON CUSTOM PORT"
 date: "2022-01-02"
+title_meta: "HOW TO SETUP LOAD BALANCER FOR APPLICATIONS RUNNING ON CUSTOM PORT"
+description: "HOW TO SETUP LOAD BALANCER FOR APPLICATIONS RUNNING ON CUSTOM PORT"
+keywords:  ['loadbalancer', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-setup-load-balancer-for-applications-running-on-custom-port']
+---
 ---
 
 ![](images/HOW-TO-SETUP-LOAD-BALANCER-FOR-APPLICATIONS-RUNNING-ON-CUSTOM-PORT_utho.jpg)

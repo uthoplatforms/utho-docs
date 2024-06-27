@@ -1,6 +1,16 @@
 ---
 title: "How to Schedule an Activity at a Specific Time or at a Time in the Future Using the 'at' Command"
 date: "2022-10-08"
+title_meta: "How to Schedule an Activity at a Specific Time or at a Time in the Future Using the 'at' Command"
+description: "How to Schedule an Activity at a Specific Time or at a Time in the Future Using the 'at' Command"
+keywords:  ['schedule activity', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-schedule-an-activity-at-a-specific-time-or-at-a-time-in-the-future-using-the-at-command']
 ---
 
 ![How to Schedule an Activity at a Specific Time or at a Time in the Future Using the 'at' Command](images/How-to-Schedule-an-Activity-at-a-Specific-Time-or-at-a-Time-in-the-Future-Using-the-at-Command-1024x576.png)

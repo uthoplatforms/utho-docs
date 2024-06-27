@@ -1,6 +1,16 @@
 ---
 title: "How to use MTR command in Linux"
 date: "2023-04-03"
+title_meta: "How to use MTR command in Linux"
+description: "How to use MTR command in Linux"
+keywords:  ['iptables', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-use-mtr-command-in-linux']
 ---
 
 ![How to use MTR command in Linux](images/How-to-use-MTR-command-in-Linux_utho.jpg)

@@ -1,6 +1,16 @@
 ---
 title: "How To View and Update the Linux PATH Environment Variable"
 date: "2022-09-16"
+title_meta: "How To View and Update the Linux PATH Environment Variable"
+description: "How To View and Update the Linux PATH Environment Variable"
+keywords:  ['PATH', 'linux', 'enviroment']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-view-and-update-the-linux-path-environment-variable']
 ---
 
 ![How To View and Update the Linux PATH Environment Variable](images/How-To-View-and-Update-the-Linux-PATH-Environment-Variable_utho.jpg)

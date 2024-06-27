@@ -1,6 +1,16 @@
 ---
 title: "How to solve Zimbra error \"message does not meet IPv6 sending guidelines regarding PTR\""
 date: "2022-08-22"
+title_meta: "Solve message does not meet IPv6 sending guidelines regarding PTR"
+description: "Solve message does not meet IPv6 sending guidelines regarding PTR"
+keywords:  ['zimbra', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-solve-zimbra-error-message-does-not-meet-ipv6-sending-guidelines-regarding-ptr']
 ---
 
 ![](images/How-to-solve-Zimbra-error-message-does-not-meet-IPv6-sending-guidelines-regarding-PTR-1024x576.png)

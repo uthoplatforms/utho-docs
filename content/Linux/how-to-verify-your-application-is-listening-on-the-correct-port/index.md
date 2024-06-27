@@ -1,6 +1,17 @@
 ---
 title: "How to Verify Your Application is Listening on the Correct Port"
 date: "2022-09-29"
+title_meta: "How to Verify Your Application is Listening on the Correct Port"
+description: "How to Verify Your Application is Listening on the Correct Port"
+keywords:  ['port', 'linux', 'google']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-verify-your-application-is-listening-on-the-correct-port']
+---
 ---
 
 ![](images/How-to-Verify-Your-Application-is-Listening-on-the-Correct-Port_utho.jpg)

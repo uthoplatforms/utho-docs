@@ -1,6 +1,16 @@
 ---
 title: "Set a date and time for each command in Bash History."
 date: "2022-11-28"
+title_meta: "Set a date and time for each command in Bash History."
+description: "Set a date and time for each command in Bash History."
+keywords:  ['time date', 'linux', 'Configuration']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/set-a-date-and-time-for-each-command-in-bash-history']
 ---
 
 **Description**

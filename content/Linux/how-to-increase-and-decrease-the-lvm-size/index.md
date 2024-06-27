@@ -1,6 +1,16 @@
 ---
 title: "How to increase and decrease the LVM size"
 date: "2022-11-04"
+title_meta: "How to increase and decrease the LVM size"
+description: "How to increase and decrease the LVM size"
+keywords:  ['linux', 'LVM', 'increase']
+tags: ["linux", "LVM"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-increase-and-decrease-the-lvm-size']
 ---
 
 <figure>

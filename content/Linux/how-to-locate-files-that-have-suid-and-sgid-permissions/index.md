@@ -1,6 +1,16 @@
 ---
 title: "How to Locate Files That Have SUID and SGID Permissions"
 date: "2022-10-08"
+title_meta: "How to Locate Files That Have SUID and SGID Permissions"
+description: "How to Locate Files That Have SUID and SGID Permissions"
+keywords:  ['SUID', 'SGID','linux']
+tags: ["linux", "SUID"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-locate-files-that-have-suid-and-sgid-permissions']
 ---
 
 ![](images/How-to-Locate-Files-That-Have-SUID-and-SGID-Permissions_utho.jpg)

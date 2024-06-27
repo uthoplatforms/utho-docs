@@ -1,6 +1,16 @@
 ---
 title: "How to Use ‘at’ Command to Schedule a Task in Linux"
 date: "2022-10-08"
+title_meta: "How to Use ‘at’ Command to Schedule a Task in Linux"
+description: "How to Use ‘at’ Command to Schedule a Task in Linux"
+keywords:  ['at command', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-use-at-command-to-schedule-a-task-in-linux']
 ---
 
 ![How to Use ‘at’ Command to Schedule a Task in Linux](images/How-to-Use-‘at-Command-to-Schedule-a-Task-in-Linux-1024x576.png)

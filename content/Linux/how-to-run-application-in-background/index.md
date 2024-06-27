@@ -1,6 +1,16 @@
 ---
 title: "How to run application in background"
 date: "2023-06-10"
+title_meta: "How to run application in background"
+description: "How to run application in background"
+keywords:  ['application in background', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-run-application-in-background']
 ---
 
 <figure>

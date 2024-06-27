@@ -1,6 +1,16 @@
 ---
 title: "How to Compress a.bz2 File and How to Uncompress It"
 date: "2022-10-07"
+title_meta: "How to Compress a.bz2 File and How to Uncompress It"
+description: "How to Compress a.bz2 File and How to Uncompress It"
+keywords:  ['compress', 'uncompress', 'Linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-compress-a-bz2-file-and-how-to-uncompress-it']
 ---
 
 ###### **Description**

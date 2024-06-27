@@ -1,6 +1,16 @@
 ---
 title: "How To Install and Manage Supervisor"
 date: "2022-09-18"
+title_meta: "How To Install and Manage Supervisor"
+description: "How To Install and Manage Supervisor"
+keywords:  ['linux', 'manage Supervisor']
+tags: ["linux", "LVM"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-install-and-manage-supervisor']
 ---
 
 ![Install supervisor](images/How-To-Install-and-Manage-Supervisor-1024x576.png)

@@ -1,6 +1,16 @@
 ---
 title: "Find multiple Ways to User Account Info and Login Details in Linux"
 date: "2022-12-08"
+title_meta: "GUIDE TO Create a Zabbix action to deliver an alert message to the user Centos 7"
+description: "This article will demonstrate multiple helpful methods that can be used to locate information regarding users on a Linux system. In this section, we will cover commands that can be used to retrieve information on a user's account, show login data, and find out what people are doing on the system."
+keywords:  ['user management', 'Linux']
+tags: ["zabbix"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/find-multiple-ways-to-user-account-info-and-login-details-in-linux']
 ---
 
 ![](images/Find-multiple-Ways-to-User-Account-Info-and-Login-Details-in-Linux_utho.jpg)
