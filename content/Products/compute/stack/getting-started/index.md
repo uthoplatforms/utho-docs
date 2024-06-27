@@ -12,7 +12,6 @@ draft: false
 toc: true
 aliases: ['/products/compute/stack/getting-started/']
 ---
-# Quick Start
 
 The purpose of this documentation is to provide a quick guide on how to add a stack within our system.
 

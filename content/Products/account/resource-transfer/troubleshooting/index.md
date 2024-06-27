@@ -1,6 +1,6 @@
 ---
 weight: 40
-title: "troubleshooting"
+title: "Troubleshooting"
 Page_title: "How to Receive Resources from different user?"
 Page_cardtitle: "Understanding Resource Transfer in Cloud Environments"
 title_meta: "API Documentation for Resource Transfer on the Utho Platform"
@@ -15,9 +15,6 @@ toc: true
 aliases: ['/products/account/resource-transfer/troubleshooting/']
 tab: true
 ---
-
-# Troubleshooting
-
 
 Troubleshooting resource transfer and receive transfer in cloud environments involves addressing common issues that may arise during the process. Here are some typical troubleshooting steps and considerations:
 

@@ -1,6 +1,6 @@
 ---
 weight: 40
-title: "faq"
+title: "FAQ"
 Page_title: "How to Receive Resources from different user?"
 Page_cardtitle: "Understanding Resource Transfer in Cloud Environments"
 title_meta: "API Documentation for Resource Transfer on the Utho Platform"
@@ -15,8 +15,7 @@ toc: true
 aliases: ['/products/account/resource-transfer/faq/']
 tab: true
 ---
-
-# FAQ 
+ 
 
 **Q1: What is Resource Transfer in the context of cloud services?**
 

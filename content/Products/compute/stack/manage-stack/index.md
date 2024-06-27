@@ -12,7 +12,6 @@ aliases: ['/products/compute/stack/manage-stack']
 icon: guides
 tab: true
 ---
-#### Stack Configuration
 
 The Stack Dashboard is your central hub for managing all your stacks on the Utho platform. This dashboard is divided into two primary sections: **Own Stack** and  **Community Stack** . Each section provides specific functionalities to help you manage and deploy your stacks efficiently.
 

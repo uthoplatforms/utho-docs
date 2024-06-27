@@ -15,9 +15,7 @@ toc: true
 aliases: ['/products/networking/Monitoring/FAQ/']
 tab: true
 ---
-
-# FAQ
-
+ 
 ### What is cloud monitoring?
 Cloud monitoring is the process of continuously observing and analyzing the performance, availability, and security of cloud infrastructure and services. It involves collecting metrics, logs, and events from various cloud resources to ensure optimal operation and quick issue resolution.
 

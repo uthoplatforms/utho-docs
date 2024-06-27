@@ -13,8 +13,7 @@ toc: true
 aliases: ['/products/storage/object-stroage/Troubleshooting/']
 ---
 
-# Troubleshooting Guide for Utho Cloud Object Storage
-
+ 
 ## Common Issues
 
 ### 1. Unable to Access Storage Bucket

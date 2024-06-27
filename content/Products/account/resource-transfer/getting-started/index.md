@@ -16,8 +16,6 @@ aliases: ['/products/account/resource-transfer/getting-started/']
 tab: true
 ---
 
-# Getting Started
-
 ### Initial Start
 
 - Log in to your accout on our platform.

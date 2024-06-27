@@ -11,10 +11,7 @@ lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
 aliases: ['/products/storage/object-storage/overview/']
----
-<!-- # Overview -->
-
-# Introduction
+--- 
 
 Object Storage on the Utho platform provides scalable, secure, and reliable storage for a variety of data types. This storage solution is ideal for storing unstructured data like documents, images, videos, backups, and more. Object Storage offers flexibility in accessing and managing your data, making it a valuable component for many applications.
 

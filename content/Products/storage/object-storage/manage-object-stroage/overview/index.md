@@ -12,9 +12,7 @@ aliases: ['/products/storage/object-storage/manage-object-storage/overview']
 icon: Overview
 tab: true
 ---
-
-## Overview
-
+ 
 In the Overview section, users can see the graph and analyses the use of bucket. This section provides the following functionalities:
 
 ![Utho-objectStorage-graph](image/Utho-objectStorage-graph.png)

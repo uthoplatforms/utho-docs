@@ -11,9 +11,7 @@ draft: false
 aliases: ['/products/storage/object-storage/manage-object-storage/destroy']
 icon: Destroy
 tab: true
----
-
-## Destroy
+--- 
 
 In the Destroy section, users can terminate the Object Storage instance. This action is irreversible and will permanently delete the Object Storage.
 

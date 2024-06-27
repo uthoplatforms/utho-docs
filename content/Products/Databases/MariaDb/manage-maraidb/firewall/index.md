@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 60
 title: "Firewall"
 title_meta: "Manage MariaDB Firewall on the Utho Platform"
 description: "Easily manage your MariaDB Firewall with simple clicks on the Utho platform."

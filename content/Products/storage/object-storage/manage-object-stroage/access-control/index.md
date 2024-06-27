@@ -12,8 +12,7 @@ aliases: ['/products/storage/object-storage/manage-object-storage/access-control
 icon: Access Control
 tab: true
 ---
-
-## Access Control
+ 
 
 In the Access Control section, users can change the access control of bucket source url. This section provides the following functionalities:
 
