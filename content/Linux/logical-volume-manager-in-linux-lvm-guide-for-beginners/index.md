@@ -1,6 +1,16 @@
 ---
 title: "Logical volume manager in linux (LVM) Guide for beginners"
 date: "2023-08-17"
+title_meta: "Logical volume manager in linux (LVM) Guide for beginners"
+description: "Logical volume manager in linux (LVM) Guide for beginners"
+keywords:  ['LVM', 'linux', 'Command']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/logical-volume-manager-in-linux-lvm-guide-for-beginners']
 ---
 
 ![Logical volume manager in linux (LVM) Guide for beginners](images/Logical-volume-manager-in-linux-LVM-Guide-for-beginners-1024x576.png)

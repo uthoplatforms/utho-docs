@@ -1,6 +1,16 @@
 ---
 title: "How to Save a Command Output to a File in Linux"
 date: "2022-10-07"
+title_meta: "How to Save a Command Output to a File in Linux"
+description: "How to Save a Command Output to a File in Linux"
+keywords:  ['save command', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-save-a-command-output-to-a-file-in-linux']
 ---
 
 ![](images/How-to-Save-a-Command-Output-to-a-File-in-Linux_utho.jpg)

@@ -1,6 +1,16 @@
 ---
 title: "VirtualHost creation in Tomcat 10/9/8/7"
 date: "2022-09-25"
+title_meta: "VirtualHost creation in Tomcat "
+description: "VirtualHost creation in Tomcat "
+keywords:  ['tomcat', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/virtualhost-creation-in-tomcat-9-8-7']
 ---
 
 <figure>

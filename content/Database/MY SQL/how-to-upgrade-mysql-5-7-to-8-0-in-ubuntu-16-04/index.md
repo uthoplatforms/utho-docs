@@ -7,11 +7,11 @@ description: "Learn how to upgrade MySQL 5.7 to 8.0 on Ubuntu 16.04 with this de
 keywords: ["upgrade MySQL 5.7 to 8.0 Ubuntu 16.04", "update MySQL version Ubuntu 16.04", "upgrade MySQL server version Ubuntu 16.04", "MySQL 5.7 to 8.0 migration Ubuntu 16.04", "MySQL upgrade guide Ubuntu 16.04", "Ubuntu 16.04 MySQL upgrade steps", "MySQL 8.0 installation Ubuntu 16.04", "upgrade MySQL database Ubuntu 16.04"]
 
 tags: ["upgrade mysql 5.7 to 8.0", "ubuntu"]
-icon: "Ubuntu"
+icon: "mysql"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-upgrade-mysql-5-7-to-8-0-in-ubuntu-16-04/']
+aliases: ['/Database/MY SQL/how-to-upgrade-mysql-5-7-to-8-0-in-ubuntu-16-04/']
 tab: true
 ---
 

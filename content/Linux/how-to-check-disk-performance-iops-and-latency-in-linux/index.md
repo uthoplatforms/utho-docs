@@ -1,6 +1,16 @@
 ---
 title: "How to Check Disk Performance (IOPS and Latency) in Linux?"
 date: "2022-11-02"
+title_meta: "How to Check Disk Performance (IOPS and Latency) in Linux?"
+description: "How to Check Disk Performance (IOPS and Latency) in Linux?"
+keywords:  ['latency', 'iops', 'Linux']
+tags: ["latency"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-check-disk-performance-iops-and-latency-in-linux']
 ---
 
 ![How to Check Disk Performance](images/How-to-Check-Disk-Performance-IOPS-and-Latency-in-Linux-1024x576.png)

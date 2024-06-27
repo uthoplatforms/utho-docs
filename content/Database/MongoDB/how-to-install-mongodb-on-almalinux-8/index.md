@@ -7,12 +7,12 @@ description: "Learn how to install MongoDB on AlmaLinux 8. Follow this guide to 
 keywords: ['MongoDB', 'AlmaLinux 8', 'install', 'NoSQL database', 'scalable data storage']
 
 tags: ["MongoDB"]
-icon: "Alma Linux"
+icon: "mongodb"
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00" 
 draft: false
 toc: true
-aliases: ['/Linux/Alma Linux/how-to-install-mongodb-on-almalinux-8/']
+aliases: ['/Database/MongoDB/how-to-install-mongodb-on-almalinux-8/']
 tab: true
 ---
 

@@ -1,6 +1,16 @@
 ---
 title: "Learning the Linux Alias Command and How to Use It"
 date: "2022-10-07"
+title_meta: "Learning the Linux Alias Command and How to Use It"
+description: "Learning the Linux Alias Command and How to Use It"
+keywords:  ['Alias', 'linux', 'Command']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/learning-the-linux-alias-command-and-how-to-use-it']
 ---
 
 ![Learning the Linux Alias Command and How to Use It](images/Learning-the-Linux-Alias-Command-and-How-to-Use-It_utho.jpg)

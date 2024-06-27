@@ -7,11 +7,11 @@ description: "Follow step-by-step instructions for installing PostgreSQL on Ubun
 keywords: ["install PostgreSQL Ubuntu 20.04", "PostgreSQL installation guide Ubuntu 20.04", "setup PostgreSQL Ubuntu 20.04", "PostgreSQL setup tutorial Ubuntu 20.04", "Ubuntu 20.04 PostgreSQL installation steps", "PostgreSQL server setup Ubuntu 20.04", "Ubuntu 20.04 PostgreSQL install guide", "configure PostgreSQL Ubuntu 20.04"]
 
 tags: ["PostgreSQL", "ubuntu"]
-icon: "Ubuntu"
+icon: "postgres"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/installing-postgresql-on-ubuntu-20-04-step-by-step-instructions/']
+aliases: ['/Database/Postgres/installing-postgresql-on-ubuntu-20-04-step-by-step-instructions/']
 tab: true
 ---
 

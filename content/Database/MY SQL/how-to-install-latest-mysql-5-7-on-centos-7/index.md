@@ -7,11 +7,11 @@ description: "This guide provides instructions for installing the latest version
 keywords: ['MySQL 5.7', 'CentOS 7', 'EOL', 'security risk', 'database server', 'MariaDB']
 
 tags: ["SQL", "CentOS"]
-icon: "CentOS"
+icon: "mysql"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-install-latest-mysql-5-7-on-centos-7/']
+aliases: ['/Database/MY SQL/how-to-install-latest-mysql-5-7-on-centos-7/']
 tab: true
 ---
 

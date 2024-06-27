@@ -1,6 +1,16 @@
 ---
 title: "How to Create, Encrypt, and Decrypt Random Passwords in Linux"
 date: "2022-12-08"
+title_meta: "How to Create, Encrypt, and Decrypt Random Passwords in Linux"
+description: "How to Create, Encrypt, and Decrypt Random Passwords in Linux"
+keywords:  ['linux', 'Encrypt', 'decrypt']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-create-encrypt-and-decrypt-random-passwords-in-linux']
 ---
 
 **Description**

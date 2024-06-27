@@ -1,6 +1,16 @@
 ---
 title: "SSH Logins with Banner Messages (MOTD File)"
 date: "2022-06-22"
+title_meta: "SSH Logins with Banner Messages (MOTD File)"
+description: "SSH Logins with Banner Messages (MOTD File)"
+keywords:  ['ssh logins', 'linux', 'MOTD']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/ssh-logins-with-banner-messages-motd-file-support-internal']
 ---
 
 One of the easiest ways to protect and secure SSH logins is by displaying warning messages to unauthorized users or displaying welcome or informational messages to authorized users.

@@ -1,6 +1,16 @@
 ---
 title: "Migrate your Google Cloud Platform to Microhost Cloud"
 date: "2022-11-08"
+title_meta: "Migrate your Google Cloud Platform to Microhost Cloud"
+description: "Migrate your Google Cloud Platform to Microhost Cloud"
+keywords:  ['migrate', 'linux', 'disable']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/migrate-your-google-cloud-platform-to-microhost-cloud']
 ---
 
 ![Migrate your Google Cloud Platform to Microhost](images/Migrate-your-Google-Cloud-Platform-to-Microhost-1024x576.png)

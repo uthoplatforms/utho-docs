@@ -1,6 +1,16 @@
 ---
 title: "Using the Carat () Symbol, you can easily correct a previous command's typo."
 date: "2022-11-29"
+title_meta: "Using the Carat () Symbol, you can easily correct a previous command's typo."
+description: "Using the Carat () Symbol, you can easily correct a previous command's typo."
+keywords:  ['carat', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/using-the-carat-symbol-you-can-easily-correct-a-previous-commands-typo']
 ---
 
 **Description**

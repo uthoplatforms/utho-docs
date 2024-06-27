@@ -1,6 +1,18 @@
 ---
 title: "How To Import and Export Databases in MySQL or MariaDB"
 date: "2022-09-15"
+title_meta: "Guide to import Export Database"
+description: "Database import and export is a common task in software development. Data dumps can be used to backup and restore your information. They are also useful for migrating data to a new server or development environment."
+
+keywords: ['MySQL 5.7', 'CentOS 7', 'EOL', 'security risk', 'database server', 'MariaDB']
+
+tags: ["SQL", "CentOS", "Export"]
+icon: "mysql"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Database/MY SQL/how-to-import-and-export-databases-in-mysql-or-mariadb/']
+tab: true
 ---
 
 ![](images/How-To-Import-and-Export-Databases-in-MySQL-or-MariaDB_utho.jpg)

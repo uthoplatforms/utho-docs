@@ -1,6 +1,16 @@
 ---
 title: "How to Prevent File and Directories from Being Deleted, Even by Root"
 date: "2022-10-07"
+title_meta: "How to Prevent File and Directories from Being Deleted, Even by Root"
+description: "How to Prevent File and Directories from Being Deleted, Even by Root"
+keywords:  ['deletion','linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-prevent-file-and-directories-from-being-deleted-even-by-root']
 ---
 
 ![](images/How-to-Prevent-File-and-Directories-from-Being-Deleted-Even-by-Root-1024x576.png)

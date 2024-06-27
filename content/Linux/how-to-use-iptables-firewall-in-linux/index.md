@@ -1,6 +1,16 @@
 ---
 title: "How to use IPTABLES firewall in Linux"
 date: "2022-09-16"
+title_meta: "How to use IPTABLES firewall in Linux"
+description: "How to use IPTABLES firewall in Linux"
+keywords:  ['iptables', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-use-iptables-firewall-in-linux']
 ---
 
 <figure>

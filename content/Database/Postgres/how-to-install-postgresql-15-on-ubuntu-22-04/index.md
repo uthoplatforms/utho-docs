@@ -7,11 +7,11 @@ description: "Learn how to install PostgreSQL 15 on Ubuntu 22.04 with this compr
 keywords: ["install PostgreSQL 15 Ubuntu 22.04", "PostgreSQL 15 setup Ubuntu 22.04", "Ubuntu 22.04 PostgreSQL 15 installation guide", "database management Ubuntu", "Ubuntu PostgreSQL tutorial", "PostgreSQL installation steps Ubuntu 22.04", "SQL database Ubuntu", "PostgreSQL 15 Ubuntu 22.04 instructions"]
 
 tags: ["PostgreSQL 15", "ubuntu"]
-icon: "Ubuntu"
+icon: "postgres"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-install-postgresql-15-on-ubuntu-22-04/']
+aliases: ['/Database/Postgres/how-to-install-postgresql-15-on-ubuntu-22-04']
 tab: true
 ---
 

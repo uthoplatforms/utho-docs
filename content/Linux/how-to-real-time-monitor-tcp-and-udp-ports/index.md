@@ -1,6 +1,16 @@
 ---
 title: "How to Real-Time Monitor TCP and UDP Ports"
 date: "2022-10-09"
+title_meta: "How to Real-Time Monitor TCP and UDP Ports"
+description: "How to Real-Time Monitor TCP and UDP Ports"
+keywords:  ['relatime', 'monitor', 'tcp', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-real-time-monitor-tcp-and-udp-ports']
 ---
 
 ![](images/How-to-Real-Time-Monitor-TCP-and-UDP-Ports_utho.jpg)

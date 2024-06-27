@@ -1,6 +1,16 @@
 ---
 title: "Mysql 1030 got error 28 from storage engine"
 date: "2022-09-15"
+title_meta: "If you have any experience hosting MySQL systems, you have most likely run into the following error at some point. The following are some suggestions for how to correct it."
+keywords: ["Mysql 1030 error", "storage engine"]
+
+tags: ["Mysql", "ubuntu"]
+icon: "mysql"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Database/MY SQL/mysql-1030-got-error-28-from-storage-engine/']
+tab: true
 ---
 
 ![Mysql 1030 got error 28 from storage engine](images/Mysql-1030-got-error-28-from-storage-engine_utho.jpg)

@@ -1,6 +1,16 @@
 ---
 title: "Archiving and Compressing files with GNU Tar and GNU Zip"
 date: "2020-04-20"
+title_meta: "Archiving and Compressing files with GNU Tar and GNU Zip"
+description: "Archiving and Compressing files with GNU Tar and GNU Zip"
+keywords: ["ssh", "linux", "mac"]
+tags: ["linux", "ssh"]
+icon: "linux"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Linux/archiving-and-compressing-files-with-gnu-tar-and-gnu-zip']
+tab: true
 ---
 
 ## tar Command

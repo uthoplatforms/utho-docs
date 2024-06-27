@@ -1,6 +1,17 @@
 ---
 title: "How to access Linux server using SSH in Windows, Linux and Mac OS."
 date: "2020-05-16"
+title_meta: "Guide on how to access Linux server using SSH in Windows, Linux and Mac OS."
+description: "Learn how to access Linux server using SSH in Windows, Linux and Mac OS.
+"
+keywords: ["ssh", "linux", "mac"]
+tags: ["linux", "ssh"]
+icon: "linux"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Linux/access-linux-server-using-ssh-in-windows-linux-and-mac-os']
+tab: true
 ---
 
 ![](images/Access-Linux-server-using-SSH-in-Windows-Linux-and-Mac-OS-1024x576.png)

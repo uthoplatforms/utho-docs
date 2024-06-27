@@ -6,11 +6,11 @@ description: ' This guide details resetting the forgotten MySQL root password in
 
 keywords:  ['  MySQL, root password reset, CentOS 7, safe mode, mysqld_safe.']
 tags: ["reset forgotten MySQL root password" , "CentOS"]
-icon: "CentOS"
+icon: "mysql"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-reset-the-mysql-root-password-in-centos-7/']
+aliases: ['/Database/MY SQL/how-to-reset-the-mysql-root-password-in-centos-7/']
 tab: true
 ---
 

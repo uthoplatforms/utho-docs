@@ -6,14 +6,12 @@ description: 'This guide details the process of installing Redis, a popular in-m
 
 keywords:   ['Redis', 'CentOS', 'in-memory data store', 'key-value store', 'EPEL repository', 'yum']
 
-
-
 tags: ["Redis", "CentOS"]
-icon: "CentOS"
+icon: "redis"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-install-redis-on-centos/']
+aliases: ['/Database/Redis/how-to-install-redis-on-centos/']
 tab: true
 ---
 

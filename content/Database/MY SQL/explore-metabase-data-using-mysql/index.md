@@ -1,6 +1,17 @@
 ---
 title: "Explore Metabase data using MySQL"
 date: "2022-09-22"
+title_meta: "Guide to explore Metabase data using SQL"
+description: "Metabase gives you a way to ask questions about data in your browser. Metabase not only lets you run SQL queries, but it also lets you analyse data without SQL, make dashboards, and track metrics. This guide explains how to connect MySQL to Metabase and then use a reverse proxy to deploy on NGINX."
+keywords: ["MYSQL", "Metabase"]
+
+tags: ["MySQL", "Metabase"]
+icon: "mysql"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Database/MY SQL/explore-metabase-data-using-mysql/']
+tab: true
 ---
 
 ![featured image](images/Explore-Metabase-data-using-MySQL_utho.jpg)

@@ -1,6 +1,16 @@
 ---
 title: "How to Disable SELinux Temporarily or Permanently"
 date: "2022-11-20"
+title_meta: "How to Create Hard and Symbolic Links"
+description: "How to Create Hard and Symbolic Links"
+keywords:  ['linux', 'SELinux']
+tags: ["SELinux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-disable-selinux-temporarily-or-permanently']
 ---
 
 In this article you will learn How to Disable SELinux Temporarily or Permanently, SELinux, which stands for "Security Enhanced [Linux,](https://utho.com/docs/tutorial/category/linux-tutorial/)" is a security module for the Linux kernel that gives users and administrators more control over access controls. It lets people in based on the rules of SELinux policy.

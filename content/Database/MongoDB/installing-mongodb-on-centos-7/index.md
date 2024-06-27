@@ -6,11 +6,11 @@ description: 'This guide details the steps to install and configure MongoDB, a d
 
 keywords:  ['   CentOS 7, MongoDB, NoSQL database, installation.']
 tags: ["MongoDB on CentOS 7"]
-icon: "CentOS"
+icon: "mongodb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/installing-mongodb-on-centos-7/']
+aliases: ['/Database/MongoDB/installing-mongodb-on-centos-7/']
 tab: true
 ---
 ---

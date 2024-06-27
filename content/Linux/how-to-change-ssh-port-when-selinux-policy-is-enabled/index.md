@@ -1,6 +1,16 @@
 ---
 title: "How to change SSH port when SELinux policy is enabled"
 date: "2023-04-24"
+title_meta: "How to change SSH port when SELinux policy is enabled"
+description: "How to change SSH port when SELinux policy is enabled"
+keywords:  ['SSH port change', 'SELinux']
+tags: ["SELinux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-change-ssh-port-when-selinux-policy-is-enabled']
 ---
 
 <figure>

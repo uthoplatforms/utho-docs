@@ -1,6 +1,16 @@
 ---
 title: "Linux Top Command"
 date: "2020-04-04"
+title_meta: "Linux Top Command"
+description: "Linux Top Command"
+keywords:  ['top', 'linux', 'Command']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/linux-top-command']
 ---
 
 ## Top Command

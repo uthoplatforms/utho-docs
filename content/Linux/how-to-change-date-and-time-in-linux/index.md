@@ -1,6 +1,16 @@
 ---
 title: "How to change date and time in Linux"
 date: "2023-03-25"
+title_meta: "How to change date and time in Linux"
+description: "Follow the below steps to learn How to change date and time in Linux."
+keywords:  ['change date time', 'Linux']
+tags: ["Linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-change-date-and-time-in-linux']
 ---
 
 <figure>

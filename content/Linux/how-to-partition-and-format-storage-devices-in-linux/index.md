@@ -1,6 +1,16 @@
 ---
 title: "How To Partition and Format Storage Devices in Linux"
 date: "2022-09-16"
+title_meta: "How To Partition and Format Storage Devices in Linux"
+description: "How To Partition and Format Storage Devices in Linux"
+keywords:  ['partition','linux', 'storage']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-partition-and-format-storage-devices-in-linux']
 ---
 
 ![How To Partition and Format Storage Devices in Linux](images/How-To-Partition-and-Format-Storage-Devices-in-Linux_utho.jpg)

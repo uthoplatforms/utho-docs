@@ -1,6 +1,16 @@
 ---
 title: "How to check and analyze packets by tcpdump command"
 date: "2022-08-19"
+title_meta: "How to check and analyze packets by tcpdump command"
+description: "How to check and analyze packets by tcpdump command"
+keywords:  ['tcp dump', 'Linux']
+tags: ["Linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-check-and-analyze-packets-by-tcpdump-command']
 ---
 
 <figure>

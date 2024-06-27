@@ -7,11 +7,11 @@ description: 'This guide walks you through installing PostgreSQL, a powerful ope
 keywords:  ['PostgreSQL', 'CentOS 7', 'database server', 'object-relational database', 'yum']
 
 tags: ["PostgreSQL", "CentOS"]
-icon: "CentOS"
+icon: "postgres"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-install-postgres-database-in-centos-7/']
+aliases: ['/Database/Postgres/how-to-install-postgres-database-in-centos-7/']
 tab: true
 ---
 

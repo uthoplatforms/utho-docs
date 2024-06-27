@@ -1,6 +1,16 @@
 ---
 title: "NTP Server Configuration"
 date: "2022-06-22"
+title_meta: "NTP Server Configuration"
+description: "NTP Server Configuration"
+keywords:  ['NTP', 'linux', 'Configuration']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/ntp-server-configuration-support-internal']
 ---
 
 ![](images/NTP-Server-Configuration-Support-Internal-1024x576.png)

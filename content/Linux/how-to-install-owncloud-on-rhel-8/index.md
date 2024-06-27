@@ -1,6 +1,16 @@
 ---
 title: "How to install Owncloud on RHEL 8"
 date: "2023-07-09"
+title_meta: "How to install Owncloud on RHEL 8"
+description: "How to install Owncloud on RHEL 8"
+keywords:  ['owncloud', 'linux']
+tags: ["linux", "owncloud"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-install-owncloud-on-rhel-8']
 ---
 
 <figure>

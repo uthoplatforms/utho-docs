@@ -7,11 +7,11 @@ description: "Learn how to move a PostgreSQL data directory to a new location on
 keywords: ["move PostgreSQL data directory Ubuntu 22.04", "PostgreSQL data directory relocation Ubuntu 22.04", "change PostgreSQL data directory location Ubuntu 22.04", "PostgreSQL data directory move guide Ubuntu 22.04", "Ubuntu 22.04 PostgreSQL data directory migration", "move PostgreSQL database directory Ubuntu 22.04", "PostgreSQL data directory Ubuntu 22.04 tutorial", "PostgreSQL Ubuntu 22.04 data directory move steps"]
 
 tags: ["PostgreSQL Data Directory", "ubuntu"]
-icon: "Ubuntu"
+icon: "postgres"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-move-a-postgresql-data-directory-to-a-new-location-on-ubuntu-22-04/']
+aliases: ['/Database/Postgres/how-to-move-a-postgresql-data-directory-to-a-new-location-on-ubuntu-22-04/']
 tab: true
 ---
 

@@ -1,6 +1,16 @@
 ---
 title: "How to Execute a Command with a Timeout in Linux"
 date: "2022-11-04"
+title_meta: "How to Execute a Command with a Timeout in Linux"
+description: "How to Execute a Command with a Timeout in Linux"
+keywords:  ['linux', 'timeout']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-execute-a-command-with-a-timeout-in-linux']
 ---
 
 <figure>

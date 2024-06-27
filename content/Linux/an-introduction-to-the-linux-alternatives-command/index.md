@@ -1,6 +1,16 @@
 ---
 title: "An introduction to the Linux alternatives command"
 date: "2022-11-23"
+title_meta: "An introduction to the Linux alternatives command"
+description: "Learn  altenatives of the Linux command"
+keywords: ["ssh", "linux", "mac"]
+tags: ["linux", "ssh"]
+icon: "linux"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Linux/an-introduction-to-the-linux-alternatives-command']
+tab: true
 ---
 
 <figure>

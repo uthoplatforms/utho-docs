@@ -1,6 +1,16 @@
 ---
 title: "How to schedule your task using crontab"
 date: "2022-09-03"
+title_meta: "How to schedule your task using crontab"
+description: "How to schedule your task using crontab"
+keywords:  ['crontab', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-schedule-your-task-using-crontab']
 ---
 
 <figure>

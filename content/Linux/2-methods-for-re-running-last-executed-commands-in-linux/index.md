@@ -1,6 +1,16 @@
 ---
 title: "2 Methods for Re-Running Last Executed Commands in Linux"
 date: "2022-12-08"
+title_meta: "2 Methods for Re-Running Last Executed Commands in Linux"
+description: "The command history is one of the most useful aspects of the Bash shell. This feature logs all of the commands that a user executes and keeps them in a file located in the user's home directory (usually /home/$USER/.bash history). This makes it simple for the user to recall, amend, and perform previously executed instructions again."
+keywords: ["linux commands", "bash"]
+tags: ["linux"]
+icon: "linux"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Linux/2-methods-for-re-running-last-executed-commands-in-linux/']
+tab: true
 ---
 
 ![2 Methods for Re-Running Last Executed Commands in Linux](images/2-Methods-for-Re-Running-Last-Executed-Commands-in-Linux_utho.jpg)

@@ -1,6 +1,16 @@
 ---
 title: "How to use 'chage' command in Linux"
 date: "2022-08-26"
+title_meta: "How to use 'chage' command in Linux"
+description: "How to use 'chage' command in Linux"
+keywords:  ['chage', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/uses-of-chage-command-in-linux']
 ---
 
 ![How to use 'chage' command in Linux](images/Uses-of-change-command-in-Linux-2-1024x576.png)

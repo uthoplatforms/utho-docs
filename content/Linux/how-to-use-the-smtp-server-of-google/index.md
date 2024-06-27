@@ -1,6 +1,16 @@
 ---
 title: "How to Use the SMTP Server of Google"
 date: "2022-09-25"
+title_meta: "How to Use the SMTP Server of Google"
+description: "How to Use the SMTP Server of Google"
+keywords:  ['smtp', 'linux', 'google']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-use-the-smtp-server-of-google']
 ---
 
 ![How to Use the SMTP Server of Google](images/How-to-Use-the-SMTP-Server-of-Google-1024x576.png)

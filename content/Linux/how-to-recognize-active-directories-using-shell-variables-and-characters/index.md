@@ -1,6 +1,16 @@
 ---
 title: "How to Recognize Active Directories Using Shell Variables and Characters"
 date: "2022-10-07"
+title_meta: "How to Recognize Active Directories Using Shell Variables and Characters"
+description: "How to Recognize Active Directories Using Shell Variables and Characters"
+keywords:  ['directories', 'shell', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-recognize-active-directories-using-shell-variables-and-characters']
 ---
 
 ![How to Recognize Active Directories Using Shell Variables and Characters](images/How-to-Recognize-Active-Directories-Using-Shell-Variables-and-Characters_utho.jpg)

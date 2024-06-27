@@ -11,7 +11,7 @@ icon: "CentOS"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-connect-node-js-application-with-mongodb-on-centos/']
+aliases: ['/Database/MongoDB/how-to-connect-node-js-application-with-mongodb-on-centos/']
 tab: true
 ---
 

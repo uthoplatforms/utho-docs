@@ -7,11 +7,11 @@ description: "Learn how to change the MySQL port number in CentOS 7. This tutori
 keywords: ["CentOS 7 change MySQL port number", "modify MySQL port CentOS 7", "MySQL server port configuration CentOS 7", "CentOS 7 MySQL port change tutorial", "MySQL custom port CentOS 7", "MySQL configuration file CentOS 7", "CentOS 7 MySQL port setting", "MySQL change port number"]
 
 tags: ["mysql", "CentOS"]
-icon: "CentOS"
+icon: "mysql"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-change-mysql-port-number-in-centos-7/']
+aliases: ['/Database/MY SQL/how-to-change-mysql-port-number-in-centos-7/']
 tab: true
 ---
 

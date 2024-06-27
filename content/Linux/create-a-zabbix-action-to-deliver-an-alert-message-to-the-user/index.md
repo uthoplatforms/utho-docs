@@ -5,7 +5,7 @@ title_meta: "GUIDE TO Create a Zabbix action to deliver an alert message to the 
 description: "Zabbix actions allow you to define automated responses to specific trigger events. This guide details creating an action that sends an alert message to a designated user when a trigger goes into a problem state."
 keywords:  ['Zabbix', 'action', 'alert', 'user', 'notification']
 tags: ["zabbix"]
-icon: "CentOS"
+icon: "linux"
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00" 
 draft: false

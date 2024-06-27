@@ -1,6 +1,16 @@
 ---
 title: "How To Use ps, kill, and nice to Manage Processes in Linux"
 date: "2022-09-16"
+title_meta: "How To Use ps, kill, and nice to Manage Processes in Linux"
+description: "How To Use ps, kill, and nice to Manage Processes in Linux"
+keywords:  ['ps kill', 'linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-use-ps-kill-and-nice-to-manage-processes-in-linux']
 ---
 
 ![Use ps, kill and nice to Manage Processes in Linux](images/How-To-Use-ps-kill-and-nice-to-Manage-Processes-in-Linux-1024x576.png)

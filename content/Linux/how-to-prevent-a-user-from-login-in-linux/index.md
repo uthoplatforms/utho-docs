@@ -1,6 +1,16 @@
 ---
 title: "How to prevent a user from login in Linux"
 date: "2022-09-22"
+title_meta: "How to prevent a user from login in Linux"
+description: "How to prevent a user from login in Linux"
+keywords:  ['login prevention','linux']
+tags: ["linux"]
+icon: "linux"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Linux/how-to-prevent-a-user-from-login-in-linux']
 ---
 
 ![How to prevent a user from login in Linux](images/How-to-prevent-a-user-from-login-in-Linux_utho.jpg)
