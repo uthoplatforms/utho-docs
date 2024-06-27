@@ -1,5 +1,5 @@
 ---
-weight: 30
+weight: 17
 title: "Database"
 description: ""
 icon: "Database"
