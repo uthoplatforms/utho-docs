@@ -38,6 +38,11 @@ body.in-iframe {
                document.querySelectorAll('a').forEach(function(link) {
                    link.setAttribute('target', '_blank');
                });
+             
+               // Remove lazy loading attribute from all images
+               document.querySelectorAll('img').forEach(function(img) {
+                 img.removeAttribute('loading');
+               });
            }
        });
    </script>
