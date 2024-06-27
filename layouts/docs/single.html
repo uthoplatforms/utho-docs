@@ -7,7 +7,6 @@
         {{ partial "breadcrumb.html" . }}
         <div class="hx-title-wrapper hx-flex hx-justify-between hx-items-center hx-mt-8">
           <h1 class="hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">{{ .Title }}</h1>
-          {{ partial "share-buttons.html" . }}
         </div>
         <div class="hx-mt-8 hx-mb-4 hx-text-gray-500 hx-text-sm hx-flex hx-items-center hx-flex-wrap hx-gap-y-2 utho-hide">
           {{- with $date := .Date }}<span class="hx-mr-1">{{ partial "utils/format-date" $date }}</span>{{ end -}}
@@ -37,6 +36,7 @@
               {{- end -}}
             {{- end -}}
           {{- end -}}
+          {{ partial "share-buttons.html" . }}
         </div>
         {{- $tags := .Params.tags -}}
         {{- if $tags -}}
