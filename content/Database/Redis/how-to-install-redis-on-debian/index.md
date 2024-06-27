@@ -7,11 +7,11 @@ description: "A comprehensive guide on how to install Postman, a popular API cli
 keywords: ['Debian 12', 'Postman', 'installation', 'API client', 'testing', 'Linux', 'development']
 
 tags: ["Redis"]
-icon: "Debian"
+icon: "redis"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Debian/how-to-install-redis-on-debian/']
+aliases: ['/Database/Redis/how-to-install-redis-on-debian/']
 tab: true
 ---
 

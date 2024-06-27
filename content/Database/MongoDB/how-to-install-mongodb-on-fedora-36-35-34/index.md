@@ -8,12 +8,12 @@ Description: Follow this guide for step-by-step instructions on installing Mongo
 Keywords: ['MongoDB', 'Fedora 36', 'Fedora 35', 'Fedora 34', 'install MongoDB', 'NoSQL database']
 
 Tags: ["MongoDB", "Fedora", "NoSQL Database"]
-icon: "fedora"
+icon: "mongodb"
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00" 
 draft: false
 toc: true
-aliases: ['/Linux/Fedora/how-to-install-mongodb-on-fedora-36-35-34/']
+aliases: ['/Database/MongoDB/how-to-install-mongodb-on-fedora-36-35-34/']
 tab: true
 ---
 

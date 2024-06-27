@@ -1,6 +1,18 @@
 ---
 title: "How To Create a New User and Grant Permissions in MySQL"
 date: "2022-09-18"
+title_meta: "Guide for to create a new user and Grant Permissions in MySQL"
+description: "Discover how to create a new user and Grant Permissions in MySQL
+"
+keywords: ["MYSQL", "users"]
+
+tags: ["MySQL", "CentOS"]
+icon: "mysql"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Database/MY SQL/create-a-new-user-in-mysql-and-learn-how-to-grant-permissions/']
+tab: true
 ---
 
 ![How To Create a New User and Grant Permissions in MySQL](images/Create-a-New-User-in-MySQL-and-Learn-How-to-Grant-Permissions-1-1024x576.png)

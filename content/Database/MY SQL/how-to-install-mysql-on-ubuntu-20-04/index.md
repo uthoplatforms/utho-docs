@@ -7,11 +7,11 @@ description: "Learn how to install MySQL on Ubuntu 20.04 with this comprehensive
 keywords: ["install MySQL Ubuntu 20.04", "MySQL setup Ubuntu 20.04", "Ubuntu 20.04 MySQL installation guide", "SQL database Ubuntu", "Ubuntu MySQL tutorial", "MySQL installation steps Ubuntu 20.04", "database management Ubuntu", "MySQL Ubuntu 20.04 instructions"]
 
 tags: ["MySQL", "ubuntu"]
-icon: "Ubuntu"
+icon: "mysql"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-install-mysql-on-ubuntu-20-04']
+aliases: ['/Database/MY SQL/how-to-install-mysql-on-ubuntu-20-04/']
 tab: true
 ---
 

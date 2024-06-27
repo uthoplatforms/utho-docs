@@ -8,11 +8,11 @@ description: "A step-by-step guide on how to install the latest MySQL version, a
 keywords: ['Debian 10', 'MySQL', 'installation', 'database management', 'SQL', 'Linux']
 
 tags: ["MySQL"]
-icon: "Debian"
+icon: "mysql"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Debian/how-to-install-the-latest-mysql-on-debian-10/']
+aliases: ['/Database/MY SQL/how-to-install-the-latest-mysql-on-debian-10/']
 tab: true
 ---
 

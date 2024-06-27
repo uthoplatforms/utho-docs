@@ -1,6 +1,19 @@
 ---
 title: "How To Migrate a MySQL Database Between Two Servers"
 date: "2022-09-15"
+title_meta: "Guide to Migrate a MySQL Database Between Two Servers"
+
+description: "SCP (Secure Copy), a method of transferring files derived from the SSH Shell, can be used to transfer databases across virtual private servers. Remember that both of the virtual servers' passwords must be known."
+
+keywords: ['Migration', 'MySQL', 'installation', 'database management', 'SQL', 'Linux']
+
+tags: ["MySQL"]
+icon: "mysql"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Database/MY SQL/how-to-install-the-latest-mysql-on-debian-10/']
+tab: true
 ---
 
 ![](images/How-To-Migrate-a-MySQL-Database-Between-Two-Servers_utho.jpg)

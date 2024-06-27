@@ -7,11 +7,11 @@ description: "Learn how to connect a Node.js application with MongoDB on CentOS.
 keywords: ["Node.js MongoDB connection CentOS", "Node.js MongoDB tutorial CentOS", "Node.js MongoDB example CentOS", "connect Node.js to MongoDB CentOS", "Node.js MongoDB setup CentOS", "CentOS Node.js MongoDB integration", "MongoDB Node.js driver CentOS", "Node.js MongoDB CRUD operations CentOS"]
 
 tags: ["Node.js", "MongoDB", "CentOS"]
-icon: "CentOS"
+icon: "mongodb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-connect-node-js-application-with-mongodb-on-centos-2/']
+aliases: ['/Database/MongoDB/how-to-connect-node-js-application-with-mongodb-on-centos-2/']
 tab: true
 ---
 

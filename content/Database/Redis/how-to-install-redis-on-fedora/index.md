@@ -8,12 +8,12 @@ keywords: ['Fedora', 'Redis', 'installation', 'database', 'in-memory data store'
 
 
 Tags: ["Redis", "fedora"]
-icon: "fedora"
+icon: "redis"
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00" 
 draft: false
 toc: true
-aliases: ['/Linux/Fedora/how-to-install-redis-on-fedora/']
+aliases: ['/Database/Redis/how-to-install-redis-on-fedora/']
 tab: true
 ---
 

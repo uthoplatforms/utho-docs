@@ -8,11 +8,11 @@ keywords: ['Debian', 'MongoDB', 'installation', 'NoSQL', 'database management', 
 
 
 tags: [" MongoDB "]
-icon: "Debian"
+icon: "mongodb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Debian/how-to-install-mongodb-on-debian/']
+aliases: ['/Database/MongoDB/how-to-install-mongodb-on-debian/']
 tab: true
 ---
 

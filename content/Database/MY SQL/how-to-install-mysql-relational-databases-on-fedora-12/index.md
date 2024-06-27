@@ -8,12 +8,12 @@ Description: This guide provides detailed instructions on installing MySQL relat
 Keywords: ['MySQL', 'Fedora 12', 'install MySQL', 'relational database', 'database management']
 
 Tags: ["MySQL", "Fedora 12", "Relational Database", "Database Management"]
-icon: "fedora"
+icon: "mysql"
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00" 
 draft: false
 toc: true
-aliases: ['/Linux/Fedora/how-to-install-mysql-relational-databases-on-fedora-12/']
+aliases: ['content/Database/MY SQL/how-to-install-mysql-relational-databases-on-fedora-12/']
 tab: true
 ---
 

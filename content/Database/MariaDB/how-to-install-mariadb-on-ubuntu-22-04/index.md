@@ -7,11 +7,11 @@ description: "Learn how to install MariaDB on Ubuntu 22.04 with this comprehensi
 keywords: ["install MariaDB Ubuntu 22.04", "MariaDB setup Ubuntu 22.04", "Ubuntu 22.04 MariaDB installation guide", "MySQL alternative Ubuntu", "Ubuntu MariaDB tutorial", "MariaDB installation steps Ubuntu 22.04", "database management Ubuntu", "MariaDB Ubuntu 22.04 instructions"]
 
 tags: ["MariaDB", "ubuntu"]
-icon: "Ubuntu"
+icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-install-mariadb-on-ubuntu-22-04/']
+aliases: ['/Database/MariaDB/how-to-install-mariadb-on-ubuntu-22-04/']
 tab: true
 ---
 

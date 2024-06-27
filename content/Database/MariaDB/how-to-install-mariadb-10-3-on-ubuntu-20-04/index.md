@@ -7,11 +7,11 @@ description: "Learn how to install MariaDB 10.3 on Ubuntu 20.04 with this compre
 keywords: ["install MariaDB 10.3 Ubuntu 20.04", "MariaDB 10.3 setup Ubuntu 20.04", "Ubuntu 20.04 MariaDB 10.3 installation guide", "MySQL fork Ubuntu", "Ubuntu MariaDB tutorial", "MariaDB installation steps Ubuntu 20.04", "database management Ubuntu", "MariaDB 10.3 Ubuntu 20.04 instructions"]
 
 tags: ["MariaDB 10.3", "ubuntu"]
-icon: "Ubuntu"
+icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-install-mariadb-10-3-on-ubuntu-20-04/']
+aliases: ['/Database/MariaDB/how-to-install-mariadb-10-3-on-ubuntu-20-04/']
 tab: true
 ---
 

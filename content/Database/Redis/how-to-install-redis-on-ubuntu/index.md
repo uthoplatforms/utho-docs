@@ -7,11 +7,11 @@ description: "Learn how to install Red5 Server on Ubuntu 22.04 with this compreh
 keywords: ["install Red5 Server Ubuntu 22.04", "Red5 Server setup Ubuntu 22.04", "Ubuntu 22.04 Red5 Server installation guide", "media server Ubuntu", "Ubuntu Red5 Server tutorial", "Red5 Server installation steps Ubuntu 22.04", "video streaming Ubuntu", "Red5 Server Ubuntu 22.04 instructions"]
 
 tags: ["Redis", "ubuntu"]
-icon: "Ubuntu"
+icon: "redis"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-install-redis-on-ubuntu/']
+aliases: ['/Database/Redis/how-to-install-redis-on-ubuntu/']
 tab: true
 ---
 

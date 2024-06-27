@@ -1,6 +1,18 @@
 ---
 title: "Using mysqldump to Backup MySQL Databases"
 date: "2022-09-22"
+title_meta: "Guide for mysqldump to Backup MySQL Databases"
+description: "The mysqldump utility is part of MySQL and MariaDB. It makes it easier to make a backup of a database or system of databases. Using mysqldump makes a logical backup and generates the SQL statements needed to recreate the original database structure and data.
+"
+keywords: ["MySQL dumb", "database backup"]
+
+tags: ["MySQL", "backup"]
+icon: "mysql"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Database/MY SQL/using-mysqldump-to-backup-mysql-databases/']
+tab: true
 ---
 
 ![Using mysqldump to Backup MySQL Databases](images/Using-mysqldump-to-Backup-MySQL-Databases_utho.jpg)

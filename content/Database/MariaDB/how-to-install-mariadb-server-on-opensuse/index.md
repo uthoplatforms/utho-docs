@@ -8,12 +8,12 @@ Description: Follow this guide to install MariaDB Server on OpenSUSE. Learn step
 Keywords: ['MariaDB', 'OpenSUSE', 'install MariaDB', 'database server', 'relational database management']
 
 Tags: ["MariaDB", "OpenSUSE", "Database Server", "Relational Database Management"]
-icon: "opensuse"
+icon: "mariadb"
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00" 
 draft: false
 toc: true
-aliases: ['/Linux/openSUSE/how-to-install-mariadb-server-on-opensuse/']
+aliases: ['/Database/MariaDB/how-to-install-mariadb-server-on-opensuse/']
 tab: true
 ---
 

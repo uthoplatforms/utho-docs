@@ -7,11 +7,11 @@ description: "Learn how to reset your MySQL or MariaDB root password on Ubuntu 1
 keywords: ["reset MySQL root password Ubuntu 18.04", "reset MariaDB root password Ubuntu 18.04", "forgot MySQL root password Ubuntu", "forgot MariaDB root password Ubuntu", "MySQL root password recovery Ubuntu", "MariaDB root password recovery Ubuntu", "Ubuntu 18.04 MySQL password reset", "Ubuntu 18.04 MariaDB password reset"]
 
 tags: ["reset Your MySQL or MariaDB Root Password", "ubuntu"]
-icon: "Ubuntu"
+icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-reset-your-mysql-or-mariadb-root-password-on-ubuntu-18-04/']
+aliases: ['/Database/MariaDB/how-to-reset-your-mysql-or-mariadb-root-password-on-ubuntu-18-04/']
 tab: true
 ---
 

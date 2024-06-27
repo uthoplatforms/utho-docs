@@ -6,11 +6,11 @@ description: 'This guide outlines the steps to install and configure MariaDB on 
 
 keywords:  ['  CentOS 8 ', 'MariaDB' , 'database']
 tags: ["MariaDB", "CentOS 7"]
-icon: "CentOS"
+icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/mariadb-installation-on-centos-8/']
+aliases: ['/Database/MariaDB/mariadb-installation-on-centos-8/']
 tab: true
 ---
 ---

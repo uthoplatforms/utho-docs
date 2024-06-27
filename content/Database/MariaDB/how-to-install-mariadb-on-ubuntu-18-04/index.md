@@ -8,11 +8,11 @@ keywords: ["install MariaDB Ubuntu 18.04", "MariaDB setup Ubuntu 18.04", "Ubuntu
 
 
 tags: ["MariaDB", "ubuntu"]
-icon: "Ubuntu"
+icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-install-mariadb-on-ubuntu-18-04/']
+aliases: ['/Database/MariaDB/how-to-install-mariadb-on-ubuntu-18-04/']
 tab: true
 ---
 

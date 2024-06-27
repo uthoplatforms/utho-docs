@@ -6,11 +6,11 @@ description: 'This guide details creating a user account with restricted access 
 
 keywords:  ['  MySQL, CentOS 7, systemctl.']
 tags: ["Start, Stop, and Restart MySQL Server"]
-icon: "CentOS"
+icon: "mysql"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-start-stop-and-restart-mysql-server-on-centos-7/']
+aliases: ['/Database/MY SQL/how-to-start-stop-and-restart-mysql-server-on-centos-7/']
 tab: true
 ---
 

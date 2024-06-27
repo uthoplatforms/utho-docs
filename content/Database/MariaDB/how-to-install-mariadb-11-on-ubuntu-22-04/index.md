@@ -1,28 +1,27 @@
 ---
-title: "How to install MariaDB 11 on Debian 9"
-date: "2023-05-12"
-title_meta: "GUIDE How to install MariaDB 11 on Debian 9"
+title: "How to install MariaDB 11 on Ubuntu 22.04"
+date: "2023-05-03"
+title_meta: "MariaDB 11 installtion guide on Ubuntu 22.04"
+description: "Learn how to install MariaDB 11 on Ubuntu 22.04 with this comprehensive guide. Follow these step-by-step instructions to set up MariaDB 11, a newer version of the popular MySQL fork, on your Ubuntu 22.04 system for efficient database management and development.
+"
+keywords: ["install MariaDB 11 Ubuntu 22.04", "MariaDB 11 setup Ubuntu 22.04", "Ubuntu 22.04 MariaDB 11 installation guide", "MySQL fork Ubuntu", "Ubuntu MariaDB tutorial", "MariaDB installation steps Ubuntu 22.04", "database management Ubuntu", "MariaDB 11 Ubuntu 22.04 instructions"]
 
-description: "A step-by-step guide on how to install MariaDB 11, a popular open-source relational database, on Debian 9."
-
-keywords: ['Debian 9', 'MariaDB 11', 'installation', 'database management', 'SQL', 'Linux']
-
-tags: ["MariaDB 11"]
-icon: "Debian"
+tags: ["MariaDB 11", "ubuntu"]
+icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Debian/how-to-install-mariadb-11-on-debian-9/']
+aliases: ['/Database/MariaDB/how-to-install-mariadb-11-on-ubuntu-22-04/']
 tab: true
 ---
 
-![How to install MariaDB 11 on Debian 9](images/How-to-install-MariaDB-11-on-Debian-9-1024x576.png)
+![How to install MariaDB 11 on Ubuntu 22.04](images/How-to-install-MariaDB-11-on-Ubuntu-22.04-1024x576.png)
 
 ## Introduction
 
-In this article, you will learn how to install MariaDB 11 on Debian 9.
+In this article, you will learn how to install MariaDB 11 on Ubuntu 22.04.
 
-This is to install MariaDB 11 on Debian 9. MariaDB is a database management system that is a fork of [MySQL](https://www.mysql.com/). It is extremely similar to MySQL, which is a database management system. Several different applications, including data warehousing, e-commerce, enterprise-level features, and logging programmes, all make use of the MariaDB database.
+This is to install MariaDB 11 on Ubuntu 22.04. MariaDB is a database management system that is a fork of [MySQL](https://www.mysql.com/). It is extremely similar to MySQL, which is a database management system. Several different applications, including data warehousing, e-commerce, enterprise-level features, and logging programmes, all make use of the MariaDB database.
 
 MariaDB will let you to fulfil all of your burden in an effective manner; it can function in any cloud database and can function at any scale, whether it be little or huge.
 
@@ -47,7 +46,7 @@ A database is a repository for information that can be easily retrieved and appl
 
 ```
 
-##### **Install MariaDB 11 on Debian** 9
+##### **Install MariaDB 11 on Ubuntu 22.04**
 
 ```
 # apt install mariadb-server mariadb-client -y
@@ -61,7 +60,7 @@ A database is a repository for information that can be easily retrieved and appl
 
 ```
 
-![How to install MariaDB 11 on Debian 9](images/image-1027.png)
+![How to install MariaDB 11 on Ubuntu 22.04](images/image-1027.png)
 
 **Now, using the following command, check the current status of mariadb.**
 
@@ -70,9 +69,9 @@ A database is a repository for information that can be easily retrieved and appl
 
 ```
 
-![How to install MariaDB 11 on Debian 9](images/image-1028.png)
+![How to install MariaDB 11 on Ubuntu 22.04](images/image-1028.png)
 
-##### Run the mariadb-secure-installation script, which assists you in protecting your MariaDB database server
+##### Run the mariadb-secure-installation script, which assists you in protecting your MariaDB database server.
 
 ```
 # mysql\_secure\_installation
@@ -101,11 +100,11 @@ A database is a repository for information that can be easily retrieved and appl
 
 **Remove test database and access to it? \[Y/n\] Press y**
 
-![How to install MariaDB 11 on Debian 9](images/image-995.png)
+![How to install MariaDB 11 on Ubuntu 22.04](images/image-995.png)
 
 **Reload privilege tables now? \[Y/n\] : Press y**
 
-![How to install MariaDB 11 on Debian 9](images/image-996.png)
+![How to install MariaDB 11 on Ubuntu 22.04](images/image-996.png)
 
 **A username and password combination should be required in order to access the MariaDB shell.**
 
@@ -125,7 +124,7 @@ A database is a repository for information that can be easily retrieved and appl
 
 ## Conclusion
 
-Hopefully, now you have learned how to install MariaDB 11 on Debian 9.
+Hopefully, now you have learned how to install MariaDB 11 on Ubuntu 22.04.
 
 **Also Read:** [How to Use Iperf to Test Network Performance](https://utho.com/docs/tutorial/how-to-use-iperf-to-test-network-performance/)
 

@@ -8,11 +8,11 @@ description: "This guide provides instructions for installing MongoDB, a popular
 keywords: ['MongoDB', 'CentOS', 'NoSQL database', 'document database', 'package manager', 'yum', 'MongoDB repository']
 
 tags: ["MongoDB", "CentOS"]
-icon: "CentOS"
+icon: "mongodb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-install-mongodb-on-centos/']
+aliases: ['/Database/MongoDB/how-to-install-mongodb-on-centos/']
 tab: true
 ---
 

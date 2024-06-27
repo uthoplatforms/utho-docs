@@ -9,11 +9,11 @@ keywords: ['Debian 11', 'MariaDB', 'installation', 'database management', 'SQL',
 
 
 tags: ["MariaDB"]
-icon: "Debian"
+icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Debian/how-to-install-mariadb-on-debian-11/']
+aliases: ['/Database/MariaDB/how-to-install-mariadb-on-debian-11/']
 tab: true
 ---
 

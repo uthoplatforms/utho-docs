@@ -7,11 +7,11 @@ description: "Learn how to install MongoDB on Ubuntu 18.10 with this comprehensi
 keywords: ["install MongoDB Ubuntu 18.10", "MongoDB setup Ubuntu 18.10", "Ubuntu 18.10 MongoDB installation guide", "NoSQL database Ubuntu", "Ubuntu MongoDB tutorial", "MongoDB installation steps Ubuntu 18.10", "database management Ubuntu", "MongoDB Ubuntu 18.10 instructions"]
 
 tags: ["mongodb", "ubuntu"]
-icon: "Ubuntu"
+icon: "mongodb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Ubuntu/how-to-install-mongodb-on-ubuntu-18-10/']
+aliases: ['/Database/MongoDB/how-to-install-mongodb-on-ubuntu-18-10/']
 tab: true
 ---
 

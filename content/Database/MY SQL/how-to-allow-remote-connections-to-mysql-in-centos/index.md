@@ -7,11 +7,11 @@ description: "Discover how to enable and configure remote connections to MySQL o
 keywords: ["CentOS MySQL remote connection", "allow MySQL remote access CentOS", "CentOS MySQL remote connection setup", "configure MySQL remote access CentOS", "CentOS MySQL enable remote access", "MySQL remote access CentOS firewall", "CentOS MySQL remote access tutorial", "CentOS MySQL bind-address"]
 
 tags: ["MySQL", "CentOS"]
-icon: "CentOS"
+icon: "mysql"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-allow-remote-connections-to-mysql-in-centos/']
+aliases: ['/Database/MY SQL/how-to-allow-remote-connections-to-mysql-in-centos/']
 tab: true
 ---
 

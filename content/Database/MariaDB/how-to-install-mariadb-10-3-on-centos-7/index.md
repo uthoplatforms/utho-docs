@@ -7,11 +7,11 @@ description: "his guide provides step-by-step instructions for installing MariaD
 keywords: ['MariaDB 10.3', 'CentOS 7', 'database server', 'MySQL', 'LAMP stack']
 
 tags: ["MARIADB", "CentOS"]
-icon: "CentOS"
+icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/how-to-install-mariadb-10-3-on-centos-7/']
+aliases: ['/Database/MariaDB/how-to-install-mariadb-10-3-on-centos-7/']
 tab: true
 ---
 
