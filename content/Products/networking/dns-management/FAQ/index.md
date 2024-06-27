@@ -15,9 +15,7 @@ toc: true
 aliases: ['/products/networking/dns_management/FAQ/']
 tab: true
 ---
-
-# DNS Management FAQ
----
+ 
 #### 1. What is DNS and why is it important in UTHO?
 **DNS (Domain Name System)** translates human-readable domain names (like www.example.com) into IP addresses that computers use to identify each other on the network. In UTHO, DNS is crucial for directing traffic to your hosted applications, ensuring they are accessible to users.
 

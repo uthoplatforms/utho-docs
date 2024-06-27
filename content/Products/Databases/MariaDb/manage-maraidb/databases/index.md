@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 30
 title: "Database"
 title_meta: "Manage MariaDB Database on the Utho Platform"
 description: "Easily manage your MariaDB databases with simple clicks on the Utho platform."

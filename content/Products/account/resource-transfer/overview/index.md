@@ -15,8 +15,7 @@ toc: true
 aliases: ['/products/account/resource-transfer/overview/']
 tab: true
 ---
-
-# Overview 
+ 
 Resource transfer in cloud computing involves the movement of data, applications, virtual machines (VMs), and other digital assets between different cloud environments. It enables organizations to leverage the scalability, flexibility, and efficiency of cloud services to manage their resources effectively.
 
 # Purpose 

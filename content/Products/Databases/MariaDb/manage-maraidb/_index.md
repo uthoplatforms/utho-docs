@@ -16,7 +16,9 @@ tab: true
 
 ## Database Configuration
 
-In the header section, users can view crucial information about their database. This includes:![Utho-database-cluster-config](image/Utho-database-cluster-config.png)**Database Name** : The name assigned to the database cluster.
+In the header section, users can view crucial information about their database. This includes:
+![Utho-database-cluster-config](image/Utho-database-cluster-config.png)
+**Database Name** : The name assigned to the database cluster.
 
 <!-- * **Database Cluster** : The OS name and version running on the cloud instance. -->
 * **Data Center Location** : The geographical location of the data center hosting the database.

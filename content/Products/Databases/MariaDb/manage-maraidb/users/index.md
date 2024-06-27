@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 40
 title: "Users"
 title_meta: "Manage MariaDb Users on the Utho Platform"
 description: "Manage your MariaDb Users using simply clicks on utho platform"

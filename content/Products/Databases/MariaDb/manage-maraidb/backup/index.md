@@ -1,5 +1,5 @@
 ---
-weight: 110
+weight: 50
 title: "Backup"
 title_meta: "Manage MariaDb on the Utho Platform"
 description: "Manage your MariaDb using simply clicks on utho platform"

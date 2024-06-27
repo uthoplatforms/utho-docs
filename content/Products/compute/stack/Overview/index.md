@@ -11,8 +11,7 @@ lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
 aliases: ['/products/compute/stack/Overview/']
----
-## Introduction
+--- 
 
 The purpose of the Utho Stack product is to simplify the setup and management of software environments. By using pre-configured stacks, users can save time and ensure consistency across deployments.
 

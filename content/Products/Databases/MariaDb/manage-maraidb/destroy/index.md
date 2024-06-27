@@ -1,5 +1,5 @@
 ---
-weight: 130
+weight: 80
 title: "Destroy"
 title_meta: "Manage MariaDb on the Utho Platform"
 description: "Manage your MariaDb using simply clicks on utho platform"

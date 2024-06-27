@@ -1,6 +1,6 @@
 ---
 weight: 30
-title: Object
+title: Files & Folders
 title_meta: "Manage Object on the Utho Platform"
 description: "The Manage section allows users to view and update the configuration of their deployed Object. This section provides a comprehensive interface to manage Object users, configure firewalls, and destroy Object instances."
 keywords: ["object","storage","object storage", "security"]
@@ -12,8 +12,6 @@ aliases: ['/products/storage/object-storage/manage-object-storage/object']
 icon: Object
 tab: true
 ---
-
-## Object
 
 In the Object section, users can upload files and add new folder. This section provides the following functionalities:
 

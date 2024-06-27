@@ -1,5 +1,5 @@
 ---
-weight: 20
+weight: 70
 title: "Trusted Host"
 title_meta: "Manage MariaDB Trusted Host on the Utho Platform"
 description: "Easily manage your MariaDB Trusted Hosts with simple clicks on the Utho platform."
