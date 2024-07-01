@@ -7,7 +7,7 @@ description: "Discover how to change the default port of Apache on RHEL/CentOS 7
 keywords: ["Apache change default port RHEL CentOS 7", "modify Apache port number CentOS 7", "Apache HTTP server port configuration", "CentOS 7 Apache port change tutorial", "Apache listen port CentOS 7", "Apache custom port RHEL 7", "Apache configuration file CentOS 7", "change Apache port number"]
 
 tags: ["Apache ", "CentOS"]
-icon: "CentOS"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

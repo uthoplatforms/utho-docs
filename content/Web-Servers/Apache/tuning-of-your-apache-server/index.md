@@ -8,7 +8,7 @@ Description: This guide provides insights into tuning your Apache server for opt
 Keywords: ['Apache server tuning', 'server optimization', 'performance tuning', 'Apache configuration', 'server scalability']
 
 Tags: ["Apache Server Tuning", "Server Optimization", "Performance Tuning", "Server Scalability"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

@@ -1,6 +1,19 @@
 ---
 title: "Check Disk Utilization in details in Windows"
 date: "2023-06-21"
+Title_meta: GUIDE TO Check Disk Utilization in Details in Windows
+
+Description: This guide provides detailed instructions on how to check disk utilization in Windows. Learn various methods to analyze disk usage, including built-in tools like File Explorer and Disk Management, as well as third-party applications, to effectively manage and optimize your storage space.
+
+Keywords: ['Windows', 'disk utilization', 'check disk usage', 'storage management', 'disk analysis']
+
+Tags: ["Windows", "Disk Utilization", "Storage Management", "Disk Analysis"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/check-disk-utilization-in-details-in-windows/']
 ---
 
 <figure>

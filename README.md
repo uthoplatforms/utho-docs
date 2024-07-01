@@ -1,83 +1,89 @@
-# utho Docs
-[🧑🏻‍💻Website 🔗](https://utho.com/docs/)
+<h1 align="center">uthoctl</h1>
 
-## Local Development
 
-Pre-requisites: [Hugo](https://gohugo.io/getting-started/installing/), [Go](https://golang.org/doc/install) and [Git](https://git-scm.com)
+uthoctl is the command line client to access the [utho-api](https://utho.com/api-docs) by utlizing the utho-go SDK [utho-sdk](https://github.com/uthoplatforms/utho-go).
 
-```shell
-# Start server for development
-hugo mod tidy
-hugo server --logLevel debug --disableFastRender -p 1313
+- [Installing `uthoctl`](#installing-uthoctl)
+  - [Downloading a Release from GitHub](#downloading-a-release-from-github)
+  
+- [Examples](#examples)
+
+
+## Installing `uthoctl`
+
+### Downloading a Release from GitHub
+
+Visit the [Releases
+page](https://github.com/uthoplatforms/utho-cli/releases) for the
+[`uthoctl` GitHub project](https://github.com/uthoplatforms/utho-cli), and find the
+appropriate archive for your operating system and architecture.
+Download the archive from your browser or copy its URL and
+retrieve it to your home directory with `wget` or `curl`.
+
+For example, with `wget`:
+
+```
+cd ~
+wget https://github.com/uthoplatforms/utho-cli/releases/download/v<version>/uthoctl_<version>_linux_amd64.tar.gz
 ```
 
-## Custom Features
+Or with `curl`:
 
-### Section Tabs:
-These are sub-folders with there own **_index.md** and `tab: true` in the front-matter.
-
-![Section Tabs](static/section-tabs.png)
-
-- Link to **Section Tabs** automatically appear on Parent Section. There can be as many section tabs as needed.
-- **icon** is required for page layout and recommended. icon should be mentioned with filename `icon: icon-name` in the front-matter.
-- **icon size** should be standard **128 x 128, 256 x 256 or 512 x 512**
-- **icon filename** should be alphabets/numbers or hyphens only, no spaces, no special symbols.
-- **Section tab articles** should be created inside respective section tab folder to appear categorically.
-
-
-### Featured Articles
-Files with `featured: true` in the front matter appear categorically and exclusively under sections/sub-sections.
-
-![featured article](static/featured-articles.png)
-
-### Article Cards on Home page
-Files with `homecard: true` in the front matter appear categorically and exclusively on home page.
-
-### Featured Articles on Home page
-Files with `home: true` in the front matter appear categorically and exclusively on home page.
-
-
-### Images and Thumbnails
-Article list thumbnails are automatically created from the first image of the article A standard aspect ratio of 720p, 1080p should be good enough for almost all display sizes.
-
-Thumbnail specific images should always be in proper aspect ratio to maintain documentation standards and uniform layout.
-
-Example image that also shows up as thumbnail:
-
-![Sample image](static/sample-image.jpg)
-
-It is highly recommended to optimise all images for faster build and smaller payload, use tools like [imageoptim](https://imageoptim.com/mac), [Pinga](https://css-ig.net/pinga), [Trimage](https://trimage.org) or any cli based utility  before uploading.
-Standard settings could be `JPEG 80%, PNG 40%, SVG 40%` or as per your organisation standards.
-
-![Imageoptim](static/imageoptim.png)
-
-### Custom Template Layouts
-
-Page layouts can be overridden by placing a custom front-matter `layout: some-layout-name` at `_index.md` of list type page or at `index.md` of single pages.
-
-The layout template goes into respective folder with filename exactly same as above so it will be `some-layout-name.html`
-
-**For Example:**
-- Category "Web-servers" uses `/layouts/docs/list.html`.
-- Copy `list.html` to  `/layouts/docs/some-customlayout.html`
-- Add filename to the front-matter `/content/Web-Servers/_index.md` as below:
-
-```yaml
----
-weight: 20
-title: "Web-Servers Page"
-layout: some-customlayout
----
 ```
- Now the `some-customlayout.html` is used exclusively on pages where `layout: some-customlayout` is set.
+cd ~
+curl -OL https://github.com/uthoplatforms/utho-cli/releases/download/v<version>/uthoctl_<version>_linux_amd64.tar.gz
+```
 
-Related Hugo Docs:
-[# Template lookup order](https://gohugo.io/templates/lookup-order/) •
-[# Layout](https://gohugo.io/methods/page/layout/) •
-[# Type](https://gohugo.io/methods/page/type/)
+Extract the binary:
 
-### Things to keep in mind:
-Hugo has insane/quirky caching for HTML outputs while building, 
-- Refresh browser page manually or navigate away and come back.
-- Make sure Hugo has finished working in the terminal or deployed completely.
-- Try with restarting Hugo server when things are done correct but don't seem to be working, you would be surprised. 😉
+```
+tar xf ~/uthoctl-<version>-linux-amd64.tar.gz
+```
+
+Or download and extract with this oneliner:
+```
+curl -sL https://github.com/uthoplatforms/utho-cli/releases/download/v<version>/uthoctl_<version>_linux_amd64.tar.gz | tar -xzv
+```
+
+where `<version>` is the full semantic version, e.g., `0.14.0`.
+
+On Windows systems, you should be able to double-click the zip archive to extract the `uthoctl` executable.
+
+Move the `uthoctl` binary to somewhere in your path. For example, on GNU/Linux and OS X systems:
+
+```
+sudo mv ~/uthoctl /usr/local/bin
+```
+
+Windows users can follow [How to: Add Tool Locations to the PATH Environment Variable](https://msdn.microsoft.com/en-us/library/office/ee537574(v=office.14).aspx) in order to add `uthoctl` to their `PATH`.
+
+## Authenticating with Utho
+
+To use `uthoctl`, you need to authenticate with Utho by providing a Personal Access Token (PAT) is the only method of
+authenticating with the API. You can manage your tokens
+at the Utho Control Panel [Applications Page](https://console.utho.com/api).
+
+```
+uthoctl auth
+```
+
+You will be prompted to enter the Utho access token that you generated in the Utho control panel.
+
+## Examples
+
+`uthoctl` is able to interact with your Utho resources. Below are a few common usage examples.
+
+* List all Compute Instances on your account:
+```
+uthoctl instance list
+```
+
+* Add new domain tp your account:
+```
+uthoctl domain <domain-name>
+```
+
+* Get information about your account:
+```
+uthoctl account get
+```

@@ -1,6 +1,19 @@
 ---
 title: "How to install DFS Replication via Powershell"
 date: "2023-06-27"
+Title_meta: GUIDE TO Install DFS Replication via PowerShell
+
+Description: Learn how to install DFS (Distributed File System) Replication using PowerShell with this comprehensive guide. Follow step-by-step instructions to configure DFS Replication, synchronize data between servers, and manage replication groups efficiently on your Windows Server environment.
+
+Keywords: ['DFS Replication', 'PowerShell', 'install DFS', 'file synchronization', 'server management', 'data replication']
+
+Tags: ["DFS Replication", "PowerShell", "Install DFS", "File Synchronization", "Server Management", "Data Replication"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-dfs-replication-via-powershell']
 ---
 
 INTRODUCTION

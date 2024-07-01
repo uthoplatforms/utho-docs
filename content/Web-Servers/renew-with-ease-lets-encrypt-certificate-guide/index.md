@@ -1,6 +1,19 @@
 ---
 title: "Renew with Ease: Let's Encrypt Certificate Guide"
 date: "2024-02-06"
+title_meta: "Renew with Ease: Let's Encrypt Certificate Guide"
+description: "Renew with Ease: Let's Encrypt Certificate Guide"
+
+keywords: ['nginx', "tls"]
+
+tags: ["ssl"]
+icon: "ssl"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['content/Web-Servers/renew-with-ease-lets-encrypt-certificate-guide']
+tab: true
+
 ---
 
 This article covers the process of renewing Let’s Encrypt SSL certificates installed on your instance. Please note that it does not apply to Let’s Encrypt certificates managed by Utho for load balancers.  

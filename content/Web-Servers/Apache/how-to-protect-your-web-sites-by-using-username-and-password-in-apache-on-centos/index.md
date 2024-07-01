@@ -6,7 +6,7 @@ description: ' This guide explains how to configure basic HTTP authentication wi
 
 keywords:  [' Apache, CentOS, website security, HTTP authentication, username, password.']
 tags: ["Apache" , "CentOS"]
-icon: "CentOS"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

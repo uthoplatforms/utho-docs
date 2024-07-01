@@ -1,6 +1,19 @@
 ---
 title: "How to change RDP port in Windows Server"
 date: "2022-06-22"
+Title_meta: GUIDE TO Change RDP Port in Windows Server
+
+Description: This guide provides instructions on how to change the Remote Desktop Protocol (RDP) port in Windows Server. Follow step-by-step procedures to modify the RDP port number, enhancing security by configuring a custom port for remote desktop access on your Windows Server.
+
+Keywords: ['Windows Server', 'change RDP port', 'Remote Desktop Protocol', 'RDP security', 'server configuration']
+
+Tags: ["Windows Server", "Change RDP Port", "Remote Desktop Protocol", "RDP Security", "Server Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-change-rdp-port-in-windows-support-internal/']
 ---
 
 ![](images/How-to-change-RDP-port-in-Windows-Support-Internal-1024x576.png)

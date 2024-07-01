@@ -1,6 +1,19 @@
 ---
 title: "How to change RDP port via PowerShell in Windows server"
 date: "2023-02-17"
+Title_meta: GUIDE TO Change RDP Port via PowerShell in Windows Server
+
+Description: Learn how to change the Remote Desktop Protocol (RDP) port using PowerShell in Windows Server. This guide provides step-by-step instructions to modify the RDP port number, ensuring secure remote access configuration and enhancing server security.
+
+Keywords: ['Windows Server', 'RDP port', 'PowerShell', 'remote desktop protocol', 'server security', 'configuration']
+
+Tags: ["Windows Server", "RDP Port", "PowerShell", "Remote Desktop Protocol", "Server Security", "Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-change-rdp-port-via-powershell-in-windows-server/']
 ---
 
 ![How to change RDP port via PowerShell in Windows server](images/How-to-change-RDP-port-via-PowerShell-in-Windows-server-WINDOWS-ARTICLE-1024x576.png)

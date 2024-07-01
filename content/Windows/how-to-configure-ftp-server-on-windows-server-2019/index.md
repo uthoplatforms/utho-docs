@@ -1,6 +1,19 @@
 ---
 title: "How to Configure FTP Server on Windows Server 2019"
 date: "2023-03-27"
+Title_meta: GUIDE TO Configure FTP Server on Windows Server 2019
+
+Description: This guide provides step-by-step instructions on how to configure an FTP server on Windows Server 2019. Learn how to set up and manage File Transfer Protocol (FTP) services, configure security settings, and enable efficient file sharing and management on your Windows Server 2019 system.
+
+Keywords: ['Windows Server 2019', 'FTP server', 'configure FTP', 'file transfer protocol', 'file sharing', 'server management']
+
+Tags: ["Windows Server 2019", "FTP Server", "File Transfer Protocol", "File Sharing", "Server Management"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-configure-ftp-server-on-windows-server-2019/']
 ---
 
 ![Configure FTP Server on Windows](images/How-to-Configure-FTP-Server-on-Windows-Server-2019_utho.jpg)

@@ -8,7 +8,7 @@ Description: This guide provides step-by-step instructions on creating temporary
 Keywords: ['Apache', 'Ubuntu', 'temporary redirects', 'permanent redirects', 'URL redirection', 'server configuration']
 
 Tags: ["Apache", "Ubuntu", "Temporary Redirects", "Permanent Redirects", "URL Redirection", "Server Configuration"]
-icon: "CentOS"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

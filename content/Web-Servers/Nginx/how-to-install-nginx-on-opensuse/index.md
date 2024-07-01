@@ -1,6 +1,18 @@
 ---
 title: "How to install Nginx on OpenSUSE"
 date: "2023-06-10"
+title_meta: "How install Nginx on OpenSUSE "
+description: "How install Nginx on OpenSUSE
+"
+keywords: ["Nginx", "Opensuse"]
+
+tags: ["Nginx", "linux"]
+icon: "nginx"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Web-Servers/Nginx/how-to-install-nginx-on-opensuse']
+tab: true
 ---
 
 <figure>

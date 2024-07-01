@@ -8,7 +8,7 @@ Description: This guide provides comprehensive instructions on setting up the .h
 Keywords: ['.htaccess', 'Apache', 'set up .htaccess', 'server configuration', 'web server settings']
 
 Tags: [".htaccess", "Apache", "Server Configuration", "Web Server Settings", "Redirects", "Security"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

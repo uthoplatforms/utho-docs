@@ -6,11 +6,11 @@ description: 'This guide walks you through installing Nginx, a powerful and effi
 
 keywords:  ['CentOS 7', 'Nginx', 'web server', 'installation']
 tags: ["NGINX", "CentOS 7"]
-icon: "CentOS"
+icon: "nginx"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/nginx-installation-in-centos-7-2/']
+aliases: ['/Web-Servers/Nginx/nginx-installation-in-centos-7-2']
 tab: true
 ---
 

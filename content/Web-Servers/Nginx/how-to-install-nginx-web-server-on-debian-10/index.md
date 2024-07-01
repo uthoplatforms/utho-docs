@@ -7,11 +7,11 @@ description: "A step-by-step guide on how to install NGINX, a high-performance w
 keywords: ['Debian 10', 'NGINX', 'installation', 'web server', 'reverse proxy', 'Linux']
 
 tags: ["NGINX"]
-icon: "Debian"
+icon: "nginx"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Debian/how-to-install-nginx-web-server-on-debian-10/']
+aliases: ['/Web-Servers/Nginx/how-to-install-nginx-web-server-on-debian-10']
 tab: true
 ---
 

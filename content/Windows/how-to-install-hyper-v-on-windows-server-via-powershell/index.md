@@ -1,6 +1,20 @@
 ---
 title: "How to install Hyper-V on Windows Server via PowerShell"
 date: "2023-06-13"
+Title_meta: GUIDE TO Install Hyper-V on Windows Server via PowerShell
+
+Description: This guide provides step-by-step instructions on how to install Hyper-V on Windows Server using PowerShell. Learn how to enable the Hyper-V role, configure virtualization settings, create and manage virtual machines (VMs), and optimize server performance for virtualization tasks.
+
+Keywords: ['Hyper-V', 'Windows Server', 'PowerShell', 'install Hyper-V', 'virtualization', 'server management']
+
+Tags: ["Hyper-V", "Windows Server", "PowerShell", "Install Hyper-V", "Virtualization", "Server Management"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-hyper-v-on-windows-server-via-powershell']
+tab: true
 ---
 
 ![](images/How-to-install-Hyper-V-on-Windows-Server-via-PowerShell-1024x576.jpg)

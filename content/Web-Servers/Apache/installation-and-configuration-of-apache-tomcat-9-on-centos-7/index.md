@@ -4,7 +4,7 @@ title_meta: "GUIDE TO Install APACHE TOMCAT 9 on Centos 7"
 description: "This guide details the steps to install and configure Apache Tomcat 9, a popular open-source web server for Java applications, on your CentOS 7 system. By following these steps, you'll have a basic Tomcat 9 setup ready to deploy your Java web applications."
 keywords:  ['CentOS 7', 'Apache Tomcat 9', 'Java', 'installation']
 tags: ["TOMCAT","Apache"]
-icon: "CentOS"
+icon: "apache"
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00" 
 draft: false

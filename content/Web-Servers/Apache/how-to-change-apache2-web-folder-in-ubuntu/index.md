@@ -8,7 +8,7 @@ Description: Learn how to change the Apache2 web folder in Ubuntu with this step
 Keywords: ['Apache2', 'Ubuntu', 'change web folder', 'web directory', 'server configuration']
 
 Tags: ["Apache2", "Ubuntu", "Web Directory", "Server Configuration"]
-icon: "CentOS"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

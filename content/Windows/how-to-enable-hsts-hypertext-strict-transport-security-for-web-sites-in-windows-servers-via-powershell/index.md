@@ -1,6 +1,20 @@
 ---
 title: "How to enable HSTS (Hypertext Strict Transport Security) for Web sites in Windows Servers via PowerShell"
 date: "2023-06-13"
+Title_meta: GUIDE TO Enable HSTS (Hypertext Strict Transport Security) for Websites in Windows Servers via PowerShell
+
+Description: Learn how to enable HSTS (Hypertext Strict Transport Security) for websites on Windows Servers using PowerShell with this guide. Follow step-by-step instructions to configure HTTP response headers, enforce HTTPS, and enhance web security by ensuring all communications are encrypted and protected against protocol downgrade attacks.
+
+Keywords: ['HSTS', 'Hypertext Strict Transport Security', 'Windows Server', 'PowerShell', 'web security', 'HTTPS']
+
+Tags: ["HSTS", "Hypertext Strict Transport Security", "Windows Server", "PowerShell", "Web Security", "HTTPS"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-enable-hsts-hypertext-strict-transport-security-for-web-sites-in-windows-servers-via-powershell/']
+tab: true
 ---
 
 ![](images/How-to-enable-HSTS-Hypertext-Strict-Transport-Security-for-Web-sites-in-Windows-Servers-via-PowerShell-1024x576.jpg)

@@ -1,6 +1,18 @@
 ---
 title: "Install NGINX in Debian from the Official NGINX Repository"
 date: "2020-04-20"
+title_meta: "Install NGINX in Debian from the Official NGINX Repository"
+description: "Install NGINX in Debian from the Official NGINX Repository"
+
+keywords: ['nginx', "ubuntu"]
+
+tags: ["NGINX"]
+icon: "nginx"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Web-Servers/Nginx/install-nginx-in-debian-from-the-official-nginx-repository']
+tab: true
 ---
 
 These instructions install Debian 9 NGINX Mainline from the official repository of NGINX Inc. For other distributions

@@ -8,7 +8,7 @@ Description: This guide provides an overview of the basic information required t
 Keywords: ['Apache', 'Apache configuration', 'virtual hosts', 'web server setup', 'server optimization']
 
 Tags: ["Apache", "Web Server", "Configuration", "Virtual Hosts", "Server Optimization"]
-icon: "CentOS"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

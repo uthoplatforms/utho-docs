@@ -1,6 +1,19 @@
 ---
 title: "How to change default shell from cmd to PowerShell in Windows Server"
 date: "2022-11-08"
+Title_meta: GUIDE TO Change Default Shell from CMD to PowerShell in Windows Server
+
+Description: Learn how to change the default shell from CMD to PowerShell in Windows Server with this step-by-step guide. Follow the instructions to configure your server to launch PowerShell by default, enhancing your command-line experience with advanced features and capabilities.
+
+Keywords: ['Windows Server', 'change default shell', 'CMD to PowerShell', 'command-line configuration', 'PowerShell']
+
+Tags: ["Windows Server", "Change Default Shell", "CMD", "PowerShell", "Command-Line Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-change-default-shell-from-cmd-to-powershell-in-windows-server/']
 ---
 
 ![](images/How-to-change-default-shell-from-cmd-to-PowerShell-in-Windows-Server_utho.jpg)

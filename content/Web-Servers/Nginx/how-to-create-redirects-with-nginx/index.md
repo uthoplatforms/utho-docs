@@ -1,6 +1,18 @@
 ---
 title: "How To Create Redirects with Nginx"
 date: "2022-09-18"
+title_meta: "How to create redirect in NGINX "
+description: "How to create redirect in NGINX
+"
+keywords: ["Nginx", "Redirects"]
+
+tags: ["Nginx", "linux"]
+icon: "nginx"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Web-Servers/Nginx/how-to-create-redirects-with-nginx']
+tab: true
 ---
 
 ## Introduction

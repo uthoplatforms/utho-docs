@@ -1,6 +1,18 @@
 ---
 title: "How to Install NGINX Web Server on Ubuntu 22.04 LTS"
 date: "2023-03-03"
+title_meta: "How to Install NGINX Web Server on Ubuntu 22.04 LTS"
+description: "How to Install NGINX Web Server on Ubuntu 22.04 LTS"
+
+keywords: ['nginx', "ubuntu"]
+
+tags: ["NGINX"]
+icon: "Debian"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Web-Servers/Nginx/how-to-install-nginx-web-server-on-ubuntu-22-04-lts']
+tab: true
 ---
 
 ![How to Install NGINX Web Server on Ubuntu 22.04 LTS](images/How-to-Install-NGINX-Web-Server-on-Ubuntu-22.04-LTS_utho.jpg)

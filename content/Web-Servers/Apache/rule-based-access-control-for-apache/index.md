@@ -8,7 +8,7 @@ Description: This guide explores rule-based access control for Apache. Learn how
 Keywords: ['Apache', 'access control', 'rule-based access', 'Apache directives', 'server security']
 
 Tags: ["Apache", "Access Control", "Rule-based Access", "Server Security"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

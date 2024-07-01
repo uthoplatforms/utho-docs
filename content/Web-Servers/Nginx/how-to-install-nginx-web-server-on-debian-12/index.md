@@ -11,7 +11,7 @@ icon: "Debian"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Debian/how-to-install-nginx-web-server-on-debian-12/']
+aliases: ['/Web-Servers/Nginx/how-to-install-nginx-web-server-on-debian-12']
 tab: true
 ---
 

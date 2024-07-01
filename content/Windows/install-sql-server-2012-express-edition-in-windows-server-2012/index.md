@@ -1,6 +1,20 @@
 ---
 title: "Install SQL Server 2012 Express Edition in Windows Server 2012"
 date: "2020-06-05"
+Title_meta: GUIDE TO Install SQL Server 2012 Express Edition in Windows Server 2012
+
+Description: This guide provides detailed instructions on how to install SQL Server 2012 Express Edition on Windows Server 2012. Learn how to prepare the server, download SQL Server 2012 Express Edition, perform the installation, configure basic settings, and verify the installation to start using SQL Server for database management.
+
+Keywords: ['SQL Server 2012 Express', 'Windows Server 2012', 'install SQL Server', 'database management', 'server administration', 'SQL Server installation']
+
+Tags: ["SQL Server 2012 Express", "Windows Server 2012", "Install SQL Server", "Database Management", "Server Administration", "SQL Server Installation"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/install-sql-server-2012-express-edition-in-windows-server-2012']
+tab: true
 ---
 
 ![](images/Install-SQL-Server-2012-Express-Edition-in-Windows-Server-2012_utho.jpg)

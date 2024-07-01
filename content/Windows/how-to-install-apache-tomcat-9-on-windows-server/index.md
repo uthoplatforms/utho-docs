@@ -1,6 +1,17 @@
 ---
 title: "How to install Apache Tomcat 9 on Windows Server"
 date: "2022-12-23"
+Title_meta: GUIDE TO Install Apache Tomcat 9 on Windows Server
+Description: This guide provides step-by-step instructions on how to install Apache Tomcat 9 on Windows Server. Learn how to download Tomcat, configure Java environment variables, set up Tomcat as a Windows service, and deploy web applications, enabling efficient Java web development and server management.
+Keywords: ['Apache Tomcat 9', 'Windows Server', 'install Tomcat', 'Java web development', 'server configuration', 'web application deployment']
+Tags: ["Apache Tomcat 9", "Windows Server", "Install Tomcat", "Java Web Development", "Server Configuration", "Web Application Deployment"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-apache-tomcat-9-on-windows-server']
+tab: true
 ---
 
 ![](images/How-to-install-Apache-Tomcat-9-on-Windows-Server_utho.jpg)

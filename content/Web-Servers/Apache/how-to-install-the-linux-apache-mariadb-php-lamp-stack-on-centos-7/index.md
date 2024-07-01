@@ -6,7 +6,7 @@ description: 'This guide explores two methods for installing tcpping, a command-
 
 keywords: ['LAMP stack', 'CentOS 7.1', 'Apache web server', 'MariaDB database', 'PHP scripting language', 'yum']
 tags: ["LAMP stack", "CentOS"]
-icon: "CentOS"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

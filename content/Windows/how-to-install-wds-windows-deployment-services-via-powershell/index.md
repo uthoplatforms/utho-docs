@@ -1,6 +1,20 @@
 ---
 title: "How to install WDS (Windows Deployment Services) via PowerShell"
 date: "2023-06-13"
+Title_meta: GUIDE TO Install WDS (Windows Deployment Services) via PowerShell
+
+Description: This guide provides step-by-step instructions on how to install Windows Deployment Services (WDS) on Windows Server using PowerShell. Learn how to automate the deployment of WDS, configure deployment settings, manage boot images, and streamline operating system installations across your network environment.
+
+Keywords: ['WDS', 'Windows Deployment Services', 'PowerShell', 'install WDS', 'deployment automation', 'network administration']
+
+Tags: ["WDS", "Windows Deployment Services", "PowerShell", "Install WDS", "Deployment Automation", "Network Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-wds-windows-deployment-services-via-powershell']
+tab: true
 ---
 
 ![](images/How-to-install-WDS-Windows-Deployment-Services-via-PowerShell-1024x576.jpg)

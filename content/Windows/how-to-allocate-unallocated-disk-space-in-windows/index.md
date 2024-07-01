@@ -1,6 +1,19 @@
 ---
 title: "How to allocate unallocated disk space in Windows Server"
 date: "2021-12-20"
+Title_meta: GUIDE TO Allocate Unallocated Disk Space in Windows Server
+
+Description: Learn how to allocate unallocated disk space in Windows Server with this comprehensive guide. Follow step-by-step instructions to manage disk partitions, extend volumes, and optimize your server's storage capacity using built-in Windows Server tools.
+
+Keywords: ['Windows Server', 'allocate disk space', 'unallocated disk space', 'disk partitions', 'extend volumes', 'storage management']
+
+Tags: ["Windows Server", "Disk Space Allocation", "Disk Partitions", "Extend Volumes", "Storage Management"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-allocate-unallocated-disk-space-in-windows/']
 ---
 
 ![](images/How-to-allocate-unallocated-disk-space-in-Windows_utho.jpg)

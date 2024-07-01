@@ -1,6 +1,20 @@
 ---
 title: "How to install Python 3.7 on Windows Server 2012 R2, 2016, 2019, 2022 via PowerShell"
 date: "2023-01-18"
+Title_meta: GUIDE TO Install Python 3.7 on Windows Server 2012 R2, 2016, 2019, 2022 via PowerShell
+
+Description: This guide provides detailed instructions on how to install Python 3.7 on Windows Server 2012 R2, 2016, 2019, and 2022 using PowerShell. Learn how to download Python, configure environment variables, and verify the installation, enabling Python development and execution across multiple Windows Server versions.
+
+Keywords: ['Python 3.7', 'Windows Server', 'PowerShell', 'install Python', 'Python development', 'server configuration']
+
+Tags: ["Python 3.7", "Windows Server", "PowerShell", "Install Python", "Python Development", "Server Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-python-3-7-on-windows-server-2012-r2-2016-2019-2022-via-powershell']
+tab: true
 ---
 
 ## INTRODUCTION how to install Python 3.7 on Windows Server

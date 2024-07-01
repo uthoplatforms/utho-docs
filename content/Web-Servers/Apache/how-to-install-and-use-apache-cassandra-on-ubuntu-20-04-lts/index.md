@@ -6,7 +6,7 @@ description: "Learn how to install and use Apache Cassandra on Ubuntu 20.04 LTS 
 keywords: ["install Apache Cassandra Ubuntu", "use Apache Cassandra Ubuntu", "Apache Cassandra Ubuntu 20.04 LTS", "Cassandra installation guide", "Cassandra setup Ubuntu", "Ubuntu Cassandra tutorial", "Cassandra database Ubuntu", "Cassandra NoSQL database"]
 
 tags: ["ubuntu","Cassandra"]
-icon: "ubuntu"
+icon: "apache"
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false

@@ -8,7 +8,7 @@ Description: Explore the structure of Apache configuration in this guide. Learn 
 Keywords: ['Apache configuration', 'Apache structure', 'web server configuration', 'virtual hosts', 'directory settings']
 
 Tags: ["Apache Configuration", "Web Server Configuration", "Virtual Hosts"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

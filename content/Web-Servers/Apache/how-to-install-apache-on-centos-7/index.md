@@ -7,7 +7,7 @@ description: "Learn how to install Apache on CentOS 7 with this comprehensive st
 keywords: ["Apache installation CentOS 7", "install Apache HTTP server CentOS 7", "CentOS 7 Apache setup guide", "Apache web server CentOS 7 tutorial", "Apache install command CentOS 7", "configure Apache CentOS 7", "Apache virtual host CentOS 7", "CentOS 7 Apache web server installation"]
 
 tags: ["Apache", "CentOS"]
-icon: "CentOS"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

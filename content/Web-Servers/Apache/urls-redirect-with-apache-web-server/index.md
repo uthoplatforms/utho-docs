@@ -9,7 +9,7 @@ Description: This guide explores how to redirect URLs using the Apache Web Serve
 Keywords: ['Apache Web Server', 'URL redirection', 'mod_rewrite', 'SEO', 'web server configuration']
 
 Tags: ["Apache Web Server", "URL Redirection", "mod_rewrite", "SEO", "Web Server Configuration"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

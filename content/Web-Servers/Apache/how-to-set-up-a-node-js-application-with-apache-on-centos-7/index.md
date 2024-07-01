@@ -1,6 +1,19 @@
 ---
 title: "How-to-set-up-a-node-js-application with apache on-centos-7"
 date: "2020-07-06"
+
+title_meta: "Gudie to setup nodejs on Centos 7"
+description: "Learn how to enhance the security of your websites by setting up username and password authentication in Apache on Ubuntu. This guide provides step-by-step instructions to configure Apache to require authentication, ensuring only authorized users can access your web content.
+"
+keywords: ["Nodejs", "Centos", "apache"]
+
+tags: ["Nodejs", "Centos", "apache"]
+icon: "apache"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Web-Servers/Apache/how-to-protect-your-web-sites-by-using-username-and-password-in-apache-on-ubuntu//']
+tab: true
 ---
 
 ![](images/How-to-set-up-a-node-js-application-with-apache-on-centos-7-1-1024x576.png)
