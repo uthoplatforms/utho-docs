@@ -75,7 +75,7 @@ params:
     enable: true
     base: https://github.com/uthoplatforms/utho-docs/edit/main/content
   comments:
-    enable: true
+    enable: false
     type: disqus
   search:
     enable: true
