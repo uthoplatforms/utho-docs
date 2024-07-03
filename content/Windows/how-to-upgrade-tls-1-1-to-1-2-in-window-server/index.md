@@ -1,6 +1,20 @@
 ---
 title: "How to upgrade TLS 1.1 to TLS 1.2 in window server"
 date: "2022-08-25"
+Title_meta: GUIDE TO Upgrade TLS 1.1 to TLS 1.2 in Windows Server
+
+Description: This guide provides detailed instructions on how to upgrade from TLS 1.1 to TLS 1.2 on Windows Server. Learn how to modify registry settings, configure TLS protocols in Internet Information Services (IIS), and ensure compatibility and security enhancements for your server's communication protocols.
+
+Keywords: ['TLS 1.1', 'TLS 1.2', 'upgrade TLS', 'Windows Server', 'registry settings', 'IIS configuration']
+
+Tags: ["TLS 1.1", "TLS 1.2", "Upgrade TLS", "Windows Server", "Registry Settings", "IIS Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-upgrade-tls-1-1-to-1-2-in-window-server']
+tab: true
 ---
 
 ![How to upgrade TLS 1.1 to TLS 1.2 in window server](images/WINDOWS-How-to-upgrade-TLS-1.1-to-1.2-in-window-server-1-1024x576.png)

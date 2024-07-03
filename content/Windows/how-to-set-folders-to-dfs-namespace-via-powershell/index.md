@@ -1,6 +1,20 @@
 ---
 title: "How to set folders to DFS NameSpace via PowerShell"
 date: "2023-06-27"
+Title_meta: GUIDE TO Set Folders to DFS Namespace via PowerShell
+
+Description: This guide provides instructions on how to set folders to DFS Namespace using PowerShell. Learn how to create DFS folders, configure namespace targets, manage folder targets, and ensure efficient namespace organization and access control in your Windows Server environment.
+
+Keywords: ['DFS Namespace', 'PowerShell', 'folder management', 'namespace configuration', 'Windows Server', 'network administration']
+
+Tags: ["DFS Namespace", "PowerShell", "Folder Management", "Namespace Configuration", "Windows Server", "Network Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-set-folders-to-dfs-namespace-via-powershell']
+tab: true
 ---
 
 INTRODUCTION

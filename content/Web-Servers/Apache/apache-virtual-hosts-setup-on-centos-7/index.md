@@ -7,7 +7,7 @@ description: "Learn how to set up Apache Virtual Hosts on CentOS 7 to host multi
 keywords: ["Apache Virtual Hosts CentOS 7", "set up Apache Virtual Hosts CentOS 7", "Apache Virtual Host configuration CentOS 7", "CentOS 7 Apache multiple Virtual Hosts", "Apache Name-based Virtual Hosts CentOS 7", "configure Apache Virtual Hosts CentOS 7", "Apache 2.4 Virtual Hosts CentOS 7", "CentOS 7 Apache VHosts setup"]
 
 tags: ["Apache Virtual Hosts ", "CentOS"]
-icon: "CentOS"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

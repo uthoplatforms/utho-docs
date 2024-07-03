@@ -1,6 +1,20 @@
 ---
 title: "How to install XAMPP on Windows Server 2016/2019/2022"
 date: "2023-02-14"
+Title_meta: GUIDE TO Install XAMPP on Windows Server 2016/2019/2022
+
+Description: This guide provides detailed instructions on how to install XAMPP, a popular web server solution, on Windows Server 2016, 2019, and 2022. Learn how to download XAMPP, configure Apache, MySQL, PHP, and other components, and set up a local web development environment on your Windows Server.
+
+Keywords: ['XAMPP', 'Windows Server 2016', 'Windows Server 2019', 'Windows Server 2022', 'install XAMPP', 'web development environment']
+
+Tags: ["XAMPP", "Windows Server 2016", "Windows Server 2019", "Windows Server 2022", "Install XAMPP", "Web Development Environment"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-xampp-on-windows-server-2016-2019-2022']
+tab: true
 ---
 
 ![How to install XAMPP on Windows Server 2016/2019/2022](images/How-to-install-XAMPP-on-Windows-Server-2016_2019_2022-WINDOWS-ARTICLE-1024x576.png)

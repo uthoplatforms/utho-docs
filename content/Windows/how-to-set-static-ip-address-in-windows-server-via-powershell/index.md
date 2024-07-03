@@ -1,6 +1,20 @@
 ---
 title: "How to Set Static IP Address in Windows Server via PowerShell"
 date: "2023-06-24"
+Title_meta: GUIDE TO Set Static IP Address in Windows Server via PowerShell
+
+Description: This guide provides step-by-step instructions on how to set a static IP address in Windows Server using PowerShell. Learn how to identify network adapters, assign static IP configurations, set DNS servers, and validate network settings to ensure stable and predictable network connectivity.
+
+Keywords: ['Static IP address', 'Windows Server', 'PowerShell', 'network configuration', 'DNS settings', 'server administration']
+
+Tags: ["Static IP Address", "Windows Server", "PowerShell", "Network Configuration", "DNS Settings", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-set-static-ip-address-in-windows-server-via-powershell']
+tab: true
 ---
 
 ## INTRODUCTION Set Static IP Address

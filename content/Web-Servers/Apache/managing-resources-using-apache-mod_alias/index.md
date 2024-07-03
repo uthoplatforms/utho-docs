@@ -8,7 +8,7 @@ Description: This guide provides detailed instructions on managing resources usi
 Keywords: ['Apache', 'mod_alias', 'resource management', 'URL redirection', 'aliasing', 'server configuration']
 
 Tags: ["Apache", "mod_alias", "Resource Management", "URL Redirection", "Aliasing", "Server Configuration"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

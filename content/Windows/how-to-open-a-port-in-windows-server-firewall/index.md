@@ -1,6 +1,20 @@
 ---
 title: "How To open a port in Windows Server Firewall"
 date: "2020-06-08"
+Title_meta: GUIDE TO Open a Port in Windows Server Firewall
+
+Description: This guide provides step-by-step instructions on how to open a port in the Windows Server Firewall. Learn how to navigate Windows Firewall settings, create inbound and outbound rules for specific ports, and ensure proper configuration for allowing network traffic through the firewall.
+
+Keywords: ['open port', 'Windows Server', 'Firewall configuration', 'inbound rules', 'outbound rules', 'network security']
+
+Tags: ["Open Port", "Windows Server", "Firewall Configuration", "Inbound Rules", "Outbound Rules", "Network Security"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-open-a-port-in-windows-server-firewall']
+tab: true
 ---
 
 #### Open Windows Firewall

@@ -1,6 +1,19 @@
 ---
 title: "How to add SSL biniding in windows server"
 date: "2021-12-21"
+Title_meta: GUIDE TO Add SSL Binding in Windows Server
+
+Description: Follow this guide to learn how to add SSL binding in Windows Server. Step-by-step instructions will help you secure your website by enabling HTTPS, configuring SSL certificates, and ensuring encrypted communication between clients and your server.
+
+Keywords: ['Windows Server', 'SSL binding', 'add SSL', 'HTTPS', 'SSL certificates', 'secure website']
+
+Tags: ["Windows Server", "SSL Binding", "HTTPS", "SSL Certificates", "Secure Website"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-add-ssl-biniding-in-windows-server/']
 ---
 
 ![](images/How-to-add-SSL-biniding-in-windows-server_utho.jpg)

@@ -1,6 +1,20 @@
 ---
 title: "How to install WDS (Windows Deployment Services) on Windows Server"
 date: "2023-06-13"
+Title_meta: GUIDE TO Install WDS (Windows Deployment Services) on Windows Server
+
+Description: This guide provides detailed instructions on how to install Windows Deployment Services (WDS) on Windows Server. Learn how to enable the WDS role, configure deployment settings, create and manage boot images, and streamline operating system installations across your network using WDS.
+
+Keywords: ['WDS', 'Windows Deployment Services', 'Windows Server', 'install WDS', 'deployment tools', 'network administration']
+
+Tags: ["WDS", "Windows Deployment Services", "Windows Server", "Install WDS", "Deployment Tools", "Network Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-wds-windows-deployment-services-on-windows-server']
+tab: true
 ---
 
 ![](images/How-to-install-WDS-Windows-Deployment-Services-on-Windows-Server-1024x576.jpg)

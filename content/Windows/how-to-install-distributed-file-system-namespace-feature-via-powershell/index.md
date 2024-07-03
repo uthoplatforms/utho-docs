@@ -1,6 +1,20 @@
 ---
 title: "How to install Distributed File System NameSpace feature via PowerShell"
 date: "2023-06-26"
+Title_meta: GUIDE TO Install Distributed File System Namespace Feature via PowerShell
+
+Description: This guide provides detailed instructions on how to install the Distributed File System Namespace feature using PowerShell. Learn how to configure DFS Namespace, create and manage namespaces, and enhance file organization and access across your Windows Server environment.
+
+Keywords: ['DFS Namespace', 'PowerShell', 'install DFS Namespace', 'file organization', 'server management', 'namespace configuration']
+
+Tags: ["DFS Namespace", "PowerShell", "Install DFS Namespace", "File Organization", "Server Management", "Namespace Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-distributed-file-system-namespace-feature-via-powershell']
+tab: true
 ---
 
 INTRODUCTION

@@ -1,6 +1,20 @@
 ---
 title: "How to setup Disk Driver while deploying Windows Server with custom ISO"
 date: "2022-07-27"
+Title_meta: GUIDE TO Setup Disk Driver When Deploying Windows Server with Custom ISO
+
+Description: This guide provides detailed instructions on how to set up disk drivers during the deployment of Windows Server using a custom ISO. Learn how to integrate necessary disk drivers into the installation media, ensure compatibility with hardware configurations, and troubleshoot common driver installation issues.
+
+Keywords: ['Disk driver setup', 'Windows Server deployment', 'custom ISO', 'hardware compatibility', 'driver integration', 'installation troubleshooting']
+
+Tags: ["Disk Driver Setup", "Windows Server Deployment", "Custom ISO", "Hardware Compatibility", "Driver Integration", "Installation Troubleshooting"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-setup-disk-driver-while-deploying-windows-server-with-custom-iso']
+tab: true
 ---
 
 ![](images/How-to-setup-Disk-Driver-while-deploying-Windows-Server-with-custom-ISO_utho.jpg)

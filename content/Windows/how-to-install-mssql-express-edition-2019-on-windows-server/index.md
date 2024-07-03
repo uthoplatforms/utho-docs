@@ -1,6 +1,20 @@
 ---
 title: "How to install MsSQL Express Edition 2019 on Windows Server"
 date: "2022-10-20"
+Title_meta: GUIDE TO Install SQL Server Express Edition 2019 on Windows Server
+
+Description: This guide provides step-by-step instructions on how to install Microsoft SQL Server Express Edition 2019 on Windows Server. Learn how to download SQL Server Express, configure the installation, set up databases, and manage SQL Server instances effectively on your Windows Server environment.
+
+Keywords: ['SQL Server Express Edition 2019', 'Windows Server', 'install SQL Server Express', 'database management', 'server administration', 'SQL Server installation']
+
+Tags: ["SQL Server Express Edition 2019", "Windows Server", "Install SQL Server Express", "Database Management", "Server Administration", "SQL Server Installation"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-mssql-express-edition-2019-on-windows-server']
+tab: true
 ---
 
 **SQL Server 2019** Express is a free edition of SQL Server, ideal for development and production for desktop, web and small server applications.

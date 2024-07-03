@@ -1,6 +1,20 @@
 ---
 title: "How to install IIS via Powershell in Windows Server"
 date: "2022-09-15"
+Title_meta: GUIDE TO Install IIS via PowerShell in Windows Server
+
+Description: This guide provides detailed instructions on how to install Internet Information Services (IIS) using PowerShell on Windows Server. Learn how to enable the IIS role, configure web server settings, manage websites and application pools, and deploy web applications efficiently.
+
+Keywords: ['IIS', 'Internet Information Services', 'PowerShell', 'install IIS', 'web server configuration', 'web application deployment']
+
+Tags: ["IIS", "Internet Information Services", "PowerShell", "Install IIS", "Web Server Configuration", "Web Application Deployment"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-iis-via-powershell-in-windows-server']
+tab: true
 ---
 
 ![](images/How-to-install-IIS-via-Powershell-in-Windows-Server_utho.jpg)

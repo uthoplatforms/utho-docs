@@ -7,7 +7,7 @@ description: "Learn how to install SSL (Secure Sockets Layer) on Ubuntu with Apa
 keywords: ["install SSL Apache2 Ubuntu", "setup SSL Apache2 Ubuntu", "Apache2 SSL certificate installation Ubuntu", "SSL configuration Apache2 Ubuntu", "Ubuntu Apache2 SSL setup", "enable SSL Apache2 Ubuntu", "Apache2 HTTPS setup Ubuntu", "secure Apache2 with SSL Ubuntu"]
 
 tags: ["Apache2", "ubuntu"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

@@ -8,7 +8,7 @@ Description: This guide provides comprehensive instructions on rewriting URLs us
 Keywords: ['mod_rewrite', 'Apache', 'URL rewriting', 'SEO-friendly URLs', 'URL redirection', 'server configuration']
 
 Tags: ["mod_rewrite", "Apache", "URL Rewriting", "SEO", "URL Redirection", "Server Configuration"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

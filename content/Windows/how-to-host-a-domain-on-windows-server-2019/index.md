@@ -1,6 +1,19 @@
 ---
 title: "How to host a domain on Windows Server 2019"
 date: "2021-12-19"
+Title_meta: GUIDE TO Host a Domain on Windows Server 2019
+
+Description: Learn how to host a domain on Windows Server 2019 with this detailed guide. Explore step-by-step instructions to configure DNS (Domain Name System), set up web hosting services, manage domain settings, and ensure proper domain resolution and accessibility on your Windows Server 2019 environment.
+
+Keywords: ['Windows Server 2019', 'host a domain', 'DNS configuration', 'web hosting', 'domain management', 'server administration']
+
+Tags: ["Windows Server 2019", "Host a Domain", "DNS Configuration", "Web Hosting", "Domain Management", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-host-a-domain-on-windows-server-2019/']
 ---
 
 ![](images/How-to-host-a-domain-on-Windows-Server-2019_utho.jpg)

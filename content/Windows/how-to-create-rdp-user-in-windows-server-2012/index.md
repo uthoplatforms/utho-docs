@@ -1,6 +1,17 @@
 ---
 title: "How to create RDP user in Windows Server 2012"
 date: "2020-06-02"
+Description: Learn how to create an RDP (Remote Desktop Protocol) user in Windows Server 2012 with this step-by-step guide. Follow instructions to add a user account, configure RDP permissions, and enable remote desktop access, facilitating secure remote management and administration of your server.
+
+Keywords: ['Windows Server 2012', 'RDP user', 'create user account', 'remote desktop access', 'server administration']
+
+Tags: ["Windows Server 2012", "RDP User", "Create User Account", "Remote Desktop Access", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-create-rdp-user-in-windows-server-2012/']
 ---
 
 Follow the steps below to create additional RDP users to connect to your Windows Microhost cloud server.

@@ -1,6 +1,20 @@
 ---
 title: "How to Install Windows RDP CAL license in windows servers"
 date: "2022-06-07"
+Title_meta: GUIDE TO Install Windows RDP CAL License in Windows Servers
+
+Description: This guide provides comprehensive instructions on how to install Remote Desktop Services (RDS) Client Access Licenses (CALs) on Windows Servers. Learn the steps required to purchase, activate, and manage RDP CALs to enable remote desktop connections and manage user access efficiently.
+
+Keywords: ['Windows Server', 'RDP CAL license', 'Remote Desktop Services', 'install RDP CAL', 'server administration', 'remote desktop connection']
+
+Tags: ["Windows Server", "RDP CAL License", "Remote Desktop Services", "Install RDP CAL", "Server Administration", "Remote Desktop Connection"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-windows-rdp-cal-license-in-windows-servers']
+tab: true
 ---
 
 ![](images/How-to-Install-Windows-RDP-CAL-license-in-windows-servers_utho.jpg)

@@ -8,7 +8,7 @@ Description: Follow this guide to install Apache 2 Web Server on CentOS 5. Learn
 Keywords: ['Apache 2', 'CentOS 5', 'install Apache', 'web server', 'server setup']
 
 Tags: ["Apache 2", "CentOS 5", "Web Server", "Server Setup"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

@@ -1,6 +1,19 @@
 ---
 title: "How to Boot Windows Server into Safe Mode"
 date: "2022-09-21"
+Title_meta: GUIDE TO Boot Windows Server into Safe Mode
+
+Description: This guide provides detailed instructions on how to boot Windows Server into Safe Mode. Learn the steps to access Safe Mode, which allows you to troubleshoot and resolve issues by starting your server with minimal drivers and services.
+
+Keywords: ['Windows Server', 'Safe Mode', 'boot into Safe Mode', 'troubleshooting', 'server maintenance']
+
+Tags: ["Windows Server", "Safe Mode", "Troubleshooting", "Server Maintenance"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-boot-windows-server-2012-into-safe-mode/']
 ---
 
 ![How to Boot Windows Server into Safe Mode](images/How-to-Boot-Windows-Server-2012-into-Safe-Mode-windows-1-1024x576.png)

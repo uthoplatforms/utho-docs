@@ -1,6 +1,19 @@
 ---
 title: "How to configure a DNS Reverse Lookup Zone in Windows Server 2019"
 date: "2021-12-20"
+Title_meta: GUIDE TO Configure DNS Reverse Lookup Zone in Windows Server 2019
+
+Description: This guide provides detailed instructions on how to configure a DNS Reverse Lookup Zone in Windows Server 2019. Learn the steps to create and manage Reverse Lookup Zones, enabling efficient IP address to hostname resolution and enhancing network management capabilities.
+
+Keywords: ['Windows Server 2019', 'DNS', 'Reverse Lookup Zone', 'IP address resolution', 'network management']
+
+Tags: ["Windows Server 2019", "DNS", "Reverse Lookup Zone", "IP Address Resolution", "Network Management"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-configure-a-dns-reverse-lookup-zone-in-windows-server-2019']
 ---
 
 ![](images/How-to-configure-a-DNS-Reverse-Lookup-Zone-in-Windows-Server-2019_utho.jpg)

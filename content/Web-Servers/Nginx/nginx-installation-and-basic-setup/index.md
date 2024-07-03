@@ -4,6 +4,18 @@ title: "NGINX: Installation and Basic Setup"
 date: "2020-06-09"
 featured: true
 home: true
+title_meta: "NGINX: Installation and Basic Setup"
+description: "NGINX: Installation and Basic Setup"
+
+keywords: ['nginx', "tls"]
+
+tags: ["NGINX"]
+icon: "nginx"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Web-Servers/Nginx/nginx-installation-and-basic-setup']
+tab: true
 ---
 ![](images/NGINX_-Installation-and-Basic-Setup_utho.jpg)
 

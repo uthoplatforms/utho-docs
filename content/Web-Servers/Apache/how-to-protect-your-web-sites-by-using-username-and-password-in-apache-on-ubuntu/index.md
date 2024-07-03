@@ -7,7 +7,7 @@ description: "Learn how to enhance the security of your websites by setting up u
 keywords: ["protect websites Apache username password Ubuntu", "Apache authentication Ubuntu", "secure Apache with username password Ubuntu", "Apache basic authentication Ubuntu", "Apache password protection Ubuntu", "web server security Apache Ubuntu", "Apache username password setup Ubuntu", "Apache web server Ubuntu"]
 
 tags: ["Apache", "ubuntu"]
-icon: "Ubuntu"
+icon: "apache"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true

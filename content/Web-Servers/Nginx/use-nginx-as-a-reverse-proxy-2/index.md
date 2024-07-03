@@ -1,6 +1,17 @@
 ---
 title: "Use NGINX as a Reverse Proxy"
 date: "2022-06-22"
+title_meta: "Use NGINX as a Reverse Proxy"
+description: 'Use NGINX as a Reverse Proxy'
+
+keywords:  ['reverse proxy', 'Nginx', 'web server', 'installation']
+tags: ["NGINX", "CentOS 7"]
+icon: "nginx"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Web-Servers/Nginx/use-nginx-as-a-reverse-proxy-2']
+tab: true
 ---
 
 ![](images/Use-NGINX-as-a-Reverse-Proxy_utho.jpg)

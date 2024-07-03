@@ -1,6 +1,19 @@
 ---
 title: "How to Connect Virtual Server Remotely Using RDP in Windows OS"
 date: "2020-05-15"
+Title_meta: GUIDE TO Connect Virtual Server Remotely Using RDP in Windows OS
+
+Description: This guide provides step-by-step instructions on how to remotely connect to a virtual server using Remote Desktop Protocol (RDP) in Windows OS. Learn how to access and manage virtual servers securely, configure RDP settings, and perform administrative tasks from a remote location.
+
+Keywords: ['Virtual server', 'Remote Desktop Protocol', 'RDP connection', 'Windows OS', 'server administration', 'remote access']
+
+Tags: ["Virtual Server", "Remote Desktop Protocol", "RDP Connection", "Windows OS", "Server Administration", "Remote Access"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-connect-virtual-server-remotely-using-rdp-in-windows-os/']
 ---
 
 You can connect to other computers or devices connected to local network or on the Internet with a Public IP Address via Windows, **Remote Desktop Connection** application. For example, when you're using another computer or device, you can use the remote desktop connection app to connect to your computer desk's or work computer.

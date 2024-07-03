@@ -1,6 +1,20 @@
 ---
 title: "Windows Server Backup feature (2012R2, 2016, 2019)"
 date: "2022-11-11"
+Title_meta: Windows Server Backup Feature (2012R2, 2016, 2019)
+
+Description: This guide explores the Windows Server Backup feature across versions 2012R2, 2016, and 2019. Learn how to use built-in tools to backup and restore server data, configure backup schedules, manage recovery options, and ensure data protection for your Windows Server environment.
+
+Keywords: ['Windows Server Backup', 'backup and restore', 'data protection', 'server administration', 'Windows Server 2012R2', 'Windows Server 2016', 'Windows Server 2019']
+
+Tags: ["Windows Server Backup", "Backup and Restore", "Data Protection", "Server Administration", "Windows Server 2012R2", "Windows Server 2016", "Windows Server 2019"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/windows-server-backup-feature-2012r2-2016-2019']
+tab: true
 ---
 
 ![](images/Windows-Server-Backup-feature-2012R2-2016-2019-1024x576.png)

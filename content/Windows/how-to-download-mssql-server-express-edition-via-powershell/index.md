@@ -1,6 +1,19 @@
 ---
 title: "How to download MSSQL Server Express Edition via PowerShell"
 date: "2023-06-24"
+Title_meta: GUIDE TO Download MSSQL Server Express Edition via PowerShell
+
+Description: This guide provides detailed instructions on how to download Microsoft SQL Server Express Edition using PowerShell. Learn how to utilize PowerShell commands to initiate and manage the download process for MSSQL Server Express, facilitating efficient installation and setup on your Windows Server environment.
+
+Keywords: ['MSSQL Server Express', 'PowerShell', 'download MSSQL Server', 'SQL Server installation', 'server management']
+
+Tags: ["MSSQL Server Express", "PowerShell", "Download MSSQL Server", "SQL Server Installation", "Server Management"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-download-mssql-server-express-edition-via-powershell/']
 ---
 
 INTRODUCTION

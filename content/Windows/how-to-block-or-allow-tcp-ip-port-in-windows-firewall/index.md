@@ -1,6 +1,19 @@
 ---
 title: "How to Block or Allow TCP/IP Port in Windows Firewall"
 date: "2023-01-17"
+Title_meta: GUIDE TO Block or Allow TCP/IP Port in Windows Firewall
+
+Description: Learn how to block or allow TCP/IP ports in Windows Firewall with this comprehensive guide. Follow step-by-step instructions to configure firewall rules, ensuring secure and controlled access to network services by managing port traffic effectively.
+
+Keywords: ['Windows Firewall', 'TCP/IP port', 'block port', 'allow port', 'firewall rules', 'network security']
+
+Tags: ["Windows Firewall", "TCP/IP Port", "Block Port", "Allow Port", "Firewall Rules", "Network Security"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-block-or-allow-tcp-ip-port-in-windows-firewall/']
 ---
 
 ![How to Block or Allow TCP/IP Port in Windows Firewall](images/How-to-Block-or-Allow-TCP_IP-Port-in-Windows-Firewall-WINDOWS-ARTICLE-1024x576.png)

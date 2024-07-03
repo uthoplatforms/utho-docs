@@ -1,6 +1,20 @@
 ---
 title: "How to Install SSL on Windows Server"
 date: "2021-12-21"
+Title_meta: GUIDE TO Install SSL on Windows Server
+
+Description: This guide provides step-by-step instructions on how to install SSL certificates on Windows Server. Learn how to generate a Certificate Signing Request (CSR), obtain an SSL certificate from a Certificate Authority (CA), install the certificate in IIS (Internet Information Services), and configure HTTPS bindings to secure web applications and services on your Windows Server.
+
+Keywords: ['SSL certificate', 'Windows Server', 'install SSL', 'HTTPS configuration', 'server security', 'certificate management']
+
+Tags: ["SSL Certificate", "Windows Server", "Install SSL", "HTTPS Configuration", "Server Security", "Certificate Management"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-ssl-on-windows-server']
+tab: true
 ---
 
 ![](images/How-to-Install-SSL-on-Windows-Server_utho.jpg)

@@ -1,6 +1,20 @@
 ---
 title: "How to install Wordpress on IIS in WIndows Server 2019"
 date: "2021-12-19"
+Title_meta: GUIDE TO Install WordPress on IIS in Windows Server 2019
+
+Description: This guide provides step-by-step instructions on how to install WordPress on Internet Information Services (IIS) in Windows Server 2019. Learn how to set up PHP, configure MySQL, create a database, install WordPress, and configure IIS to host and manage WordPress websites effectively.
+
+Keywords: ['WordPress', 'IIS', 'Windows Server 2019', 'install WordPress', 'PHP configuration', 'MySQL database']
+
+Tags: ["WordPress", "IIS", "Windows Server 2019", "Install WordPress", "PHP Configuration", "MySQL Database"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-wordpress-on-iis-in-windows-server-2019']
+tab: true
 ---
 
 ![](images/How-to-install-WordPress-on-IIS-in-WIndows-Server-2019_utho.jpg)

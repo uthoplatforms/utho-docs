@@ -2,6 +2,18 @@
 linktitle: "NGINX - TLS/HTTPS"
 title: "NGINX : Enable TLS or HTTPS Connections"
 date: "2020-06-04"
+title_meta: "NGINX : Enable TLS or HTTPS Connections"
+description: "NGINX : Enable TLS or HTTPS Connections"
+
+keywords: ['nginx', "tls"]
+
+tags: ["NGINX"]
+icon: "nginx"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Web-Servers/Nginx/nginx-enable-tls-or-https-connections']
+tab: true
 ---
 ![](images/NGINX-_-Enable-TLS-or-HTTPS-Connections_utho.jpg)
 

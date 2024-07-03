@@ -1,6 +1,17 @@
 ---
 title: "How to reset a lost Administrator password in Windows Server"
 date: "2023-04-07"
+Title_meta: GUIDE TO Reset Lost Administrator Password in Windows Server
+Description: "This guide provides detailed instructions on how to reset a lost Administrator password in Windows Server. Learn methods such as using password reset disks, command prompt (Safe Mode), and third-party tools to regain access to your Windows Server administrator account"
+Keywords: ['reset administrator password', 'Windows Server', 'lost password recovery', 'password reset disk', 'Safe Mode', 'server administration']
+Tags: ["Reset Administrator Password", "Windows Server", "Lost Password Recovery", "Password Reset Disk", "Safe Mode", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-reset-a-lost-administrator-password-in-windows-server']
+tab: true
 ---
 
 ### INTRODUCTION

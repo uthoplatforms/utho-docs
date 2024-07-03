@@ -1,6 +1,21 @@
 ---
 title: "How to Install OpenSSH on Windows Server"
 date: "2022-09-26"
+Title_meta: GUIDE TO Install OpenSSH on Windows Server
+
+Description: This guide provides step-by-step instructions on how to install OpenSSH on Windows Server. Learn how to enable the OpenSSH feature, configure SSH settings, manage SSH keys, and secure remote access to your Windows Server environment using OpenSSH.
+
+Keywords: ['OpenSSH', 'Windows Server', 'install OpenSSH', 'SSH configuration', 'remote access', 'server security']
+
+Tags: ["OpenSSH", "Windows Server", "Install OpenSSH", "SSH Configuration", "Remote Access", "Server Security"]
+
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-openssh-on-windows-server']
+tab: true
 ---
 
 ![](images/How-to-Install-OpenSSH-on-Windows-Server_utho.jpg)

@@ -1,6 +1,18 @@
 ---
 title: "How to change NGINX port in Linux"
 date: "2022-06-22"
+title_meta: "How to change NGINX port in Linux"
+description: "Learn how to change NGINX port in Linux.
+"
+keywords: ["Nginx"]
+
+tags: ["Nginx", "ubuntu"]
+icon: "nginx"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ['/Web-Servers/Nginx/how-to-change-nginx-port-in-linux']
+tab: true
 ---
 
 ![](images/How-to-change-NGINX-port-in-Linux-1024x576.png)

@@ -1,6 +1,19 @@
 ---
 title: "How to configure IP manually on Windows Server"
 date: "2023-03-27"
+Title_meta: GUIDE TO Configure IP Manually on Windows Server
+
+Description: Learn how to manually configure IP settings on Windows Server with this comprehensive guide. Follow step-by-step instructions to set static IP addresses, subnet masks, default gateways, and DNS servers, ensuring stable network connectivity and efficient server management.
+
+Keywords: ['Windows Server', 'configure IP manually', 'static IP address', 'subnet mask', 'default gateway', 'DNS server']
+
+Tags: ["Windows Server", "Configure IP", "Static IP Address", "Subnet Mask", "Default Gateway", "DNS Server", "Network Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-configure-ip-manually-on-windows-server/']
 ---
 
 ![configure IP manually on Windows Server](images/How-to-configure-IP-manually-on-Windows-Server_utho.jpg)
