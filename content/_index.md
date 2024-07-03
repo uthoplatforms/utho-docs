@@ -4,7 +4,7 @@ cascade:
   type: docs
 ---
 <div class="hx-w-full hx-bg-primary-700/5 hx-p-6 hx-rounded-md hx-text-current">
-  <h1 class="hx-font-extrabold hx-text-4xl">Welcome to UTHO Docs</h1>
+  <h1 class="hx-font-extrabold hx-text-4xl">Welcome to Utho Docs</h1>
   <div class="hx-flex hx-mt-4 hx-flex-wrap">
     <a href="getting_started/" class="hx-bg-primary-600 hx-text-white hx-font-bold hx-p-2 hx-px-4 hx-mr-2 hx-rounded hx-text-current hx-mt-2">
       Getting Started with utho

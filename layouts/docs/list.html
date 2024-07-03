@@ -11,40 +11,76 @@
           <p>{{ .Description }}</p>
           {{ partial "markup-header" }}
 
-          <div class="hx-flex hx-mt-8">
-          {{ if eq .Params.Tab true }}
+          <div class="hx-flex hx-mt-4 hx-flex-wrap">
+          {{ range $.Sections }}
+            <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-p-6 hx-items-center hover:hx-opacity-60">
+              <div>
+                  {{- $name := default "folder-open" .Params.Icon -}}
+                  {{- $icon := index site.Data.caticons $name -}}
+                {{ if $icon }}
+                  {{- $attributes := "height=5em" -}}
+                  {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
+                  <span class="hx-inline-block hx-align-text-bottom icon">
+                    {{- $icon | safeHTML -}}
+                  </span>
+                {{ else }}
+                  {{- $name := "folder-open" -}}
+                  {{- $icon := index site.Data.caticons $name -}}
+                  {{- $attributes := "height=5em" -}}
+                  {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
+                  <span class="hx-inline-block hx-align-text-bottom icon">
+                    {{- $icon | safeHTML -}}
+                  </span>
+                {{ end }}
+              </div>
+              <div class="hx-mt-2">
+              {{ .Title }}
+              </div>
+            </a>
+          {{ end }}
+          </div>
+
+          <hr class="hx-mt-4">
+
+          <div class="hx-flex hx-flex-wrap">
+
+          {{ if eq .Params.tab true }}
             {{ range .Parent.Sections }}
-              {{ if eq .Params.tab true }}
-                {{ $filename :=  printf "%s" ".png" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
-                <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-auto">
-                  <div>
-                    {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
-                  </div>
-                  <div>
-                  {{ .Title }}
-                  </div>
-                </a>
+              {{- $pageURL := $.RelPermalink -}}
+              {{- $active := eq $pageURL .RelPermalink -}}
+              {{ if $active }}
+                <a href="#" class="hx-flex hx-flex-col hx-p-6 hx-items-center" style="color:purple !important">
+              {{ else }}
+                <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-p-6 hx-items-center hover:hx-opacity-60">
               {{ end }}
-            {{ end }}
-          {{ else }}
-            {{ range .Sections }}
-              {{ if eq .Params.tab true }}
-                {{ $filename :=  printf "%s" ".png" | printf "%s%s" .Params.Icon | printf "%s%s" "images/" }}
-                <a href="{{ .RelPermalink }}" class="hx-flex hx-flex-col hx-w-max hx-items-center hx-mx-auto">
-                  <div>
-                    {{ with resources.Get $filename }}<img src="{{ .RelPermalink }}" width="70" height="70" alt="">{{ end }}
-                  </div>
-                  <div>
-                  {{ .Title }}
-                  </div>
-                </a>
-              {{ end }}
+                <div>
+                    {{- $name := default "folder-open" .Params.Icon -}}
+                    {{- $icon := index site.Data.caticons $name -}}
+                  {{ if $icon }}
+                    {{- $attributes := "height=5em" -}}
+                    {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
+                    <span class="hx-inline-block hx-align-text-bottom icon">
+                      {{- $icon | safeHTML -}}
+                    </span>
+                  {{ else }}
+                    {{- $name := "folder-open" -}}
+                    {{- $icon := index site.Data.caticons $name -}}
+                    {{- $attributes := "height=5em" -}}
+                    {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
+                    <span class="hx-inline-block hx-align-text-bottom icon">
+                      {{- $icon | safeHTML -}}
+                    </span>
+                  {{ end }}
+                </div>
+                <div class="hx-mt-2">
+                {{ .Title }}
+                </div>
+              </a>
             {{ end }}
           {{ end }}
           </div>
 
           {{ .Content }}
-
 
           {{ $featured := where .RegularPages "Params.featured" "eq" true }}
           {{ if $featured }}
@@ -67,7 +103,7 @@
           </div>
           {{ end }}
 
-          <h2>Articles</h2>
+          <!--<h2>Articles</h2>-->
 
           {{ $regular := (where .Paginator.Pages "Params.featured" "ne" true) }}
           {{ range $regular }}
@@ -86,7 +122,7 @@
             </div>
           </div>
           {{ else }}
-            <p class="hx-mt-8">No articles found on the topic.</p>
+            <p class="hx-mt-8"><!-- noart --></p>
           {{ end }}
 
           {{ partial "markup-footer" }}

@@ -12,10 +12,12 @@
        .in-iframe .utho-promo,
        .in-iframe .utho-share,
        .in-iframe .utho-hide,
+       .in-iframe #disqus_thread,
        .in-iframe .hextra-footer {
            display: none;
        }
 
+  
 
 body.in-iframe {
   margin: 0;
@@ -35,6 +37,11 @@ body.in-iframe {
                // Change all hyperlinks to open in a new tab
                document.querySelectorAll('a').forEach(function(link) {
                    link.setAttribute('target', '_blank');
+               });
+             
+               // Remove lazy loading attribute from all images
+               document.querySelectorAll('img').forEach(function(img) {
+                 img.removeAttribute('loading');
                });
            }
        });
