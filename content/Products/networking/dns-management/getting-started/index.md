@@ -33,18 +33,19 @@ After clicking on DNS Management a new page will open.
 2. **Configure DNS Management :**
  Here you can configure your DNS Management deployment details after clicking on "**Deploy DNS**."
 
- ![DNS_Process](./Screenshots/DNS_Process.png)
+    ![DNS_Process](./Screenshots/DNS_Process.png)
 
 - Fill in these details accordingly:
 1. **Domain Name:** Enter a domain name for your DNS.
 
- And click on Deploy dns.
-3. **Verify Deployment**
+    And click on Deploy dns.
+
+2. **Verify Deployment**
 The created DNS will be seen in the list as marked below.
 ![DNS_Process01](./Screenshots/DNS_Process01.png)
 
 
-4. Now after creating the dns click on manage button then a new page will occur where dns configurations will be seen , where we can add dns records after clicking on **Add New.** 
+3. Now after creating the dns click on manage button then a new page will occur where dns configurations will be seen , where we can add dns records after clicking on **Add New.** 
 ![DNS_Process02](./Screenshots/DNS_Process02.png)
 
 

@@ -28,3 +28,5 @@ To effectively utilize the Utho Cloud Firewall, ensure your system meets the fol
 - **Supported Browsers:** The latest versions of Chrome, Firefox, Safari, or Edge for accessing the Utho Cloud Management Console.
 - **Operating System:** No specific OS requirements for the firewall itself, but ensure the management console can be accessed from your system’s OS.
 - **Connectivity:** Stable internet connection to manage firewall settings and monitor traffic.
+
+--- 

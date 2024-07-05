@@ -122,7 +122,13 @@ ul li { margin: 0 0 10px 0; }
     margin-right: 0;
   }
 }
+.bordered {
+  border: 2px solid #eaeaea !important;
+}
 
+/* img:not([class]) {
+  border: 2px solid #eaeaea !important;
+} */
 
 /* .md\:hx-w-64 {
   width: 20rem;

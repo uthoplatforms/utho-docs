@@ -18,10 +18,14 @@ For advanced users and developers, we provide comprehensive API documentation to
 #### Accessing the API Documentation:
 
 * Visit our developer portal at [API Documentation](https://utho.com/api-docs/?utm_source=docs#api-VPC).
+
 * Browse through the available endpoints, including VPC creation, user management, and configuration settings.
 
-#### Using the API::
+#### Using the API: 
 
 * Generate an API key from your account settings.
 * Use the API key to authenticate your requests.
 * Follow the provided examples and guidelines to interact with our API.
+
+
+--- 

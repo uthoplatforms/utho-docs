@@ -52,3 +52,6 @@ Click the **Destroy Container Registry** button.
 A confirmation dialog will appear. Copy the name of the Container Registry and paste it into the input box. Confirm the action to proceed with destroying the Container Registry.
 
 When you provide the confirmation then your Container Registry will destroy.
+
+
+---
