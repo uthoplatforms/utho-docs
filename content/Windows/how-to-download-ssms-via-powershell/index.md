@@ -1,6 +1,19 @@
 ---
 title: "How to download SSMS via PowerShell"
 date: "2023-06-24"
+Title_meta: GUIDE TO Download SSMS via PowerShell
+
+Description: This guide provides step-by-step instructions on how to download SQL Server Management Studio (SSMS) using PowerShell. Learn how to use PowerShell commands to initiate the download and installation of SSMS, enabling efficient management and administration of SQL Server databases on your Windows environment.
+
+Keywords: ['SSMS', 'SQL Server Management Studio', 'PowerShell', 'download SSMS', 'SQL Server administration']
+
+Tags: ["SSMS", "SQL Server Management Studio", "PowerShell", "Download SSMS", "SQL Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-download-ssms-via-powershell']
 ---
 
 INTRODUCTION

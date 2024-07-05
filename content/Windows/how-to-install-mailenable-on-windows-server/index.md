@@ -1,6 +1,20 @@
 ---
 title: "HOW TO INSTALL MAILENABLE ON WINDOWS SERVER"
 date: "2022-06-22"
+Title_meta: GUIDE TO Install MailEnable on Windows Server
+
+Description: This guide provides detailed instructions on how to install MailEnable on Windows Server. Learn how to download MailEnable, configure email services, set up mailboxes, and manage email accounts and settings effectively on your Windows Server environment.
+
+Keywords: ['MailEnable', 'Windows Server', 'install MailEnable', 'email server setup', 'mail server configuration', 'server administration']
+
+Tags: ["MailEnable", "Windows Server", "Install MailEnable", "Email Server Setup", "Mail Server Configuration", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-mailenable-on-windows-server']
+tab: true
 ---
 
 ![](images/HOW-TO-INSTALL-MAILENABLE-ON-WINDOWS-SERVER_utho.jpg)

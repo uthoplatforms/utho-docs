@@ -19,9 +19,9 @@ taxonomies:
   author: authors
   tag: tags
   
-services:
-  disqus:
-    shortname: utho
+#services:
+#  disqus:
+#    shortname: utho
 
 
 menu:
@@ -74,9 +74,9 @@ params:
   editURL:
     enable: true
     base: https://github.com/uthoplatforms/utho-docs/edit/main/content
-  comments:
-    enable: true
-    type: disqus
+  #comments:
+  #  enable: false
+   # type: disqus
   search:
     enable: true
     type: flexsearch
@@ -101,3 +101,8 @@ outputFormats:
     baseName: "urls"
     isPlainText: true
     notAlternative: true
+
+caches:
+  images:
+    dir: ":cacheDir/:project"
+    maxAge: "800h" # or some high value

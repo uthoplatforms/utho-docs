@@ -1,6 +1,21 @@
 ---
 title: "How to install Active Directory Domain Service on Windows Server"
 date: "2023-05-08"
+Title_meta: GUIDE TO Install Active Directory Domain Services on Windows Server
+
+Description: This guide provides detailed instructions on how to install Active Directory Domain Services (AD DS) on Windows Server. Learn how to set up a domain controller, promote the server to a domain controller role, and configure AD DS to manage and authenticate users, computers, and resources within your network environment.
+
+Keywords: ['Active Directory Domain Services', 'Windows Server', 'install AD DS', 'domain controller', 'server administration', 'network management']
+
+Tags: ["Active Directory Domain Services", "Windows Server", "Install AD DS", "Domain Controller", "Server Administration", "Network Management"]
+
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-active-directory-domain-service-on-windows-server/']
+tab: true
 ---
 
 ![](images/How-to-install-Active-Directory-Domain-Service-on-Windows-Server-1024x576.jpg)

@@ -1,6 +1,20 @@
 ---
-title: "How to enable Windows Subsystem for Linux (WSL) feature to use Linux on Windows Server."
+title: "How to enable Windows Subsystem for Linux (WSL) feature to use Linux on Windows Server"
 date: "2023-06-13"
+Title_meta: GUIDE TO Enable Windows Subsystem for Linux (WSL) Feature on Windows Server
+
+Description: This guide provides step-by-step instructions on how to enable the Windows Subsystem for Linux (WSL) feature on Windows Server. Learn how to install and configure WSL to run Linux distributions alongside Windows, enabling developers and administrators to utilize Linux tools and workflows on their Windows Server environments.
+
+Keywords: ['Windows Subsystem for Linux', 'WSL', 'Windows Server', 'Linux on Windows', 'developer tools', 'server administration']
+
+Tags: ["Windows Subsystem for Linux", "WSL", "Windows Server", "Linux on Windows", "Developer Tools", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-enable-windows-subsystem-for-linux-wsl-feature-to-use-linux-on-windows-server/']
+tab: true
 ---
 
 ![](images/How-to-enable-Windows-Subsystem-for-Linux-WSL-feature-to-use-Linux-on-Windows-Server-1024x576.jpg)

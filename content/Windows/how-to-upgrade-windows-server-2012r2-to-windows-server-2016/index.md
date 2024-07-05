@@ -1,6 +1,20 @@
 ---
 title: "How to upgrade Windows Server 2012R2 to Windows Server 2016"
 date: "2022-12-19"
+Title_meta: GUIDE TO Upgrade Windows Server 2012 R2 to Windows Server 2016
+
+Description: This guide provides step-by-step instructions on how to upgrade Windows Server 2012 R2 to Windows Server 2016. Learn how to prepare for the upgrade, perform an in-place upgrade using installation media or through Windows Update, and post-upgrade considerations for ensuring a smooth transition to the new server version.
+
+Keywords: ['Windows Server 2012 R2', 'Windows Server 2016', 'upgrade process', 'in-place upgrade', 'server migration', 'server administration']
+
+Tags: ["Windows Server 2012 R2", "Windows Server 2016", "Upgrade Process", "In-Place Upgrade", "Server Migration", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-upgrade-windows-server-2012r2-to-windows-server-2016']
+tab: true
 ---
 
 ![](images/How-to-upgrade-Windows-Server-2012R2-to-Windows-Server-2016_utho.jpg)

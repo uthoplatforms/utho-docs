@@ -1,6 +1,21 @@
 ---
 title: "How to install Telnet Client on a server using Windows PowerShell"
 date: "2022-09-24"
+
+Title_meta: GUIDE TO Install Telnet Client on Windows Server using PowerShell
+
+Description: This guide provides instructions on how to install the Telnet Client on a Windows Server using PowerShell. Learn how to enable the Telnet Client feature, verify its installation, and use Telnet for remote access and troubleshooting tasks on your Windows Server environment.
+
+Keywords: ['Telnet Client', 'Windows Server', 'PowerShell', 'install Telnet Client', 'remote access', 'network troubleshooting']
+
+Tags: ["Telnet Client", "Windows Server", "PowerShell", "Install Telnet Client", "Remote Access", "Network Troubleshooting"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-telnet-client-on-a-server-using-windows-powershell']
+tab: true
 ---
 
 ![install Telnet Client on Windows](images/How-to-install-Telnet-Client-on-a-server-using-Windows-PowerShell_utho.jpg)

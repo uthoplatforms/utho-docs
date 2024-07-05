@@ -1,6 +1,20 @@
 ---
 title: "HOW TO INSTALL ONE SSL CERTIFICATE ON TWO DIFFERENT WINDOWS SERVER"
 date: "2022-06-22"
+Title_meta: GUIDE TO Install One SSL Certificate on Two Different Windows Servers
+
+Description: This guide provides instructions on how to install one SSL certificate on two different Windows servers. Learn how to generate or obtain the SSL certificate, export it with private key, import it to another server, and configure bindings to secure multiple servers with the same SSL certificate.
+
+Keywords: ['SSL certificate', 'Windows Server', 'install SSL certificate', 'server security', 'certificate management', 'SSL configuration']
+
+Tags: ["SSL Certificate", "Windows Server", "Install SSL Certificate", "Server Security", "Certificate Management", "SSL Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: [/Windows/how-to-install-one-ssl-certificate-on-two-different-windows-server']
+tab: true
 ---
 
 ![](images/HOW-TO-INSTALL-ONE-SSL-CERTIFICATE-ON-TWO-DIFFERENT-WINDOWS-SERVER_utho.jpg)

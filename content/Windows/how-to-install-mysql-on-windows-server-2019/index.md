@@ -1,6 +1,20 @@
 ---
 title: "How to install MySQL on Windows Server 2019"
 date: "2023-04-07"
+Title_meta: GUIDE TO Install MySQL on Windows Server 2019
+
+Description: This guide provides step-by-step instructions on how to install MySQL on Windows Server 2019. Learn how to download MySQL, configure the installation, set up databases, and manage MySQL server effectively on your Windows Server environment.
+
+Keywords: ['MySQL', 'Windows Server 2019', 'install MySQL', 'database management', 'server administration', 'MySQL installation']
+
+Tags: ["MySQL", "Windows Server 2019", "Install MySQL", "Database Management", "Server Administration", "MySQL Installation"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-mysql-on-windows-server-2019']
+tab: true
 ---
 
 ![How to install MySQL on Windows Server 2019](images/How-to-install-MySQL-on-Windows-Server-2019_utho.jpg)

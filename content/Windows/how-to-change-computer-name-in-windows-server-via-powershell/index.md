@@ -1,6 +1,20 @@
 ---
 title: "How to Change Computer Name in Windows Server via PowerShell"
 date: "2023-06-13"
+Title_meta: GUIDE TO Change Computer Name in Windows Server via PowerShell
+
+Description: This guide provides step-by-step instructions on how to change the computer name in Windows Server using PowerShell. Learn how to rename your server efficiently through PowerShell commands, ensuring proper network identification and management.
+
+Keywords: ['Windows Server', 'change computer name', 'PowerShell', 'rename server', 'network management']
+
+Tags: ["Windows Server", "Change Computer Name", "PowerShell", "Rename Server", "Network Management"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-change-computer-name-in-windows-server-via-powershell/']
+
 ---
 
 ![](images/How-to-Change-Computer-Name-in-Windows-Server-via-PowerShell-1024x576.jpg)

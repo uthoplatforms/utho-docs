@@ -12,10 +12,12 @@
        .in-iframe .utho-promo,
        .in-iframe .utho-share,
        .in-iframe .utho-hide,
+       .in-iframe #disqus_thread,
        .in-iframe .hextra-footer {
            display: none;
        }
 
+  
 
 body.in-iframe {
   margin: 0;
@@ -36,6 +38,11 @@ body.in-iframe {
                document.querySelectorAll('a').forEach(function(link) {
                    link.setAttribute('target', '_blank');
                });
+             
+               // Remove lazy loading attribute from all images
+               document.querySelectorAll('img').forEach(function(img) {
+                 img.removeAttribute('loading');
+               });
            }
        });
    </script>
@@ -55,6 +62,8 @@ body.in-iframe {
       {{ partial "footer.html" . }}
     {{ end }}
     {{ partial "scripts.html" . }}
+
+    <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
   </body>
 
 

@@ -1,6 +1,19 @@
 ---
 title: "How to Install &amp; Configure Printer Tool in Windows Server"
 date: "2022-04-20"
+Title_meta: GUIDE TO Install & Configure Printer Tool in Windows Server
+
+Description: This guide provides comprehensive instructions on how to install and configure a printer tool in Windows Server. Learn the process of setting up printers, configuring print queues, managing print jobs, and ensuring efficient printing services across your Windows Server environment.
+
+Keywords: ['Windows Server', 'install printer tool', 'configure printers', 'print management', 'server administration', 'printing services']
+
+Tags: ["Windows Server", "Install Printer Tool", "Configure Printers", "Print Management", "Server Administration", "Printing Services"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-configure-printer-pool-in-windows-server']
 ---
 
 ![](images/How-to-Install-Configure-Printer-Tool-in-Windows-Server-1024x576.png)

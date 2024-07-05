@@ -1,6 +1,19 @@
 ---
 title: "How to create DFS NameSpaces via PowerShell"
 date: "2023-06-26"
+Title_meta: GUIDE TO Create DFS NameSpaces via PowerShell
+
+Description: This guide provides step-by-step instructions on how to create DFS (Distributed File System) NameSpaces using PowerShell. Learn how to configure and manage DFS namespaces to organize and unify access to shared folders across your Windows Server environment efficiently.
+
+Keywords: ['DFS', 'DFS NameSpaces', 'PowerShell', 'distributed file system', 'server management', 'file sharing']
+
+Tags: ["DFS", "DFS NameSpaces", "PowerShell", "Distributed File System", "Server Management", "File Sharing"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-create-dfs-namespaces-via-powershell/']
 ---
 
 INTRODUCTION

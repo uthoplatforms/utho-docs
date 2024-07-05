@@ -1,6 +1,19 @@
 ---
 title: "How to connect to a Windows server using Remote Desktop Protocol (RDP)"
 date: "2022-09-29"
+Title_meta: GUIDE TO Connect to a Windows Server Using Remote Desktop Protocol (RDP)
+
+Description: Learn how to connect to a Windows server using Remote Desktop Protocol (RDP) with this guide. Follow step-by-step instructions to initiate an RDP session, enter server credentials, configure connection settings, and securely access your Windows server remotely for management and administration tasks.
+
+Keywords: ['Windows server', 'Remote Desktop Protocol', 'RDP connection', 'server administration', 'remote access']
+
+Tags: ["Windows Server", "Remote Desktop Protocol", "RDP Connection", "Server Administration", "Remote Access"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-connect-to-a-windows-server-using-remote-desktop-protocol-rdp/']
 ---
 
 ![connect to a Windows server](images/How-to-connect-to-a-Windows-server-using-Remote-Desktop-Protocol-RDP-1024x576.png)

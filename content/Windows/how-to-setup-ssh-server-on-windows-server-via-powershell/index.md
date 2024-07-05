@@ -1,6 +1,20 @@
 ---
 title: "How to setup SSH Server on Windows Server via PowerShell"
 date: "2023-03-21"
+Title_meta: GUIDE TO Setup SSH Server on Windows Server via PowerShell
+
+Description: This guide offers comprehensive instructions on setting up an SSH (Secure Shell) server on Windows Server using PowerShell. Learn how to install the OpenSSH Server feature, configure SSH settings, manage SSH keys, and enable secure remote access to your Windows Server environment.
+
+Keywords: ['SSH server', 'Windows Server', 'PowerShell', 'OpenSSH', 'remote access', 'server administration']
+
+Tags: ["SSH Server", "Windows Server", "PowerShell", "OpenSSH", "Remote Access", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-setup-ssh-server-on-windows-server-via-powershell']
+tab: true
 ---
 
 ![setup SSH Server via PowerShell](images/How-to-setup-SSH-Server-on-Windows-Server-via-PowerShell_utho.jpg)

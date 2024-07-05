@@ -1,6 +1,20 @@
 ---
 title: "HOW TO MIGRATE THE ZIMBRA EMAILS ON PLESK PANEL USING EMAIL MIGRATOR"
 date: "2022-06-22"
+Title_meta: GUIDE TO Migrate Zimbra Emails on Plesk Panel Using Email Migrator
+
+Description: This guide offers comprehensive instructions on migrating Zimbra emails to a Plesk panel using an email migrator tool. Learn the steps to prepare for migration, configure the migrator tool, execute the migration process, and verify the successful transfer of emails to Plesk.
+
+Keywords: ['Zimbra email migration', 'Plesk panel', 'email migrator tool', 'migration process', 'email transfer', 'server administration']
+
+Tags: ["Zimbra Email Migration", "Plesk Panel", "Email Migrator Tool", "Migration Process", "Email Transfer", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-migrate-the-zimbra-emails-on-plesk-panel-using-email-migrator']
+tab: true
 ---
 
 ![](images/HOW-TO-MIGRATE-THE-ZIMBRA-EMAILS-ON-PLESK-PANEL-USING-EMAIL-MIGRATOR_utho.jpg)

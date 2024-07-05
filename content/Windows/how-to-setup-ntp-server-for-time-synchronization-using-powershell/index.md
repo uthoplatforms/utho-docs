@@ -1,6 +1,20 @@
 ---
 title: "How to setup NTP Server for time synchronization using Powershell"
 date: "2023-03-27"
+Title_meta: GUIDE TO Setup NTP Server for Time Synchronization Using PowerShell
+
+Description: This guide provides step-by-step instructions on how to set up an NTP (Network Time Protocol) server for time synchronization using PowerShell. Learn how to configure the Windows Time service (w32time), set up the server to synchronize with reliable time sources, and ensure accurate timekeeping across your network environment.
+
+Keywords: ['NTP server', 'time synchronization', 'PowerShell', 'Windows Time service', 'network time protocol', 'server administration']
+
+Tags: ["NTP Server", "Time Synchronization", "PowerShell", "Windows Time Service", "Network Time Protocol", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['content/Windows/how-to-setup-ntp-server-for-time-synchronization-using-powershell']
+tab: true
 ---
 
 ![setup NTP Server for time synchronization](images/How-to-setup-NTP-Server-for-time-synchronization-using-Powershell_utho.jpg)

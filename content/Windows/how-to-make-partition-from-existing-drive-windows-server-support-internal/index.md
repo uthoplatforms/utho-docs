@@ -1,6 +1,20 @@
 ---
 title: "How to make partition from existing drive Windows Server"
 date: "2022-06-22"
+Title_meta: GUIDE TO Create Partition from Existing Drive on Windows Server
+
+Description: This guide provides step-by-step instructions on how to create a new partition from an existing drive on Windows Server. Learn how to use Disk Management tools to shrink an existing volume, allocate free space for a new partition, and format it for storage or organizational purposes.
+
+Keywords: ['create partition', 'Windows Server', 'Disk Management', 'shrink volume', 'allocate space', 'format partition']
+
+Tags: ["Create Partition", "Windows Server", "Disk Management", "Shrink Volume", "Allocate Space", "Format Partition"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-make-partition-from-existing-drive-windows-server-support-internal']
+tab: true
 ---
 
 ![](images/How-to-make-partition-from-existing-drive-windows-server-Support-Internal-1024x576.png)

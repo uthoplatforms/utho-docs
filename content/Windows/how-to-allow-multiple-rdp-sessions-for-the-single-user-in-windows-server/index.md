@@ -1,6 +1,19 @@
 ---
 title: "How to allow multiple RDP sessions for the single user in Windows Server"
 date: "2022-05-12"
+Title_meta: GUIDE TO Allow Multiple RDP Sessions for a Single User in Windows Server
+
+Description: This guide provides step-by-step instructions on how to allow multiple RDP sessions for a single user in Windows Server. Learn how to configure your server settings to enable concurrent remote desktop sessions, enhancing productivity and remote access capabilities.
+
+Keywords: ['Windows Server', 'RDP', 'multiple RDP sessions', 'single user', 'remote desktop', 'server configuration']
+
+Tags: ["Windows Server", "RDP", "Multiple RDP Sessions", "Remote Desktop", "Server Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-allow-multiple-rdp-sessions-for-the-single-user-in-windows-server/']
 ---
 
 ![](images/How-to-allow-multiple-RDP-sessions-for-the-single-user-in-Windows-Server_utho.jpg)

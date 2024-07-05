@@ -1,6 +1,20 @@
 ---
 title: "Install Docker on Windows Server"
 date: "2023-06-05"
+Title_meta: GUIDE TO Install Docker on Windows Server
+
+Description: This guide offers detailed instructions on how to install Docker on Windows Server. Learn how to prepare your system, download and install Docker, configure Docker settings, and verify the installation to start leveraging containerization benefits on your Windows Server environment.
+
+Keywords: ['Docker', 'Windows Server', 'containerization', 'install Docker', 'container management', 'server administration']
+
+Tags: ["Docker", "Windows Server", "Containerization", "Install Docker", "Container Management", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/install-docker-on-windows-server']
+tab: true
 ---
 
 ![](images/Install-Docker-on-Windows-Server-1024x576.jpg)

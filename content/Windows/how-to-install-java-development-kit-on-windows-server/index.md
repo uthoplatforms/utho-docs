@@ -1,6 +1,20 @@
 ---
 title: "How to install Java Development kit on Windows Server"
 date: "2022-12-23"
+Title_meta: GUIDE TO Install Java Development Kit on Windows Server
+
+Description: This guide provides step-by-step instructions on how to install the Java Development Kit (JDK) on Windows Server. Learn how to download JDK, set environment variables, and verify the installation, enabling Java development and execution on your Windows Server environment.
+
+Keywords: ['Java Development Kit', 'JDK', 'Windows Server', 'install JDK', 'Java development', 'server configuration']
+
+Tags: ["Java Development Kit", "JDK", "Windows Server", "Install JDK", "Java Development", "Server Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-java-development-kit-on-windows-server']
+tab: true
 ---
 
 ![](images/How-to-install-Java-Development-kit-on-Windows-Server_utho.jpg)

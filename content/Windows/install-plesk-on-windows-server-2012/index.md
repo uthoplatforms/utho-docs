@@ -1,6 +1,14 @@
 ---
 title: "Install Plesk on Windows Server 2012"
 date: "2020-04-29"
+
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['content/Windows/install-plesk-on-windows-server-2012']
+tab: true
 ---
 
 ![](images/Install-Plesk-on-Windows-Server-2012_utho.jpg)

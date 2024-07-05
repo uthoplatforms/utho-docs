@@ -1,6 +1,20 @@
 ---
 title: "Installation and Configuration of IIS Web Server on Windows Server"
 date: "2020-05-23"
+Title_meta: GUIDE TO Installation and Configuration of IIS Web Server on Windows Server
+
+Description: This guide provides comprehensive instructions on how to install and configure the IIS (Internet Information Services) web server on Windows Server. Learn the step-by-step process to install IIS, configure websites, manage web applications, and optimize server performance for hosting web content.
+
+Keywords: ['IIS', 'Web Server', 'Windows Server', 'installation', 'configuration', 'server administration']
+
+Tags: ["IIS", "Web Server", "Windows Server", "Installation", "Configuration", "Server Administration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/installation-and-configuration-of-iis-web-server-on-windows-server']
+tab: true
 ---
 
 **Internet Information Services** (**IIS**, formerly **Internet Information Server**) is an extensible web server software created by Microsoft for use with the Windows NT family. IIS supports HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP. It has been an integral part of the Windows NT family since Windows NT 4.0, though it may be absent from some editions (e.g. Windows XP Home edition), and is not active by default.

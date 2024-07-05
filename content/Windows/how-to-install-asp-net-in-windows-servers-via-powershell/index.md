@@ -1,6 +1,20 @@
 ---
 title: "How to install ASP.NET in Windows Servers via PowerShell"
 date: "2023-06-13"
+Title_meta: GUIDE TO Install ASP.NET on Windows Servers via PowerShell
+
+Description: This guide offers detailed steps on installing ASP.NET on Windows Servers using PowerShell. Learn to leverage PowerShell commands for seamless installation, configuring ASP.NET for web application development, and optimizing server performance for .NET frameworks.
+
+Keywords: ['ASP.NET', 'Windows Server', 'PowerShell', '.NET framework', 'web development', 'server configuration']
+
+Tags: ["ASP.NET", "Windows Server", "PowerShell", ".NET Framework", "Web Development", "Server Configuration"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-install-asp-net-in-windows-servers-via-powershell']
+tab: true
 ---
 
 ![](images/How-to-install-ASP.NET-in-Windows-Servers-via-PowerShell-1024x576.jpg)

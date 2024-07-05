@@ -1,6 +1,20 @@
 ---
 title: "How to Turn off Internet Explorer Enhanced Security Configuration on Windows Server"
 date: "2022-09-26"
+Title_meta: GUIDE TO Turn off Internet Explorer Enhanced Security Configuration on Windows Server
+
+Description: This guide provides step-by-step instructions on how to disable Internet Explorer Enhanced Security Configuration (IE ESC) on Windows Server. Learn how to navigate Server Manager, adjust IE ESC settings for administrators and users, and improve browsing flexibility while maintaining security standards.
+
+Keywords: ['Internet Explorer Enhanced Security Configuration', 'Windows Server', 'disable IE ESC', 'Server Manager', 'browser security settings']
+
+Tags: ["Internet Explorer Enhanced Security Configuration", "Windows Server", "Disable IE ESC", "Server Manager", "Browser Security Settings"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-turn-off-internet-explorer-enhanced-security-configuration-on-windows-server']
+tab: true
 ---
 
 ![Turn off Internet Explorer Enhanced Security](images/How-to-Turn-off-Internet-Explorer-Enhanced-Security-Configuration-on-Windows-Server_utho.jpg)

@@ -1,6 +1,19 @@
 ---
 title: "How to Generate CSR Certificate for SSL Installation in Windows Server"
 date: "2022-06-22"
+Title_meta: GUIDE TO Generate CSR Certificate for SSL Installation in Windows Server
+
+Description: This guide provides detailed instructions on how to generate a CSR (Certificate Signing Request) certificate for SSL installation in Windows Server. Learn the process to create a CSR file using tools like IIS (Internet Information Services) or PowerShell, necessary for obtaining an SSL/TLS certificate from a certificate authority (CA) for secure website communication.
+
+Keywords: ['CSR certificate', 'SSL installation', 'Windows Server', 'certificate signing request', 'SSL/TLS certificate', 'server security']
+
+Tags: ["CSR Certificate", "SSL Installation", "Windows Server", "Certificate Signing Request", "SSL/TLS Certificate", "Server Security"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-generate-csr-certificate-for-ssl-installation-in-windows-server/']
 ---
 
 **Step 1: Login into your server using RDP using Administrator login details.**

@@ -1,6 +1,21 @@
 ---
 title: "How to Create Mailbox in MailEnable"
 date: "2022-05-18"
+Title_meta: GUIDE TO Create Mailbox in MailEnable
+
+Description: This guide provides step-by-step instructions on how to create a mailbox in MailEnable. Learn the process to set up email accounts, configure mailbox settings, and manage user access within MailEnable, enabling efficient email communication and management.
+
+Keywords: ['MailEnable', 'create mailbox', 'email account setup', 'mailbox configuration', 'email management']
+
+Tags: ["MailEnable", "Create Mailbox", "Email Account Setup", "Mailbox Configuration", "Email Management"]
+icon: "windows"
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00" 
+draft: false
+toc: true
+aliases: ['/Windows/how-to-create-mailbox-in-mailenable/']
+tab: true
+
 ---
 
 ![](images/How-to-Create-Mailbox-in-MailEnable_utho.jpg)
