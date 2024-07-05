@@ -22,9 +22,12 @@ The Utho Cloud TargetGroup is a key component in managing and distributing netwo
 The purpose of the Utho Cloud TargetGroup is to provide a centralized and organized method for directing traffic to the appropriate backend resources. By grouping targets, you can apply consistent traffic distribution policies, health checks, and scaling strategies, ensuring high availability and reliability for your applications.
 
 # System Requirements
-To effectively utilize the Utho Cloud Firewall, ensure your system meets the following requirements:
+To effectively utilize the Utho Target Group, ensure your system meets the following requirements:
 - **Utho Cloud Account:** A valid Utho Cloud account with administrative privileges.
 - **Network Configuration:** Properly configured virtual networks and subnets within Utho Cloud.
 - **Supported Browsers:** The latest versions of Chrome, Firefox, Safari, or Edge for accessing the Utho Cloud Management Console.
 - **Operating System:** No specific OS requirements for the firewall itself, but ensure the management console can be accessed from your system’s OS.
 - **Connectivity:** Stable internet connection to manage firewall settings and monitor traffic.
+
+
+---

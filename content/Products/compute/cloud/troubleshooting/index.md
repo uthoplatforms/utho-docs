@@ -13,7 +13,7 @@ aliases: ['/products/compute/cloud/manage-cloud/troubleshooting/']
 icon: "troubleshoot"
 tab: true
 ---
-This section provides solutions to common issues users may encounter while using our VPN service. If you encounter problems, follow these steps to resolve them or contact our support team for assistance.
+This section provides solutions to common issues users may encounter while using our cloud instances service. If you encounter problems, follow these steps to resolve them or contact our support team for assistance.
 
 ## Common Issues:
 
@@ -44,3 +44,6 @@ If you have followed these troubleshooting steps and still encounter issues, ple
 * **Live Chat:** Available on our website
 
 Our goal is to ensure that your cloud experience is smooth and hassle-free. Don't hesitate to reach out for help if needed.
+
+
+---

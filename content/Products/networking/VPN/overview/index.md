@@ -40,3 +40,6 @@ Utho's VPN service simplifies the deployment and management of VPN connections, 
 * **Network:** Active internet connection
 * **Permissions:** Administrative access for VPN setup and deployment
 * **Dependencies:** VPN client software installed on user devices
+
+---
+

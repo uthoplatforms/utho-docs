@@ -19,7 +19,7 @@ aliases: ["/products/storage/container-registry/getting-started/"]
    - Click on "Container Registry" in the sidebar menu.
    - Access the "Create Registry" button.
 
-![Utho-cr](image/Utho-cr.png) 
+   ![Utho-cr](image/Utho-cr.png) 
 
 2. **Create Registry**
 
@@ -52,9 +52,11 @@ The purpose of this documentation is to provide a quick guide on how to a create
 4. **Verify Subuser Addition:**
    - Once added, the new container registry should appear in the public/private tab based on the container type selected at deployment time.
 
-![Utho-container-registry-list](image/Utho-container-registry-list.png)
+   ![Utho-container-registry-list](image/Utho-container-registry-list.png)
 This quick start guide will help you efficiently add and manage container registry.
 
+
+--- 
 <!-- # System Requirements:
 
 - **Operating System:** Windows, macOS, Linux, or mobile OS (iOS, Android)

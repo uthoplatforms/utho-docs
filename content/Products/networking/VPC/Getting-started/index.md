@@ -26,11 +26,11 @@ Click on the **Deploy** dropdown in the top toolbar and select  **VPC** .
 
 ![VPC_Process](image/Utho-vpc.png)
 
-After click on the above vpn button a vpn-deploy page will open
+After click on the above vpc button a vpc-deploy page will open
 
-#### Configure VPN Settings:
+#### Configure vpc Settings:
 
-here you can configure your vpn deployment details .
+here you can configure your vpc deployment details .
 
 ![1718738624058](image/index/1718738624058.png)
 
@@ -39,12 +39,15 @@ here you can configure your vpn deployment details .
 2. **VPC Name:** Enter a unique name for your VPC.
 3. **VPC Network:** Specify the IP for vpc.
 4. **Network Size:** Enter the vpc network size.
-5. **Deploy VPC:** Click the **Deploy VPC** button on the right side to create your VPN.
+5. **Deploy VPC:** Click the **Deploy VPC** button on the right side to create your vpc.
 
 #### Verify Deployment:
 
-Your VPN should now be active and visible in the list of deployed VPNs.
+Your vpc should now be active and visible in the list of deployed vpcs.
 
 ![1718739126770](image/index/1718739126770.png)
 
 here you can see your deployed vpc with configuration details your provided during the deployment process and you can manage you vpc by clicking on mange button, for detailed info check for the manage vpc section in the Utho docs.
+
+
+--- 

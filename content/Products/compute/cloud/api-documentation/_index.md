@@ -14,12 +14,12 @@ icon: "api"
 tab: true
 ---
 
-For advanced users and developers, we provide comprehensive API documentation to automate VPN deployment and management. Our APIs allow seamless integration with your existing systems and workflows, offering full control over VPN configurations and user management.
+For advanced users and developers, we provide comprehensive API documentation to automate Cloud Instances deployment and management. Our APIs allow seamless integration with your existing systems and workflows, offering full control over Cloud Instances configurations and user management.
 
 #### Accessing the API Documentation:
 
 * Visit our developer portal at [API Documentation](https://utho.com/api-docs/?utm_source=docs#api-Cloud-Servers).
-* Browse through the available endpoints, including VPN creation, user management, and configuration settings.
+* Browse through the available endpoints, including Cloud Instances creation, user management, and configuration settings.
 
 #### Using the API:
 
