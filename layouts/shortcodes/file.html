@@ -1,0 +1,31 @@
+{{ $filename := .Get 0 | default "" }}
+{{ $lang := "json" }}
+{{ $content := .Inner }}
+{{ $options := dict }}
+
+<div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+  {{- if $filename -}}
+    <div class="filename" dir="auto">{{ $filename }}</div>
+  {{- end -}}
+  <div>
+    {{- if transform.CanHighlight $lang -}}
+      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-{{ $lang }}" data-lang="{{ $lang }}">{{ highlight $content $lang $options | safeHTML }}</code></pre></div>
+    {{- else -}}
+      <pre><code>{{ $content | safeHTML }}</code></pre>
+    {{- end -}}
+  </div>
+  <div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-8">
+    <button class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50" title="Copy code">
+      <div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+        </svg>
+      </div>
+      <div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
