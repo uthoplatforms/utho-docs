@@ -1,0 +1,10 @@
+{{- $respectIndent := (.Get "respectIndent") | default "true" -}}
+{{- if eq $respectIndent "false" -}}
+  <div style="background-color: #f5f5f5; color: #333; padding: 10px; border-left: 5px solid #007acc; margin-bottom: 20px; font-family: sans-serif;">
+    <div>{{ .Inner | replaceRE "^\\n" "" | replaceRE "\\n\\s*$" "" }}</div>
+  </div>
+{{- else -}}
+  <div style="background-color: #f5f5f5; color: #333; padding: 10px; border-left: 5px solid #007acc; margin-bottom: 20px; font-family: sans-serif;">
+    <div>{{ .Inner | safeHTML }}</div>
+  </div>
+{{- end -}}
