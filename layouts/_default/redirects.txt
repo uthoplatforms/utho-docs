@@ -1,0 +1,7 @@
+{{- /* Cloudflare redirects from aliases */ -}}
+{{- range .Site.Pages -}}
+{{- range .Aliases -}}
+{{ . }}  {{ .Permalink }}  301
+{{- end -}}
+{{- end -}}
+

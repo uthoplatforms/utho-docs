@@ -102,6 +102,20 @@ outputFormats:
     isPlainText: true
     notAlternative: true
 
+
+outputFormats:
+  REDIR:
+    mediaType: "text/plain"
+    baseName: "_redirects"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home:
+    - HTML
+    - REDIR
+
+
 caches:
   images:
     dir: ":cacheDir/:project"
