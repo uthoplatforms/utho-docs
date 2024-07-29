@@ -11,7 +11,7 @@ icon: "CentOS"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Linux/Cent OS/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/']
+aliases: ['/Linux/Cent OS/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos/','/tutorial/cheat-sheet-for-15-nmcli-commands-in-linux-rhel-centos']
 tab: true
 ---
 
