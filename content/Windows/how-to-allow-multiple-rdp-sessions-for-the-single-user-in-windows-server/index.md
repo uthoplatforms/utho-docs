@@ -13,7 +13,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00" 
 draft: false
 toc: true
-aliases: ['/Windows/how-to-allow-multiple-rdp-sessions-for-the-single-user-in-windows-server/','/Linux/how-to-allow-multiple-rdp-sessions-for-the-single-user-in-windows-server']
+aliases: ['/Windows/how-to-allow-multiple-rdp-sessions-for-the-single-user-in-windows-server/','Linux/how-to-allow-multiple-rdp-sessions-for-the-single-user-in-windows-server']
 ---
 
 ![](images/How-to-allow-multiple-RDP-sessions-for-the-single-user-in-Windows-Server_utho.jpg)
