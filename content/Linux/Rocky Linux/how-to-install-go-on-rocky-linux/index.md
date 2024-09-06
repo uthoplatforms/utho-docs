@@ -41,7 +41,7 @@ wget https://go.dev/dl/go1.20.5.linux-amd64.tar.gz
 Step 2: Now, Create a new Go tree in /usr/local/go by extracting the archive you just downloaded into /usr/local:
 
 ```
-tar -C /usr/loca/ -xzvf go1.20.5.linux-amd64.tar.gz
+tar -C /usr/local/ -xzvf go1.20.5.linux-amd64.tar.gz
 ```
 Step 3: Set the Environmental variable PATH on your server.
 
