@@ -18,7 +18,7 @@ taxonomies:
   category: categories
   author: authors
   tag: tags
-  
+
 #services:
 #  disqus:
 #    shortname: utho
@@ -83,14 +83,14 @@ params:
     flexsearch:
       # index page by: content | summary | heading | title
       index: title
-      # full | forward | reverse | strict 
+      # full | forward | reverse | strict
       tokenize: full
 
 paginate: 10
 summaryLength: 15
 
 outputs:
-  home: 
+  home:
     - HTML
     - JSON
 
