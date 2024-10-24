@@ -4,6 +4,8 @@ date: "2022-09-16"
 ---
 #  What is a Cloud Server?
 
+![1729756962259](image/index/1729756962259.png)
+
 A cloud server is a virtual computing environment that operates within the cloud infrastructure. Unlike traditional servers, cloud servers are made and accessed over the internet. They provide key computing services, like storage and apps, without using hardware you own or manage.
 
 Cloud servers are part of the cloud computing ecosystem. In it, resources are spread across a network of connected servers, not tied to a single machine. The key distinction of a cloud server is that it's not tied to one physical server; instead, it's hosted on a network of virtualized servers. This setup is more flexible, efficient, and scalable. It can pool and allocate resources dynamically to match users' needs.
