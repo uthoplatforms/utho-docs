@@ -1,3 +1,4 @@
+---
 weight: 10
 title: How to Add Load Balancers to Kubernetes Clusters
 title_meta: "How to Add Load Balancers to Kubernetes Clusters"
@@ -11,6 +12,7 @@ toc: true
 aliases: ['/products/compute/kubernetes/manage-kubernetes/utho-kubernetes-controller-lb']
 icon: 'kubernetes'
 tab: true
+---
 
 # How to Add Load Balancers to Kubernetes Clusters
 
