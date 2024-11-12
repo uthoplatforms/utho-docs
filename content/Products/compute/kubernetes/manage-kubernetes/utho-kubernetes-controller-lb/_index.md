@@ -1,9 +1,9 @@
 ---
 weight: 10
-title: How to Add Load Balancers to Kubernetes Clusters
+title: "How to Add Load Balancers to Kubernetes Clusters"
 title_meta: "How to Add Load Balancers to Kubernetes Clusters"
-description: "Learn how Utho makes Kubernetes management simple and easy so you easily add oad Balancers to Kubernetes Clusters"
-keywords: ["Kubernetes", "Instances",  "scaling", "server", "loadbalancer]
+description: "Learn how Utho makes Kubernetes management simple and easy so you easily add Load Balancers to Kubernetes Clusters"
+keywords: ["Kubernetes", "Instances",  "scaling", "server", "loadbalancer"]
 tags: ["utho platform","Kubernetes"]
 date: "2024-11-12T17:25:05+01:00"
 lastmod: "2024-11-12T17:25:05+01:00"
