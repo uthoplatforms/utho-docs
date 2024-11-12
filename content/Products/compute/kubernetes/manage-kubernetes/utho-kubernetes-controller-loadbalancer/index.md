@@ -1,16 +1,16 @@
 ---
-weight: 10
-title: "How to Add Load Balancers to Kubernetes Clusters"
-title_meta: "How to Add Load Balancers to Kubernetes Clusters"
-description: "Learn how Utho makes Kubernetes management simple and easy so you easily add Load Balancers to Kubernetes Clusters"
-keywords: ["Kubernetes", "Instances",  "scaling", "server", "loadbalancer"]
-tags: ["utho platform","Kubernetes"]
-date: "2024-11-12T17:25:05+01:00"
-lastmod: "2024-11-12T17:25:05+01:00"
+weight: 20
+title: "Loadbalancer"
+title_meta: "Manage kubernetes on the Utho Platform"
+description: "Manage your kubernetes instance using simply clicks on utho platform"
+keywords: ["kubernetes", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","kubernetes"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
 aliases: ['/products/compute/kubernetes/manage-kubernetes/utho-kubernetes-controller-loadbalancer']
-icon: 'kubernetes'
+icon: "vpc"
 tab: true
 ---
 # How to Add Load Balancers to Kubernetes Clusters
