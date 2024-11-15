@@ -12,7 +12,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/ssl-certificate/title: "FAQ"/']
+aliases: ['/products/compute/ssl-certificate/title': 'FAQ/']
 tab: true
 --- 
 
