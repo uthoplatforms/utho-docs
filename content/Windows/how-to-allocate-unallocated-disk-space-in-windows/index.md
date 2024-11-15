@@ -57,6 +57,5 @@ DISKPART> extend filesystem
 
 **Disk Allocation: Successful**
 
-[How to add additional storage to your server.](https://utho.com/docs/tutorial/how-to-add-additional-storage-in-the-cloud/)
 
 Thank You!
