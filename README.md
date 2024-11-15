@@ -1,5 +1,5 @@
 # utho Docs
-[🧑🏻‍💻Website 🔗](https://utho.com/docs/)
+[🧑🏻‍💻Websites 🔗](https://utho.com/docs/)
 
 ## Local Development
 
