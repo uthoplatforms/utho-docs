@@ -143,16 +143,13 @@
 > <u>Access Nagios Web Interface</u>
 >
 > Open your web browser and navigate to h p://your_server_ip/nagios
->
-> 4 Satyajit Barik<img src="./gyk4pqcq.png"
-> style="width:5.89667in;height:3.13667in" /><img src="./2cvkjszv.png"
-> style="width:5.89167in;height:2.18833in" /><img src="./ftqhk0tr.png"
-> style="width:5.89667in;height:2.16667in" />
->
 > Fill Username and password: -
 >
 > Here your Home Page: -
 >
 > Click on MAP to see Current status
->
-> ~Thank You~
+> 4 Satyajit Barik<img src="./gyk4pqcq.png"
+> style="width:5.89667in;height:3.13667in" /><img src="./2cvkjszv.png"
+> style="width:5.89167in;height:2.18833in" /><img src="./ftqhk0tr.png"
+> style="width:5.89667in;height:2.16667in" />
+> Thank You
