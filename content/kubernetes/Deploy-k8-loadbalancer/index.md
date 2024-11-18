@@ -229,6 +229,14 @@ Deploy the load balancer:
 kubectl apply -f nlb.yaml
 ```
 
+Logs for review
+```
+kubectl get pod -n default
+Identify Name of Utho Operator Pod name
+
+kubectl logs -f utho-app-operator-fd64fc8d5-tkc8l -c utho-app-operator
+
+```
 ---
 
 #### **Step 12: Check Deployment and Service Status**
