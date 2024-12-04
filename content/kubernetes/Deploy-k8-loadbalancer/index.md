@@ -102,7 +102,7 @@ helm repo update
 Deploy the Utho application using the Helm chart:
 
 ```bash
-helm install utho-operator utho-operator/utho-app-operator-chart --version 0.1.6 --set API_KEY=Your_api_key_here --set image.tag=0.1.4 -n default --create-namespace
+helm install utho-operator utho-operator/utho-app-operator-chart --version 0.1.3 --set API_KEY=Your_api_key_here --set image.tag=0.1.4 -n default --create-namespace
 ```
 
 Replace `Your_api_key_here` with the API key you created.
@@ -157,7 +157,7 @@ Deploy the pod and create the necessary secret:
 Create a `nodeport.yaml` file with the following content:
 
 ```yaml
----
+
 apiVersion: v1
 kind: Service
 metadata:
