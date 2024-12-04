@@ -20,31 +20,36 @@ tab: true
 
 This document provides instructions on how to use the backup and restore functionalities in the Database Management section.
 
-## Backup
+## **How to create a backup of Database**
 
-### Adding a Backup
+### Deployement Steps
 
 To create a backup of your database, follow these steps:
 
 1. **Navigate to the Backup Section**
 
    - Open the Database Management section.
-   - Select the `Backup` tab.
+   - Select the **Backup** tab.
 
 2. **Initiate Backup**
 
-   - Click on the `Add Backup` button.
+   - Click on the **Add Backup** button.
      ![Utho-database-cluster-backup-button](image/Utho-database-cluster-backup-button.png)
+     - A confirmation dialog box will appear.
+     - The dialog box will have two options: `OK` and `Cancel`.
 
 3. **Confirm Backup Creation**
 
-   - A confirmation dialog box will appear.
-     ![Utho-database-cluster-create-backup](image/Utho-database-cluster-create-backup.png)
-   - The dialog box will have two options: `OK` and `Cancel`.
+   
+     ![Utho-database-cluster-create-backup](image/Utho-database-cluster-backup-list.png)
+      You can verify that backups have been created for all databases listed under Manage Database.
 
 4. **Backup Confirmation**
    - **Click `OK`:** The backup process will begin. A notification will be displayed once the backup is successfully created.
    - **Click `Cancel`:** The backup process will be aborted.
+
+
+
 
 ## Restore
 
@@ -55,7 +60,7 @@ Once a backup is created, you can restore it by following these steps:
 1. **Navigate to the Backup Section**
 
    - Open the Database Management section.
-   - Select the `Backup` tab.
+   - Select the  **Backup** tab.
 
 2. **Select Backup to Restore**
 
