@@ -28,6 +28,6 @@ The **Manage MySql Firewall** section allows users to add and delete firewalls. 
 
 * **Deattach Firewall:** Click the **Delete** button to remove a firewall.
 
-  ![Utho-database-cluster-user-destroy](image/Utho-database-cluster-user-destroy.png)
+  ![Utho-database-cluster-user-destroy](image/Utho-database-show.png)
 
   A confirmation dialog will appear. Confirm the action to proceed with the deletion. Upon confirmation, the firewall will be removed.

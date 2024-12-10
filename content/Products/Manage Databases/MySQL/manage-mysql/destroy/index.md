@@ -13,7 +13,7 @@ aliases: ['/products/compute/Databases/manage-mysql/destroy']
 icon: "destroy"
 tab: true
 ---
-The "Destroy" feature allows users to permanently delete their data from Utho's platform. This action cannot be undone and will result in the complete removal of all data associated with the server.![Utho-database-cluster-destroy](image/Utho-database-cluster-destroy.png)
+The "Destroy" feature allows users to permanently delete their data from Utho's platform. This action cannot be undone and will result in the complete removal of all data associated with the server.![Utho-database-cluster-destroy](image/Utho-database-cluster-destroy1.png)
 
 ### Warning
 

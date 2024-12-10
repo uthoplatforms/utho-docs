@@ -25,11 +25,15 @@ tab: true
 
 Click on the **Deploy** dropdown in the top toolbar and select  **DataBase** .
 
-![Utho-db](image/Utho-db.png)After click on the above DataBase button a database-deploy page will open
+![Utho-db](image/2.jpg)After click on the above DataBase button a database-dPresenteploy page will open
 
 #### Configure DataBase Settings:
 
 here you can configure your database deployment details .
+
+1. ##### Choose Create Database Cluster:
+
+   ![Utho-Manage-database-cluster-select-dc](image/1.jpg)Select a Create Database cluster or Deploy cluster then configure page is open.
 
 1. ##### Choose Datacenter Location:
 
@@ -40,7 +44,7 @@ here you can configure your database deployment details .
 
 3. **Configure Billing Cycle:**
 
-   ![Utho-Manage-database-cluster-db-billing-cycle](image/Utho-Manage-database-cluster-db-billing-cycle.png)Select the billing cycle that best fits your budget and usage patterns (e.g., hourly, monthly).
+   ![Utho-Manage-database-clPresenter-db-billing-cycle](image/Utho-Manage-database-cluster-db-billing-cycle.png)Select the billing cycle that best fits your budget and usage patterns (e.g., hourly, monthly).
 
 4. ****Select Plan** :**
 
@@ -52,10 +56,8 @@ here you can configure your database deployment details .
 
 6. ****Additional Configurations**:**
 
-   * **VPC Network** : ![Utho-Manage-database-cluster-db-vpc](image/Utho-Manage-database-cluster-db-vpc.png)Select a Virtual Private Cloud (VPC) network available at your chosen location to isolate and secure your cloud environment.
-   * **Firewall** : ![Utho-Manage-database-cluster-db-security](image/Utho-Manage-database-cluster-db-security.png)Enable or disable firewall protection to control incoming and outgoing traffic.
-   <!-- * **Backup** : ![1718808883547](image/index/1718808883547.png)Enable or disable the backup option (note that enabling backups will incur an additional cost of 20% of the cloud cost). -->
-   * **Cluster Name** : ![Utho-Manage-database-cluster-db-name](image/Utho-Manage-database-cluster-db-name.png)Provide a descriptive name for your database to easily identify it in your dashboard.
+   * **VPC Network** : ![Utho-Manage-database-cluster-db-vpc](image/utho-vpc.png)Select a Virtual Private Cloud (VPC) network available at your chosen location to isolate and secure your cloud environment.And also add subnet with public and private as per your preferences.
+   * **Firewall** : ![Utho-Manage-database-cluster-db-security](image/Utho-Manage-database-cluster-db-security.png)Enable or disable firewall protection to control incoming and outgoing traffic.Present in your dashboard.
    <!-- * **Number of Servers** : ![1718808912339](image/index/1718808912339.png)Specify the number of cloud servers to deploy simultaneously with the same configuration. -->
 <!-- 8. **Cost Summary:**
 
@@ -63,7 +65,7 @@ here you can configure your database deployment details .
 9. **Apply Coupon:**
 
    ![1718808931230](image/index/1718808931230.png)If you have a coupon code, apply it to receive a discount on your deployment. -->
-7. ****Deploy DataBase**:**
+8. ****Deploy DataBase**:**
 
     ![Utho-Manage-database-cluster-db-button](image/Utho-Manage-database-cluster-db-button.png)Click the 'Create Cluster' button to initiate the deployment process. The system will start provisioning your database based on the specified configuration.
 
