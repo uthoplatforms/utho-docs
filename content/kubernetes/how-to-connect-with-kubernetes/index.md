@@ -54,10 +54,10 @@ sudo sna p install kubectl --classic
  Download the kubeconfig file from the Utho k8s cluster. 
 
 #### 3\.  How to Transfer `Cluster File`:
-If you want to transfer cluster file from Linux to Linux.
+If you want to transfer cluster file from one Linux system to another Linux system.
 
 ```bash
- sudo rsync -av kubeconfig_mks_749759.yaml root@<server-ip>:~/kubeconfig_mks_749759.yaml
+ sudo rsync -av kubeconfig_mks_$CLUSTERID.yaml root@<server-ip>:~/kubeconfig_mks_$CLUSTERID.yaml
 ```
 ----
 ### **Step 2: Configuring Access to Your Kubernetes**
@@ -67,11 +67,11 @@ If you want to transfer cluster file from Linux to Linux.
 
 #### 1\. Set the `KUBECONFIG` environment variable:
 
- Assuming the Kubernetes config file is located at **/root/kubeconfig_mks_749759.yaml**, use the
+ Assuming the Kubernetes config file is located at **/root/kubeconfig_mks_$CLUSTERID.yaml**, use the
 following command to point kubectl to the correct configuration file:
 
 ```bash
- export KUBECONFIG=/root/kubeconfig_mks_749759.yaml
+ export KUBECONFIG=/root/kubeconfig_mks_$CLUSTERID.yaml
 ```
 ---
 #### 2\. Verify `Cluster` Connection:
