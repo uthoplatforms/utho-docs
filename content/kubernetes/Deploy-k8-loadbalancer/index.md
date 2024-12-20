@@ -54,96 +54,54 @@ export KUBECONFIG=/root/kubeconfig
 
 ---
 
-#### **Step 4: Install Helm**
-Install Helm on the target server using:
 
-```bash
-snap install helm --classic
-```
-
----
-
-#### **Step 5: Add the Utho Operator Helm Repository**
-Add the Utho Operator Helm repository to your Helm installation:
-
-```bash
-helm repo add utho-operator https://uthoplatforms.github.io/utho-app-operator-helm/
-```
-
----
-
-#### **Step 6: Update the Helm Repository**
-Update the Helm repository to get the latest charts:
-
-```bash
-helm repo update
-```
-
----
-
-#### **Step 7: Create an API Key**
-1. In the Utho Console, navigate to the **API Token** section.
-
-![](api2.png)
-
-2. Click **Create API Key**.
-3. Configure the API:
-   - Enter a name for the API.
-   - Set the permission level to **Write**.
-4. Click **Add new API** to generate the key.
-
-![](api.png)
-
-5. Copy and save the API key for future use.
-
----
-
-#### **Step 8: Install the Utho Application Using Helm**
-Deploy the Utho application using the Helm chart:
-
-```bash
-helm install utho-operator utho-operator/utho-app-operator-chart --version 0.1.3 --set API_KEY=Your_api_key_here --set image.tag=0.1.4 -n default --create-namespace
-```
-
-Replace `Your_api_key_here` with the API key you created.
-
----
-
-
-#### **Step 9: Deploy the NGINX Pod**
+#### **Step 4: Deploy the NGINX Test Application and Loadbalancer**
 Create a `deployment.yaml` file with the following content:
 
 ```yaml
 ---
+apiVersion: v1
+kind: Service
+metadata:
+  name: test
+  annotations:
+    # name of the loadbalancer
+    service.beta.kubernetes.io/utho-loadbalancer-name: "k8s-lb-custom-name"
+spec:
+  type: LoadBalancer
+  selector:
+    app: test
+  ports:
+    - name: http
+      port: 80
+      targetPort: 80
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  # Change name and label
-  name: nginx
-  namespace: default
+  name: test
   labels:
-    app: nginx
+    app: test
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
-      # Change label
-      app: nginx
+      app: test
   template:
     metadata:
       labels:
-        # Change label
-        app: nginx
+        app: test
     spec:
       containers:
-        - name: nginx
-          # Change container image
+        - name: test
           image: nginx:latest
           ports:
-            - containerPort: 80
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          imagePullPolicy: Always
 ```
 
-Deploy the pod and create the necessary secret:
 
 1. Apply the deployment:
 
@@ -151,103 +109,18 @@ Deploy the pod and create the necessary secret:
    kubectl apply -f deployment.yaml
    ```
 
----
-
-#### **Step 10: Expose the NodePort**
-Create a `nodeport.yaml` file with the following content:
-
-```yaml
-
-apiVersion: v1
-kind: Service
-metadata:
-  # Change name and namespace
-  name: nginx
-  namespace: default
-spec:
-  selector:
-    app: nginx
-  ports:
-    - protocol: TCP
-      # Internal port
-      port: 8080
-      # app exposed port
-      targetPort: 80
-      # Change exposed port
-      # External port
-      nodePort: 30088
-  type: NodePort
+2. Logs for review
+   
+```bash
+for pod in $(kubectl get pods -n kube-system --no-headers -o custom-columns=":metadata.name" | grep '^utho-ccm'); do echo "Logs for pod: $pod"; kubectl logs -f -n kube-system "$pod" & done
 ```
 
-Expose the service:
+3. Check Status of Loadbalancer IP
+This may take upto 10 Minutes to assign loadbalancer IP.
 
 ```bash
-kubectl apply -f nodeport.yaml
+kubectl get svc
 ```
-
----
-
-#### **Step 11: Deploy the Network Load Balancer**
-Create a `nlb.yaml` file with the following content:
-
-```yaml
----
-apiVersion: apps.utho.com/v1alpha1
-kind: UthoApplication
-metadata:
-  # Chnage name
-  name: nginx
-  # Chnage namespace
-  namespace: default
-spec:
-  loadBalancer:
-    # Chnage name
-    name: nginx
-    dcslug: innoida
-    # Chnage exposed extrnal port
-    backendPort: 30088
-    frontend:
-      # Chnage name
-      name: nginx
-      algorithm: roundrobin
-      protocol: tcp
-      # loadBalancer port
-      port: 80
-    type: network
-```
-
-Update the `dcslug` value according to the desired data center location:
-- **Noida**: `innoida`
-- **Mumbai**: `inmumbaizone2`
-- **Bangalore**: `inbangalore`
-- **Frankfurt**: `defra1`
-- **Los Angeles**: `uslosangeles`
-
-Deploy the load balancer:
-
-```bash
-kubectl apply -f nlb.yaml
-```
-
-Logs for review
-```
-kubectl get pod -n default
-Identify Name of Utho Operator Pod name
-
-kubectl logs -f utho-app-operator-fd64fc8d5-tkc8l -c utho-app-operator
-
-```
----
-
-#### **Step 12: Check Deployment and Service Status**
-Verify the status of the Utho application, pods, and services:
-
-```bash
-kubectl get UthoApplication -n default
-kubectl get pod -n default
-kubectl get svc -n default
-```
-
 ---
 
 #### **Step 13: Verify Application Functionality**
@@ -257,4 +130,4 @@ kubectl get svc -n default
 
 ---
 
-This concludes the deployment process for the Utho Cloud Load-Balancer Application.
+This concludes the deployment process for the Utho Cloud Load-Balancer.
