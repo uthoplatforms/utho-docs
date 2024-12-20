@@ -1,8 +1,8 @@
 ---
 
-title: "Nginix Ingress with kubernetes cluster"
+title: "Deploy Nginx Ingress on Custom Kubernetes Cluster using Utho Cloud Controller"
 date: "2024-12-10"
-title_meta: "Nginix Ingress with kubernetes cluster"
+title_meta: "Nginx Ingress with kubernetes cluster"
 description: "This guide provides a comprehensive step-by-step approach to setting up Nginx Ingress with a Kubernetes cluster. It includes configuration of Utho CSI, deployment of persistent storage, and verification of resources for seamless integration of ingress and storage solutions."
 keywords: ["Utho","Utho Cloud","Kubernetes", "Nginx Ingress", "kubectl", "StorageClass", "pod deployment", "Kubernetes cluster", "YAML configuration", "Utho CSI", "Persistent Storage", "Kubernetes pod", "Helm Chart", "Ubuntu", "Snap installation", "PersistentVolumeClaim"]
 tags: ["Kubernetes", "StorageClass", "Utho Cloud", "Nginx", "Ingress", "Utho CSI", "PersistentVolume", "Helm", "DevOps"]
@@ -15,7 +15,7 @@ tab: true
 
 ---
 
-## **Nginix Ingress with kubernetes cluster**
+## **Nginx Ingress with kubernetes cluster**
 
 This document provides a step-by-step guide to configure Nginx Ingress with a Kubernetes cluster.
 
@@ -150,7 +150,7 @@ Replace `<API_KEY>` with your Utho API Access Token and save the following as se
 apiVersion: v1
 kind: Secret
 metadata:
-  name: csi-utho
+  name: utho-api-key
   namespace: kube-system
 stringData:
   api-key: "<API_KEY>"
@@ -165,7 +165,7 @@ kubectl create -f ./secret.yml
 
 Deploy the `CSI` plugin and its sidecars:
 ```bash
-kubectl apply -f latest.yml
+kubectl apply -f https://raw.githubusercontent.com/uthoplatforms/csi-utho/refs/heads/main/deploy/latest.yml
 ```
 ### Step 8: Recreate Resources
 
@@ -245,6 +245,13 @@ kubectl get storageclass
 Check Kubernetes Events (Optional):
 ```bash
 kubectl get events \--sort-by=\'.lastTimestamp\'
+```
+
+### Step 10: Deploy the Utho Cloud Controller Manager Plugin
+
+Deploy the `CCM`:
+```bash
+kubectl apply -f https://raw.githubusercontent.com/uthoplatforms/utho-cloud-controller-manager/refs/heads/main/docs/releases/latest.yml
 ```
 
 ### Step 10: Deploy Ingress NGINX
