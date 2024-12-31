@@ -1,13 +1,13 @@
 ---
 
 title: "How to connect object storage with Kubernetes cluster using s3cmd"
-date: "2024-11-21"
+date: "2024-12-31"
 title_meta: "Utho Cloud object storage with Kubernetes cluster using s3cmd"
 description: "This comprehensive guide explains how to connect Kubernetes with s3cmd, a command-line tool for managing UTHO object storage and compatible object storage services. The step-by-step instructions cover setting up kubectl, configuring access to your Kubernetes cluster, creating a pod using a YAML configuration, and installing and testing s3cmd inside the Kubernetes pod. This tutorial is ideal for users looking to manage object storage directly from Kubernetes pods."
 keywords: ["Utho","Utho Cloud","Kubernetes", "s3cmd", "kubectl", "object storage", "pod deployment", "Kubernetes cluster", "YAML configuration", "S3 storage", "Amazon S3", "Kubernetes pod", "object storage management", "Ubuntu", "Snap installation", "kubeconfig"]
 tags: ["Kubernetes", "Object Storage", "Utho Cloud", "s3cmd"]
 icon: "kubernetes"
-lastmod: "2024-11-21T10:00:00+00:00"
+lastmod: "2024-12-31T10:00:00+00:00"
 draft: false
 weight: 1
 toc: true
@@ -120,12 +120,47 @@ Inside the s3k82.yaml file.
 apiVersion: v1
 kind: Pod
 metadata:
-  name: s3cmd2-pod
+  name: s3cmd-pod
+  labels:
+    app: s3cmd
 spec:
   containers:
-  - name: ubuntu-s3cmd
-    image: ubuntu:latest
-    command: ["/bin/sh", "-c", "while true; do sleep 3600; done"]
+  - name: s3cmd-container
+    image: python:3.9-alpine
+    command: ["/bin/sh", "-c"]
+    args:
+    - apk add --no-cache py3-pip bash;
+      pip3 install s3cmd;
+      while true; do sleep 30; done;
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    volumeMounts:
+    - name: config-volume
+      mountPath: /root/.s3cfg
+      subPath: s3cfg
+  volumes:
+  - name: config-volume
+    configMap:
+      name: s3cmd-config
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s3cmd-config
+data:
+  s3cfg: |
+    [default]
+       access_key = YOUR_ACCESS_KEY
+       secret_key = YOUR_SECRET_KEY
+       host_base = innoida.utho.io
+       host_bucket = %(bucket)s.innoida.utho.io
+       use_https = True
+       signature_v2 = False
 ```
 ---
 
@@ -148,42 +183,29 @@ spec:
 #### 4. To access the running pod
 
 ```bash
- kubectl exec -it s3cmd2-pod -- /bin/bash
+ kubectl exec -it s3cmd-pod -- /bin/bash
 ```
  Now you are entered in: `s3cmd2-pod:/#`
 
 ---
 
-#### 5. This command to setup the isolated enviorment.
+#### 5. Test Connection to Object Storage:
 
+To check the list of Utho object storage:
 ```bash
- s3cmd2-pod:/ apt-get update
+s3cmd ls
+```
+Example upload command:
+```bash
+s3cmd put -r s3cmd.txt s3://mytesting
 ```
 
+To download a file from a bucket:
 ```bash
- s3cmd2-pod:/ s3cmd2-pod:/ apt-get update
+s3cmd get s3:///mytesting/s3cmd.txt
 ```
 
+To remove a file from a bucket:
 ```bash
- s3cmd2-pod:/ s3cmd --version
+s3cmd del s3:///mytesting/s3cmd.txt
 ```
-
-```bash
- s3cmd2-pod:/ s3cmd --configure
-```
-
-![](\home\monitoring\utho-docs\content\kubernetes/kubernetes-with-s3cmd/images/s3cmd.png)
-
-#### 6. Some basic command use with `s3cmd`.
-
-```bash
- s3cmd ls
- mkdir -p d1
- cd d1
- touch f{1..10}
- cd ..
- ls
- s3cmd ls s3://kubstorage **(list the object)**
- s3cmd put -r d1 s3://kubstorage **(to upload the file in object storage)**
- s3cmd ls s3://kubstorage
- ```
