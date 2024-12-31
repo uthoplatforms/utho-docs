@@ -1,13 +1,13 @@
 ---
 
 title: "Deploy Nginx Ingress on Custom Kubernetes Cluster using Utho Cloud Controller"
-date: "2024-12-10"
+date: "2024-12-31"
 title_meta: "Nginx Ingress with kubernetes cluster"
 description: "This guide provides a comprehensive step-by-step approach to setting up Nginx Ingress with a Kubernetes cluster. It includes configuration of Utho CSI, deployment of persistent storage, and verification of resources for seamless integration of ingress and storage solutions."
-keywords: ["Utho","Utho Cloud","Kubernetes", "Nginx Ingress", "kubectl", "StorageClass", "pod deployment", "Kubernetes cluster", "YAML configuration", "Utho CSI", "Persistent Storage", "Kubernetes pod", "Helm Chart", "Ubuntu", "Snap installation", "PersistentVolumeClaim"]
+keywords: ["Utho","Utho Cloud","Kubernetes", "Nginx Ingress", "kubectl", "StorageClass", "pod deployment","Kubernetes cluster", "YAML configuration", "Utho CSI", "Persistent Storage", "Kubernetes pod", "Helm Chart", "Ubuntu", "Snap installation", "PersistentVolumeClaim"]
 tags: ["Kubernetes", "StorageClass", "Utho Cloud", "Nginx", "Ingress", "Utho CSI", "PersistentVolume", "Helm", "DevOps"]
 icon: "kubernetes"
-lastmod: "2024-12-10T10:00:00+00:00"
+lastmod: "2024-12-31T10:00:00+00:00"
 draft: false
 weight: 1
 toc: true
@@ -15,258 +15,299 @@ tab: true
 
 ---
 
-## **Nginx Ingress with kubernetes cluster**
+# **Nginx Ingress with kubernetes cluster**
 
 This document provides a step-by-step guide to configure Nginx Ingress with a Kubernetes cluster.
 
 ---
 
-### **Prerequisites**
-- Access to the **Utho Cloud UI**.
-- A working Kubernetes cluster.
-- **Nginx** installed and configured.
-- Access to **kubectl** and **Helm CLI** tools on your local machine.
-- A valid Utho **API Key**.
-- Sufficient permissions to manage Kubernetes resources.
+## Prerequisites
 
----
-### **Deployment Steps**
+- A Kubernetes cluster above version 1.20, set up with your connection configuration configured as the kubectl default. This setup will use a Utho Kubernetes cluster.
 
-### **Step 1: Installing `kubectl` Using Snap**
+- The `kubectl` command-line tool installed in your local environment and configured to connect to your cluster. For more information, see the [official documentation](https://kubernetes.io/docs/tasks/tools/install-kubectl/). If you are using a Utho Kubernetes cluster, refer to the **Connect to your Cluster** section when you create your cluster.
 
- The simplest way to install kubectl on your Ubuntu system is by using
- Snap. Here’s how to do it:
+- The `Helm` package manager available in your development environment [official documentation](https://helm.sh/docs/intro/install/).
 
-#### 1\. Install kubectl via `Snap`:
-
- Run the following command to install kubectl:
-
-```bash
-sudo snap install kubectl --classic
-```
----
-
-#### 2\. Verify Installation `version`:
-
- To verify that kubectl has been installed correctly,check the version
- of the client using the command below:
-```bash
- kubectl version --client
-```
- Download the cluster file from k8s cluster
-
-#### 3\.  How to Transfer `Cluster File`:
-If you want to transfer cluster file from Linux to Linux.
-
-```bash
- sudo rsync -av kubeconfig_mks_749759.yaml root@<server-ip>:~/kubeconfig_mks_749759.yaml
-```
-----
-### **Step 2: Configuring Access to Your Kubernetes**
-
- To access and manage your Kubernetes cluster, you need to configure
- kubectl with the cluster configuration file `(kubeconfig)`.
-
-#### 1\. Set the `KUBECONFIG` environment variable:
-
- Assuming the Kubernetes config file is located at /root/kubeconfig_mks_749759.yaml, use the
-following command to point kubectl to the correct configuration file:
-
-```bash
- export KUBECONFIG=/root/kubeconfig_mks_749759.yaml
-```
----
-#### 2\. Verify `Cluster` Connection:
-
- To ensure you’re connected to the cluster, run:
-
-```bash
- kubectl cluster-info
-```
----
-### **Step** **3:** **Checking** **Running** `Pods` **in** **the** **Kubernetes**
-
-#### 1\. Check Pods:
-
- To see the pods running in your Kubernetes cluster, use the following
- command:
-
-```bash
- kubectl get nodes
-```
-
-```bash
- kubectl get pods --all-namespaces
-```
-
- This command will list all running pods in every namespace.
+- A fully registered domain name with available A records. This tutorial will use `hw1.your_domain` throughout. You can purchase a domain name on [Namecheap](https://www.namecheap.com), get one for free on [Freenom](https://www.freenom.com), or use the domain registrar of your choice. These A records will be directed to a Load Balancer that you will create in Step 2.
 
 ---
 
+## Step 1 — Setting Up Hello World Deployments
+
+Before you deploy the Nginx Ingress, you will deploy a “Hello World” app called `hello-kubernetes` to have some Services to which you’ll route the traffic. To confirm that the Nginx Ingress works properly in the next steps, you’ll deploy it twice, each time with a different welcome message that will be shown when you access it from your browser.
+
+### First Deployment
+
+Create the first deployment configuration file:
 
 ```bash
- kubectl get pods
-```
-This command will show staus of running pods.
-
-
-
-### Step 4: Clone and Setup Repository
-
-Clone the Utho `CSI` repository and navigate to the deployment directory:
-
-```bash
-git clone https://github.com/uthoplatforms/csi-utho\
-cd csi-utho/deploy/
+nano hello-kubernetes-first.yaml
 ```
 
-Ensure no conflicting `OpenEBS` resources exist before proceeding:
-```bash
-kubectl delete namespace openebs\
-```
-```bash
-kubectl delete crds -l openebs.io/crd-group=openebs
-```
+Add the following configuration:
 
-### **Step 5: Create an API Key**
-1. In the Utho Console, navigate to the **API Token** section.
-
-![](images/api2.png)
-
-2. Click **Create API Key**.
-3. Configure the API:
-   - Enter a name for the API.
-   - Set the permission level to **Write**.
-4. Click **Add new API** to generate the key.
-
-![](images/api.png)
-
-5. Copy and save the API key for future use.
-
----
-### Step 6: Create Utho API Secret
-Replace `<API_KEY>` with your Utho API Access Token and save the following as secret.yml:
 ```yaml
 apiVersion: v1
-kind: Secret
+kind: Service
 metadata:
-  name: utho-api-key
-  namespace: kube-system
-stringData:
-  api-key: "<API_KEY>"
-```
-
-Apply the secret:
-
-```bash
-kubectl create -f ./secret.yml
-```
-### Step 7: Deploy the CSI Plugin
-
-Deploy the `CSI` plugin and its sidecars:
-```bash
-kubectl apply -f https://raw.githubusercontent.com/uthoplatforms/csi-utho/refs/heads/main/deploy/latest.yml
-```
-### Step 8: Recreate Resources
-
-#### 1. Create a StorageClass
-
-Example `YAML` for a `StorageClass`:
-```yaml
-apiVersion: storage.k8s.io/v1
-kind: StorageClass
-metadata:
-  name: utho-block-storage
-provisioner: csi.storage.k8s.io
-volumeBindingMode: Immediate
-```
-Apply the StorageClass:
-```bash
-kubectl apply -f storageclass.yaml
-```
-#### 2. Create a PersistentVolume (Static Provisioning)
-
-Example `YAML` for a `PersistentVolume`:
-```yaml
-apiVersion: v1
-kind: PersistentVolume
-metadata:
-  name: utho-pv
+  name: hello-kubernetes-first
 spec:
-  capacity:
-    storage: 10Gi
-  accessModes:
-    - ReadWriteOnce
-  storageClassName: utho-block-storage
-  persistentVolumeReclaimPolicy: Retain
-  hostPath:
-    path: /mnt/data
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 8080
+  selector:
+    app: hello-kubernetes-first
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-kubernetes-first
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-kubernetes-first
+  template:
+    metadata:
+      labels:
+        app: hello-kubernetes-first
+    spec:
+      containers:
+      - name: hello-kubernetes
+        image: paulbouwer/hello-kubernetes:1.10
+        ports:
+        - containerPort: 8080
+        env:
+        - name: MESSAGE
+          value: Hello from the first deployment!
 ```
-Apply the PersistentVolume:
-```bash
-kubectl apply -f persistentvolume.yaml
-```
-#### 3. Create a `PersistentVolumeClaim`
 
-Example YAML for a PersistentVolumeClaim:
+Apply the configuration:
+
+```bash
+kubectl create -f hello-kubernetes-first.yaml
+```
+
+Verify the Service:
+
+```bash
+kubectl get service hello-kubernetes-first
+```
+
+---
+
+### Second Deployment
+
+Create the second deployment configuration file:
+
+```bash
+nano hello-kubernetes-second.yaml
+```
+
+Add the following configuration:
+
 ```yaml
 apiVersion: v1
-kind: PersistentVolumeClaim
+kind: Service
 metadata:
-  name: csi-utho-pvc
+  name: hello-kubernetes-second
 spec:
-  accessModes:
-    - ReadWriteOnce
-  resources:
-    requests:
-      storage: 10Gi
-  storageClassName: utho-block-storage
-```
-Apply the `PVC`:
-```bash
-kubectl apply -f pvc.yaml
-```
-### Step 9: Verify Resources
-
-Verify that resources are properly configured and bound:
-
-Check `PVC` Status:
-```bash
-kubectl get pvc csi-utho-pvc
-```
-Check `PV` Status:
-```bash
-kubectl get pv
-```
-Check `StorageClass`:
-```bash
-kubectl get storageclass
-```
-Check Kubernetes Events (Optional):
-```bash
-kubectl get events \--sort-by=\'.lastTimestamp\'
-```
-
-### Step 10: Deploy the Utho Cloud Controller Manager Plugin
-
-Deploy the `CCM`:
-```bash
-kubectl apply -f https://raw.githubusercontent.com/uthoplatforms/utho-cloud-controller-manager/refs/heads/main/docs/releases/latest.yml
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 8080
+  selector:
+    app: hello-kubernetes-second
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-kubernetes-second
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-kubernetes-second
+  template:
+    metadata:
+      labels:
+        app: hello-kubernetes-second
+    spec:
+      containers:
+      - name: hello-kubernetes
+        image: paulbouwer/hello-kubernetes:1.10
+        ports:
+        - containerPort: 8080
+        env:
+        - name: MESSAGE
+          value: Hello from the second deployment!
 ```
 
-### Step 10: Deploy Ingress NGINX
+Apply the configuration:
 
-Install the Ingress `NGINX` Helm Chart:
 ```bash
-helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx\
+kubectl create -f hello-kubernetes-second.yaml
 ```
+
+Verify the Services:
+
 ```bash
-helm repo update\
+kubectl get service
 ```
+
+Both `hello-kubernetes-first` and `hello-kubernetes-second` should now be up and running.
+
+---
+
+## Step 2 — Installing the Kubernetes Nginx Ingress Controller
+
+Add the Nginx Ingress Helm repository:
+
 ```bash
-helm install ingress-nginx ingress-nginx/ingress-nginx -f values.yaml
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+helm repo update
 ```
-Check Ingress `NGINX` Pods:
+
+Install the Nginx Ingress Controller:
+
 ```bash
-kubectl get pods -n ingress-nginx
+helm install nginx-ingress ingress-nginx/ingress-nginx --set controller.publishService.enabled=true
 ```
+
+Verify the Load Balancer creation:
+
+```bash
+kubectl --namespace default get services -o wide -w nginx-ingress-ingress-nginx-controller
+```
+
+---
+
+## Step 3 — Exposing the App Using an Ingress
+
+Create the Ingress Resource file:
+
+```bash
+nano hello-kubernetes-ingress.yaml
+```
+
+Add the following configuration: done't forget to add your domains
+
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: hello-kubernetes-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: "hw1.your-domain-name.com"
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: hello-kubernetes-first
+                port:
+                  number: 80
+    - host: "hw2.your-domain-name.com"
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: hello-kubernetes-second
+                port:
+                  number: 80
+```
+
+Apply the configuration:
+
+```bash
+kubectl apply -f hello-kubernetes-ingress.yaml
+```
+
+Verify that accessing your domains works.
+
+---
+
+## Step 4 — Securing the Ingress Using Cert-Manager
+
+Create a namespace for Cert-Manager:
+
+```bash
+kubectl create namespace cert-manager
+```
+
+Add the Jetstack Helm repository:
+
+```bash
+helm repo add jetstack https://charts.jetstack.io
+helm repo update
+```
+
+Install Cert-Manager:
+
+```bash
+helm install cert-manager jetstack/cert-manager --namespace cert-manager --version v1.10.1 --set installCRDs=true
+```
+
+Create the production ClusterIssuer:
+
+```bash
+nano production_issuer.yaml
+```
+
+Add the following configuration: done't forget to add your email
+
+```yaml
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-prod
+spec:
+  acme:
+    email: your_email_address
+    server: https://acme-v02.api.letsencrypt.org/directory
+    privateKeySecretRef:
+      name: letsencrypt-prod-private-key
+    solvers:
+    - http01:
+        ingress:
+          class: nginx
+```
+
+Apply the configuration: done't forget to add your domains
+
+```bash
+kubectl apply -f production_issuer.yaml
+```
+
+Update your Ingress to use TLS:
+
+```yaml
+annotations:
+  cert-manager.io/cluster-issuer: letsencrypt-prod
+...
+spec:
+  tls:
+  - hosts:
+    - hw1.your-domain-name.com
+    - hw2.your-domain-name.com
+    secretName: hello-kubernetes-tls
+```
+
+Apply the updated Ingress configuration:
+
+```bash
+kubectl apply -f hello-kubernetes-ingress.yaml
+```
+
+---
+
+## Conclusion
+
+You have successfully set up the Nginx Ingress Controller and Cert-Manager on your Kubernetes cluster using Helm. Your applications are now accessible via your domains and secured with free TLS certificates from Let’s Encrypt.
