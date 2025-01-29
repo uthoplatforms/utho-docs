@@ -10,7 +10,7 @@ lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
 aliases: ['/products/cloud/manage-kubernetes']
-icon: 'guides'
+icon: 'api'
 tab: true
 ---
 ## Kubernetes Information
