@@ -5,8 +5,8 @@ title_meta: "Manage kubernetes on the Utho Platform"
 description: "Manage your kubernetes instance using simply clicks on utho platform"
 keywords: ["kubernetes", "instances",  "ec2", "server", "graph"]
 tags: ["utho platform","kubernetes"]
-date: "2024-03-07T17:25:05+01:00"
-lastmod: "2024-03-07T17:25:05+01:00"
+date: "2024-11-19T17:25:05+01:00"
+lastmod: "2024-11-19T17:25:05+01:00"
 draft: false
 toc: true
 aliases: ['/products/compute/kubernetes/manage-kubernetes/utho-kubernetes-controller-loadbalancer']
@@ -18,6 +18,49 @@ tab: true
 The Utho Cloud Controller supports provisioning Utho Load Balancers in a cluster’s resource configuration file.
 
 The Utho Load Balancer Service routes load balancer traffic to all worker nodes on the cluster. Only nodes configured to accept the traffic pass health checks.
+
+Utho Application Operator is a [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/ "https://kubernetes.io/docs/concepts/extend-kubernetes/operator/") that is used to manage various resources required by your Kubernetes Based Application like Load Balancer, etc.
+
+With this Operator, you can do the following:
+
+* Create a CRD called **UthoApplication** and provide networking parameters.
+* Manage your resources from the CRD
+* Hassle Free Netwokr Resource Provisioning.
+
+## Install the controller
+
+### Prerequisites
+
+* You need to have [Helm CLI](https://helm.sh/docs/helm/helm_install/ "https://helm.sh/docs/helm/helm_install/") installed on your machine.
+* You must have an [Utho API Key](https://console.utho.com/api "https://console.utho.com/api").
+
+### Install the Cloud Controller Helm Chart
+
+To install the chart with the release name `utho-app-operator`:
+
+Add the Utho Operator Repository to your Helm repositories:
+
+```
+helm repo add utho-operator https://uthoplatforms.github.io/utho-app-operator-helm/
+```
+
+```
+helm repo update
+```
+
+Install the Utho Operator Chart:
+
+Note: make sure to set the Utho API Key
+
+```shell
+helm install <release_name> utho-operator/utho-app-operator-chart --set API_KEY=<YOUR_API_KEY> -n <namespace> --create-namespace
+```
+
+Example:
+
+```shell
+helm install utho-app-operator utho-operator/utho-app-operator-chart --set API_KEY=################## -n dev --create-namespace
+```
 
 ## Create a Configuration File for Network Loadblancer
 
