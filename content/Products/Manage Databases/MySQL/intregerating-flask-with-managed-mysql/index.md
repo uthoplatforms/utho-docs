@@ -1,20 +1,17 @@
 ---
-title: "Integrating Uthos Managed MySQL with a Flask Application"
+title: "Integrating Utho's Managed MySQL with a Flask Application"
 date: "2022-09-20"
-title_meta: "Guide to Integrate Utho's Managed  Mysql DB with Flask "
-description: 'This guide outlines the steps to configure your Flask application to access Utho's Managed MySQl db instance'
-
-keywords:  [Utho', 'MYSql' , 'database']
-tags: ["Managed Database", " MYSQL"]
+title_meta: "Guide to Integrate Utho's Managed Mysql DB with Flask"
+description: "This guide outlines the steps to configure your Flask application to access Utho's Managed MySQL db instance"
+keywords: ["Utho", "MySQL", "database"]
+tags: ["Managed Database", "MYSQL"]
 icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Products/Manage Databases/MySQL/intregerating-flask-with-managed-mysql']
+aliases: ["/Products/Manage Databases/MySQL/integrating-flask-with-managed-mysql"]
 tab: true
 ---
-
-
 
 # Integrating Uthos Managed MySQL with a Flask Application
 

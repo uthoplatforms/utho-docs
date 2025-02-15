@@ -2,22 +2,19 @@
 title: "How to Import Data between MongoDB instances"
 date: "2022-11-20"
 title_meta: "Import data between Mongodb Instances"
-description: "Learn how to migrate data between your MongoDB instances.
-"
+description: "Learn how to migrate data between your MongoDB instances."
 keywords: ["install MongoDB Ubuntu 20.04", "MongoDB setup Ubuntu 20.04", "Ubuntu 20.04 MongoDB installation guide", "NoSQL database Ubuntu", "Ubuntu MongoDB tutorial", "MongoDB installation steps Ubuntu 20.04", "database management Ubuntu", "MongoDB Ubuntu 20.04 instructions"]
-
 tags: ["MongoDB ", "importing", "backup", "migrate"]
 icon: "mongodb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
 aliases: ['/Database/MongoDB/import-data-between-mongodb-instances']
+---
 
 # How to Import Data Between MongoDB Instances
 
 This guide walks you through importing data from one MongoDB instance to another. This can be helpful for migrations, backups, or syncing data. The steps are simple and user-friendly, even for beginners.
-
----
 
 ## Prerequisites
 
