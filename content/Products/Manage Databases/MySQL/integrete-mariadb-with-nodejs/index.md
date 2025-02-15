@@ -1,11 +1,10 @@
 ---
 title: "Integrating Utho's MySQL Managed Database with Node.js Application"
 date: "2022-09-20"
-title_meta: "Guide to Integrate Utho's Managed  Mysql DB with nodejs "
-description: 'This guide outlines the steps to configure your nodejs application to access Utho's Managed DB instance'
-
-keywords:  [Utho', 'MYSql' , 'database']
-tags: ["Managed Database", " MYSQL"]
+title_meta: "Guide to Integrate Utho's Managed Mysql DB with nodejs"
+description: "This guide outlines the steps to configure your nodejs application to access Utho's Managed DB instance"
+keywords: ["Utho", "MySQL", "database"]
+tags: ["Managed Database", "MYSQL"]
 icon: "mariadb"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
@@ -13,7 +12,6 @@ toc: true
 aliases: ['/Products/Manage Databases/MySQL/integrete-mariadb-with-nodejs']
 tab: true
 ---
-
 
 # Integrating Utho's MySQL Managed Database with Node.js Application
 
