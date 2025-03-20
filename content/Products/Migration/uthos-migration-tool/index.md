@@ -107,10 +107,6 @@ To proceed with the migration, initiate the migration process on the UTHO platfo
 
     ![alt text](<images/Screenshot from 2025-03-18 18-14-13.png>)
 
-
-
-
-
 3. Choose a data center as per your choice.
 ![alt text](<images/Screenshot from 2025-03-18 18-12-45.png>)
 
@@ -130,7 +126,9 @@ To proceed with the migration, initiate the migration process on the UTHO platfo
 7. After creating the migration, select AWS as the provider.
 
 8. Click on Get Migration Command.
-![alt text](<images/Screenshot from 2025-03-19 10-09-04.png>)
+
+![alt text](<images/Screenshot from 2025-03-19 10-09-19.png>)
+
 
 ![alt text](<images/Screenshot from 2025-03-19 10-17-45.png>)
 
