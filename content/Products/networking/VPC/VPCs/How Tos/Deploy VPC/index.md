@@ -1,3 +1,23 @@
+---
+weight: 40
+title: "Deploy VPC"
+title_meta: "Deploy VPC"
+description: "Guide on how to deploy VPC in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/VPCs/Getting Started/Deploy VPC"]
+icon: "globe"
+tab: true
+---
+
+
+
+
+
 ## **How to Deploy a VPC in Utho Cloud**
 
 ### **Overview**

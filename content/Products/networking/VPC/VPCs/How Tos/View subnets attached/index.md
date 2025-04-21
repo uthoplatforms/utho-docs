@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "View subnets attached"
+title_meta: "View subnets attached"
+description: "Guide on how to View subnets attached with vpc"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/View subnets attached"]
+icon: "globe"
+tab: true
+---
+
+
+
 ## **How to View the Subnets Attached to a VPC**
 
 ### **Overview**

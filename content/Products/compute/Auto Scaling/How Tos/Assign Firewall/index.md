@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Assign Firewall"
+title_meta: "Assign Firewall"
+description: "Guide on how to Assign Firewall"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/compute/Auto Scaling/How Tos/Assign Firewall"]
+icon: "globe"
+tab: true
+---
+
+
 # **How to Assign a New Firewall to Auto Scaling**
 
 ## **Login or Sign Up**

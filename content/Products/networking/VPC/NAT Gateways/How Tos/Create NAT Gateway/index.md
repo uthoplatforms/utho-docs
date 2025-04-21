@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Create NAT Gateway"
+title_meta: "Create NAT Gateway"
+description: "Guide on how to create nat gateway in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/NAT Gateways/How Tos/Create NAT Gateway"]
+icon: "globe"
+tab: true
+---
+
+
+
 ## **How to Create NAT Gateway in Utho Cloud**
 
 ### **Overview**

@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Add Scaling Schedule"
+title_meta: "Add Scaling Schedule"
+description: "Guide on how to Add Scaling Schedule"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/compute/Auto Scaling/How Tos/Add Scaling Schedule"]
+icon: "globe"
+tab: true
+---
+
 # **How to Add Scaling Schedule**
 
 ## **Overview**

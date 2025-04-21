@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Upload and Delete File"
+title_meta: "Upload and Delete File"
+description: "Guide on how to Upload and Delete File"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/Upload and Delete File"]
+icon: "globe"
+tab: true
+---
+
 # **How to Upload Files to Object Storage**
 
 You can upload files to your object storage bucket by following these steps:

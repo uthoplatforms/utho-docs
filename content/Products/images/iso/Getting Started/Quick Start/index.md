@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Quick Start"
+title_meta: "Quick Start"
+description: "Quick start guide for ISO on Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/images/iso/Getting Started/Quick Start"]
+icon: "globe"
+tab: true
+---
+
 # **Utho Cloud ISO Quick Start Guide**
 
 ### **What are ISO Files?**

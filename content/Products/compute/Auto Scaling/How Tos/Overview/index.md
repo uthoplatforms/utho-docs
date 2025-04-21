@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of manage page of auto scaling"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/compute/Auto Scaling/How Tos/Overview"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **Overview of Auto Scaling**
 
 When an Auto Scaling instance is created, users can view its details and configurations on the **Manage** page. This page provides essential information and various sections to manage the Auto Scaling instance effectively.
