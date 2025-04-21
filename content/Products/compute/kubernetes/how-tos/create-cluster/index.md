@@ -1,7 +1,7 @@
 ---
 weight: 9
-title: Create Cluster
-title_meta: "Create Kubernetes on the Utho Platform"
+title: "create-cluster"
+title_meta: "create-cluster"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/kubernetes/how-tos/create-cluster']
+aliases: ["/products/compute/kubernetes/how-tos/create-cluster"]
 icon: 'api'
 tab: true
 ---

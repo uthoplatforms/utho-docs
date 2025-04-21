@@ -1,7 +1,7 @@
 ---
 weight: 60
-title: "Backup"
-title_meta: "Manage PostreSql on the Utho Platform"
+title: "backup"
+title_meta: "backup"
 description: "Manage your PostreSql using simply clicks on utho platform"
 keywords: ["database", "postsql", "server"]
 tags: ["utho platform", "backup"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ["/products/Databases/postre-sql/manage-postsql/backup"]
+aliases: ["/products/Manage Databases/postgre-sql/manage-postresql/backup"]
 icon: "backup"
 tab: true
 ---

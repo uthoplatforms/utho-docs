@@ -1,7 +1,7 @@
 ---
 weight: 10
 title: "Overview"
-title_meta: "Understanding How PostgreSQL Works on the Utho Platform"
+title_meta: "Overview"
 description: "Learn how Utho makes PostgreSQL deployment simple and easy so you easily anticipate your cloud infrastructure costs"
 keywords: ["postgreSql","databases", "security"]
 tags: ["utho platform","postgreSql"]
@@ -10,7 +10,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Dataabases/Postgre SQL/Overview/']
+aliases: ["/products/Manage Databases/postgre-sql/Overview"]
 ---
 
 <!-- # Overview -->

@@ -1,7 +1,7 @@
 ---
 weight: 50
-title: FAQ
-title_meta: "Frequently Asked Questions about kubernetes instance on the Utho Platform"
+title: "FAQs"
+title_meta: "FAQs"
 description: "Learn how Utho makes kubernetes instance deployment simple and easy, and get answers to frequently asked questions about our kubernetes Instance service."
 keywords: ["kubernetes", "scaling", "server", "instances"]
 # tags: ["utho platform", "cloud"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/FAQs/']
+aliases: ["/products/compute/kubernetes/FAQs"]
 icon: "faq"
 tab: true
 ---

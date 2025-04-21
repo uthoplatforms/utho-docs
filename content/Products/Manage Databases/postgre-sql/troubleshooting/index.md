@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: Troubleshooting
-title_meta: "Troubleshooting PostgreSQL Issues on the Utho Platform"
+title: "troubleshooting"
+title_meta: "troubleshooting"
 description: "Learn how to troubleshoot common PostgreSQL issues on the Utho platform, ensuring seamless PostgreSQL deployment and management."
 keywords: ["postgreSql", "troubleshooting", "security"]
 tags: ["utho platform","postgreSql"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/Postgre SQL/troubleshooting/']
+aliases: ["/products/Manage Databases/postgre-sql/troubleshooting"]
 icon: "api"
 tab: true
 ---

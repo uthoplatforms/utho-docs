@@ -1,7 +1,7 @@
 ---
 weight: 10
-title: Overview
-title_meta: "Understanding How Ticket generation works on the Utho Platform"
+title: "Overview"
+title_meta: "Overview"
 description: "Learn how Utho makes ticket management simple and easy, allowing you to efficiently handle and resolve customer support issues."
 keywords: ["Ticket management", "support tickets", "customer service", "Utho platform"]
 tags: ["utho platform", "ticket management"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/ticket/Overview/']
+aliases: ["/products/ticket/Overview"]
 icon: "overview"
 tab: true
 ---

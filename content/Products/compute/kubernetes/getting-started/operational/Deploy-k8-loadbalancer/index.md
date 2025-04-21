@@ -1,8 +1,8 @@
 ---
 
-title: "Deployment Guide for Utho Cloud Load-Balancer Application Using Kubernetes and Helm"
+title: "Deploy-k8-loadbalancer"
 date: "2024-11-15"
-title_meta: "Utho Cloud Load-Balancer Deployment with Kubernetes and Helm"
+title_meta: "Deploy-k8-loadbalancer"
 description: "This guide provides a comprehensive step-by-step process to deploy a load-balancer application on Utho Cloud using Kubernetes and Helm, including configuration of the environment, installation of dependencies, and setup of a network load balancer."
 keywords: ["Utho Cloud deployment", "Kubernetes Helm deployment", "Utho load balancer", "Kubernetes application setup"]
 tags: ["Kubernetes", "Helm", "Utho Cloud", "Load Balancer"]

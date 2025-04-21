@@ -1,6 +1,6 @@
 ---
 weight: 50
-title: "Account"
+title: "account"
 description: ""
 icon: "account"
 date: "2024-03-07T17:25:05+01:00"

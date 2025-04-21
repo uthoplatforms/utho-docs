@@ -1,7 +1,7 @@
 ---
 weight: 30
-title: "Users"
-title_meta: "Manage Redis Users on the Utho Platform"
+title: "users"
+title_meta: "users"
 description: "Manage your Redis Users using simply clicks on utho platform"
 keywords: ["database", "redis","users", "server"]
 tags: ["utho platform","users"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/Redis/manage-redis/users']
+aliases: ["/products/Manage Databases/Redis/manage-redis/users"]
 icon: "node"
 tab: true
 ---

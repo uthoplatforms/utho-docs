@@ -1,7 +1,7 @@
 ---
 weight: 70
-title: "Trusted Host"
-title_meta: "Manage MySql Trusted Host on the Utho Platform"
+title: "trusted-host"
+title_meta: "trusted-host"
 description: "Easily manage your MySql Trusted Hosts with simple clicks on the Utho platform."
 keywords: ["database", "mysql", "trusted-host", "server"]
 tags: ["utho platform", "trusted-host"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MySQL/manage-mysql/trusted-host']
+aliases: ["/products/Manage Databases/MySQL/manage-mysql/trusted-host"]
 icon: "trusted-host"
 tab: true
 ---

@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: "Users"
-title_meta: "Manage MariaDb Users on the Utho Platform"
+title: "users"
+title_meta: "users"
 description: "Manage your MariaDb Users using simply clicks on utho platform"
 keywords: ["database", "mariadb","users", "server"]
 tags: ["utho platform","users"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MariaDb/manage-mariadb/users']
+aliases: ["/products/Manage Databases/MariaDb/manage-maraidb/users"]
 icon: "node"
 tab: true
 ---

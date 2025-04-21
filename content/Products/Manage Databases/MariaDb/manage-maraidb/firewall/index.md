@@ -1,7 +1,7 @@
 ---
 weight: 60
-title: "Firewall"
-title_meta: "Manage MariaDB Firewall on the Utho Platform"
+title: "firewall"
+title_meta: "firewall"
 description: "Easily manage your MariaDB Firewall with simple clicks on the Utho platform."
 keywords: ["database", "mariadb", "firewall", "server"]
 tags: ["utho platform", "firewall"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MariaDb/manage-mariadb/firewall']
+aliases: ["/products/Manage Databases/MariaDb/manage-maraidb/firewall"]
 icon: "firewall"
 tab: true
 ---

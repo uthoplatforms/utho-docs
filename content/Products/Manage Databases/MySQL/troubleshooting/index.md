@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: Troubleshooting
-title_meta: "Troubleshooting MySQL Issues on the Utho Platform"
+title: "troubleshooting"
+title_meta: "troubleshooting"
 description: "Learn how to troubleshoot common MySQL issues on the Utho platform, ensuring seamless MySQL deployment and management."
 keywords: ["mysql", "troubleshooting", "security"]
 tags: ["utho platform","mysql"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MySQL/troubleshooting/']
+aliases: ["/products/Manage Databases/MySQL/troubleshooting"]
 icon: "api"
 tab: true
 ---

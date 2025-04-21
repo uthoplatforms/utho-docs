@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: Manage MySql
-title_meta: "Manage MySql on the Utho Platform"
+title: "manage-mysql"
+title_meta: "manage-mysql"
 description: "Learn how Utho makes MySql management simple and easy so you easily anticipate your MySql infrastructure costs"
 keywords: ["mysql", "database", "server"]
 tags: ["utho platform","mysql","database"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MySql/manage-mysql']
+aliases: ["/products/Manage Databases/MySQL/manage-mysql"]
 icon: 'guides'
 tab: true
 ---

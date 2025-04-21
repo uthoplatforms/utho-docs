@@ -1,7 +1,7 @@
 ---
 weight: 12
-title: Update Nodepool
-title_meta: "Update Nodepool to the Kubernetes Cluster"
+title: "update-nodepool"
+title_meta: "update-nodepool"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/kubernetes/how-tos/update-nodepool']
+aliases: ["/products/compute/kubernetes/how-tos/update-nodepool"]
 icon: 'api'
 tab: true
 ---

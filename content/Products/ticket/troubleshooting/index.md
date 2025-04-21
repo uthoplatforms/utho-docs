@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: Troubleshooting
-title_meta: "Addressing Common Issues and Errors in Utho's Ticket Management System"
+title: "troubleshooting"
+title_meta: "troubleshooting"
 description: "Find solutions to common issues, understand error messages, and get support for Utho's Ticket Management System to ensure smooth operation and quick resolution of problems."
 keywords: ["troubleshooting", "ticket management", "support", "error messages", "common issues", "Utho platform"]
 tags: ["utho platform", "ticket management", "troubleshooting"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/ticket/troubleshooting/']
+aliases: ["/products/ticket/troubleshooting"]
 icon: "troubleshooting"
 tab: true
 ---

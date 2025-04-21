@@ -1,7 +1,7 @@
 ---
 weight: 50
-title: FAQ
-title_meta: "Frequently Asked Questions about MySQL on the Utho Platform"
+title: "FAQs"
+title_meta: "FAQs"
 description: "Learn how Utho makes MySQL deployment simple and easy, and get answers to frequently asked questions about our MySQL service."
 keywords: ["mysql", "security"]
 tags: ["utho platform", "mysql"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MySQL/FAQs/']
+aliases: ["/products/Manage Databases/MySQL/FAQs"]
 icon: "faq"
 tab: true
 ---

@@ -1,7 +1,7 @@
 ---
 weight: 80
-title: "Trusted Host"
-title_meta: "Manage PostreSql Trusted Host on the Utho Platform"
+title: "trusted-host"
+title_meta: "trusted-host"
 description: "Easily manage your PostreSql Trusted Hosts with simple clicks on the Utho platform."
 keywords: ["database", "postresql", "trusted-host", "server"]
 tags: ["utho platform", "trusted-host"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/postre-sql/manage-postresql/trusted-host']
+aliases: ["/products/Manage Databases/postgre-sql/manage-postresql/trusted-host"]
 icon: "trusted-host"
 tab: true
 ---

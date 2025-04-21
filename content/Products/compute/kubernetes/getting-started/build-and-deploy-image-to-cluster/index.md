@@ -1,6 +1,6 @@
 ---
 weight: 11
-title: Build and Deploy Image on kubernetes Cluster  
+title: "build-and-deploy-image-to-cluster"
 description: "Learn how to build and deploy image on kubernetes cluster"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]
@@ -8,7 +8,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/getting-started/build-and-deploy-image-to-cluster']
+aliases: ["/products/compute/kubernetes/getting-started/build-and-deploy-image-to-cluster"]
 icon: 'kubernetes'
 tab: true
 ---

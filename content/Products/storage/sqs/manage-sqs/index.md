@@ -1,14 +1,14 @@
 ---
 weight: 30
-title: Manage SQS
-title_meta: "Manage SQS on the Utho Platform"
+title: "manage-sqs"
+title_meta: "manage-sqs"
 description: "The Manage section allows users to view and update the configuration of their deployed SQS. This section provides a comprehensive interface to manage SQS users, configure firewalls, and destroy SQS instances."
 keywords: ["sqs", "security"]
 tags: ["utho platform","sqs"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false 
-aliases: ['/products/storage/SQS/manage-sqs']
+aliases: ["/products/storage/sqs/manage-sqs"]
 icon: guides
 tab: true
 ---
