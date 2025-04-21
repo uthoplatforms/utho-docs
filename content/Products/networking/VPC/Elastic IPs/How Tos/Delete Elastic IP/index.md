@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Delete Elastic IP"
+title_meta: "Delete Elastic IP"
+description: "Guide on how to delete elastic ip in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Elastic IPs/How Tos/Delete Elastic IP"]
+icon: "globe"
+tab: true
+---
+
+
 ## **How to Delete an Elastic IP in Utho Cloud**
 
 ### **Overview**

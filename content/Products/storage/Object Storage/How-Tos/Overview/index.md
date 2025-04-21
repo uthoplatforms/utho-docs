@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of manage page of object storage"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/Overview"]
+icon: "globe"
+tab: true
+---
+
+
 # **Overview of Object Storage**
 
 When an object storage bucket is created, users can view its details and configurations on the **Manage** page. This page provides essential information and various sections to manage the object storage effectively.

@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Deploy Auto Scaling"
+title_meta: "Deploy Auto Scaling"
+description: "Guide on how to Deploy Auto Scaling"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/compute/Auto Scaling/How Tos/Deploy Auto Scaling"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **How to Deploy Auto Scaling**
 
 Auto Scaling in Utho Cloud allows users to deploy instances that automatically scale based on predefined conditions. Follow this guide to deploy an auto-scaling instance efficiently.

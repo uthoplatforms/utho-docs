@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "View attached Nat Gateways"
+title_meta: "View attached Nat Gateways"
+description: "Guide on how to View attached Nat Gateways"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Subnets/How Tos/View attached Nat Gateways"]
+icon: "globe"
+tab: true
+---
+
+
 ## **How to View Attached NAT Gateways for a Subnet**
 
 ### **Overview**

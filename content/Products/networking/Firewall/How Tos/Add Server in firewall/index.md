@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Add Server in firewall"
+title_meta: "Add Server in firewall"
+description: "Guide on how to add server in firewall"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Firewall/How Tos/Add Server in firewall"]
+icon: "globe"
+tab: true
+---
+
+
 # **How to Add Servers in Firewall**
 
 This guide will walk you through the process of adding servers to your firewall. With this feature, you can connect and manage multiple servers like cloud servers, IPsec instances, auto-scaling instances, etc., to a single firewall. Follow these steps to add servers to your firewall.

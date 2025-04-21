@@ -1,3 +1,22 @@
+---
+weight: 40
+title: "Attach Subnet"
+title_meta: "Attach Subnet"
+description: "Guide on how to Attach Subnet in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/NAT Gateways/How Tos/Attach Subnet"]
+icon: "globe"
+tab: true
+---
+
+
+
+
 ## **How to Attach a Subnet to NAT Gateway**
 
 ### **Overview**

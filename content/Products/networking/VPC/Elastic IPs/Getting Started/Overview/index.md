@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of Elastic IPs in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Elastic IPs/Getting Started/Overview"]
+icon: "globe"
+tab: true
+---
+
+
 ## **Introduction to Elastic IPs in Utho Cloud**
 
 An **Elastic IP** (EIP) in Utho Cloud is a static, public IPv4 address that is designed for dynamic cloud computing environments. Elastic IPs provide a way to manage public IP addresses for cloud resources efficiently, ensuring that they can be easily reassigned between instances, virtual machines, or other cloud resources as needed. This flexibility makes Elastic IPs ideal for creating highly available and scalable cloud infrastructure.

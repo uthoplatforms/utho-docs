@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Create Object Storage"
+title_meta: "Create Object Storage"
+description: "Guide on how to create object storage"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/Create Object Storage"]
+icon: "globe"
+tab: true
+---
+
+
 
 # **How to create object storage bucket**
 

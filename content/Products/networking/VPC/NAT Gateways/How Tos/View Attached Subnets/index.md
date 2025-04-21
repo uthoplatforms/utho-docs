@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "View Attached Subnets"
+title_meta: "View Attached Subnets"
+description: "Guide on how to view Attached Subnets in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/NAT Gateways/How Tos/View Attached Subnets"]
+icon: "globe"
+tab: true
+---
+
+
+
 ## **How to View Attached Subnets in a NAT Gateway**
 
 ### **Overview**

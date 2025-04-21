@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Share File"
+title_meta: "Share File"
+description: "Guide on how to share a file from object storage"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/Share File"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **How to Share a File from Object Storage**
 
 You can generate a shareable link for any file stored in your object storage by following these steps:

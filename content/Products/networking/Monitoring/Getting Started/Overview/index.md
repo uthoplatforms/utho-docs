@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Monitoring/Getting Started/Overview"]
+icon: "globe"
+tab: true
+---
+
 ## **Introduction**
 
 Monitoring in Utho Cloud Platform allows users to track the performance and health of their cloud resources, such as servers, and receive alerts when certain thresholds are met. The platform provides two key functionalities: **Resource Alerts** and  **Monitoring Contacts** .

@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Delete Scaling Policy"
+title_meta: "Delete Scaling Policy"
+description: "Guide on how to Delete Scaling Policy"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/compute/Auto Scaling/How Tos/Delete Scaling Policy"]
+icon: "globe"
+tab: true
+---
+
 # **How to Delete Scaling Policy**
 
 ### **Overview**

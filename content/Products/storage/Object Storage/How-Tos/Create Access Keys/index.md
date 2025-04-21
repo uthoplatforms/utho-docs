@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Create Access Keys"
+title_meta: "Create Access Keys"
+description: "Guide on how to Create Access Keys"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/Create Access Keys"]
+icon: "globe"
+tab: true
+---
+
+
 ## **Understanding Access Keys**
 
 Before proceeding with deployment, it’s important to understand the role of **Access Keys** in object storage.

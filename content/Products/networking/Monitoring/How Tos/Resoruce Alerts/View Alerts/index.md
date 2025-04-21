@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "View Alerts"
+title_meta: "View Alerts"
+description: "Guide on how to view resource alerts in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Monitoring/How Tos/Resoruce Alerts/View Alerts"]
+icon: "globe"
+tab: true
+---
+
+
 ## **How to View Resource Alerts**
 
 This guide will walk you through the steps to view the resource alerts on your Utho Cloud Monitoring page. Resource alerts help you keep track of various system parameters such as CPU usage, memory utilization, disk activity, and network performance. These alerts notify you when specific thresholds are met for the selected resources.

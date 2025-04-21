@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Quick Start"
+title_meta: "Quick Start"
+description: "Quick Start Guide on Elastic IPs in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Elastic IPs/Getting Started/Quick Start"]
+icon: "globe"
+tab: true
+---
+
+
 ## **Quick Start Guide for Elastic IPs in Utho Cloud**
 
 ### **Overview**

@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Upload Rules"
+title_meta: "Upload Rules"
+description: "Guide on how to upload rules for firewall on utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Firewall/How Tos/Upload Rules"]
+icon: "globe"
+tab: true
+---
+
+
 This guide will show you how to upload custom firewall rules using a .csv file, allowing you to quickly add multiple rules for both incoming and outgoing traffic.
 
 ### **1. Log in to the Platform**

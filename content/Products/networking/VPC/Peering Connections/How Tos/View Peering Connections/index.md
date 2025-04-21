@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "View Peering Connections"
+title_meta: "View Peering Connections"
+description: "Guide on how to View Peering Connections in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Peering Connections/How Tos/View Peering Connections"]
+icon: "globe"
+tab: true
+---
+
+
 ## **How to View Peering Connections in Utho Cloud**
 
 ### **Overview**
