@@ -1,7 +1,7 @@
 ---
 weight: 50
-title: FAQ
-title_meta: "Frequently Asked Questions about MariaDb on the Utho Platform"
+title: "FAQs"
+title_meta: "FAQs"
 description: "Learn how Utho makes MariaDb deployment simple and easy, and get answers to frequently asked questions about our MariaDb service."
 keywords: ["mariadb", "security"]
 tags: ["utho platform", "mariadb"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MariaDb/FAQs/']
+aliases: ["/products/Manage Databases/MariaDb/FAQs"]
 icon: "faq"
 tab: true
 ---

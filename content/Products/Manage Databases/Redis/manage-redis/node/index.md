@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: "Node"
-title_meta: "Manage Redis Node on the Utho Platform"
+title: "node"
+title_meta: "node"
 description: "Easily manage your Redis Nodes with simple clicks on the Utho platform."
 keywords: ["database", "redis", "node", "server"]
 tags: ["utho platform", "node"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/Redis/manage-redis/node']
+aliases: ["/products/Manage Databases/Redis/manage-redis/node"]
 icon: "node"
 tab: true
 ---

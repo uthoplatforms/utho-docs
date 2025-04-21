@@ -1,7 +1,7 @@
 ---
 weight: 14
-title: Shutdown Kubernetes Cluster
-title_meta: "Shutdown the Kubernetes Cluster"
+title: "shutdown-cluster"
+title_meta: "shutdown-cluster"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/kubernetes/how-tos/shutdown-cluster']
+aliases: ["/products/compute/kubernetes/how-tos/shutdown-cluster"]
 icon: 'api'
 tab: true
 ---

@@ -1,7 +1,7 @@
 ---
 weight: 50
-title: "Backup"
-title_meta: "Manage MySql on the Utho Platform"
+title: "backup"
+title_meta: "backup"
 description: "Manage your MySql using simply clicks on utho platform"
 keywords: ["database", "mysql", "server"]
 tags: ["utho platform", "backup"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ["/products/Databases/MySql/manage-mysql/backup"]
+aliases: ["/products/Manage Databases/MySQL/manage-mysql/backup"]
 icon: "backup"
 tab: true
 ---

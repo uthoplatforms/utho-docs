@@ -1,7 +1,7 @@
 ---
 weight: 10
-title: Overview
-title_meta: "Understanding How Kubernetes deployment works on the Utho Platform"
+title: "Overview"
+title_meta: "Overview"
 description: "Learn how Utho makes Kubernetes deployment simple and easy so you easily anticipate your Kubernetes infrastructure costs"
 keywords: ["Kubernetes", "scaling", "instances", "server"]
 tags: ["utho platform","kubernetes"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/Overview/']
+aliases: ["/products/compute/kubernetes/Overview"]
 icon: "overview"
 tab: true
 ---

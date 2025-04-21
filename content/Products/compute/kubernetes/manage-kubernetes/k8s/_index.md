@@ -1,7 +1,7 @@
 ---
 weight: 10
-title: k8s node
-title_meta: "Manage Kubernetes on the Utho Platform"
+title: "k8s"
+title_meta: "k8s"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/manage-kubernetes/k8s']
+aliases: ["/products/compute/kubernetes/manage-kubernetes/k8s"]
 icon: 'kubernetes'
 tab: true
 ---

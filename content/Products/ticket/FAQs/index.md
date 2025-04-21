@@ -1,7 +1,7 @@
 ---
 weight: 50
-title: FAQ
-title_meta: "Frequently Asked Questions about Utho's Ticket Management System"
+title: "FAQs"
+title_meta: "FAQs"
 description: "Explore answers to common questions regarding Utho's Ticket Management System to enhance your experience and resolve queries."
 keywords: ["FAQ", "ticket management", "support", "Utho platform", "common questions", "customer service"]
 tags: ["utho platform", "ticket management", "FAQ"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/ticket/FAQs/']
+aliases: ["/products/ticket/FAQs"]
 icon: "faq"
 tab: true
 ---

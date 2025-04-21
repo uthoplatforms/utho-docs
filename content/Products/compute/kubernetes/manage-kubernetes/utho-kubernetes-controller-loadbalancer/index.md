@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: "Loadbalancer"
-title_meta: "Manage kubernetes on the Utho Platform"
+title: "utho-kubernetes-controller-loadbalancer"
+title_meta: "utho-kubernetes-controller-loadbalancer"
 description: "Manage your kubernetes instance using simply clicks on utho platform"
 keywords: ["kubernetes", "instances",  "ec2", "server", "graph"]
 tags: ["utho platform","kubernetes"]
@@ -9,7 +9,7 @@ date: "2024-11-19T17:25:05+01:00"
 lastmod: "2024-11-19T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/manage-kubernetes/utho-kubernetes-controller-loadbalancer']
+aliases: ["/products/compute/kubernetes/manage-kubernetes/utho-kubernetes-controller-loadbalancer"]
 icon: "vpc"
 tab: true
 ---

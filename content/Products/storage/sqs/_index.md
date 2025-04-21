@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: "SQS"
+title: "sqs"
 description: ""
 icon: "SQS"
 date: "2024-03-07T17:25:05+01:00"

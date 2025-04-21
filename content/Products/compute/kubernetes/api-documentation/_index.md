@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: "Api Documentation"
-title_meta: "API Documentation for Kubernetes on the Utho Platform"
+title: "api-documentation"
+title_meta: "api-documentation"
 description: "Discover how Utho's API simplifies cloud deployment and management allowing you to integrate seamlessly with your Kubernetes infrastructure"
 keywords: ["Kubernetes", "ec2", "server", "instances"]
 tags: ["utho platform","cloud"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/api-documentation/']
+aliases: ["/products/compute/kubernetes/api-documentation"]
 icon: "api"
 tab: true
 ---

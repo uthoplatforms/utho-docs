@@ -1,6 +1,6 @@
 ---
 weight: 17
-title: "Database"
+title: "Manage Databases"
 description: ""
 icon: "Database"
 date: "2024-03-07T17:25:05+01:00"

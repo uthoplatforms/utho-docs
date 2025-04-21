@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: "Users"
-title_meta: "Manage MySql Users on the Utho Platform"
+title: "users"
+title_meta: "users"
 description: "Manage your MySql Users using simply clicks on utho platform"
 keywords: ["database", "mysql","users", "server"]
 tags: ["utho platform","users"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MySql/manage-mysql/users']
+aliases: ["/products/Manage Databases/MySQL/manage-mysql/users"]
 icon: "node"
 tab: true
 ---

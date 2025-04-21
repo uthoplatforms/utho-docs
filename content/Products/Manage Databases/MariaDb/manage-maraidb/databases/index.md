@@ -1,7 +1,7 @@
 ---
 weight: 30
-title: "Database"
-title_meta: "Manage MariaDB Database on the Utho Platform"
+title: "databases"
+title_meta: "databases"
 description: "Easily manage your MariaDB databases with simple clicks on the Utho platform."
 keywords: ["database", "mariadb", "server"]
 tags: ["utho platform", "database"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MariaDb/manage-mariadb/databases']
+aliases: ["/products/Manage Databases/MariaDb/manage-maraidb/databases"]
 icon: "node"
 tab: true
 ---

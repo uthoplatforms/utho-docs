@@ -1,7 +1,7 @@
 ---
 weight: 60
-title: "Trusted Host"
-title_meta: "Manage Redis Trusted Host on the Utho Platform"
+title: "trusted-host"
+title_meta: "trusted-host"
 description: "Easily manage your Redis Trusted Hosts with simple clicks on the Utho platform."
 keywords: ["database", "redis", "trusted-host", "server"]
 tags: ["utho platform", "trusted-host"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/Redis/manage-redis/trusted-host']
+aliases: ["/products/Manage Databases/Redis/manage-redis/trusted-host"]
 icon: "trusted-host"
 tab: true
 ---

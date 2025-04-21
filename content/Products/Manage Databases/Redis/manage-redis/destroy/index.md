@@ -1,7 +1,7 @@
 ---
 weight: 70
-title: "Destroy"
-title_meta: "Manage Redis on the Utho Platform"
+title: "destroy"
+title_meta: "destroy"
 description: "Manage your Redis using simply clicks on utho platform"
 keywords: ["redis", "database", "server"]
 tags: ["utho platform","destroy"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/Databases/manage-redis/destroy']
+aliases: ["/products/Manage Databases/Redis/manage-redis/destroy"]
 icon: "destroy"
 tab: true
 ---

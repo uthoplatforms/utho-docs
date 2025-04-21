@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: "Integrating Utho's Managed Database to Plesk"
-title_meta: "Integrating Utho's Managed Database to Plesk"
+title: "connecting-utho-managed-db-with-plesk"
+title_meta: "connecting-utho-managed-db-with-plesk"
 description: "Easily connect your Utho's Postgres Managed Databse with PgAdmin"
 keywords: ["cloud", "managed database", "plesk", "mysql", "postgres"]
 tags: ["utho platform", "cloud", "managed database", "postgres"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ["/Products/Manage Databases/connecting-utho-managed-db-with-plesk"]
+aliases: ["/products/Manage Databases/connecting-utho-managed-db-with-plesk"]
 icon: "node"
 tab: true
 homecard: true

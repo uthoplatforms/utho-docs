@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: "Resource Transfer"
+title: "resource-transfer"
 description: ""
 icon: "platform"
 date: "2024-03-07T17:25:05+01:00"

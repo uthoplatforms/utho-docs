@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: "Caching with Utho's Managed Redis and Django Using django-redis"
-title_meta: "Caching with Utho's Managed Redis and Django Using django-redis"
+title: "utho-manged-redis-and-django-for-caching"
+title_meta: "utho-manged-redis-and-django-for-caching"
 description: "This guide walks you through integrating Redis caching into a Django project using the django-redis package, including configuration and common use cases. Redis is an open-source, in-memory data structure store, used as a cache to speed up applications.
 
 "
@@ -11,7 +11,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ["/Products/Manage Databases/Redis/intergrating-utho-managed-redis-with-nodejs"]
+aliases: ["/products/Manage Databases/Redis/utho-manged-redis-and-django-for-caching"]
 icon: "redis"
 tab: true
 homecard: true

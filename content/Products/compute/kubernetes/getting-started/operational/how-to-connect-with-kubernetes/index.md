@@ -1,8 +1,8 @@
 ---
 
-title: "How to connect with Utho Kubernetes cluster using Linux"
+title: "how-to-connect-with-kubernetes"
 date: "2024-12-12"
-title_meta: "How to connect with Utho Kubernetes cluster using Linux"
+title_meta: "how-to-connect-with-kubernetes"
 description: "Guide on connecting to a Kubernetes cluster using Linux, including installing kubectl, configuring access with the kubeconfig file, and verifying cluster connection and pod status."
 keywords: ["Kubernetes", "Linux", "kubectl", "kubeconfig", "Kubernetes cluster", "Utho k8s", "Kubernetes pods", "cluster access", "Kubernetes setup"]
 tags: ["Kubernetes", "Linux setup", "kubectl installation", "cluster connection", "Kubernetes pods", "Utho Cloud"]

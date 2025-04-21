@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: "Users"
-title_meta: "Manage PostreSql Users on the Utho Platform"
+title: "users"
+title_meta: "users"
 description: "Manage your PostreSql Users using simply clicks on utho platform"
 keywords: ["database", "postresql","users", "server"]
 tags: ["utho platform","users"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/postre-sql/manage-postresql/users']
+aliases: ["/products/Manage Databases/postgre-sql/manage-postresql/users"]
 icon: "user"
 tab: true
 ---

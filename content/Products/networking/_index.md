@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: "Networking"
+title: "networking"
 description: ""
 icon: "networking"
 date: "2024-03-07T17:25:05+01:00"

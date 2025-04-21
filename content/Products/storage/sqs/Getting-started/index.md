@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: "Getting Started"
-title_meta: "Understanding How Subuser Works on the Utho Platform"
+title: "Getting-started"
+title_meta: "Getting-started"
 description: "Learn how Utho makes Subuser deployment simple and easy so you easily anticipate your cloud infrastructure costs"
 keywords: ["sqs", "security"]
 tags: ["utho platform", "getting-started"]
@@ -10,7 +10,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ["/products/storage/sqs/Getting-started/"]
+aliases: ["/products/storage/sqs/Getting-started"]
 ---
 
 # Initial Start
