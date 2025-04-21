@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Update Storage Access"
+title_meta: "Update Storage Access"
+description: "Guide on how to update storage access"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/Update Storage Access"]
+icon: "globe"
+tab: true
+---
+
+
 # **How to Manage Access Control for Object Storage**
 
 The **Access Control** section allows you to manage permissions for the objects in your bucket. You can control how users interact with your bucket’s objects by selecting one of the available access levels. Follow these steps to update access control settings:

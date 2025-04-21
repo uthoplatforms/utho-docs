@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Delete Contact"
+title_meta: "Delete Contact"
+description: "Guide on how to delete contact"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Monitoring/How Tos/Monitoring Contacts/Delete Contact"]
+icon: "globe"
+tab: true
+---
+
+
+
 ## **How to Delete Monitoring Contact**
 
 Monitoring Contacts are essential for alert notifications. If you need to delete any contact, follow the steps below:

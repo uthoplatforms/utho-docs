@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Create Folder"
+title_meta: "Create Folder"
+description: "Guide on how to create folder in object storage"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/Create Folder"]
+icon: "globe"
+tab: true
+---
+
 # **How to Create Folders in Object Storage**
 
 You can organize your files in object storage by creating and managing folders. Follow these steps to create a new folder:

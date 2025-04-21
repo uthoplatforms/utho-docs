@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Add Target Group"
+title_meta: "Add Target Group"
+description: "Guide on how to Add Target Group"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/compute/Auto Scaling/How Tos/Add Target Group"]
+icon: "globe"
+tab: true
+---
+
 # **How to Attach a Target Group to Auto Scaling**
 
 ## **Overview**

@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Delete Folder"
+title_meta: "Delete Folder"
+description: "Guide on how to delete folder in object storage"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/Delete Folder"]
+icon: "globe"
+tab: true
+---
+
 # **How to Delete a Folder in Object Storage**
 
 You can remove unwanted folders from your object storage by following these steps:

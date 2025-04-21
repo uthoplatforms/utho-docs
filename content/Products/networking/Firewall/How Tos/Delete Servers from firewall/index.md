@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Delete Servers from firewall"
+title_meta: "Delete Servers from firewall"
+description: "Guide on how to delete rules in firewall"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Firewall/How Tos/Delete Servers from firewall"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **How to Delete Servers from Firewall**
 
 This guide will show you how to remove servers from your firewall. If you no longer need a server to be connected to the firewall, you can easily remove it by following these steps.

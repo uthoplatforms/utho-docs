@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "View Auto Scaling History"
+title_meta: "View Auto Scaling History"
+description: "Guide on how to View Auto Scaling History"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/compute/Auto Scaling/How Tos/View Auto scaling History"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **How to View Auto Scaling History**
 
 ## **Overview**

@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Delete Peering Connections"
+title_meta: "Delete Peering Connections"
+description: "Guide on how to delete peering connections in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Peering Connections/How Tos/Delete Peering Connections"]
+icon: "globe"
+tab: true
+---
+
+
+
 ## **How to Delete a Peering Connection in Utho Cloud**
 
 ### **Overview**

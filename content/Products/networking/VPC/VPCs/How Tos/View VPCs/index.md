@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "View VPCs"
+title_meta: "View VPCs"
+description: "Guide on how to view VPCs"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/View VPCs"]
+icon: "globe"
+tab: true
+---
+
+
 ## **How to View VPC in Utho Cloud**
 
 ### **Overview**

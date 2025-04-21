@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of subnets in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Subnets/Getting Started/Overview"]
+icon: "globe"
+tab: true
+---
+
+
 ## **Introduction**
 
 A **Subnet** in Utho Cloud is a segment of a **VPC (Virtual Private Cloud)** that enables users to organize and control their network resources more efficiently. Subnets allow users to isolate parts of the network based on the type of resources (e.g., public or private) and define how traffic flows within those segments. By creating and configuring subnets, users can ensure that their cloud resources are placed in the appropriate network environment, offering better control and enhanced security.

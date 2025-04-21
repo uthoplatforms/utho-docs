@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Destroy Firewall"
+title_meta: "Destroy Firewall"
+description: "Guide on how to destroy firewall in utho cloud plataform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Firewall/How Tos/Destroy Firewall"]
+icon: "globe"
+tab: true
+---
+
+
 # **How to Destroy Firewall**
 
 This guide will show you how to destroy a firewall and dissociate it from any cloud servers associated with it. Once destroyed, the firewall will be permanently deleted, and any servers connected to it will no longer be protected by that firewall.

@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Delete Alert"
+title_meta: "Delete Alert"
+description: "Guide on how to delete resource alert in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Monitoring/How Tos/Resoruce Alerts/Delete Alert"]
+icon: "globe"
+tab: true
+---
+
 ## **How to Delete Resource Alert**
 
 This guide will walk you through the steps to delete a resource alert in your Utho Cloud platform. Deleting an alert ensures that it no longer monitors the selected resource, and you will no longer receive notifications for the alert condition.

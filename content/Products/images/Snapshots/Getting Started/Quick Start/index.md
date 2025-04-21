@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Quick Start"
+title_meta: "Quick Start"
+description: "Quick start guide on snapshots in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/images/Snapshots/Getting Started/Quick Start"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **Quick Start Guide for Managing Snapshots in Utho Cloud**
 
 Snapshots in Utho Cloud allow you to save and restore the state of your cloud servers at a particular point in time. This feature is useful for backup purposes or when you need to roll back to a previous server state. Below is a quick guide on how to view, restore, and delete snapshots within the Utho Cloud platform.

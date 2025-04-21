@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Add Rules"
+title_meta: "Add Rules"
+description: "Guide on how to Add Rules for Firewall in Utho Cloud Platform  "
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Firewall/How Tos/Add Rules"]
+icon: "globe"
+tab: true
+---
+
 
 ## **How to Add Rules in Firewall**
 

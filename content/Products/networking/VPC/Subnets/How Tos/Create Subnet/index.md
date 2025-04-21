@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Create Subnet"
+title_meta: "Create Subnet"
+description: "Guide on how to create subnet in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Subnets/How Tos/Create Subnet"]
+icon: "globe"
+tab: true
+---
+
 ### **1. Login to Utho Cloud Platform**
 
 * Visit the Utho Cloud Platform's **[Login](https://console.utho.com/login)** page.

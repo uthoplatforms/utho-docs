@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Delete ISO"
+title_meta: "Delete ISO"
+description: "Guide on how to Delete ISO in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/images/iso/How Tos/Delete ISO"]
+icon: "globe"
+tab: true
+---
+
 # **How to Delete an Added ISO**
 
 ## **Overview**

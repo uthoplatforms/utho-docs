@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Delete Snapshot"
+title_meta: "Delete Snapshot"
+description: "Guide on how to delete snapshot in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/images/Snapshots/How Tos/Delete Snapshot"]
+icon: "globe"
+tab: true
+---
+
+
 # **How to Delete a Snapshot** 
 
 ### **Overview**

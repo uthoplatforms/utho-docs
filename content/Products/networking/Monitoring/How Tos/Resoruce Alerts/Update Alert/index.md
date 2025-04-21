@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Update Alert"
+title_meta: "Update Alert"
+description: "Guide on how to update resource alert in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Monitoring/How Tos/Resoruce Alerts/Update Alert"]
+icon: "globe"
+tab: true
+---
+
+
 ## **How to Update Resource Alert**
 
 This guide will walk you through the steps to update an existing resource alert in your Utho Cloud platform. By updating a resource alert, you can modify parameters like the type of resource, threshold values, duration, and more, to better fit your monitoring needs.
