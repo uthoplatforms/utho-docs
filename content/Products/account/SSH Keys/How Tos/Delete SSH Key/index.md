@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Delete SSH Key"
+title_meta: "Delete SSH Key"
+description: "Guide on how to delete ssh key in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/account/SSH Keys/How Tos/Delete SSH Key"]
+icon: "globe"
+tab: true
+---
+
 # **How to Delete an SSH Key in Utho Cloud**
 
 ### **Overview**

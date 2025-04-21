@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Generate SSH Key Content"
+title_meta: "Generate SSH Key Content"
+description: "Guide on how to generate ssh key content in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/account/SSH Keys/How Tos/Generate SSH Key"]
+icon: "globe"
+tab: true
+---
+
+
 ## **How to Generate and View Your SSH Key Content**
 
 An SSH key pair consists of two parts: a **private key** (which remains secure on your machine) and a **public key** (which can be shared). You’ll need to generate an SSH key pair to enable secure connections to services like your cloud platform or remote servers.

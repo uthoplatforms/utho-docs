@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of Peering Connections in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Peering Connections/Getting Started/Overview"]
+icon: "globe"
+tab: true
+---
+
+
 ## **Introduction**
 
 A **Peering Connection** in Utho Cloud enables network connectivity between two Virtual Private Clouds (VPCs), allowing resources in different VPCs to communicate with each other using private IP addresses. This connectivity is established without routing traffic over the public internet, ensuring low latency and secure communication across cloud environments.

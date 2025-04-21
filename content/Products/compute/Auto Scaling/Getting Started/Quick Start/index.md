@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Quick Start"
+title_meta: "Quick Start"
+description: "Quick Start guide on Auto scaling in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/Products/compute/Auto Scaling/Getting Started/Quick Start"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **Quick Start Guide: Auto Scaling**
 
 This guide will help you quickly deploy, configure, and manage your Auto Scaling instances on Utho Cloud.

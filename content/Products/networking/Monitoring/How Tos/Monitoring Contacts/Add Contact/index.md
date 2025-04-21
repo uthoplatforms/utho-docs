@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Add Contact"
+title_meta: "Add Contact"
+description: "Guide on how to Add Contact"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Monitoring/How Tos/Monitoring Contacts/Add Contact"]
+icon: "globe"
+tab: true
+---
+
+
+
 ## **How to Add Monitoring Contact**
 
 This guide will show you how to add a new monitoring contact in your Utho Cloud Platform. A monitoring contact allows you to manage alerts and notifications for your cloud resources.

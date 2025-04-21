@@ -1,3 +1,18 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of ISO on Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/images/iso/Getting Started/Overview"]
+icon: "globe"
+tab: true
+---
 ## **Overview of ISO Files**
 
 An **ISO file** (or ISO image) is a digital copy of an optical disc, such as a CD, DVD, or Blu-ray. It contains the entire filesystem structure and data of the original disc in a single file, preserving all content and structure. These files can be mounted as virtual drives or burned onto physical discs when needed.

@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of SSL Certificate in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/poducts/compute/SSL Certificate/Getting Started/Overview"]
+icon: "globe"
+tab: true
+---
+
+
 ## **Overview of SSL Certificates in Utho Cloud Platform**
 
 An **SSL certificate** in the Utho Cloud Platform is a digital certificate used to establish secure, encrypted communication between a client (usually a web browser) and a server over the internet. It ensures that any data transferred between the two is encrypted and protected from unauthorized access. SSL certificates are crucial for enabling HTTPS (Hypertext Transfer Protocol Secure) on websites, ensuring that user information, such as login credentials, credit card details, and other sensitive data, is transmitted securely.

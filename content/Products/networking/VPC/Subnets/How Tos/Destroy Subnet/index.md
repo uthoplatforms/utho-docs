@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Destroy Subnet"
+title_meta: "Destroy Subnet"
+description: "Guide on how to destroy subnet in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Subnets/How Tos/Destroy Subnet"]
+icon: "globe"
+tab: true
+---
+
+
 ## **How to Destroy Subnet in Utho Cloud**
 
 ### **Overview**

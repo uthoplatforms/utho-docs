@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Add Elastic IP"
+title_meta: "Add Elastic IP"
+description: "Guide on how to add elastic ip in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Elastic IPs/How Tos/Add Elastic IP"]
+icon: "globe"
+tab: true
+---
+
+
 ## **How to Add an Elastic IP in Utho Cloud**
 
 ### **Overview**
