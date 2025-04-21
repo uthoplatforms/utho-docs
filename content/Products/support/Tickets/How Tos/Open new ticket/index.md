@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Open new ticket"
+title_meta: "Open new ticket"
+description: "Guide on how to Open new ticket"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/support/Tickets/How Tos/Open new ticket"]
+icon: "globe"
+tab: true
+---
+
 # **How to Open a Ticket**
 
 This guide explains how to open a new ticket in Utho Cloud for any queries or issues related to services provided by Utho.

@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of VPCs in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/VPCs/Getting Started/Overview"]
+icon: "globe"
+tab: true
+---
+
+
+
 ## **Introduction**
 
 A **VPC (Virtual Private Cloud)** in Utho Cloud allows users to define and manage a private, isolated network within the cloud. It enables users to launch cloud resources in a network environment that they control, with the flexibility to configure subnets, IP address ranges, route tables, and network gateways. VPCs provide enhanced security, scalability, and control over your cloud resources.

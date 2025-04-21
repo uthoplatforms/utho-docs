@@ -3,7 +3,7 @@ weight: 40
 title: "overview"
 Page_title: "How to Receive Resources from different user?"
 Page_cardtitle: "Understanding Resource Transfer in Cloud Environments"
-title_meta: "API Documentation for Resource Transfer on the Utho Platform"
+title_meta: "overview"
 description: "Resource transfer in Utho cloud services involves the seamless movement and management of digital assets, data, applications, and computing resources within or across Utho's cloud infrastructure. This process enables organizations to optimize resource allocation, enhance scalability, and improve operational efficiency."
 keywords: ["Resource Transfer", "Migration"]
 tags: ["utho platform","Resource Transfer"]
@@ -12,7 +12,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/account/resource-transfer/overview/']
+aliases: ["/products/account/resource-transfer/overview"]
 tab: true
 ---
  

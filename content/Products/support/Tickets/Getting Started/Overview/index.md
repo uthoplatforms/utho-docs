@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of Tickets on Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/support/Tickets/Getting Started/Overview"]
+icon: "globe"
+tab: true
+---
+
 # **Overview of Tickets on Utho Cloud Platform**
 
 Utho Cloud provides a comprehensive **ticketing system** that allows users to raise and manage their support requests with ease. Whether it's an issue related to services, billing, technical assistance, or sales, the ticketing system is designed to ensure users can contact the relevant team for quick resolutions.

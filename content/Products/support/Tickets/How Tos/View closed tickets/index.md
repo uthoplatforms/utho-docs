@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "View closed tickets"
+title_meta: "View closed tickets"
+description: "Guide on how to View closed tickets"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/support/Tickets/How Tos/View closed tickets"]
+icon: "globe"
+tab: true
+---
+
+
 # **How to View Closed Tickets**
 
 ## **Overview**

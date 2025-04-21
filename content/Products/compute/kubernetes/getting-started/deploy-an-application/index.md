@@ -1,6 +1,6 @@
 ---
 weight: 11
-title: Deploy An Application to Kubernetes Cluster 
+title: "deploy-an-application"
 description: "Learn how to deploy application on kubernetes cluster"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]
@@ -8,7 +8,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/getting-started/deploy-an-application']
+aliases: ["/products/compute/kubernetes/getting-started/deploy-an-application"]
 icon: 'kubernetes'
 tab: true
 ---

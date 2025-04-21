@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Upload files in ticket reply"
+title_meta: "Upload files in ticket reply"
+description: "Guide on how to Upload files in ticket reply"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/Products/support/Tickets/How Tos/Upload files in ticket reply"]
+icon: "globe"
+tab: true
+---
+
 # **How to Upload Files in Ticket Reply**
 
 ## **Overview**

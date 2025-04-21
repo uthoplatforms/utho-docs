@@ -1,7 +1,7 @@
 ---
 weight: 50
-title: "Backup"
-title_meta: "Manage MariaDb on the Utho Platform"
+title: "backup"
+title_meta: "backup"
 description: "Manage your MariaDb using simply clicks on utho platform"
 keywords: ["database", "mariadb", "server"]
 tags: ["utho platform", "backup"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ["/products/Databases/MariaDb/manage-mariadb/backup"]
+aliases: ["/products/Manage Databases/MariaDb/manage-maraidb/backup"]
 icon: "backup"
 tab: true
 ---

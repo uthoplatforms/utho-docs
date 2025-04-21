@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Quick Start"
+title_meta: "Quick Start"
+description: "Quick Start Guide on SSH Keys in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/poducts/account/SSH Keys/Getting Started/Quick Start"]
+icon: "globe"
+tab: true
+---
+
+
 ## **Quick Start Guide for Managing SSH Keys in Utho Cloud**
 
 SSH keys are an essential part of securely accessing cloud resources, providing a safe and password-less method of authentication. In Utho Cloud, SSH keys are used to access virtual machines and other services securely. Follow this guide to generate, view, create, and delete SSH keys.

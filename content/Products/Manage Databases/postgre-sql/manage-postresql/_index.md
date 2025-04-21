@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: Manage PostreSql
-title_meta: "Manage PostreSql on the Utho Platform"
+title: "manage-postresql"
+title_meta: "manage-postresql"
 description: "Learn how Utho makes PostreSql management simple and easy so you easily anticipate your PostreSql infrastructure costs"
 keywords: ["postresql", "database", "server"]
 tags: ["utho platform","postresql","database"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/postre-sql/manage-postgresql','/psql']
+aliases: ["/products/Manage Databases/postgre-sql/manage-postresql"]
 icon: 'guides'
 tab: true
 ---

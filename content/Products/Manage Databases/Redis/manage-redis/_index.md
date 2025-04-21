@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: Manage Redis
-title_meta: "Manage Redis on the Utho Platform"
+title: "manage-redis"
+title_meta: "manage-redis"
 description: "Learn how Utho makes Redis management simple and easy so you easily anticipate your Redis infrastructure costs"
 keywords: ["redis", "database", "server"]
 tags: ["utho platform","redis","database"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/Redis/manage-redis']
+aliases: ["/products/Manage Databases/Redis/manage-redis"]
 icon: 'guides'
 tab: true
 ---

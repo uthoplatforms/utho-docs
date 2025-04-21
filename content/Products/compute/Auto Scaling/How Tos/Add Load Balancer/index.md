@@ -1,3 +1,19 @@
+---
+weight: 40
+title: "Add Load Balancer"
+title_meta: "Add Load Balancer"
+description: "Guide on how to Add Load Balancer"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/compute/Auto Scaling/How Tos/Add Load Balancer"]
+icon: "globe"
+tab: true
+---
+
 # **How to Attach a Load Balancer to Auto Scaling**
 
 ## **Overview**

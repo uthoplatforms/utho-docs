@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "View Metrics"
+title_meta: "View Metrics"
+description: "Guide on how to view storage metrics"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/View Metrics"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **How to View Your Object Storage Metrics**
 
 You can monitor the performance and usage of your object storage by accessing its metrics. Follow the steps below to view detailed insights:

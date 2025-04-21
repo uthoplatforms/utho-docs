@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Delete Rules"
+title_meta: "Delete Rules"
+description: "guide on how to delete rules in firewall"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Firewall/How Tos/Delete Rules"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **How to Delete Rules in Firewall**
 
 This guide will walk you through the process of deleting custom or default firewall rules in the Utho Cloud Platform. You can easily remove unwanted rules from both incoming and outgoing traffic to manage your firewall configuration effectively. Simply follow the steps below to delete any rule from the list.

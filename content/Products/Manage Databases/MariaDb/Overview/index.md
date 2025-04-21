@@ -1,7 +1,7 @@
 ---
 weight: 10
 title: "Overview"
-title_meta: "Understanding How MariaDb Works on the Utho Platform"
+title_meta: "Overview"
 description: "Learn how Utho makes MariaDb deployment simple and easy so you easily anticipate your cloud infrastructure costs"
 keywords: ["mariadb","databases", "security"]
 tags: ["utho platform","mariadb"]
@@ -11,7 +11,7 @@ lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
 tab: true
-aliases: ['/products/Databases/MariaDb/Overview/']
+aliases: ["/products/Manage Databases/MariaDb/Overview"]
 ---
 
 <!-- # Overview -->

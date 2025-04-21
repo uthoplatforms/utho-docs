@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: Troubleshooting
-title_meta: "Troubleshooting Cloud Issues on the Utho Platform"
+title: "troubleshooting"
+title_meta: "troubleshooting"
 description: "Learn how to troubleshoot common Cloud issues on the Utho platform, ensuring seamless cloud deployment and management."
 keywords: ["cloud", "ec2", "server", "instances"]
 tags: ["utho platform","cloud"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/troubleshooting/']
+aliases: ["/products/compute/kubernetes/troubleshooting"]
 icon: "api"
 tab: true
 ---

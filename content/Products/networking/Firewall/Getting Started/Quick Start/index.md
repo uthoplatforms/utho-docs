@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Quick Start"
+title_meta: "Quick Start"
+description: "Quick Start Guide on Firewall in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Firewall/Getting Started/Quick Start"]
+icon: "globe"
+tab: true
+---
+
+
 ## **Quick Start Guide for Managing Firewalls in Utho Cloud**
 
 A **Firewall** in Utho Cloud helps secure your cloud infrastructure by controlling incoming and outgoing network traffic. It acts as a barrier between your cloud servers and external networks, allowing you to define rules to permit or block specific types of traffic. Managing firewalls effectively ensures that only authorized traffic can access your servers while preventing unauthorized access, protecting sensitive data and resources.

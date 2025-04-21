@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Create Alert"
+title_meta: "Create Alert"
+description: "Guide on how to create resource alert in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Monitoring/How Tos/Resoruce Alerts/Create Alert"]
+icon: "globe"
+tab: true
+---
+
+
+
 ## **How to Create Resource Alert**
 
 This guide will show you how to create a resource alert to monitor various system parameters such as CPU usage, memory utilization, disk activity, and network performance on your Utho Cloud platform. Resource alerts help ensure that your infrastructure is performing as expected and notify you when certain thresholds are reached.

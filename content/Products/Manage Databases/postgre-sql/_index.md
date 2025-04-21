@@ -1,6 +1,6 @@
 ---
 weight: 70
-title: "PostgreSQL"
+title: "postgre-sql"
 description: ""
 icon: "PostgreSQL"
 date: "2024-03-07T17:25:05+01:00"

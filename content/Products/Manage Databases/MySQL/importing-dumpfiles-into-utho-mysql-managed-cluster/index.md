@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: "Importing Dump Files to Utho's Managed MySQL Database Cluster"
-title_meta: "Importing Dump Files to Utho's Managed MySQL Database Cluster"
+title: "importing-dumpfiles-into-utho-mysql-managed-cluster"
+title_meta: "importing-dumpfiles-into-utho-mysql-managed-cluster"
 description: "This guide provides a step-by-step process to import dump files into a MySQL database hosted on Utho’s Managed Database Cluster."
 keywords: ["database", "mysql", "migrating", "sql dump", "server"]
 tags: ["utho platform","migrating", "sql dump", "mysql"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/Products/Manage Databases/MySQL/importing-dumpfiles-into-utho-mysql-managed-cluster']
+aliases: ["/products/Manage Databases/MySQL/importing-dumpfiles-into-utho-mysql-managed-cluster"]
 icon: "node"
 tab: true
 ---

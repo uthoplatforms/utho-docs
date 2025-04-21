@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "View Elastic IPs"
+title_meta: "View Elastic IPs"
+description: "Guide on how to View Elastic IPs in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/VPC/Elastic IPs/How Tos/View Elastic IPs"]
+icon: "globe"
+tab: true
+---
+
+
+
 ## **How to View Elastic IPs in Utho Cloud**
 
 ### **Overview**

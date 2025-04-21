@@ -1,7 +1,7 @@
 ---
 weight: 50
-title: FAQ
-title_meta: "Frequently Asked Questions about PostgeSQL on the Utho Platform"
+title: "FAQs"
+title_meta: "FAQs"
 description: "Learn how Utho makes PostgeSQL deployment simple and easy, and get answers to frequently asked questions about our PostgeSQL service."
 keywords: ["postgeSql", "security"]
 tags: ["utho platform", "postgeSql"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/PostgeSQL/FAQs/']
+aliases: ["/products/Manage Databases/postgre-sql/FAQs"]
 icon: "faq"
 tab: true
 ---

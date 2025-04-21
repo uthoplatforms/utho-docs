@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Update Storage Permissions"
+title_meta: "Update Storage Permissions"
+description: "Guide on how to update storage permissions"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/storage/Object Storage/How-Tos/Update Storage Permissions"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **How to Update Object Storage Permissions**
 
 You can manage object storage permissions by editing existing permissions or assigning new ones to access keys. Follow these steps to update permissions:

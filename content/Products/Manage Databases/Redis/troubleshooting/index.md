@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: Troubleshooting
-title_meta: "Troubleshooting Redis Issues on the Utho Platform"
+title: "troubleshooting"
+title_meta: "troubleshooting"
 description: "Learn how to troubleshoot common Redis issues on the Utho platform, ensuring seamless Redis deployment and management."
 keywords: ["redis", "troubleshooting", "security"]
 tags: ["utho platform","redis"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/Redis/troubleshooting/']
+aliases: ["/products/Manage Databases/Redis/troubleshooting"]
 icon: "api"
 tab: true
 ---

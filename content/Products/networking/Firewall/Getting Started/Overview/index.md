@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Overview"
+title_meta: "Overview"
+description: "Overview of Firewall in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/networking/Firewall/Getting Started/Overview"]
+icon: "globe"
+tab: true
+---
+
+
 ## **Overview of Firewalls in Utho Cloud Platform**
 
 A **Firewall** in the Utho Cloud Platform is a security feature designed to control incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and untrusted external networks, preventing unauthorized access while allowing legitimate communication.

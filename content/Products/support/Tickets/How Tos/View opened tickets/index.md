@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "View opened tickets"
+title_meta: "View opened tickets"
+description: "Guide on how to View opened tickets"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/support/Tickets/How Tos/View opened tickets"]
+icon: "globe"
+tab: true
+---
+
+
+
 # **How to View Opened Tickets**
 
 ## **Overview**

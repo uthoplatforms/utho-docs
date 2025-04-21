@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: Getting Started
-title_meta: "Deploy Cloud on the Utho Platform"
+title: "getting-started"
+title_meta: "getting-started"
 description: "Learn how Utho makes Cloud deployment simple and easy so you easily anticipate your cloud infrastructure costs"
 keywords: ["cloud", "instances",  "ec2", "server"]
 tags: ["utho platform","cloud"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/cloud/getting-started']
+aliases: ["/products/Manage Databases/Redis/getting-started"]
 icon: "get-started"
 tab: true
 ---

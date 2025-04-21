@@ -1,8 +1,8 @@
 ---
 
-title: "How to connect object storage with Kubernetes cluster using s3cmd"
+title: "kubernetes-with-s3cmd"
 date: "2024-12-31"
-title_meta: "Utho Cloud object storage with Kubernetes cluster using s3cmd"
+title_meta: "kubernetes-with-s3cmd"
 description: "This comprehensive guide explains how to connect Kubernetes with s3cmd, a command-line tool for managing UTHO object storage and compatible object storage services. The step-by-step instructions cover setting up kubectl, configuring access to your Kubernetes cluster, creating a pod using a YAML configuration, and installing and testing s3cmd inside the Kubernetes pod. This tutorial is ideal for users looking to manage object storage directly from Kubernetes pods."
 keywords: ["Utho","Utho Cloud","Kubernetes", "s3cmd", "kubectl", "object storage", "pod deployment", "Kubernetes cluster", "YAML configuration", "S3 storage", "Amazon S3", "Kubernetes pod", "object storage management", "Ubuntu", "Snap installation", "kubeconfig"]
 tags: ["Kubernetes", "Object Storage", "Utho Cloud", "s3cmd"]

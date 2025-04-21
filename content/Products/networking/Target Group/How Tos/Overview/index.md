@@ -1,14 +1,14 @@
 ---
 A port is a logical endpoint used by protocols to route network traffic to the correct service or application on a device. When a device communicates over a network, it uses a combination of an IP address and a port number to specify which service or application should handle the incoming or outgoing data.weight: 30
-title: Manage Elastic Block Storage
-title_meta: "Manage Elastic Block Storage on the Utho Platform"
+title: "Overview"
+title_meta: "Overview"
 description: "The Manage section of EBS allows you to configure settings, resize volumes, attach or detach them from instances, and destroy volumes when no longer needed."
 keywords: ["Elastic Block Storage", "storage"]
 tags: ["utho platform","Elastic Block Storage"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false 
-aliases: ['/products/Elastic Block Storage/manage-loadbalancer']
+aliases: ["/products/networking/Target Group/How Tos/Overview"]
 icon: guides
 tab: true
 ---

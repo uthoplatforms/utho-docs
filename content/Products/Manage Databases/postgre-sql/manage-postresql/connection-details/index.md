@@ -1,7 +1,7 @@
 ---
 weight: 10
-title: "Connection-Details"
-title_meta: "Manage PostreSql Database on the Utho Platform"
+title: "connection-details"
+title_meta: "connection-details"
 description: "Easily manage your PostreSql databases with simple clicks on the Utho platform."
 keywords: ["connection-details", "database", "postresql", "server"]
 tags: ["utho platform", "connection-details"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/postre-sql/manage-postresql/connection-details']
+aliases: ["/products/Manage Databases/postgre-sql/manage-postresql/connection-details"]
 icon: "connection-details"
 tab: true
 ---

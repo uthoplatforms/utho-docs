@@ -1,7 +1,7 @@
 ---
 weight: 90
-title: "Destroy"
-title_meta: "Manage PostreSql on the Utho Platform"
+title: "destroy"
+title_meta: "destroy"
 description: "Manage your PostreSql using simply clicks on utho platform"
 keywords: ["postresql", "database", "server"]
 tags: ["utho platform","destroy"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/postre-sql/manage-postresql/destroy']
+aliases: ["/products/Manage Databases/postgre-sql/manage-postresql/destroy"]
 icon: "destroy"
 tab: true
 ---

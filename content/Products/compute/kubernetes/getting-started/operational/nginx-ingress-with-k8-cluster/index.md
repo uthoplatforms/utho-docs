@@ -1,8 +1,8 @@
 ---
 
-title: "Deploy Nginx Ingress on Custom Kubernetes Cluster using Utho Cloud Controller"
+title: "nginx-ingress-with-k8-cluster"
 date: "2024-12-31"
-title_meta: "Nginx Ingress with kubernetes cluster"
+title_meta: "nginx-ingress-with-k8-cluster"
 description: "This guide provides a comprehensive step-by-step approach to setting up Nginx Ingress with a Kubernetes cluster. It includes configuration of Utho CSI, deployment of persistent storage, and verification of resources for seamless integration of ingress and storage solutions."
 keywords: ["Utho","Utho Cloud","Kubernetes", "Nginx Ingress", "kubectl", "StorageClass", "pod deployment","Kubernetes cluster", "YAML configuration", "Utho CSI", "Persistent Storage", "Kubernetes pod", "Helm Chart", "Ubuntu", "Snap installation", "PersistentVolumeClaim"]
 tags: ["Kubernetes", "StorageClass", "Utho Cloud", "Nginx", "Ingress", "Utho CSI", "PersistentVolume", "Helm", "DevOps"]

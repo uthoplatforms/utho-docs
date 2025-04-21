@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: Troubleshooting
-title_meta: "Troubleshooting MariaDb Issues on the Utho Platform"
+title: "troubleshooting"
+title_meta: "troubleshooting"
 description: "Learn how to troubleshoot common MariaDb issues on the Utho platform, ensuring seamless MariaDb deployment and management."
 keywords: ["mariadb", "troubleshooting", "security"]
 tags: ["utho platform","mariadb"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MariaDb/troubleshooting/']
+aliases: ["/products/Manage Databases/MariaDb/troubleshooting"]
 icon: "api"
 tab: true
 ---

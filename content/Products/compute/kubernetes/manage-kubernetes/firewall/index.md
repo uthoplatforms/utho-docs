@@ -1,7 +1,7 @@
 ---
 weight: 30
-title: "Firewall"
-title_meta: "Manage kubernetes on the Utho Platform"
+title: "firewall"
+title_meta: "firewall"
 description: "Manage your kubernetes instance using simply clicks on utho platform"
 keywords: ["cloud", "instances",  "ec2", "server", "graph"]
 tags: ["utho platform","kubernetes"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/manage-kubernetes/firewall']
+aliases: ["/products/compute/kubernetes/manage-kubernetes/firewall"]
 icon: "firewall"
 tab: true
 ---

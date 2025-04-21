@@ -1,3 +1,21 @@
+---
+weight: 40
+title: "Add SSL Certificate"
+title_meta: "Add SSL Certificate"
+description: "Guide on how to add ssl certificate in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/compute/SSL Certificate/How Tos/Add SSL Certificate"]
+icon: "globe"
+tab: true
+---
+
+
+
 
 # **How to Add an SSL Certificate in Utho Cloud**
 

@@ -1,7 +1,7 @@
 ---
 weight: 70
-title: "Firewall"
-title_meta: "Manage PostreSql Firewall on the Utho Platform"
+title: "firewall"
+title_meta: "firewall"
 description: "Easily manage your PostreSql Firewall with simple clicks on the Utho platform."
 keywords: ["database", "postresql", "firewall", "server"]
 tags: ["utho platform", "firewall"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/postre-sql/manage-postresql/firewall']
+aliases: ["/products/Manage Databases/postgre-sql/manage-postresql/firewall"]
 icon: "firewall"
 tab: true
 ---

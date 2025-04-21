@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: Troubleshooting
-title_meta: "Troubleshooting SQS Issues on the Utho Platform"
+title: "troubleshooting"
+title_meta: "troubleshooting"
 description: "Learn how to troubleshoot common SQS issues on the Utho platform, ensuring seamless SQS deployment and management."
 keywords: ["sqs", "troubleshooting", "security"]
 tags: ["utho platform","sqs"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/storage/SQS/troubleshooting']
+aliases: ["/products/storage/sqs/troubleshooting"]
 icon: "api"
 tab: true
 ---

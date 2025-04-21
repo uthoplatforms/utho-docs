@@ -1,3 +1,20 @@
+---
+weight: 40
+title: "Restore Snapshot"
+title_meta: "Restore Snapshot"
+description: "Guide on how to restore snapshot in utho cloud platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho platform","cloud"]
+date: "2024-03-07T17:25:05+01:00"
+lastmod: "2024-03-07T17:25:05+01:00"
+draft: false
+toc: true
+aliases: ["/products/images/Snapshots/How Tos/Restore Snapshot"]
+icon: "globe"
+tab: true
+---
+
+
 # **How to Restore a Snapshot** 
 
 ### **Overview**

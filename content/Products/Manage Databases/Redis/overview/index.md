@@ -1,7 +1,7 @@
 ---
 weight: 10
-title: "Overview"
-title_meta: "Understanding How Redis Works on the Utho Platform"
+title: "overview"
+title_meta: "overview"
 description: "Learn how Utho makes Redis deployment simple and easy so you easily anticipate your cloud infrastructure costs."
 keywords: ["redis","databases", "security"]
 tags: ["utho platform","redis"]
@@ -10,7 +10,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/Redis/Overview/']
+aliases: ["/products/Manage Databases/Redis/overview"]
 ---
 
 <!-- # Overview -->

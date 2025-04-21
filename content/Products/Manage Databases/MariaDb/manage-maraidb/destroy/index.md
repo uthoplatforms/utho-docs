@@ -1,7 +1,7 @@
 ---
 weight: 80
-title: "Destroy"
-title_meta: "Manage MariaDb on the Utho Platform"
+title: "destroy"
+title_meta: "destroy"
 description: "Manage your MariaDb using simply clicks on utho platform"
 keywords: ["mariadb", "database", "server"]
 tags: ["utho platform","destroy"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/Databases/manage-mariadb/destroy']
+aliases: ["/products/Manage Databases/MariaDb/manage-maraidb/destroy"]
 icon: "destroy"
 tab: true
 ---

@@ -1,6 +1,6 @@
 ---
 weight: 40
-title: "Images"
+title: "images"
 description: ""
 icon: "images"
 date: "2024-03-07T17:25:05+01:00"

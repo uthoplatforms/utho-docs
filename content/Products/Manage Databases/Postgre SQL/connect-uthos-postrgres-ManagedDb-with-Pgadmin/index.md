@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: "Connect Utho's Postgres Managed Database with PgAdmin"
-title_meta: "Connect Utho's Postgres Managed Database with PgAdmin"
+title: "connect-uthos-postrgres-ManagedDb-with-Pgadmin"
+title_meta: "connect-uthos-postrgres-ManagedDb-with-Pgadmin"
 description: "Easily connect your Utho's Postgres Managed Databse with PgAdmin"
 keywords: ["cloud", "managed database", "postgres", "pgadmin"]
 tags: ["utho platform", "cloud", "managed database", "postgres"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ["/products/Managed-Databases/PostgreSQL/connect-uthos-postgres-ManagedDb-with-PgAdmin"]
+aliases: ["/products/Manage Databases/Postgre SQL/connect-uthos-postrgres-ManagedDb-with-Pgadmin"]
 icon: "node"
 tab: true
 homecard: true

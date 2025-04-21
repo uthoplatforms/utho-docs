@@ -1,14 +1,14 @@
 ---
 weight: 30
-title: Manage Elastic Block Storage
-title_meta: "Manage Elastic Block Storage on the Utho Platform"
+title: "Delete Stacks"
+title_meta: "Delete Stacks"
 description: "The Manage section of EBS allows you to configure settings, resize volumes, attach or detach them from instances, and destroy volumes when no longer needed."
 keywords: ["Elastic Block Storage", "storage"]
 tags: ["utho platform","Elastic Block Storage"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false 
-aliases: ['/products/Elastic Block Storage/manage-loadbalancer']
+aliases: ["/products/compute/Stacks/How Tos/Delete Stacks"]
 icon: guides
 tab: true
 ---

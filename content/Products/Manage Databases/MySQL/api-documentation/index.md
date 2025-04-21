@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: Api Documentation
-title_meta: "API Documentation for MySQL on the Utho Platform"
+title: "api-documentation"
+title_meta: "api-documentation"
 description: "Discover how Utho's API simplifies MySQL deployment and management, allowing you to integrate seamlessly with your cloud infrastructure."
 keywords: ["mysql", "dataabses", "security"]
 tags: ["utho platform","mysql"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/Databases/MySQL/api-documentation/']
+aliases: ["/products/Manage Databases/MySQL/api-documentation"]
 icon: "api"
 tab: true
 ---

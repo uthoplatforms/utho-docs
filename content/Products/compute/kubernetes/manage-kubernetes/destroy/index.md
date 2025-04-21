@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: "Destroy"
-title_meta: "Manage Kubernetes on the Utho Platform"
+title: "destroy"
+title_meta: "destroy"
 description: "Manage your kubernetes instance using simply clicks on utho platform"
 keywords: ["kubernetes", "instances",  "scaling", "server", "graph"]
 tags: ["utho platform","kubernetes"]
@@ -9,7 +9,7 @@ date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
-aliases: ['/products/compute/kubernetes/manage-kubernetes/destroy']
+aliases: ["/products/compute/kubernetes/manage-kubernetes/destroy"]
 icon: "destroy"
 tab: true
 ---
