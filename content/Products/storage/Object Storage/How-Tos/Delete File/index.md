@@ -3,7 +3,7 @@ weight: 40
 title: "Delete File"
 title_meta: "Delete File"
 description: "Guide on how to delete file in object storage"
-keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+keywords: ["utho cloud", "object storage", "cloud storage"]
 tags: ["utho platform","cloud"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
