@@ -3,7 +3,7 @@ weight: 40
 title: "Download File"
 title_meta: "Download File"
 description: "Guide on how to download file from object storage"
-keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+keywords: ["utho cloud", "object storage", "cloud storage"]
 tags: ["utho platform","cloud"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"

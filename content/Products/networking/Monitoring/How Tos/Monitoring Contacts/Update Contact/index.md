@@ -4,7 +4,7 @@ title: "Update Contact"
 title_meta: "Update Contact"
 description: "Guide on how to update contact"
 keywords: ["cloud", "instances",  "ec2", "server", "graph"]
-tags: ["utho platform","cloud"]
+tags: ["utho cloud", "monitoring", "resource alerts", "cloud monitoring", "alert contacts"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false

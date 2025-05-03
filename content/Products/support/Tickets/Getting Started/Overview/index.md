@@ -4,7 +4,7 @@ title: "Overview"
 title_meta: "Overview"
 description: "Overview of Tickets on Utho Cloud Platform"
 keywords: ["cloud", "instances",  "ec2", "server", "graph"]
-tags: ["utho platform","cloud"]
+tags: ["utho cloud", "support tickets", "customer support", "issue tracking", "cloud helpdesk"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
