@@ -4,7 +4,7 @@ title: "Delete SSH Key"
 title_meta: "Delete SSH Key"
 description: "Guide on how to delete ssh key in utho cloud platform"
 keywords: ["cloud", "instances",  "ec2", "server", "graph"]
-tags: ["utho platform","cloud"]
+tags: ["utho cloud", "SSH keys", "secure access", "key management", "cloud authentication"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
