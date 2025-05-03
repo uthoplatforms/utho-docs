@@ -4,7 +4,7 @@ title: "Quick Start"
 title_meta: "Quick Start"
 description: "Quick Start Guide on Firewall in Utho Cloud Platform"
 keywords: ["cloud", "instances",  "ec2", "server", "graph"]
-tags: ["utho platform","cloud"]
+tags: ["utho cloud", "firewall", "network security", "access control", "cloud firewall"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
