@@ -1,80 +1,71 @@
 ---
-:weight: 20
+weight: 40
 title: "FAQs"
 title_meta: "FAQs"
-description: "An ISO (International Organization for Standardization) certification refers to globally recognized standards that cloud service providers adhere to for quality, security, and efficiency. Common ISO standards in the cloud include ISO 27001 for information security management, ISO 27017 for cloud security controls, and ISO 27018 for protecting personal data in the cloud."
-keywords: ["cloud", "instances",  "ec2", "server", "iso", "ISO"]
-tags: ["utho platform","cloud","deploy", "iso"]
+description: "FAQs on ISO in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho cloud", "ISO", "custom images", "cloud deployment"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
 aliases: ["/products/images/iso/FAQs"]
-icon: "FAQs"
-homecard: true
+icon: "globe"
 tab: true
 ---
-# ISO FAQs
-
-### 1. **What is ISO in cloud?**
-ISO in cloud computing refers to international standards that ensure quality, security, and efficiency in cloud services, such as ISO 27001, ISO 27017, and ISO 27018.
-
-### 2. **Why are ISO standards important in the cloud?**
-They provide assurance that a cloud provider follows globally accepted practices for security, privacy, and service quality.
-
-### 3. **What is ISO 27001?**
-ISO 27001 is a standard for information security management systems (ISMS), ensuring systematic handling of sensitive data.
-
-### 4. **What is ISO 27017?**
-ISO 27017 offers specific guidelines for information security controls in cloud services, covering both providers and customers.
-
-### 5. **What is ISO 27018?**
-ISO 27018 focuses on protecting personally identifiable information (PII) in public cloud environments.
-
-### 6. **Are ISO certifications mandatory for cloud providers?**
-No, they are not mandatory, but they are highly recommended and often required for compliance or vendor selection.
-
-### 7. **How does ISO 27001 benefit cloud users?**
-It ensures the provider has a structured approach to data security, risk management, and continual improvement.
-
-### 8. **How often must ISO certifications be renewed?**
-ISO certifications typically require annual surveillance audits and full recertification every three years.
-
-### 9. **Does ISO 27017 cover shared responsibility in the cloud?**
-Yes, it clarifies roles and responsibilities between the cloud provider and customer regarding security.
-
-### 10. **Can small cloud providers achieve ISO certification?**
-Yes, any organization, regardless of size, can become ISO certified by implementing and maintaining the required systems.
-
-### 11. **Is ISO compliance the same as certification?**
-No, compliance means aligning with the standard; certification means being formally audited and verified by an accredited body.
-
-### 12. **What is the role of an ISMS in ISO 27001?**
-The ISMS is a framework of policies and procedures for systematically managing sensitive company data.
-
-### 13. **How can customers verify a provider’s ISO certification?**
-Certified providers usually publish their certificates or offer verification through third-party registries.
-
-### 14. **Does ISO 27001 cover cloud-specific threats?**
-While not cloud-specific, ISO 27001 addresses general security risks that apply to cloud systems as well.
-
-### 15. **How long does ISO certification take?**
-Depending on the organization’s readiness, it can take a few months to over a year to achieve certification.
-
-### 16. **Is ISO 27018 required for GDPR compliance?**
-While not required, ISO 27018 aligns well with GDPR principles, especially regarding personal data protection.
-
-### 17. **What are the benefits of ISO certification for a cloud provider?**
-It boosts customer trust, reduces risks, ensures better data management, and often opens new business opportunities.
-
-### 18. **How does ISO certification affect cloud audits?**
-Certified providers may experience fewer or less intensive audits, as ISO compliance demonstrates robust controls.
-
-### 19. **Can ISO standards be integrated with other frameworks?**
-Yes, ISO standards like 27001 can be integrated with NIST, SOC 2, and ITIL for broader governance.
-
-### 20. **Are there ISO standards for business continuity in the cloud?**
-Yes, ISO 22301 specifically addresses business continuity management systems, which many cloud providers adopt.
 
 
---- 
+# **ISO - Frequently Asked Questions (FAQ)**
+
+## **1. What is an ISO file? 💻**
+An ISO file (or ISO image) is a digital copy of an optical disc, such as a CD, DVD, or Blu-ray. It contains the entire filesystem structure and data of the original disc in a single file. ISO files are used for various purposes like installing operating systems, creating bootable media, and distributing software.
+
+## **2. What are the common uses of ISO files on Utho Cloud? 🌐**
+ISO files on Utho Cloud are commonly used for:
+- **Operating system installation** on virtual machines or cloud servers.
+- **Software distribution** for easy installation in cloud environments.
+- **Backup and archiving** of important data and software.
+- **Custom virtual machine deployment** with specific OS or software configurations.
+
+## **3. How do I upload an ISO file to Utho Cloud? ⬆️**
+To upload an ISO file:
+1. [**Login**](https://console.utho.com/login) to your Utho Cloud account.
+2. Navigate to the [**ISO Listing Page**](https://console.utho.com/iso).
+3. Click on the **"Add ISO"** button.
+4. Select the **datacenter**, provide the **URL** of the ISO file, and give it a **name**.
+5. Click **Add ISO** and wait for the system to process your upload.
+
+## **4. How can I verify the status of my uploaded ISO file? ✅**
+Once your ISO is uploaded, you can verify its status on the [**ISO Listing Page**](https://console.utho.com/iso). Each ISO will show:
+- **Name**: The name of the ISO file.
+- **Size**: The file size of the ISO.
+- **Location**: The datacenter where the ISO is stored.
+- **Status**: Either a download percentage (if still downloading) or **Active** once the file is ready for use.
+
+## **5. How do I delete an ISO file from my account? 🗑️**
+To delete an ISO:
+1. Navigate to the **ISO Listing Page**.
+2. Find the ISO you want to delete.
+3. Click on the **Delete icon** (trash can).
+4. Confirm the deletion by clicking **OK** on the confirmation modal.
+   
+Once deleted, the ISO will be permanently removed from your account.
+
+## **6. Can I use an ISO file to create a custom virtual machine or server? 🖥️**
+Yes, you can! Once the ISO file is uploaded to your Utho Cloud account, you can associate it with specific virtual machines or cloud server instances for custom installations, such as deploying an operating system or configuring software.
+
+## **7. How do I refresh the status of an ISO file? 🔄**
+To refresh the ISO list and get updated download status:
+1. Go to the **ISO Listing Page**.
+2. Click the **Refresh** button located at the top-right corner of the page.
+3. The system will fetch the latest status for each ISO file.
+
+
+## **8. Is there a limit to how many ISO files I can upload? 📊**
+There is no set limit on the number of ISO files you can upload to your Utho Cloud account. However, your account’s storage capacity may be a factor in how many ISO files you can store.
+
+## **9. What should I do if my ISO file fails to upload? ⚡**
+If an upload fails, double-check the **URL** to ensure the file is accessible. Also, ensure the file size doesn’t exceed any platform restrictions. If the issue persists, try uploading from a different source or contact Utho support for assistance.
+
+## **10. How do I know when my ISO upload is complete? ✔️**
+After uploading an ISO, you’ll see a progress bar or download percentage in the **Status** column of the **ISO Listing Page**. Once the file is fully uploaded, the status will change to **Active**.

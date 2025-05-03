@@ -3,8 +3,8 @@ weight: 40
 title: "Overview"
 title_meta: "Overview"
 description: "Overview on Object Storage in  Utho Cloud Platform"
-keywords: ["cloud", "instances",  "ec2", "server", "graph"]
-tags: ["utho platform","cloud"]
+keywords: ["utho cloud", "object storage", "cloud storage"]
+tags: ["utho cloud", "object storage", "cloud storage", "file management", "buckets"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false

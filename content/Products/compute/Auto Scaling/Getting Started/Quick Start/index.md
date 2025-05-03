@@ -4,7 +4,7 @@ title: "Quick Start"
 title_meta: "Quick Start"
 description: "Quick Start guide on Auto scaling in utho cloud platform"
 keywords: ["cloud", "instances",  "ec2", "server", "graph"]
-tags: ["utho platform","cloud"]
+tags: ["auto scaling", "cloud auto scaling", "scaling groups", "load balancing", "automatic resource scaling"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false

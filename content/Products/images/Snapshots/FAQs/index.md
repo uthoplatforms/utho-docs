@@ -1,77 +1,71 @@
 ---
-:weight: 20
+weight: 40
 title: "FAQs"
 title_meta: "FAQs"
-description: "A  **snapshot** is a point-in-time copy of a virtual machine (VM), disk, or volume. It captures the current state and data of the resource, allowing users to restore or clone it later. Snapshots are commonly used for backups, system rollbacks, and quick recovery after failures or changes."
-keywords: ["cloud", "instances",  "ec2", "server", "snapshots", "Snapshots"]
-tags: ["utho platform","cloud","deploy", "Snapshots"]
+description: "FAQs on Snapshots in Utho Cloud Platform"
+keywords: ["cloud", "instances",  "ec2", "server", "graph"]
+tags: ["utho cloud", "snapshots", "data backup", "volume snapshots", "cloud recovery"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
 toc: true
 aliases: ["/products/images/Snapshots/FAQs"]
-icon: "FAQs"
-homecard: true
+icon: "globe"
 tab: true
 ---
 
-# 📸 Snapshots
+# **Snapshots : Frequently Asked Questions (FAQ)**
 
-## 1. What is a snapshot in cloud computing?
-A snapshot is a point-in-time copy of a disk or volume, typically used for backup or recovery.
+## 1. What is a snapshot in Utho Cloud? 🤔
+A snapshot in Utho Cloud is a point-in-time backup of a server instance's state, including the operating system, configurations, and data. It allows you to preserve your server's exact state and restore it later if needed.
 
-## 2. How do cloud snapshots differ from traditional backups?
-Snapshots are usually faster and incremental, capturing only the changes since the last snapshot. Traditional backups often copy entire datasets.
+## 2. Why should I use snapshots in Utho Cloud? 💡
+Snapshots are useful for backup and recovery, testing and development, scaling, and disaster recovery. They help you revert to a previous state if things go wrong and ensure business continuity.
 
-## 3. Are snapshots incremental or full backups?
-Most cloud providers use **incremental** snapshots to save storage space and reduce backup times.
+## 3. How can I view my snapshots in Utho Cloud? 👀
+You can view all your snapshots by logging into the Utho Cloud platform and navigating to the **Snapshot Listing Page**. From there, you can see details like the snapshot ID, name, size, and creation time.
 
-## 4. How often should I take snapshots of my cloud resources?
-It depends on your data criticality. Daily or hourly snapshots are common for production environments.
+## 4. How do I restore a snapshot in Utho Cloud? 🔄
+To restore a snapshot, go to the [**Snapshot Listing Page**](https://console.utho.com/snapshots), find the snapshot you want to restore, and click the **Restore** button. Confirm your action in the popup, and the server will be restored to its state at the time the snapshot was taken.
 
-## 5. Can I automate snapshot creation and deletion?
-Yes, most platforms offer automation through lifecycle policies or scripting with SDKs and APIs.
+## 5. Can I delete a snapshot in Utho Cloud? ❌
+Yes, you can delete a snapshot by navigating to the [**Snapshot Listing Page**](https://console.utho.com/snapshots), locating the snapshot you want to remove, and clicking the **Delete** button. Once deleted, the snapshot cannot be recovered.
 
-## 6. How much storage space do snapshots consume?
-Initial snapshots take up full volume size; subsequent incremental snapshots only store changes, saving space.
+## 6. Is restoring a snapshot safe? 🛡️
+Restoring a snapshot will overwrite the current state of your server with the state from the snapshot. Be sure to backup any important data before restoring, as recent changes will be lost.
 
-## 7. Can I restore a VM or volume from a snapshot?
-Yes, you can create a new volume or VM from a snapshot to restore your environment.
+## 7. How do I know the size of a snapshot? 📏
+The size of a snapshot is displayed in the **Size** column on the Snapshot Listing Page. This tells you how much storage space the snapshot is using.
 
-## 8. Are cloud snapshots stored in the same region as the resource?
-Usually, yes. Some providers offer **cross-region replication** for disaster recovery.
+## 8. Can I create multiple snapshots for the same server? 🔄
+Yes, you can create multiple snapshots for the same server, each representing a different point in time. This allows you to have multiple restore points for various purposes.
 
-## 9. How secure are snapshots in the cloud?
-Snapshots are stored securely with options for encryption, IAM policies, and audit logs.
+## 9. What happens if I delete a snapshot? 🗑️
+When you delete a snapshot, it is permanently removed from the system. This does not affect the cloud server itself, only the snapshot data will be deleted.
 
-## 10. Can snapshots be encrypted?
-Yes, most platforms allow encryption at rest, either using platform-managed or customer-managed keys.
+## 10. Can I restore a snapshot to a different server? 🔄➡️
+Currently, you can only restore a snapshot to the same server from which it was taken. The process is designed to maintain the server's state as it was during the snapshot.
 
-## 11. Can I share snapshots between cloud accounts or regions?
-Yes, but this depends on provider and permissions. For example, AWS allows sharing via permissions and AMI export.
+## 11. How often should I create snapshots? ⏰
+The frequency of creating snapshots depends on how often you make changes to your server. It is recommended to take snapshots before significant updates or changes to ensure you have a safe restore point.
 
-## 12. What’s the cost /associated with taking and storing snapshots?
-You pay for the storage used. Incremental snapshots help reduce costs significantly.
+## 12. How do I manage snapshot storage? 💾
+You can manage snapshot storage by regularly reviewing and deleting unnecessary snapshots from the [**Snapshot Listing Page**](https://console.utho.com/snapshots). Deleting old snapshots can help free up space and reduce storage costs.
 
-## 13. How long should I retain snapshots?
-Retention policies vary based on compliance and business needs. Automate retention for consistency.
+## 13. How long does it take to restore a snapshot? ⏳
+The time it takes to restore a snapshot depends on the size of the snapshot and the server’s performance. Typically, the restoration process is quick, but it may take longer for large snapshots.
 
-## 14. Can I delete old or unnecessary snapshots manually?
-Yes. Snapshots can be deleted via console, CLI, or API once they're no longer needed.
+## 14. Can I automate snapshot creation in Utho Cloud? ⚙️
+Currently, Utho Cloud does not offer automatic snapshot creation. However, you can manually create snapshots whenever necessary, especially before making significant changes to your server.
 
-## 15. Do I need to stop my instance to take a snapshot?
-No, snapshots can usually be taken while the instance is running, though consistency isn't always guaranteed.
+## 15. Can I view the history of a snapshot? 📜
+The **Created At** column in the Snapshot Listing Page provides the creation date and time of each snapshot, allowing you to track the history of your snapshots.
 
-## 16. Can I create a new VM or disk from a snapshot?
-Yes. Snapshots can be used to create new VMs, disks, or instances for testing or recovery.
+## 16. What should I do if my snapshot fails to restore? 🚨
+If a snapshot fails to restore, check the status and logs for any error messages. If the issue persists, contact Utho Cloud support for assistance with restoring the snapshot.
 
-## 17. What happens if a snapshot is deleted—does it affect other snapshots?
-Only if snapshots are dependent. Most platforms handle deletion without data loss for other snapshots.
+## 17. Can I restore a snapshot to the same server multiple times? 🔄🔁
+Yes, you can restore the same snapshot to the same server as many times as needed, as long as the snapshot is still available.
 
-## 18. Do cloud providers guarantee data consistency in snapshots?
-For file systems, generally yes. For databases, it's best to pause or quiesce I/O for consistency.
-
-## 19. Are snapshots suitable for database backups?
-Yes, but consistent snapshots require coordination with database processes.
-
---- 
+## 18. Do I need to shut down my server to take a snapshot? 💻🛑
+No, you don’t need to shut down your server to take a snapshot in Utho Cloud. Snapshots can be taken while the server is running, minimizing downtime.
