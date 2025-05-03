@@ -16,7 +16,7 @@ tab: true
 
 # **How to Create an SSH Key in Utho Cloud**
 
-### **Overview**
+### Overview
 
 An **SSH key** in Utho Cloud is used to authenticate and establish a secure connection to cloud resources, such as virtual machines. SSH keys provide a more secure and efficient method for logging in remotely, without the need for passwords. SSH key-based authentication is widely used for automating tasks and securely managing cloud resources.
 

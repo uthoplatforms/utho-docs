@@ -22,7 +22,7 @@ tab: true
 
 ---
 
-## **Accessing Elastic Block Storage**
+## **Accessing Cloud Instaces**
 
 1. Open the **Utho Cloud Platform** dashboard.
 2. Click on **"Cloud Instances"** in the sidebar.
