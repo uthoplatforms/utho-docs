@@ -103,3 +103,5 @@ API tokens are typically used to authenticate and authorize requests to the plat
 7. **Managing Cloud Infrastructure with Scripts** :
 
 * Developers often use API tokens within scripts or automation tools (such as Terraform or Ansible) to manage and configure cloud infrastructure programmatically. These tokens allow for non-interactive authentication, making it easier to manage complex cloud environments at scale.
+
+---

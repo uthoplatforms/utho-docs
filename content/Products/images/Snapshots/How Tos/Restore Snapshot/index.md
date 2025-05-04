@@ -4,7 +4,7 @@ title: "Restore Snapshot"
 title_meta: "Restore Snapshot"
 description: "Guide on how to restore snapshot in utho cloud platform"
 keywords: ["cloud", "instances",  "ec2", "server", "graph"]
-tags: ["utho platform","cloud"]
+tags: ["utho cloud", "snapshots", "data backup", "volume snapshots", "cloud recovery"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false

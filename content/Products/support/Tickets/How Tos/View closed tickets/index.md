@@ -4,7 +4,7 @@ title: "View closed tickets"
 title_meta: "View closed tickets"
 description: "Guide on how to View closed tickets"
 keywords: ["cloud", "instances",  "ec2", "server", "graph"]
-tags: ["utho platform","cloud"]
+tags: ["utho cloud", "support tickets", "customer support", "issue tracking", "cloud helpdesk"]
 date: "2024-03-07T17:25:05+01:00"
 lastmod: "2024-03-07T17:25:05+01:00"
 draft: false
