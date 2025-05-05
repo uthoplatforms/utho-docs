@@ -1,7 +1,7 @@
 ---
 weight: 30
-title: "firewall"
-title_meta: "firewall"
+title: "Firewall"
+title_meta: "Firewall"
 description: "Manage your kubernetes instance using simply clicks on utho platform"
 keywords: ["cloud", "instances",  "ec2", "server", "graph"]
 tags: ["utho platform","kubernetes"]

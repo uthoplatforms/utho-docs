@@ -1,6 +1,6 @@
 ---
 weight: 11
-title: "deploy-an-application"
+title: "Deploy-an-application"
 description: "Learn how to deploy application on kubernetes cluster"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]

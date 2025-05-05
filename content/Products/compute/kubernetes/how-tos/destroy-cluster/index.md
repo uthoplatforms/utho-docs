@@ -1,6 +1,6 @@
 ---
 weight: 9
-title: "destroy-cluster"
+title: "Destroy-cluster"
 title_meta: "destroy-cluster"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

@@ -1,5 +1,5 @@
 ---
-title: "kubernetes"
+title: "Kubernetes"
 weight: 3 
 menu:
   main:

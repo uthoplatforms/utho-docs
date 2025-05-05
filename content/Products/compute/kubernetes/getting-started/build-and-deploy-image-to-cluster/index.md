@@ -1,6 +1,6 @@
 ---
 weight: 11
-title: "build-and-deploy-image-to-cluster"
+title: "Build-and-deploy-image-to-cluster"
 description: "Learn how to build and deploy image on kubernetes cluster"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]

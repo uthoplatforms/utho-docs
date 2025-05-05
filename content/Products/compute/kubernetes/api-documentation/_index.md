@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: "api-documentation"
-title_meta: "api-documentation"
+title: "Api-documentation"
+title_meta: "Api-documentation"
 description: "Discover how Utho's API simplifies cloud deployment and management allowing you to integrate seamlessly with your Kubernetes infrastructure"
 keywords: ["Kubernetes", "ec2", "server", "instances"]
 tags: ["utho platform","cloud"]

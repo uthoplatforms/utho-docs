@@ -1,6 +1,5 @@
 ---
-
-title: "how-to-connect-with-kubernetes"
+title: "How-to-connect-with-kubernetes"
 date: "2024-12-12"
 title_meta: "how-to-connect-with-kubernetes"
 description: "Guide on connecting to a Kubernetes cluster using Linux, including installing kubectl, configuring access with the kubeconfig file, and verifying cluster connection and pod status."
@@ -12,9 +11,7 @@ draft: false
 weight: 1
 toc: true
 tab: true
-
 ---
-
 ## **How to connect with Kubernetes cluster using Linux**
 
 This document provides a step-by-step guide on connecting to a Kubernetes cluster using Linux, including installing kubectl, configuring access with the kubeconfig file, and verifying cluster connection and pod status.
@@ -22,12 +19,14 @@ This document provides a step-by-step guide on connecting to a Kubernetes cluste
 ---
 
 ### **Prerequisites**
+
 - Access to the **Utho Cloud UI**.
-- Access to the **Kubernetes cluster** provided by Utho Cloud.  
+- Access to the **Kubernetes cluster** provided by Utho Cloud.
 - The **kubeconfig** file downloaded from the Utho Kubernetes cluster.
 - A **Linux-based system** with administrative privileges.
 
 ---
+
 ### **Deployment Steps**
 
 ### **Step 1: Installing `kubectl` Using Snap**
@@ -42,24 +41,30 @@ This document provides a step-by-step guide on connecting to a Kubernetes cluste
 ```bash
 sudo sna p install kubectl --classic
 ```
+
 ---
 
 #### 2\. Verify Installation `version`:
 
  To verify that kubectl has been installed correctly,check the version
  of the client using the command below:
+
 ```bash
  kubectl version --client
 ```
- Download the kubeconfig file from the Utho k8s cluster. 
+
+ Download the kubeconfig file from the Utho k8s cluster.
 
 #### 3\.  How to Transfer `Cluster File`:
+
 If you want to transfer cluster file from one Linux system to another Linux system.
 
 ```bash
  sudo rsync -av kubeconfig_mks_$CLUSTERID.yaml root@<server-ip>:~/kubeconfig_mks_$CLUSTERID.yaml
 ```
-----
+
+---
+
 ### **Step 2: Configuring Access to Your Kubernetes**
 
  To access and manage your Kubernetes cluster, you need to configure
@@ -73,7 +78,9 @@ following command to point kubectl to the correct configuration file:
 ```bash
  export KUBECONFIG=/root/kubeconfig_mks_$CLUSTERID.yaml
 ```
+
 ---
+
 #### 2\. Verify `Cluster` Connection:
 
  To ensure you’re connected to the cluster, run:
@@ -81,7 +88,9 @@ following command to point kubectl to the correct configuration file:
 ```bash
  kubectl cluster-info
 ```
+
 ---
+
 ### **Step** **3:** **Checking** **Running** `Pods` **in** **the** **Kubernetes**
 
 #### 1\. Check Pods:
@@ -101,10 +110,10 @@ following command to point kubectl to the correct configuration file:
 
 ---
 
-
 ```bash
  kubectl get pods
 ```
+
 This command will show staus of running pods.
 
 ---

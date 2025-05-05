@@ -1,6 +1,5 @@
 ---
-
-title: "operational"
+title: "Operational"
 date: "2024-10-04"
 title_meta: "operational"
 description: "Discover how Operational Enablement empowers organizations to optimize workflows, enhance team productivity, and achieve seamless business operations. Learn strategies, tools, and best practices for operational success."
@@ -13,6 +12,4 @@ aliases: ["/products/compute/kubernetes/getting-started/operational"]
 draft: false
 toc: true
 tab: true
-
 ---
-

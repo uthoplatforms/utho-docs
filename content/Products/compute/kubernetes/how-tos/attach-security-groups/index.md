@@ -1,6 +1,6 @@
 ---
 weight: 11
-title: "attach-security-groups"
+title: "Attach-security-groups"
 title_meta: "attach-security-groups"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

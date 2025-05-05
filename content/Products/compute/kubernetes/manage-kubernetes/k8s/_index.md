@@ -1,7 +1,7 @@
 ---
 weight: 10
-title: "k8s"
-title_meta: "k8s"
+title: "K8s"
+title_meta: "K8s"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]

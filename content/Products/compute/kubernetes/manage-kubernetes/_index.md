@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: "manage-kubernetes"
-title_meta: "manage-kubernetes"
+title: "Manage-kubernetes"
+title_meta: "Manage-kubernetes"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]

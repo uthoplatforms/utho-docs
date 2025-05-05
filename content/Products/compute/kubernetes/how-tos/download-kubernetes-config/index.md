@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: "download-kubernetes-config"
+title: "Download-kubernetes-config"
 title_meta: "download-kubernetes-config"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

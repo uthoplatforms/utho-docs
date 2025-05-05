@@ -1,6 +1,6 @@
 ---
 weight: 12
-title: "update-nodepool"
+title: "Update-nodepool"
 title_meta: "update-nodepool"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

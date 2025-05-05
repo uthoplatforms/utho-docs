@@ -1,6 +1,6 @@
 ---
 weight: 11
-title: "dettach-security-groups"
+title: "Dettach-security-groups"
 title_meta: "dettach-security-groups"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

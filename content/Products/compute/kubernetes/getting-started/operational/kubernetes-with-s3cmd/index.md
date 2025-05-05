@@ -1,6 +1,5 @@
 ---
-
-title: "kubernetes-with-s3cmd"
+title: "Kubernetes-with-s3cmd"
 date: "2024-12-31"
 title_meta: "kubernetes-with-s3cmd"
 description: "This comprehensive guide explains how to connect Kubernetes with s3cmd, a command-line tool for managing UTHO object storage and compatible object storage services. The step-by-step instructions cover setting up kubectl, configuring access to your Kubernetes cluster, creating a pod using a YAML configuration, and installing and testing s3cmd inside the Kubernetes pod. This tutorial is ideal for users looking to manage object storage directly from Kubernetes pods."
@@ -12,9 +11,7 @@ draft: false
 weight: 1
 toc: true
 tab: true
-
 ---
-
 ## **How to connect object storage with Kubernetes cluster using s3cmd**
 
 This document provides a step-by-step guide to configure and object storage with Kubernetes cluster using s3cmd.
@@ -22,11 +19,13 @@ This document provides a step-by-step guide to configure and object storage with
 ---
 
 ### **Prerequisites**
+
 - Access to the **Utho Cloud UI**.
-- Need **kubernetes cluster**.  
+- Need **kubernetes cluster**.
 - Need **Object Storage**.
 
 ---
+
 ### **Deployment Steps**
 
 ### **Step 1: Installing `kubectl` Using Snap**
@@ -41,24 +40,30 @@ This document provides a step-by-step guide to configure and object storage with
 ```bash
 sudo snap install kubectl --classic
 ```
+
 ---
 
 #### 2\. Verify Installation `version`:
 
  To verify that kubectl has been installed correctly,check the version
  of the client using the command below:
+
 ```bash
  kubectl version --client
 ```
+
  Download the cluster file from k8s cluster
 
 #### 3\.  How to Transfer `Cluster File`:
+
 If you want to transfer cluster file from Linux to Linux.
 
 ```bash
  sudo rsync -av kubeconfig_mks_749759.yaml root@<server-ip>:~/kubeconfig_mks_749759.yaml
 ```
-----
+
+---
+
 ### **Step 2: Configuring Access to Your Kubernetes**
 
  To access and manage your Kubernetes cluster, you need to configure
@@ -72,7 +77,9 @@ following command to point kubectl to the correct configuration file:
 ```bash
  export KUBECONFIG=/root/kubeconfig_mks_749759.yaml
 ```
+
 ---
+
 #### 2\. Verify `Cluster` Connection:
 
  To ensure you’re connected to the cluster, run:
@@ -80,7 +87,9 @@ following command to point kubectl to the correct configuration file:
 ```bash
  kubectl cluster-info
 ```
+
 ---
+
 ### **Step** **3:** **Checking** **Running** `Pods` **in** **the** **Kubernetes**
 
 #### 1\. Check Pods:
@@ -100,10 +109,10 @@ following command to point kubectl to the correct configuration file:
 
 ---
 
-
 ```bash
  kubectl get pods
 ```
+
 This command will show staus of running pods.
 
 ---
@@ -115,7 +124,9 @@ This command will show staus of running pods.
 ```bash
 vim s3k82.yaml
 ```
+
 Inside the s3k82.yaml file.
+
 ```yaml
 apiVersion: v1
 kind: Pod
@@ -162,11 +173,12 @@ data:
        use_https = True
        signature_v2 = False
 ```
+
 ---
 
 #### 2.Save the `YAML` content to a file, for example:  `s3k82.yaml`
 
- Run the following command to apply the configuration: 
+ Run the following command to apply the configuration:
 
 ```bash
  kubectl apply -f s3k82.yaml
@@ -185,6 +197,7 @@ data:
 ```bash
  kubectl exec -it s3cmd-pod -- /bin/bash
 ```
+
  Now you are entered in: `s3cmd2-pod:/#`
 
 ---
@@ -192,20 +205,25 @@ data:
 #### 5. Test Connection to Object Storage:
 
 To check the list of Utho object storage:
+
 ```bash
 s3cmd ls
 ```
+
 Example upload command:
+
 ```bash
 s3cmd put -r s3cmd.txt s3://mytesting
 ```
 
 To download a file from a bucket:
+
 ```bash
 s3cmd get s3:///mytesting/s3cmd.txt
 ```
 
 To remove a file from a bucket:
+
 ```bash
 s3cmd del s3:///mytesting/s3cmd.txt
 ```

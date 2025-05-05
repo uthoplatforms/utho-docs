@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: "utho-kubernetes-controller-loadbalancer"
+title: "Utho-kubernetes-controller-loadbalancer"
 title_meta: "utho-kubernetes-controller-loadbalancer"
 description: "Manage your kubernetes instance using simply clicks on utho platform"
 keywords: ["kubernetes", "instances",  "ec2", "server", "graph"]

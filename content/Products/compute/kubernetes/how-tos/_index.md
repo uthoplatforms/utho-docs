@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: "how-tos"
+title: "How-tos"
 title_meta: "how-tos"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

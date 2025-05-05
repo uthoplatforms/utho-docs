@@ -1,6 +1,6 @@
 ---
 weight: 13
-title: "remove-nodepool"
+title: "Remove-nodepool"
 title_meta: "remove-nodepool"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

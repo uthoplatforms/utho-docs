@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: "getting-started"
+title: "Getting-started"
 title_meta: "getting-started"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

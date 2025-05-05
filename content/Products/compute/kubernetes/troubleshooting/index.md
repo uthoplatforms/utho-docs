@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: "troubleshooting"
-title_meta: "troubleshooting"
+title: "Troubleshooting"
+title_meta: "Troubleshooting"
 description: "Learn how to troubleshoot common Cloud issues on the Utho platform, ensuring seamless cloud deployment and management."
 keywords: ["cloud", "ec2", "server", "instances"]
 tags: ["utho platform","cloud"]
@@ -29,7 +29,7 @@ Ensure all required fields and settings are correctly filled out and compatible 
 
 #### Error Codes and Solutions
 
-Refer to the error code documentation for detailed explanations and solutions for common error messages encountered during kubernetes deployment and management. 
+Refer to the error code documentation for detailed explanations and solutions for common error messages encountered during kubernetes deployment and management.
 
 ## Support
 
