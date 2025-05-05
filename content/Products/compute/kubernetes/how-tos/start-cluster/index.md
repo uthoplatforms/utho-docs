@@ -1,6 +1,6 @@
 ---
 weight: 13
-title: "start-cluster"
+title: "Start-cluster"
 title_meta: "start-cluster"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

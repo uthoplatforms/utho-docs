@@ -1,7 +1,7 @@
 ---
 weight: 20
-title: "vpc"
-title_meta: "vpc"
+title: "Vpc"
+title_meta: "Vpc"
 description: "Manage your kubernetes instance using simply clicks on utho platform"
 keywords: ["kubernetes", "instances",  "ec2", "server", "graph"]
 tags: ["utho platform","kubernetes"]

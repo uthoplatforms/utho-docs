@@ -1,6 +1,6 @@
 ---
 weight: 14
-title: "shutdown-cluster"
+title: "Shutdown-cluster"
 title_meta: "shutdown-cluster"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]

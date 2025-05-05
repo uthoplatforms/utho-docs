@@ -1,6 +1,6 @@
 ---
 weight: 10
-title: "quick-start"
+title: "Quick-start"
 description: "Learn how Utho makes Kubernetes management simple and easy so you easily anticipate your kubernetes infrastructure costs"
 keywords: ["Kubernetes", "Instances",  "scaling", "server"]
 tags: ["utho platform","Kubernetes"]

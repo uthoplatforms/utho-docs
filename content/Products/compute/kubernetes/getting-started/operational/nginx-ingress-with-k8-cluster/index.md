@@ -1,6 +1,5 @@
 ---
-
-title: "nginx-ingress-with-k8-cluster"
+title: "Nginx-ingress-with-k8-cluster"
 date: "2024-12-31"
 title_meta: "nginx-ingress-with-k8-cluster"
 description: "This guide provides a comprehensive step-by-step approach to setting up Nginx Ingress with a Kubernetes cluster. It includes configuration of Utho CSI, deployment of persistent storage, and verification of resources for seamless integration of ingress and storage solutions."
@@ -12,9 +11,7 @@ draft: false
 weight: 1
 toc: true
 tab: true
-
 ---
-
 # **Nginx Ingress with kubernetes cluster**
 
 This document provides a step-by-step guide to configure Nginx Ingress with a Kubernetes cluster.
@@ -24,11 +21,8 @@ This document provides a step-by-step guide to configure Nginx Ingress with a Ku
 ## Prerequisites
 
 - A Kubernetes cluster above version 1.20, set up with your connection configuration configured as the kubectl default. This setup will use a Utho Kubernetes cluster.
-
 - The `kubectl` command-line tool installed in your local environment and configured to connect to your cluster. For more information, see the [official documentation](https://kubernetes.io/docs/tasks/tools/install-kubectl/). If you are using a Utho Kubernetes cluster, refer to the **Connect to your Cluster** section when you create your cluster.
-
 - The `Helm` package manager available in your development environment [official documentation](https://helm.sh/docs/intro/install/).
-
 - A fully registered domain name with available A records. This tutorial will use `hw1.your_domain` throughout. You can purchase a domain name on [Namecheap](https://www.namecheap.com), get one for free on [Freenom](https://www.freenom.com), or use the domain registrar of your choice. These A records will be directed to a Load Balancer that you will create in Step 2.
 
 ---

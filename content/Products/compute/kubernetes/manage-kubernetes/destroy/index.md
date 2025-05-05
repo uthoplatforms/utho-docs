@@ -1,7 +1,7 @@
 ---
 weight: 40
-title: "destroy"
-title_meta: "destroy"
+title: "Destroy"
+title_meta: "Destroy"
 description: "Manage your kubernetes instance using simply clicks on utho platform"
 keywords: ["kubernetes", "instances",  "scaling", "server", "graph"]
 tags: ["utho platform","kubernetes"]
