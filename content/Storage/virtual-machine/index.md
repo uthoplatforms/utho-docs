@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: "virtual-machine"
+title: "What is a virtual machine (VM)?"
 title_meta: "Virtual Machine on the Utho Platform"
 description: "Manage your Virtual Machine using simply clicks on utho platform"
 keywords: ["Virtual Machine", "instances",  "ec2", "server", "graph"]
