@@ -1,6 +1,6 @@
 ---
 weight: 20
-title: "VPS"
+title: "What is a VPS (Virtual Private Server)?"
 title_meta: "VPS on the Utho Platform"
 description: "Manage your VPS using simply clicks on utho platform"
 keywords: ["VPS", "instances",  "ec2", "server", "graph"]
