@@ -1,8 +1,8 @@
 ---
 weight: 20
-title: "What is a virtual machine (VM)?"
+title: "What Is a Virtual Machine? VM Explained | Utho Docs"
 title_meta: "Virtual Machine on the Utho Platform"
-description: "Manage your Virtual Machine using simply clicks on utho platform"
+description: "Learn how virtual machines work, their key benefits and how they compare to VPS. Get clear insights from Utho's technical blog for developers and IT pros."
 keywords: ["Virtual Machine", "instances",  "ec2", "server", "graph"]
 tags: ["utho platform","Virtual Machine"]
 date: "2024-03-07T17:25:05+01:00"

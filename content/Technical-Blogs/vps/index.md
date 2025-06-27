@@ -1,8 +1,8 @@
 ---
 weight: 20
-title: "What is a VPS (Virtual Private Server)?"
+title: "What Is a VPS? Virtual Private Server Explained | Utho Docs"
 title_meta: "VPS on the Utho Platform"
-description: "Manage your VPS using simply clicks on utho platform"
+description: "Learn what a Virtual Private Server (VPS) is, how it functions, and why it is used. Explore Utho’s technical blog for simple, expert insights on VPS hosting."
 keywords: ["VPS", "instances",  "ec2", "server", "graph"]
 tags: ["utho platform","VPS"]
 date: "2024-03-07T17:25:05+01:00"
