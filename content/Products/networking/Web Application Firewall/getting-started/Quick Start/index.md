@@ -5,8 +5,8 @@ title_meta: "Quick Start"
 description: "Learn how to quickly deploy and configure a Web Application Firewall (WAF) on Utho Cloud to protect your applications from malicious traffic."
 keywords: ["Web Application Firewall", "WAF", "security"]
 tags: ["utho platform","Web Application Firewall"]
-date: "2024-03-07T17:25:05+01:00"
-lastmod: "2024-03-07T17:25:05+01:00"
+date: "2025-07-30T17:25:05+01:00"
+lastmod: "2025-07-30T17:25:05+01:00"
 draft: false 
 aliases: ["/products/networking/Web Application Firewall/getting-started/Quick Start"]
 icon: guides
@@ -51,11 +51,13 @@ All attached load balancers will be protected by the rules configured in this WA
 ## **Manage Rules**
 
 ### **Managed Ruleset**
+
 1. Navigate to the **Manage Rules** tab.
 2. Toggle categories like **SQL Injection**, **Cross-Site Scripting (XSS)**, or **Remote Code Execution**.
 3. These are maintained by Utho and provide ready-to-use security protections.
 
 ### **Custom Ruleset**
+
 1. Create your own **Custom Ruleset** for tailored filtering logic.
 2. Within it, define rules using match types like:
    - **IP Address**
@@ -83,6 +85,7 @@ Each rule supports actions like **Allow**, **Deny**, **Drop**, **Log**, and **Pa
 ## **Verify Configuration**
 
 Once your WAF is configured:
+
 - Confirm that the correct load balancers are attached.
 - Ensure at least one rule is active (managed or custom).
 - Check the **status** of your WAF to be **Active**.
@@ -91,12 +94,12 @@ Once your WAF is configured:
 
 ## Summary
 
-| Feature            | Purpose                                                                 |
-|--------------------|-------------------------------------------------------------------------|
-| **WAF Name**       | Identifies your firewall instance                                       |
-| **Attach LB**      | Protects your web apps via Load Balancer integration                    |
-| **Managed Ruleset**| Built-in protections for common web attacks                             |
-| **Custom Ruleset** | Fine-grained control over request filtering                             |
-| **Destroy WAF**    | Removes the WAF and all configurations after user confirmation          |
+| Feature                   | Purpose                                                        |
+| ------------------------- | -------------------------------------------------------------- |
+| **WAF Name**        | Identifies your firewall instance                              |
+| **Attach LB**       | Protects your web apps via Load Balancer integration           |
+| **Managed Ruleset** | Built-in protections for common web attacks                    |
+| **Custom Ruleset**  | Fine-grained control over request filtering                    |
+| **Destroy WAF**     | Removes the WAF and all configurations after user confirmation |
 
 For more details, visit the [WAF Overview](https://docs.utho.com/products/security/WAF/getting-started/Overview) or [FAQs](https://docs.utho.com/products/security/WAF/faqs).

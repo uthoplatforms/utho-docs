@@ -5,8 +5,8 @@ title_meta: "Attach LoadBalancer to WAF"
 description: "Learn how to attach a LoadBalancer to a Web Application Firewall (WAF) to protect your application traffic with advanced filtering and security rules."
 keywords: ["WAF", "Web Application Firewall", "LoadBalancer"]
 tags: ["utho platform","Web Application Firewall","LoadBalancer"]
-date: "2024-03-07T17:25:05+01:00"
-lastmod: "2024-03-07T17:25:05+01:00"
+date: "2025-07-30T17:25:05+01:00"
+lastmod: "2025-07-30T17:25:05+01:00"
 draft: false 
 aliases: ["/products/networking/Web Application Firewall/How Tos/Attach Loadbalancer to WAF"]
 icon: guides
@@ -56,7 +56,7 @@ Attaching a LoadBalancer to your Web Application Firewall (WAF) enables it to in
 2. A list of available LoadBalancers (created under your project/account) will be displayed.
 3. Select the LoadBalancer you want to protect with this WAF.
 4. Click **Attach** to finalize the operation.
-![alt text](image.png)
+   ![alt text](image.png)
 
 ---
 

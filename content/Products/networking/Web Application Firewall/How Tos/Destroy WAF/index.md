@@ -5,8 +5,8 @@ title_meta: "Destroy WAF"
 description: "Learn how to safely destroy a Web Application Firewall (WAF) from your Utho Cloud account to prevent unnecessary charges and free up resources."
 keywords: ["WAF", "Web Application Firewall", "delete waf", "destroy waf"]
 tags: ["utho platform","Web Application Firewall"]
-date: "2024-03-07T17:25:05+01:00"
-lastmod: "2024-03-07T17:25:05+01:00"
+date: "2025-07-30T17:25:05+01:00"
+lastmod: "2025-07-30T17:25:05+01:00"
 draft: false 
 aliases: ["/products/networking/Web Application Firewall/How Tos/Destroy WAF"]
 icon: guides
@@ -62,7 +62,7 @@ Destroying a Web Application Firewall (WAF) permanently deletes its configuratio
 1. Enter the **exact WAF name** in the input field.
 2. Click the **Destroy WAF** button to proceed.
 3. Once confirmed, the WAF will be permanently removed from your account.
-![alt text](image.png)
+   ![alt text](image.png)
 
 ---
 
