@@ -5,8 +5,8 @@ title_meta: "Define a new custom ruleset for your WAF"
 description: "Create a custom ruleset within your WAF to organize and manage your own set of filtering rules tailored to your application's unique security needs."
 keywords: ["WAF", "Web Application Firewall", "Custom Ruleset", "Security"]
 tags: ["utho platform","Web Application Firewall"]
-date: "2024-03-07T17:25:05+01:00"
-lastmod: "2024-03-07T17:25:05+01:00"
+date: "2025-07-30T17:25:05+01:00"
+lastmod: "2025-07-30T17:25:05+01:00"
 draft: false 
 aliases: ["/products/networking/Web Application Firewall/How Tos/Create Custom Ruleset"]
 icon: guides
@@ -33,12 +33,12 @@ This guide walks you through creating a custom ruleset — a prerequisite step b
 
 Click on **Attach New Ruleset** to open the creation form.
 ![alt text](image.png)
+
 ### 1. **Name**
 
 - **Purpose**: This is the unique identifier for your ruleset.
 - **Best Practices**: Use descriptive names like `api-rules`, `login-firewall`, or `ecommerce-filters`.
 - **Note**: The name helps you manage and locate the ruleset easily across environments.
-
 
 ### 2. **Type**
 
@@ -53,9 +53,6 @@ Click on **Attach New Ruleset** to open the creation form.
   - "Protects login endpoints from brute-force attempts."
   - "Applies stricter headers and URI rules for admin panel."
   - "Filters known bad IPs and User-Agents from blog traffic."
-
-![alt text](image-1.png)
----
 
 ## **After Creating a Ruleset**
 

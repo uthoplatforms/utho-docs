@@ -5,8 +5,8 @@ title_meta: "Overview"
 description: "The Manage section of WAF allows you to create, configure, monitor, and control security rules that protect your web applications from common threats and vulnerabilities."
 keywords: ["Web Application Firewall", "WAF", "security", "web protection"]
 tags: ["utho platform","Web Application Firewall"]
-date: "2024-03-07T17:25:05+01:00"
-lastmod: "2024-03-07T17:25:05+01:00"
+date: "2025-07-30T17:25:05+01:00"
+lastmod: "2025-07-30T17:25:05+01:00"
 draft: false 
 aliases: ["/products/networking/Web Application Firewall/getting-started/Overview"]
 icon: guides
@@ -53,28 +53,34 @@ A WAF sits between your web application and the internet, analyzing incoming req
 ### How to Use WAF in the Utho Cloud Platform
 
 #### 1. **Create a WAF**
+
 - Go to the WAF section in the platform.
 - Enter a **Name** for your WAF.
 - Click **Create**. Your WAF will be provisioned and available for rule configuration.
 
 #### 2. **Enable Managed Ruleset**
+
 - Toggle the default managed ruleset to ON to apply instant protection.
 - Optionally, enable or disable specific rules like SQL Injection, XSS, or Remote Code Execution from the list.
 
 #### 3. **Add Custom Rules**
+
 - Define rules to handle specific patterns or threats.
 - Choose from types like IP Block, GeoIP, User-Agent Block, URI Pattern Match, Rate Limit, etc.
 - Define action (allow/deny/log/drop/pass), severity, and description for traceability.
 
 #### 4. **Attach Resources**
+
 - Select a **Load Balancer** from your infrastructure to bind with the WAF.
 - This ensures all incoming traffic to that load balancer is inspected and filtered as per your WAF rules.
 
 #### 5. **Monitor and Manage**
+
 - Review rule logs and traffic reports to observe threats being blocked or allowed.
 - Adjust rulesets dynamically based on evolving attack vectors or business needs.
 
 #### 6. **Destroy WAF (with Caution)**
+
 - To permanently remove a WAF, enter its name to confirm destruction.
 - Ensure all load balancers or attached resources are reassigned or protected through other means before deletion.
 
