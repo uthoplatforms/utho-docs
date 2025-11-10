@@ -1,0 +1,93 @@
+This guide explains how to enable Kubernetes autoscaling on a Utho-managed cluster. It covers both the installation of the Utho Cloud Controller Manager, configuring the Cluster Autoscaler, and verifying scaling with a stress test.
+
+---
+
+## 1. Verify Kubernetes Nodes
+
+```bash
+kubectl get nodes
+```
+
+---
+
+## 2. Deploy Utho Cloud Controller Manager
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/uthoplatforms/utho-cloud-controller-manager/main/docs/releases/latest.yml
+```
+
+**Example output:**
+
+This confirms the CCM is already running
+
+---
+
+## 3. Configure Cluster Autoscaler Secret
+
+```bash
+curl -LO https://raw.githubusercontent.com/uthoplatforms/autoscaler/utho-autoscaler/cluster-autoscaler/cloudprovider/utho/examples/cluster-autoscaler-secret.yaml
+```
+
+**Example output:**
+
+Here we will enter our cluster id (cluster name) & API token that we will have to create from platform
+
+Apply the secret:
+```bash
+kubectl apply -f cluster-autoscaler-secret.yaml
+```
+
+**Example output:**
+
+---
+
+## 4. Deploy the Cluster Autoscaler
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/uthoplatforms/autoscaler/utho-autoscaler/cluster-autoscaler/cloudprovider/utho/examples/cluster-autoscaler-deployment.yaml
+```
+
+**Example Output:**
+
+Check that it is running:
+```bash
+kubectl -n kube-system get pods | grep autoscaler
+```
+
+**Example output:**
+
+---
+
+## 5. Test Autoscaling with Stress Workload
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/uthoplatforms/autoscaler/utho-autoscaler/cluster-autoscaler/cloudprovider/utho/examples/stress-test.yaml
+```
+
+Check workloads:
+```bash
+kubectl get pods -w
+```
+
+**NOTE:** You'll see multiple pods in Pending state initially, because there aren't enough resources on current nodes.
+
+---
+
+## 6. Monitor Node Scaling
+
+```bash
+kubectl get nodes -w
+```
+
+After scaling, you should see new nodes being created automatically
+
+---
+
+## Conclusion
+
+You successfully:
+1. Installed Utho Cloud Controller Manager.
+2. Configured and applied the Cluster Autoscaler secret.
+3. Deployed the Cluster Autoscaler.
+4. Tested with a stress workload.
+5. Observed pending pods triggering node scaling.
