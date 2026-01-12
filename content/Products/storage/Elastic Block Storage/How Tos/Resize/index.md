@@ -21,7 +21,7 @@ With the **Resize** feature, users can increase or decrease the storage size, IO
    - Modify the **Storage Size**, **IOPS**, and **Throughput** values according to your requirements.
 2. **Click on Resize Storage**:
 
-   ![1743596044210](image/index/1743596044210.png)
+   ![1768194327462](image/index/1768194327462.png)
 
    - Once you've made the necessary adjustments, click on the **Resize Storage** button.
 3. **Completion**:
