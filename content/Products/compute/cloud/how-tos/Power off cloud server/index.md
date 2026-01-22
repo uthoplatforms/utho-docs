@@ -21,6 +21,5 @@ Users can manage the power state and access settings of their cloud instance. Th
 
 Powering off a server offers several benefits:
 
-1. **Cost Savings** : Reduces cloud costs by stopping resource usage (e.g., compute power, storage).
-2. **Security** : Prevents unauthorized access or attacks when the server is not in use.
-3. **Maintenance** : Allows for system updates, hardware troubleshooting, or backup tasks without running processes.
+1. **Security** : Prevents unauthorized access or attacks when the server is not in use.
+2. **Maintenance** : Allows for system updates, hardware troubleshooting, or backup tasks without running processes.
